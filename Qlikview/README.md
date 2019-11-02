@@ -2,7 +2,7 @@
 <h1 style="color:green">BI Tools</h1>
 </div>
 
-[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+![Qlik_Architecture](../Pictures/Qlik_General.jpg)
 
 <div>
 <h3 style="color:green">Qlikview®</h3>
@@ -18,3 +18,6 @@ Qlik Sense® sets the benchmark for third-generation analytics platforms, empower
 
 Built on our unique Associative Engine, Qlik Sense offers industry-leading modern analytics capabilities across a full range of users and use cases — from self-service analytics to interactive dashboards and applications, conversational analytics, custom and embedded analytics, mobile analytics, and reporting. It augments and enhances human intuition with AI (artificial intelligence) powered insight suggestions, automation, and natural-language interaction. And it does all this within a governed SaaS / multi-cloud architecture that delivers trust, scale, and flexibility to your organization.
 
+![Qlik_Architecture](../Pictures/Qlik_Architecture.jpg)
+
+![Qlik_Architecture](../Pictures/Qlik_Sense_Compare.jpg)
