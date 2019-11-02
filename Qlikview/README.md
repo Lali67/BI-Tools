@@ -6,7 +6,7 @@
 
 Links:
   
-  * [Community](https://community.qlik.com/t5/QlikView/ct-p/qlikview){:target="_blank"}
+  * <a href="https://community.qlik.com/t5/QlikView/ct-p/qlikview" target="blank">Community</a>
   * [User Guide - Working with QlikView](https://help.qlik.com/en-US/qlikview/12.0/pdf/Working%20with%20QlikView.pdf)
   * [Help - Qlikview](https://help.qlik.com/en-US/qlikview/April2019/Content/QV_HelpSites/Home.htm)
   * [Help - Qlik Sense](https://help.qlik.com/en-US/sense/June2019/Content/Sense_Helpsites/Home.htm)
