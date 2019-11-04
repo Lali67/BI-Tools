@@ -16,13 +16,19 @@
 
 
 **Contents:**
-<div>
-<a href="#Synthetic">3. Synthetic Keys</a>
-</div>
 
+  1. <a href="#Data_Model">QlikView Data Model</a>
+  2. <a href="#General_Guidelines">General Guidelines</a>
+  3. <a href="#Synthetic">Synthetic Keys</a>
+  4. <a href="#Circular">Circular references</a>
+  5. <a href="#StarSchema">The Star Schema</a>
+  6. <a href="#Snowflake">The Snowflake Schema</a>
+  7. <a href="#Linked_Table">Central Link Table (Event Space)</a>
+ 
 ------
 
 <div>
+<section id="Data_Model"></section>
 <h3 style="color:green">QlikView Data Model</h3>
 </div>
 
@@ -34,6 +40,7 @@
   * Most common initial challenges : Synthetic keys and Circular references
 
 <div>
+<section id="General_Guidelines"></section>
 <h3 style="color:green">General Guidelines</h3>
 </div>
 
@@ -45,7 +52,7 @@
 
 <div>
 <section id="Synthetic"></section>
-<h3 style="color:green">3. Synthetic keys</h3>
+<h3 style="color:green">Synthetic keys</h3>
 </div>
 
   * It is a field that contains all possible combinations of common fields among tables
@@ -79,27 +86,44 @@
    * A: Combine (**concatenate**) the tables so you have all the possible values
 ![Synthetic_Keys_Solutions-JOIN](../../../Pictures/Synthetic_Keys_Solutions-Forced_Concatenate.jpg)
 
-
-
-
-
-
-
-
-
-
-
 <div>
+<section id="Circular"></section>
 <h3 style="color:green">Circular references</h3>
 </div>
 
+  * Circular References are common in QlikView because you get only one set of join relationships per QlikView file.
+  * When you get a circular reference ask yourself if you could live without one instance of the field that is causing the extra association (such as a duplicated field). If you can, rename it or remove it.  
+  * Otherwise you may have to resort to concatenation or a link table to remove the circular reference. Don’t kill yourself with technical link tables if you don’t have to!
+   
+Can the Shippers Company Name just be renamed to reference it independently in order to remove the circular reference?
+
+![Circular](../../../Pictures/Circular_Reference.jpg)
 
 <div>
+<section id="StarSchema"></section>
 <h3 style="color:green">The Star Schema</h3>
 </div>
 
+  * The star schema (sometimes referenced as star join schema) is the simplest style of data warehouse schema. The star schema consists of a few fact tables (possibly only one, justifying the name) referencing any number of dimension tables. The star schema is considered an important special case of the snowflake schema.
+  * The standard layout and structure of data presentation is the Star Schema. QlikView is generally most efficient when working in this space. 
 
+![Star schema](../../../Pictures/RigidStarSchemaModel.jpg)
+
+  * This model works well in a simplistic, single event scenario . But as QlikView can handle multiple data sources from many different source systems and files, we have to work with multiple event scenarios, or many fact tables.
 
 <div>
+<section id="Snowflake"></section>
 <h3 style="color:green">The Snowflake Schema</h3>
 </div>
+
+  * The snowflake schema is a variant of the star schema. Here, the centralized fact table is connected to multiple dimensions. In the snowflake schema, dimension are present in a normalized from in multiple related tables. The snowflake structure materialized when the dimensions of a star schema are detailed and highly structured, having several levels of relationship, and the child tables have multiple parent table. The snowflake effect affects only the dimension tables and does not affect the fact tables. 
+![Star schema](../../../Pictures/RigidSnowFlakeModel.jpg)
+
+<div>
+<section id="Linked_Table"></section>
+<h3 style="color:green">Central Link Table (Event Space)</h3>
+</div>
+
+  * In the event of multiple fact tables QlikView allows us to create a central link table that only contains the existing data combinations.
+  * Instead of Joining the tables, the event dimensions can be **CONCATENATED** in to one central Link table.
+  * This link table can then be linked back to the event measures one side and the dimension tables on the other.
