@@ -4,7 +4,7 @@
 
 ------
 
-Links:
+**Links:**
   
   * <a href="https://community.qlik.com/t5/QlikView/ct-p/qlikview" target="_blank">Community</a>
   * [User Guide - Working with QlikView](https://help.qlik.com/en-US/qlikview/12.0/pdf/Working%20with%20QlikView.pdf)
@@ -14,21 +14,91 @@ Links:
   * [Recommended Learning Plan for QlikView Business Analysts](https://qcc.qlik.com/course/view.php?id=931)
   * [Business Analyst Library](https://qcc.qlik.com/course/view.php?id=284&section=2&_ga=2.1652917.509218995.1563026298-588683455.1563026298)
 
+
+**Contents:**
+<div>
+<a href="#Synthetic">3. Synthetic Keys</a>
+</div>
+
 ------
 
 <div>
-<h3 style="color:green">Perfect Your QlikView Data Model</h3>
+<h3 style="color:green">QlikView Data Model</h3>
 </div>
 
-  * Which columns and rows you require and only pull them in to the data model
-  * One field with the same name a synthetic key is created  – and this is always a ‘bad thing’. 
-  * It is almost always better to concatenate fact tables together rather than to try and join them.  
-  * Build a separate QlikView document for each source table (so there are no join issues) that they can use for this investigation.  Each document lists each field in that table in a multi box.  This allows users to see every value in that table and decide whether it is required or not.  Typically I will add a Table Box of all values (with a calculation condition to limit rows) so they can see all of the raw data in context. 
-  *  
+  * A QlikView data model is the representation of data you have loaded
+  * When you load your data in to the QlikView application, a data model will be created based on the tables and columns you have in your script and also the names of the columns and any resident loads and joins you have previously defined.
+  * These sources and the underling data will have to be manipulated within the script to deliver the Data Model that best suits your data for both performance and usability.  
+  * QlikView allows you to see the results of a selection across the entire schema not just a limited subset of tables. 
+  * QlikView will aggregate at the lowest level of granularity in the expression not the lowest level of granularity in the schema (query) like SQL.
+  * Most common initial challenges : Synthetic keys and Circular references
+
+<div>
+<h3 style="color:green">General Guidelines</h3>
+</div>
+
+ Star & Snow Flake schemas work best in QlikView. Relational tables tend to have loops (circular references) and therefore do not work correctly when brought into QlikView.
+  1. Aim for a star schema. Flaking is ok, but try to keep it to a minimum as it may impact performance adversely to have too many tables hanging off tables.
+  2. When de-normalising data (rolling up) in order to reduce flaking, stop if de-normalising means replicating records millions of times the memory pointers required to store the same value enormous amounts of time now becomes significant. 
+  3. For multifact solutions, analyse requirements to see if a concatenated solution meets the needs. If transaction record traceability is crucial, rather than analysis through association of common dimensions, then look at whether a link table would suit. If neither model is a good fit, a custom data model must be delivered through careful consideration of requirements and iterative delivery. It may incorporate elements of both link and concatenated tables.
+  4. In larger environments whether from a data volume, complexity or concurrency of user perspective, efficient QlikView document design become increasingly important. To this aim, please utilise the tools at your disposal regarding performance testing.
+
+<div>
+<section id="Synthetic"></section>
+<h3 style="color:green">3. Synthetic keys</h3>
+</div>
+
+  * It is a field that contains all possible combinations of common fields among tables
+  * Multiple synthetic keys are often a symptom of an incorrect data model, but not necessarily. However, a sure sign of an incorrect data model is if you have synthetic keys based on other synthetic keys.
+
+<div>
+<h5 style="color:green">Q: How do I avoid a synthetic key? --JOIN</h5>
+</div>
+
+   * A: **Join** tables by common fields
+![Synthetic_Keys_Solutions-JOIN](../../../Pictures/Synthetic_Keys_Solutions-JOIN.jpg)
+
+<div>
+<h5 style="color:green">Q: How do I avoid a synthetic key? --Create key</h5>
+</div>
+
+   * A: Create a **key** on your own by concatenating the common fields
+![Synthetic_Keys_Solutions-JOIN](../../../Pictures/Synthetic_Keys_Solutions-Create_key.jpg)
+
+<div>
+<h5 style="color:green">Q: How do I avoid a synthetic key? --Auto concatenate</h5>
+</div>
+
+   * A: A: QlikView creates **empty fields automatically** so there is no need to create dummy fields manually
+![Synthetic_Keys_Solutions-JOIN](../../../Pictures/Synthetic_Keys_Solutions-Auto_Concatenate.jpg)
+
+<div>
+<h5 style="color:green">Q: How do I avoid a synthetic key? --Forced concatenate</h5>
+</div>
+
+   * A: Combine (**concatenate**) the tables so you have all the possible values
+![Synthetic_Keys_Solutions-JOIN](../../../Pictures/Synthetic_Keys_Solutions-Forced_Concatenate.jpg)
+
+
+
+
+
+
+
+
+
+
+
+<div>
+<h3 style="color:green">Circular references</h3>
+</div>
+
 
 <div>
 <h3 style="color:green">The Star Schema</h3>
 </div>
+
+
 
 <div>
 <h3 style="color:green">The Snowflake Schema</h3>

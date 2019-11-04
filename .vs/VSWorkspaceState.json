@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Qlikview"
+    "\\Qlikview",
+    "\\Qlikview\\Course-Udemy-Boot Camp",
+    "\\Qlikview\\Course-Udemy-Boot Camp\\Info"
   ],
-  "SelectedNode": "\\Qlikview\\README.md",
+  "SelectedNode": "\\Qlikview\\Course-Udemy-Boot Camp\\Info\\Loading_Multiple_Fact_Data_Structures_in_QlikView.pdf",
   "PreviewInSolutionExplorer": false
 }
