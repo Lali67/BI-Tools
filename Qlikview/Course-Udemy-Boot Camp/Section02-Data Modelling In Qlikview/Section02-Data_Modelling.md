@@ -127,3 +127,16 @@ Can the Shippers Company Name just be renamed to reference it independently in o
   * In the event of multiple fact tables QlikView allows us to create a central link table that only contains the existing data combinations.
   * Instead of Joining the tables, the event dimensions can be **CONCATENATED** in to one central Link table.
   * This link table can then be linked back to the event measures one side and the dimension tables on the other.
+
+![Linktable](../../../Pictures/LinkTable1.jpg)
+
+How do I create a link table?
+  1. Create a key field with the common fields
+  2. Load all other fields
+  3. Create a new table with the same key and the common fields separately
+![Linktable](../../../Pictures/LinkTable1_1.jpg)
+  4. If all the tables do not share the exact same fields, create separate keys for each table in the link table
+![Linktable](../../../Pictures/LinkTable2.jpg)
+
+![Linktable](../../../Pictures/LinkTable3.jpg)
+
