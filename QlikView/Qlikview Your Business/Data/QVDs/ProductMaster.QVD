@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>C:\Qlikview Your Business\Solutions Qlikview\QVD Generator 10.8.qvw</CreatorDoc>
+   <CreateUtcTime>2015-03-18 17:52:44</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>ProductMaster</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Product ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>490</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>2450</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Description</FieldName>
+       <BitOffset>23</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>490</NoOfSymbols>
+       <Offset>2450</Offset>
+       <Length>14021</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Style ID</FieldName>
+       <BitOffset>15</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>14</NoOfSymbols>
+       <Offset>16471</Offset>
+       <Length>70</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Color ID</FieldName>
+       <BitOffset>9</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>16541</Offset>
+       <Length>25</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Size ID</FieldName>
+       <BitOffset>12</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>16566</Offset>
+       <Length>35</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>List Price</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>381</NoOfSymbols>
+       <Offset>16601</Offset>
+       <Length>3409</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Standard Cost</FieldName>
+       <BitOffset>46</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>354</NoOfSymbols>
+       <Offset>20010</Offset>
+       <Length>3170</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>First Introduction Date</FieldName>
+       <BitOffset>19</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>23180</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Closeout Date</FieldName>
+       <BitOffset>43</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>23230</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CostFactor</FieldName>
+       <BitOffset>41</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>23260</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unit Cost STD UM</FieldName>
+       <BitOffset>55</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>360</NoOfSymbols>
+       <Offset>23275</Offset>
+       <Length>3232</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>8</RecordByteSize>
+   <NoOfRecords>490</NoOfRecords>
+   <Offset>26507</Offset>
+   <Length>3920</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Colors]:
+	SQL SELECT *
+	FROM `Colors`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Credit Memo Detail]:
+	SQL SELECT *
+	FROM `Credit Memo Detail`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Credit Memo Header]:
+	SQL SELECT *
+	FROM `Credit Memo Header`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[CustomerMaster]:
+	SQL SELECT *
+	FROM `CustomerMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Invoice Detail]:
+	SQL SELECT *
+	FROM `Invoice Detail`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Invoice Header]:
+	SQL SELECT *
+	FROM `Invoice Header`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[ProductMaster]:
+	SQL SELECT *
+	FROM `ProductMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Colors.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Credit Memo Detail.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Credit Memo Header.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\CustomerMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Invoice Detail.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Invoice Header.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\ProductMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ ® ® ® ® ® ® ® y® z® {® |® }® ~® ® İ® Ş® ß® à® á® â® ã® A¯ B¯ C¯ D¯ E¯ F¯ G¯ ¥¯ ¦¯ §¯ ¨¯ ©¯ ª¯ «¯ %Õ &Õ 'Õ (Õ )Õ *Õ +Õ ‰Õ ŠÕ ‹Õ ŒÕ Õ Õ Õ íÕ îÕ ïÕ ğÕ ñÕ òÕ óÕ QÖ RÖ SÖ TÖ UÖ VÖ WÖ µÖ ¶Ö ·Ö ¸Ö ¹Ö ºÖ »Ö 5ü 6ü 7ü 8ü 9ü :ü ;ü ™ü šü ›ü œü ü ü Ÿü ıü şü ÿü  ı ı ı ı aı bı cı dı eı fı gı Åı Æı Çı Èı Éı Êı Ëı E# F# G# H# I# J# K# ©# ª# «# ¬# ­# ®# ¯# $ $ $ $ $ $ $ q$ r$ s$ t$ u$ v$ w$ Õ$ Ö$ ×$ Ø$ Ù$ Ú$ Û$ UJ VJ WJ XJ YJ ZJ [J ¹J ºJ »J ¼J ½J ¾J ¿J K K K  K !K "K #K K ‚K ƒK „K …K †K ‡K åK æK çK èK éK êK ëK eq fq gq hq iq jq kq Éq Êq Ëq Ìq Íq Îq Ïq -r .r /r 0r 1r 2r 3r ‘r ’r “r ”r •r –r —r õr ör ÷r ør ùr úr ûr u˜ v˜ w˜ x˜ y˜ z˜ {˜ Ù˜ Ú˜ Û˜ Ü˜ İ˜ Ş˜ ß˜ =™ >™ ?™ @™ A™ B™ C™ ¡™ ¢™ £™ ¤™ ¥™ ¦™ §™ š š š š 	š 
+š š …¿ †¿ ‡¿ ˆ¿ ‰¿ Š¿ ‹¿ é¿ ê¿ ë¿ ì¿ í¿ î¿ ï¿ MÀ NÀ OÀ PÀ QÀ RÀ SÀ ±À ²À ³À ´À µÀ ¶À ·À Á Á Á Á Á Á Á •æ –æ —æ ˜æ ™æ šæ ›æ ùæ úæ ûæ üæ ıæ şæ ÿæ ]ç ^ç _ç `ç aç bç cç Áç Âç Ãç Äç Åç Æç Çç %è &è 'è (è )è *è +è ¥ ¦ § ¨ © ª « 	 
+      m n o p q r s Ñ Ò Ó Ô Õ Ö × 5 6 7 8 9 : ; µ4 ¶4 ·4 ¸4 ¹4 º4 »4 5 5 5 5 5 5 5 }5 ~5 5 €5 5 ‚5 ƒ5 á5 â5 ã5 ä5 å5 æ5 ç5 E6 F6 G6 H6 I6 J6 K6 Å[ Æ[ Ç[ È[ É[ Ê[ Ë[ )\ *\ +\ ,\ -\ .\ /\ \ \ \ \ ‘\ ’\ “\ ñ\ ò\ ó\ ô\ õ\ ö\ ÷\ U] V] W] X] Y] Z] [] Õ‚ Ö‚ ×‚ Ø‚ Ù‚ Ú‚ Û‚ 9ƒ :ƒ ;ƒ <ƒ =ƒ >ƒ ?ƒ ƒ ƒ Ÿƒ  ƒ ¡ƒ ¢ƒ £ƒ „ „ „ „ „ „ „ e„ f„ g„ h„ i„ j„ k„ å© æ© ç© è© é© ê© ë© Iª Jª Kª Lª Mª Nª Oª ­ª ®ª ¯ª °ª ±ª ²ª ³ª « « « « « « « u« v« w« x« y« z« {« Polo Shirt XS White Polo Shirt S White Polo Shirt M White Polo Shirt L White Polo Shirt XL White Polo Shirt XXL White Polo Shirt XXXL White Polo Shirt XS Blue Polo Shirt S Blue Polo Shirt M Blue Polo Shirt L Blue Polo Shirt XL Blue Polo Shirt XXL Blue Polo Shirt XXXL Blue Polo Shirt XS Red Polo Shirt S Red Polo Shirt M Red Polo Shirt L Red Polo Shirt XL Red Polo Shirt XXL Red Polo Shirt XXXL Red Polo Shirt XS Green Polo Shirt S Green Polo Shirt M Green Polo Shirt L Green Polo Shirt XL Green Polo Shirt XXL Green Polo Shirt XXXL Green Polo Shirt XS Black Polo Shirt S Black Polo Shirt M Black Polo Shirt L Black Polo Shirt XL Black Polo Shirt XXL Black Polo Shirt XXXL Black Dressy Jacket XS White Dressy Jacket S White Dressy Jacket M White Dressy Jacket L White Dressy Jacket XL White Dressy Jacket XXL White Dressy Jacket XXXL White Dressy Jacket XS Blue Dressy Jacket S Blue Dressy Jacket M Blue Dressy Jacket L Blue Dressy Jacket XL Blue Dressy Jacket XXL Blue Dressy Jacket XXXL Blue Dressy Jacket XS Red Dressy Jacket S Red Dressy Jacket M Red Dressy Jacket L Red Dressy Jacket XL Red Dressy Jacket XXL Red Dressy Jacket XXXL Red Dressy Jacket XS Green Dressy Jacket S Green Dressy Jacket M Green Dressy Jacket L Green Dressy Jacket XL Green Dressy Jacket XXL Green Dressy Jacket XXXL Green Dressy Jacket XS Black Dressy Jacket S Black Dressy Jacket M Black Dressy Jacket L Black Dressy Jacket XL Black Dressy Jacket XXL Black Dressy Jacket XXXL Black Crew T-Shirt 3-Pack XS White Crew T-Shirt 3-Pack S White Crew T-Shirt 3-Pack M White Crew T-Shirt 3-Pack L White Crew T-Shirt 3-Pack XL White Crew T-Shirt 3-Pack XXL White Crew T-Shirt 3-Pack XXXL White Crew T-Shirt 3-Pack XS Blue Crew T-Shirt 3-Pack S Blue Crew T-Shirt 3-Pack M Blue Crew T-Shirt 3-Pack L Blue Crew T-Shirt 3-Pack XL Blue Crew T-Shirt 3-Pack XXL Blue Crew T-Shirt 3-Pack XXXL Blue Crew T-Shirt 3-Pack XS Red Crew T-Shirt 3-Pack S Red Crew T-Shirt 3-Pack M Red Crew T-Shirt 3-Pack L Red Crew T-Shirt 3-Pack XL Red Crew T-Shirt 3-Pack XXL Red Crew T-Shirt 3-Pack XXXL Red Crew T-Shirt 3-Pack XS Green Crew T-Shirt 3-Pack S Green Crew T-Shirt 3-Pack M Green Crew T-Shirt 3-Pack L Green Crew T-Shirt 3-Pack XL Green Crew T-Shirt 3-Pack XXL Green Crew T-Shirt 3-Pack XXXL Green Crew T-Shirt 3-Pack XS Black Crew T-Shirt 3-Pack S Black Crew T-Shirt 3-Pack M Black Crew T-Shirt 3-Pack L Black Crew T-Shirt 3-Pack XL Black Crew T-Shirt 3-Pack XXL Black Crew T-Shirt 3-Pack XXXL Black "Men's Polo Shirt XS White" "Men's Polo Shirt S White" "Men's Polo Shirt M White" "Men's Polo Shirt L White" "Men's Polo Shirt XL White" "Men's Polo Shirt XXL White" "Men's Polo Shirt XXXL White" "Men's Polo Shirt XS Blue" "Men's Polo Shirt S Blue" "Men's Polo Shirt M Blue" "Men's Polo Shirt L Blue" "Men's Polo Shirt XL Blue" "Men's Polo Shirt XXL Blue" "Men's Polo Shirt XXXL Blue" "Men's Polo Shirt XS Red" "Men's Polo Shirt S Red" "Men's Polo Shirt M Red" "Men's Polo Shirt L Red" "Men's Polo Shirt XL Red" "Men's Polo Shirt XXL Red" "Men's Polo Shirt XXXL Red" "Men's Polo Shirt XS Green" "Men's Polo Shirt S Green" "Men's Polo Shirt M Green" "Men's Polo Shirt L Green" "Men's Polo Shirt XL Green" "Men's Polo Shirt XXL Green" "Men's Polo Shirt XXXL Green" "Men's Polo Shirt XS Black" "Men's Polo Shirt S Black" "Men's Polo Shirt M Black" "Men's Polo Shirt L Black" "Men's Polo Shirt XL Black" "Men's Polo Shirt XXL Black" "Men's Polo Shirt XXXL Black" Baby Jacket XS White Baby Jacket S White Baby Jacket M White Baby Jacket L White Baby Jacket XL White Baby Jacket XXL White Baby Jacket XXXL White Baby Jacket XS Blue Baby Jacket S Blue Baby Jacket M Blue Baby Jacket L Blue Baby Jacket XL Blue Baby Jacket XXL Blue Baby Jacket XXXL Blue Baby Jacket XS Red Baby Jacket S Red Baby Jacket M Red Baby Jacket L Red Baby Jacket XL Red Baby Jacket XXL Red Baby Jacket XXXL Red Baby Jacket XS Green Baby Jacket S Green Baby Jacket M Green Baby Jacket L Green Baby Jacket XL Green Baby Jacket XXL Green Baby Jacket XXXL Green Baby Jacket XS Black Baby Jacket S Black Baby Jacket M Black Baby Jacket L Black Baby Jacket XL Black Baby Jacket XXL Black Baby Jacket XXXL Black "Boy's Polo Shirt 2-Pack XS White" "Boy's Polo Shirt 2-Pack S White" "Boy's Polo Shirt 2-Pack M White" "Boy's Polo Shirt 2-Pack L White" "Boy's Polo Shirt 2-Pack XL White" "Boy's Polo Shirt 2-Pack XXL White" "Boy's Polo Shirt 2-Pack XXXL White" "Boy's Polo Shirt 2-Pack XS Blue" "Boy's Polo Shirt 2-Pack S Blue" "Boy's Polo Shirt 2-Pack M Blue" "Boy's Polo Shirt 2-Pack L Blue" "Boy's Polo Shirt 2-Pack XL Blue" "Boy's Polo Shirt 2-Pack XXL Blue" "Boy's Polo Shirt 2-Pack XXXL Blue" "Boy's Polo Shirt 2-Pack XS Red" "Boy's Polo Shirt 2-Pack S Red" "Boy's Polo Shirt 2-Pack M Red" "Boy's Polo Shirt 2-Pack L Red" "Boy's Polo Shirt 2-Pack XL Red" "Boy's Polo Shirt 2-Pack XXL Red" "Boy's Polo Shirt 2-Pack XXXL Red" "Boy's Polo Shirt 2-Pack XS Green" "Boy's Polo Shirt 2-Pack S Green" "Boy's Polo Shirt 2-Pack M Green" "Boy's Polo Shirt 2-Pack L Green" "Boy's Polo Shirt 2-Pack XL Green" "Boy's Polo Shirt 2-Pack XXL Green" "Boy's Polo Shirt 2-Pack XXXL Green" "Boy's Polo Shirt 2-Pack XS Black" "Boy's Polo Shirt 2-Pack S Black" "Boy's Polo Shirt 2-Pack M Black" "Boy's Polo Shirt 2-Pack L Black" "Boy's Polo Shirt 2-Pack XL Black" "Boy's Polo Shirt 2-Pack XXL Black" "Boy's Polo Shirt 2-Pack XXXL Black" "Girl's Button-Down Shirt XS White" "Girl's Button-Down Shirt S White" "Girl's Button-Down Shirt M White" "Girl's Button-Down Shirt L White" "Girl's Button-Down Shirt XL White" "Girl's Button-Down Shirt XXL White" "Girl's Button-Down Shirt XXXL White" "Girl's Button-Down Shirt XS Blue" "Girl's Button-Down Shirt S Blue" "Girl's Button-Down Shirt M Blue" "Girl's Button-Down Shirt L Blue" "Girl's Button-Down Shirt XL Blue" "Girl's Button-Down Shirt XXL Blue" "Girl's Button-Down Shirt XXXL Blue" "Girl's Button-Down Shirt XS Red" "Girl's Button-Down Shirt S Red" "Girl's Button-Down Shirt M Red" "Girl's Button-Down Shirt L Red" "Girl's Button-Down Shirt XL Red" "Girl's Button-Down Shirt XXL Red" "Girl's Button-Down Shirt XXXL Red" "Girl's Button-Down Shirt XS Green" "Girl's Button-Down Shirt S Green" "Girl's Button-Down Shirt M Green" "Girl's Button-Down Shirt L Green" "Girl's Button-Down Shirt XL Green" "Girl's Button-Down Shirt XXL Green" "Girl's Button-Down Shirt XXXL Green" "Girl's Button-Down Shirt XS Black" "Girl's Button-Down Shirt S Black" "Girl's Button-Down Shirt M Black" "Girl's Button-Down Shirt L Black" "Girl's Button-Down Shirt XL Black" "Girl's Button-Down Shirt XXL Black" "Girl's Button-Down Shirt XXXL Black" Slim-Fit Polo XS White Slim-Fit Polo S White Slim-Fit Polo M White Slim-Fit Polo L White Slim-Fit Polo XL White Slim-Fit Polo XXL White Slim-Fit Polo XXXL White Slim-Fit Polo XS Blue Slim-Fit Polo S Blue Slim-Fit Polo M Blue Slim-Fit Polo L Blue Slim-Fit Polo XL Blue Slim-Fit Polo XXL Blue Slim-Fit Polo XXXL Blue Slim-Fit Polo XS Red Slim-Fit Polo S Red Slim-Fit Polo M Red Slim-Fit Polo L Red Slim-Fit Polo XL Red Slim-Fit Polo XXL Red Slim-Fit Polo XXXL Red Slim-Fit Polo XS Green Slim-Fit Polo S Green Slim-Fit Polo M Green Slim-Fit Polo L Green Slim-Fit Polo XL Green Slim-Fit Polo XXL Green Slim-Fit Polo XXXL Green Slim-Fit Polo XS Black Slim-Fit Polo S Black Slim-Fit Polo M Black Slim-Fit Polo L Black Slim-Fit Polo XL Black Slim-Fit Polo XXL Black Slim-Fit Polo XXXL Black "Women's V-Neck T-Shirt 3-Pack XS White" "Women's V-Neck T-Shirt 3-Pack S White" "Women's V-Neck T-Shirt 3-Pack M White" "Women's V-Neck T-Shirt 3-Pack L White" "Women's V-Neck T-Shirt 3-Pack XL White" "Women's V-Neck T-Shirt 3-Pack XXL White" "Women's V-Neck T-Shirt 3-Pack XXXL White" "Women's V-Neck T-Shirt 3-Pack XS Blue" "Women's V-Neck T-Shirt 3-Pack S Blue" "Women's V-Neck T-Shirt 3-Pack M Blue" "Women's V-Neck T-Shirt 3-Pack L Blue" "Women's V-Neck T-Shirt 3-Pack XL Blue" "Women's V-Neck T-Shirt 3-Pack XXL Blue" "Women's V-Neck T-Shirt 3-Pack XXXL Blue" "Women's V-Neck T-Shirt 3-Pack XS Red" "Women's V-Neck T-Shirt 3-Pack S Red" "Women's V-Neck T-Shirt 3-Pack M Red" "Women's V-Neck T-Shirt 3-Pack L Red" "Women's V-Neck T-Shirt 3-Pack XL Red" "Women's V-Neck T-Shirt 3-Pack XXL Red" "Women's V-Neck T-Shirt 3-Pack XXXL Red" "Women's V-Neck T-Shirt 3-Pack XS Green" "Women's V-Neck T-Shirt 3-Pack S Green" "Women's V-Neck T-Shirt 3-Pack M Green" "Women's V-Neck T-Shirt 3-Pack L Green" "Women's V-Neck T-Shirt 3-Pack XL Green" "Women's V-Neck T-Shirt 3-Pack XXL Green" "Women's V-Neck T-Shirt 3-Pack XXXL Green" "Women's V-Neck T-Shirt 3-Pack XS Black" "Women's V-Neck T-Shirt 3-Pack S Black" "Women's V-Neck T-Shirt 3-Pack M Black" "Women's V-Neck T-Shirt 3-Pack L Black" "Women's V-Neck T-Shirt 3-Pack XL Black" "Women's V-Neck T-Shirt 3-Pack XXL Black" "Women's V-Neck T-Shirt 3-Pack XXXL Black" Sport Jacket XS White Sport Jacket S White Sport Jacket M White Sport Jacket L White Sport Jacket XL White Sport Jacket XXL White Sport Jacket XXXL White Sport Jacket XS Blue Sport Jacket S Blue Sport Jacket M Blue Sport Jacket L Blue Sport Jacket XL Blue Sport Jacket XXL Blue Sport Jacket XXXL Blue Sport Jacket XS Red Sport Jacket S Red Sport Jacket M Red Sport Jacket L Red Sport Jacket XL Red Sport Jacket XXL Red Sport Jacket XXXL Red Sport Jacket XS Green Sport Jacket S Green Sport Jacket M Green Sport Jacket L Green Sport Jacket XL Green Sport Jacket XXL Green Sport Jacket XXXL Green Sport Jacket XS Black Sport Jacket S Black Sport Jacket M Black Sport Jacket L Black Sport Jacket XL Black Sport Jacket XXL Black Sport Jacket XXXL Black Classic-Fit Pocket T-Shirt XS White Classic-Fit Pocket T-Shirt S White Classic-Fit Pocket T-Shirt M White Classic-Fit Pocket T-Shirt L White Classic-Fit Pocket T-Shirt XL White Classic-Fit Pocket T-Shirt XXL White Classic-Fit Pocket T-Shirt XXXL White Classic-Fit Pocket T-Shirt XS Blue Classic-Fit Pocket T-Shirt S Blue Classic-Fit Pocket T-Shirt M Blue Classic-Fit Pocket T-Shirt L Blue Classic-Fit Pocket T-Shirt XL Blue Classic-Fit Pocket T-Shirt XXL Blue Classic-Fit Pocket T-Shirt XXXL Blue Classic-Fit Pocket T-Shirt XS Red Classic-Fit Pocket T-Shirt S Red Classic-Fit Pocket T-Shirt M Red Classic-Fit Pocket T-Shirt L Red Classic-Fit Pocket T-Shirt XL Red Classic-Fit Pocket T-Shirt XXL Red Classic-Fit Pocket T-Shirt XXXL Red Classic-Fit Pocket T-Shirt XS Green Classic-Fit Pocket T-Shirt S Green Classic-Fit Pocket T-Shirt M Green Classic-Fit Pocket T-Shirt L Green Classic-Fit Pocket T-Shirt XL Green Classic-Fit Pocket T-Shirt XXL Green Classic-Fit Pocket T-Shirt XXXL Green Classic-Fit Pocket T-Shirt XS Black Classic-Fit Pocket T-Shirt S Black Classic-Fit Pocket T-Shirt M Black Classic-Fit Pocket T-Shirt L Black Classic-Fit Pocket T-Shirt XL Black Classic-Fit Pocket T-Shirt XXL Black Classic-Fit Pocket T-Shirt XXXL Black "Women's Oxford Shirt XS White" "Women's Oxford Shirt S White" "Women's Oxford Shirt M White" "Women's Oxford Shirt L White" "Women's Oxford Shirt XL White" "Women's Oxford Shirt XXL White" "Women's Oxford Shirt XXXL White" "Women's Oxford Shirt XS Blue" "Women's Oxford Shirt S Blue" "Women's Oxford Shirt M Blue" "Women's Oxford Shirt L Blue" "Women's Oxford Shirt XL Blue" "Women's Oxford Shirt XXL Blue" "Women's Oxford Shirt XXXL Blue" "Women's Oxford Shirt XS Red" "Women's Oxford Shirt S Red" "Women's Oxford Shirt M Red" "Women's Oxford Shirt L Red" "Women's Oxford Shirt XL Red" "Women's Oxford Shirt XXL Red" "Women's Oxford Shirt XXXL Red" "Women's Oxford Shirt XS Green" "Women's Oxford Shirt S Green" "Women's Oxford Shirt M Green" "Women's Oxford Shirt L Green" "Women's Oxford Shirt XL Green" "Women's Oxford Shirt XXL Green" "Women's Oxford Shirt XXXL Green" "Women's Oxford Shirt XS Black" "Women's Oxford Shirt S Black" "Women's Oxford Shirt M Black" "Women's Oxford Shirt L Black" "Women's Oxford Shirt XL Black" "Women's Oxford Shirt XXL Black" "Women's Oxford Shirt XXXL Black" Blouse XS White Blouse S White Blouse M White Blouse L White Blouse XL White Blouse XXL White Blouse XXXL White Blouse XS Blue Blouse S Blue Blouse M Blue Blouse L Blue Blouse XL Blue Blouse XXL Blue Blouse XXXL Blue Blouse XS Red Blouse S Red Blouse M Red Blouse L Red Blouse XL Red Blouse XXL Red Blouse XXXL Red Blouse XS Green Blouse S Green Blouse M Green Blouse L Green Blouse XL Green Blouse XXL Green Blouse XXXL Green Blouse XS Black Blouse S Black Blouse M Black Blouse L Black Blouse XL Black Blouse XXL Black Blouse XXXL Black Custom-Fit Regent Shirt XS White Custom-Fit Regent Shirt S White Custom-Fit Regent Shirt M White Custom-Fit Regent Shirt L White Custom-Fit Regent Shirt XL White Custom-Fit Regent Shirt XXL White Custom-Fit Regent Shirt XXXL White Custom-Fit Regent Shirt XS Blue Custom-Fit Regent Shirt S Blue Custom-Fit Regent Shirt M Blue Custom-Fit Regent Shirt L Blue Custom-Fit Regent Shirt XL Blue Custom-Fit Regent Shirt XXL Blue Custom-Fit Regent Shirt XXXL Blue Custom-Fit Regent Shirt XS Red Custom-Fit Regent Shirt S Red Custom-Fit Regent Shirt M Red Custom-Fit Regent Shirt L Red Custom-Fit Regent Shirt XL Red Custom-Fit Regent Shirt XXL Red Custom-Fit Regent Shirt XXXL Red Custom-Fit Regent Shirt XS Green Custom-Fit Regent Shirt S Green Custom-Fit Regent Shirt M Green Custom-Fit Regent Shirt L Green Custom-Fit Regent Shirt XL Green Custom-Fit Regent Shirt XXL Green Custom-Fit Regent Shirt XXXL Green Custom-Fit Regent Shirt XS Black Custom-Fit Regent Shirt S Black Custom-Fit Regent Shirt M Black Custom-Fit Regent Shirt L Black Custom-Fit Regent Shirt XL Black Custom-Fit Regent Shirt XXL Black Custom-Fit Regent Shirt XXXL Black S²
+ T²
+ U²
+ V²
+ W²
+ X²
+ Y²
+ Z²
+ [²
+ \²
+ ]²
+ ^²
+ _²
+ `²
+ ‰¿ Š¿ ‹¿ Œ¿ ¿ é8 ê8 ë8 ì8 í8 î8 ï8 
+×£p=Š!@áz®Ga"@
+×£p=
+#@ìQ¸…ë#@ÍÌÌÌÌL$@ffffff&@…ëQ¸%@33333³!@¸…ëQ¸"@Ház®Ç#@q=
+×£p$@
+×£p=
+%@\Âõ(Ü%@Ãõ(\Â&@…ëQ¸…!@R¸…ëQ"@ö(\Âu#@R¸…ëÑ#@×£p=
+W$@Âõ(\%@R¸…ëÑ&@{®Gáz!@®Gáz”"@®Gáz.#@\Âõ(Ü#@×£p=
+W%@áz®Gá%@333333'@ÍÌÌÌÌÌ"@
+×£p=Š#@¸…ëQ¸#@áz®Ga$@{®Gáz%@š™™™™™'@®Gáz”'@     €(@áz®Ga)@ÍÌÌÌÌL*@¤p=
+×£+@…ëQ¸,@ÍÌÌÌÌL/@ffffff'@{®Gáú(@®Gáz®)@®Gáz”+@fffffæ+@Âõ(\,@¸…ëQ8.@33333³'@¤p=
+×£(@=
+×£p½)@Âõ(\*@)\Âõ¨+@×£p=
+×-@¤p=
+×£-@)\Âõ¨'@Ház®Ç(@¸…ëQ¸)@      +@q=
+×£ğ*@=
+×£p=.@…ëQ¸.@Âõ(\'@
+×£p=
+)@ìQ¸…ë)@¤p=
+×£*@Ház®Ç,@R¸…ëÑ+@R¸…ëQ/@q=
+×£ğ$@ÍÌÌÌÌÌ%@ö(\Âu&@®Gáz(@áz®Ga(@Ház®G+@áz®Gá$@)\Âõ¨%@…ëQ¸…'@áz®Ga'@ìQ¸…ë(@¤p=
+×#)@333333,@      %@¸…ëQ¸&@¤p=
+×£'@®Gáz.+@)\Âõ(,@{®Gáú$@=
+×£p½%@
+×£p=Š'@R¸…ëQ(@   Âõ(\+@…ëQ¸*@Ãõ(\B&@…ëQ¸'@{®Gáz*@)\Âõ(*@ìQ¸…ë@¸…ëQ¸@=
+×£p½ @q=
+×£p!@®Gáz®"@R¸…ëQ#@¸…ëQ¸@ffffff@=
+×£p= @{®Gáz @fffffæ!@Âõ(\"@fffffæ"@®Gáz®@š™™™™™@)\Âõ¨ @š™™™™™!@R¸…ëÑ!@®Gáz$@Âõ(\@Ház®G@¤p=
+×# @áz®Ga!@¸…ëQ8!@=
+×£p=#@…ëQ¸…#@\Âõ(\@Âõ(\ @×£p=
+W"@\Âõ(Ü&@×£p=
+W'@R¸…ëÑ(@×£p=
+×)@fffffæ*@®Gáz+@ÍÌÌÌÌL-@…ëQ¸&@\Âõ(\)@33333³*@\Âõ(Ü-@     €&@×£p=
+W)@Âõ(\)@…ëQ¸+@ÍÌÌÌÌL+@ffffff,@¤p=
+×£&@)\Âõ¨*@     €+@33333³+@\Âõ(\.@\Âõ(\(@ÍÌÌÌÌL)@Ház®Ç+@333333-@…ëQ¸0@
+×£p=
+1@®Gáz®1@)\Âõ(2@fffff¦3@…ëQ¸4@   3333330@Ház®‡0@…ëQ¸Ş1@
+×£p=J2@ö(\Âµ3@…ëQ¸E4@     À3@ö(\Â50@áz®G!1@)\Âõ¨1@Âõ(\2@=
+×£p}2@Âõ(\Ï3@ìQ¸…ë3@×£p=
+0@   ìQ¸…k1@…ëQ¸E2@…ëQ¸^3@q=
+×£p3@fffffæ3@ÍÌÌÌÌ0@=
+×£pı0@…ëQ¸1@×£p=
+×1@ìQ¸…ë2@33333ó3@q=
+×£p4@R¸…ëÑ"@=
+×£p½#@ÍÌÌÌÌL%@Ház®Ç%@Ãõ(\B'@áz®Gá(@…ëQ¸#@Âõ(\%@¤p=
+×#&@®Gáz®&@š™™™™™(@ìQ¸…ë"@ö(\Âõ#@¸…ëQ8%@   š™™™™&@)\Âõ()@\Âõ(Ü"@R¸…ëÑ%@¸…ëQ8'@…ëQ¸$@®Gáz'@Ãõ(\Â'@…ëQ¸…)@ö(\Âõ!@q=
+×£ğ"@¸…ëQ8#@ÍÌÌÌÌÌ#@š™™™™™%@áz®Ga%@®Gáz.'@Ãõ(\Â!@ö(\Âu"@®Gáz#@=
+×£p½$@®Gáz%@š™™™™'@q=
+×£ğ'@×£p=
+×!@ffffff"@{®Gáú#@ffffff$@\Âõ(\&@fffffæ%@Âõ(\#@×£p=
+×$@Ház®Ç$@Ãõ(\Â"@33333³#@Ház®G$@Ãõ(\Â%@š™™™™™&@)\Âõ¨)@)\Âõ(+@
+×£p=Š+@ö(\Âu-@®Gáz”-@Ãõ(\Â/@…ëQ¸E1@
+×£p=Š*@¸…ëQ¸,@)\Âõ(-@ÍÌÌÌÌL.@…ëQ¸…0@®Gáz.1@…ëQ¸…*@\Âõ(\,@)\Âõ¨-@Ãõ(\B/@®Gáz1@Ház®Ç)@33333³,@Âõ(\-@…ëQ¸.@R¸…ëÑ.@ö(\Âu0@¤p=
+×#+@{®Gáz,@ö(\Âu.@{®Gáz/@Âõ(\0@áz®Gá&@ffffff(@ö(\Âu)@áz®Ga*@áz®Ga,@q=
+×£p(@=
+×£p½(@q=
+×£ğ)@®Gáz®+@Âõ(\.@Ház®G'@
+×£p=Š(@q=
+×£ğ(@     €*@š™™™™™+@ö(\Âu*@\Âõ(Ü,@…ëQ¸….@33333³)@Âõ(\*@ffffff+@š™™™™™,@×£p=
+×@\Âõ(\@333333@{®Gáz@Âõ(\@q=
+×£p@=
+×£p=@Ãõ(\Â@¤p=
+×£@{®Gáz@ÍÌÌÌÌÌ@ìQ¸…ë@š™™™™™@Ãõ(\Â@®Gáz®@Âõ(\@×£p=
+×@ffffff@R¸…ëQ@¸…ëQ¸@ÍÌÌÌÌÌ@ffffff@…ëQ¸@…ëQ¸@¸…ëQ¸@333333@\Âõ(\@
+×£p=
+@Ház®G@q=
+×£p@)\Âõ("@=
+×£p=$@Âõ(\$@…ëQ¸&@®Gáz.(@      #@Ãõ(\B%@33333³%@…ëQ¸'@…ëQ¸"@)\Âõ(#@¤p=
+×£#@…ëQ¸…%@)\Âõ¨&@333333"@®Gáz®#@š™™™™"@×£p=
+W#@{®Gáz$@Âõ(\&@{®Gáz&@…ëQ¸)@®Gáz®*@q=
+×£ğ+@áz®Ga-@¤p=
+×#.@ÍÌÌÌÌÌ/@{®Gáº0@Âõ(\,@®Gáz.0@     €0@   ×£p=
+×.@áz®Gá/@q=
+×£00@ìQ¸…k)@fffff&0@×£p=
+W0@R¸…ëQ)@š™™™™™*@ÍÌÌÌÌÌ,@Âõ(\/@…ëQ¸Ş0@®Gáz®$@Âõ(\&@…ëQ¸'@¤p=
+×£!@Ház®G"@)\Âõ¨#@R¸…ëÑ$@Ház®Ç!@Ãõ(\B#@×£p=
+×%@      '@\Âõ(\"@áz®Ga#@®Gáz.&@)\Âõ¨"@Ãõ(\B$@Âõ(\'@ö(\Âõ@áz®Gá@š™™™™™@…ëQ¸…@ö(\Âõ@333333@\Âõ(\@…ëQ¸@=
+×£p=@ffffff@®Gáz@Ãõ(\Â@¤p=
+×£@š™™™™™@ìQ¸…ë@ÍÌÌÌÌÌ@
+×£p=
+@q=
+×£p@      @®Gáz®@áz®Gá@®Gáz@¸…ëQ¸@{®Gáz@®Gáz@®Gáz@R¸…ëQ@…ëQ¸@R¸…ëQ@
+×£p=
+@333333@…ëQ¸…@ffffff@ffffff@R¸…ëQ@R¸…ëQ@Ãõ(\Â@ÍÌÌÌÌÌ@\Âõ(Ü @333333@áz®Gá@¤p=
+×£@®Gáz®@
+×£p=
+@333333@Ház®G @…ëQ¸…@¸…ëQ¸@š™™™™™@ÍÌÌÌÌÌ@Âõ(\ @ìQ¸…ë@{®Gáz@®Gáz®@®Gáz®@®Gáz@      @¸…ëQ8 @\Âõ(\@ö(\Âõ@ìQ¸…ë@®Gáz®@      @ö(\Âõ@…ëQ¸"@áz®Ga#@ö(\Âõ#@ffffff%@®Gáz®%@   Ãõ(\B(@Âõ(\"@Ãõ(\B#@fffffæ$@Ház®Ç$@)\Âõ(&@×£p=
+W&@Âõ(\)@)\Âõ¨"@ö(\Âu#@333333$@…ëQ¸%@Âõ(\&@)\Âõ((@
+×£p=
+)@R¸…ëQ#@ìQ¸…ë$@…ëQ¸%@×£p=
+W%@Âõ(\(@)\Âõ¨'@Ház®Ç#@ö(\Âu$@q=
+×£ğ$@áz®Gá&@
+×£p=Š'@Ãõ(\B'@×£p=
+×@ö(\Âõ@ÍÌÌÌÌÌ@®Gáz@=
+×£p=@
+×£p=
+@¸…ëQ¸@¸…ëQ¸@\Âõ(\@¤p=
+×£@…ëQ¸…@®Gáz®@×£p=
+×@×£p=
+×@ö(\Âõ@=
+×£p=@®Gáz®@ìQ¸…ë@š™™™™™@¤p=
+×£@=
+×£p=@…ëQ¸…@ìQ¸…ë@=
+×£p=@®Gáz®@¸…ëQ¸@×£p=
+×@¤p=
+×£@…ëQ¸@š™™™™™@¤p=
+×£@×£p=
+×@
+×£p=
+@ffffff@…ëQ¸@q=
+×£p@ìQ¸…ë@…ëQ¸…@š™™™™™@Ház®G@q=
+×£p@R¸…ëQ@
+×£p=
+@…ëQ¸@q=
+×£p@Ãõ(\Â@=
+×£p=@q=
+×£p@®Gáz@…ëQ¸@…ëQ¸…@ìQ¸…ë@×£p=
+×@š™™™™-@Ãõ(\Â.@ìQ¸…ë/@¤p=
+×c0@=
+×£p½1@\Âõ(œ2@ÍÌÌÌÌ2@=
+×£p=-@×£p=
+×-@áz®G!0@Ãõ(\‚0@
+×£p=Ê1@ÍÌÌÌÌL2@®GázÔ1@Ãõ(\B-@ìQ¸…ë.@áz®Gá/@     À0@q=
+×£°0@áz®Gá1@{®Gáú1@
+×£p=
+-@®Gáz®.@q=
+×£p/@=
+×£p}0@{®Gáz1@ÍÌÌÌÌŒ1@ö(\Âõ1@{®Gáú,@ÍÌÌÌÌÌ/@š™™™™0@®Gáz1@Ãõ(\2@33333s2@Ãõ(\Â@…ëQ¸@Âõ(\@{®Gáz@ö(\Âõ@q=
+×£p@Ãõ(\Â@\Âõ(\@ìQ¸…ë@áz®Gá@
+×£p=
+@Ãõ(\Â@áz®Gá@Ãõ(\Â@ÍÌÌÌÌÌ@ÍÌÌÌÌÌ@ìQ¸…ë@ffffff@ÍÌÌÌÌÌ@\Âõ(\@®Gáz®@R¸…ëQ@\Âõ(\@®Gáz@…ëQ¸@   
+×£p=
+@      @      @…ëQ¸…@)\Âõ(@333333@×£p=
+×@¤p=
+×£@…ëQ¸…@=
+×£p=&@…ëQ¸(@¸…ëQ8(@   Ház®G,@Âõ(\%@=
+×£p½%@…ëQ¸…'@áz®Gá'@R¸…ëÑ(@Âõ(\+@¤p=
+×#,@¸…ëQ¸%@¸…ëQ8'@Ház®G(@š™™™™™)@{®Gáú+@…ëQ¸%@     €'@ÍÌÌÌÌÌ'@®Gáz)@=
+×£p=)@ö(\Âõ*@¸…ëQ8&@¤p=
+×£&@R¸…ëQ'@q=
+×£ğ(@Ház®Ç)@…ëQ¸+@…ëQ¸@Ház®G@{®Gáz @R¸…ëÑ @{®Gáz@ö(\Âõ@R¸…ëQ@Ãõ(\Â@ffffff @…ëQ¸"@š™™™™™@Âõ(\@ffffff@áz®Gá @\Âõ(\ @¸…ëQ¸ @\Âõ(\@q=
+×£p@\Âõ(\@š™™™™!@š™™™™"@Âõ(\@{®Gáz@áz®Gá@®Gáz @=
+×£p= @ö(\Âõ @×£p=
+×@ffffff@Ház®G@¤p=
+×£@¸…ëQ¸@¸…ëQ¸@{®Gáz@Ãõ(\Â@¸…ëQ¸@š™™™™™@ö(\Âõ@…ëQ¸@×£p=
+×@      @®Gáz®@¤p=
+×£@
+×£p=
+@š™™™™™@…ëQ¸…@{®Gáz@333333@=
+×£p=@áz®Gá@q=
+×£p@®Gáz®@…ëQ¸@ffffff@Ãõ(\Â@333333@®Gáz®@š™™™™™@¸…ëQ¸@      @Ház®G@R¸…ëQ@¤p=
+×£@Ház®G@      @ffffff@¤p=
+×£@
+×£p=
+@)\Âõ(@333333@Ãõ(\Â@ö(\Âõ@)\Âõ(@)\Âõ(@Âõ(\@ÍÌÌÌÌÌ@=
+×£p=@)\Âõ(@\Âõ(\@®Gáz®@{®Gáz@R¸…ëQ@š™™™™™@Ház®G@333333@š™™™™™@R¸…ëQ@Âõ(\@Ház®G@¸…ëQ¸@      @Âõ(\@®Gáz@Ház®G@   
+×£p=
+@ffffff@ìQ¸…ë@áz®Gá@×£p=
+×@¸…ëQ¸@ÍÌÌÌÌÌ@=
+×£p=@®Gáz®@R¸…ëQ@…ëQ¸@Á   ß   ş   ¡  ;¡  Z¡  v¡  ¨¢  Ç¢  ã¢  #- L¢  ¨¢  ³¡  ã¢  Ç¢           ö(\Âõ@áz®Gá@š™™™™™@…ëQ¸…@ö(\Âõ@333333@\Âõ(\@…ëQ¸@=
+×£p=@ffffff@®Gáz@Ãõ(\Â@¤p=
+×£@š™™™™™@ìQ¸…ë@ÍÌÌÌÌÌ@
+×£p=
+@q=
+×£p@      @®Gáz®@áz®Gá@®Gáz@¸…ëQ¸@{®Gáz@®Gáz@®Gáz@R¸…ëQ@…ëQ¸@R¸…ëQ@
+×£p=
+@333333@…ëQ¸…@ffffff@ffffff@R¸…ëQ@R¸…ëQ@Ãõ(\Â@ÍÌÌÌÌÌ@\Âõ(Ü @333333@áz®Gá@¤p=
+×£@®Gáz®@
+×£p=
+@333333@Ház®G @…ëQ¸…@¸…ëQ¸@š™™™™™@ÍÌÌÌÌÌ@Âõ(\ @ìQ¸…ë@{®Gáz@®Gáz®@®Gáz®@®Gáz@      @¸…ëQ8 @\Âõ(\@ö(\Âõ@ìQ¸…ë@®Gáz®@      @ö(\Âõ@/ãMÆÓ@ü)&¸Ó	@ch{£
+@ly<cˆ@TÊBAè@èvÔFª@':©ÖÌ*@¸B’§¸@¶oQÀª	@ÚİŞ@šo¬µ@¹
+4ÈÈˆ@¸‡&ïˆÉ@B6¸º{¶@áz®Gá@€Kàú.ï	@ÄvóòÈî
+@"ø=W @Ûy(—Ó@&™ ‡;@t,‘±@Ãõ(\Â	@ìQ¸…ë@ÍÌÌÌÌÌ@š®Gáz@
+×£p=
+@fìQ¸…@Ø‰ñKK¿@äã!7Áb
+@Õ#EÌYD@<´Şî@1v#äÚ@îT\‹Õ_@Š”¦@×£p=
+×@ö(\Âõ@ÍÌÌÌÌÌ@®Gáz@=
+×£p=@
+×£p=
+@¸…ëQ¸@¸…ëQ¸@\Âõ(\@¤p=
+×£@…ëQ¸…@®Gáz®@×£p=
+×@×£p=
+×@ö(\Âõ@=
+×£p=@®Gáz®@ìQ¸…ë@š™™™™™@¤p=
+×£@=
+×£p=@…ëQ¸…@ìQ¸…ë@=
+×£p=@®Gáz®@¸…ëQ¸@×£p=
+×@¤p=
+×£@…ëQ¸@š™™™™™@¤p=
+×£@×£p=
+×@
+×£p=
+@ffffff@…ëQ¸@q=
+×£p@ìQ¸…ë@…ëQ¸…@š™™™™™@Ház®G@q=
+×£p@R¸…ëQ@
+×£p=
+@…ëQ¸@q=
+×£p@Ãõ(\Â@=
+×£p=@q=
+×£p@®Gáz@…ëQ¸@…ëQ¸…@ìQ¸…ë@×£p=
+×@[¢ğ@Ãõ(\Â@|çç¬ûè@A}‚Ú?f @=
+×£p½!@kas“"@"yÆõ"@=
+×£p=@ÎÒŞc! @a.Îø„ @WÂ)ÛÉ!@/òcN"@Ù3>˜OÓ!@k¦¡uG@oOî@Õ’Š_Öã@Àœ'Á @àÂn³ @ìŠQÅŒâ!@{®Gáú!@|<øÃ@~«¡°@ôBhâ0s@Øÿ§ÊŒ} @ôÜ‡I'|!@•î0¬7!@ö(\Âõ!@ªF·Âÿ@®Gáz®@Zd0ZÏ@š™™™™ @²t3¿!@Q²óV"@÷©\t"@Ãõ(\Â@…ëQ¸@Âõ(\@{®Gáz@ö(\Âõ@q=
+×£p@Ãõ(\Â@\Âõ(\@ìQ¸…ë@áz®Gá@
+×£p=
+@Ãõ(\Â@áz®Gá@Ãõ(\Â@ÍÌÌÌÌÌ@ÍÌÌÌÌÌ@ìQ¸…ë@ffffff@ÍÌÌÌÌÌ@\Âõ(\@®Gáz®@R¸…ëQ@\Âõ(\@®Gáz@…ëQ¸@   
+×£p=
+@      @      @…ëQ¸…@)\Âõ(@333333@×£p=
+×@¤p=
+×£@…ëQ¸…@	O«©µ@/tÏÕÄ­@®Gáz@â‹´Ì@çö´ãi%@ÂÅÀçÅS@FÌç"=×@±.o@
+vnªö@RŸÌÍX@×£p=
+×@JWT-@F»î@Wò-ÒİÀ@}xw'º@(\Âõ@wOA‹%ù@Å¶‰b3@Ew*@D"»Á¡@á[—µ¥@Nj»5Í'@äã"\¦«@Ö¾¸Y@"#À@¸…ëQ¸@Ï‘èÓÕ@¼İ(fö@®Gáz@–oWß± @ƒm‘“¦,@Ğsr½@2EŞX²£@ß
+‹EY1@æ¦¦*@…ëQ¸@Ház®G@{®Gáz @R¸…ëÑ @{®Gáz@ö(\Âõ@R¸…ëQ@ffffff @…ëQ¸"@š™™™™™@Âõ(\@ffffff@áz®Gá @\Âõ(\ @¸…ëQ¸ @\Âõ(\@q=
+×£p@\Âõ(\@š™™™™!@š™™™™"@Âõ(\@{®Gáz@áz®Gá@®Gáz @=
+×£p= @ö(\Âõ @×£p=
+×@ffffff@Ház®G@¤p=
+×£@¸…ëQ¸@¸…ëQ¸@{®Gáz@Ãõ(\Â@¸…ëQ¸@š™™™™™@ö(\Âõ@…ëQ¸@×£p=
+×@      @®Gáz®@¤p=
+×£@
+×£p=
+@š™™™™™@…ëQ¸…@{®Gáz@333333@=
+×£p=@áz®Gá@q=
+×£p@®Gáz®@…ëQ¸@ffffff@Ãõ(\Â@333333@®Gáz®@š™™™™™@¸…ëQ¸@      @Ház®G@R¸…ëQ@¤p=
+×£@Ház®G@      @ffffff@¤p=
+×£@
+×£p=
+@)\Âõ(@333333@Ãõ(\Â@ö(\Âõ@)\Âõ(@)\Âõ(@Âõ(\@ÍÌÌÌÌÌ@=
+×£p=@)\Âõ(@\Âõ(\@®Gáz®@{®Gáz@R¸…ëQ@š™™™™™@Ház®G@333333@š™™™™™@R¸…ëQ@Âõ(\@Ház®G@¸…ëQ¸@      @Âõ(\@®Gáz@Ház®G@   
+×£p=
+@ffffff@ìQ¸…ë@áz®Gá@×£p=
+×@¸…ëQ¸@ÍÌÌÌÌÌ@=
+×£p=@®Gáz®@R¸…ëQ@…ëQ¸@        € @€   € 0€À€@  P€@` €€À  	"€	@‚
+2 
+€B€À‚R  b€@ƒ €€Àƒ$  4€@„D 	€	T€	À‚d 
+À„	€
+ 
+ @…
+&€€6 À…F€ V  f€@† €€€( À†8€  H @‡!X€ €"h !À‡#€ˆ" $#@ˆ% ˆ$€&°%Àˆ'Àˆ& 	(Ğ'@‰)àˆ(€	*‚)À‰+’ˆ* 
+,¢+@Š-²ˆ,€
+.Â-ÀŠ/Òˆ. 0â/@‹1„ˆ0À‡2”1€3¤ˆ2À‹4´3 5Äˆ4@Œ6Ô5€7äˆ6ÀŒ8†7 9–ˆ8@:¦9€;¶ˆ:À<Æ; =Öˆ<@‹>æ=@?ˆˆ>€@˜ ?ÀA¨ˆ @ B¸!A@CÈˆ!B€DØ"CÀEèˆ"D€	F #E G‘#FD H $G‚!I0‘$HÄ!J@%I"KP‘%:B‘"L`&J„#M‘&KÄ‘#N'L$O"‘'MB’$P2(N‚%QB‘(OÄ’%RR)P&Sb‘)QB“&T*R„'U‘*Ä“'V$+S(W4‘+TD”(XD,$‚)YT‘,UÄ”)Zd-V*[‘-WŒ'\.XL•*]&‘.YŠ+^6/ZÌ•+_F‘/[
+,`V0\L–,af‘0]Œ-b1KÂ‘-c‘1^Â.d(2_—.e8‘2>B/fH32‚—/gX‘3`Ä0hh4a˜0i€™4b@1j5c 
+k ™5d€˜1l°6eÀ2mÀ™6 ™2nĞ7f@3oà™7g€™3p‚8hÀ4q’™8i š4r¢9j@5s²™9k€š5tÂ:l uÒ™:mÀ€vâ;nÀ6w„™;o ›6x”<p@7y¤™<q€›7z´=rÀ8{Ä™=s œ8|Ô>@9}ä™>t€œ9~†?uÀ:–™?v :€¦@w@;¶™@x€‚ÆAy€;ƒÖ™AzÀ<„æB{ <…ˆ™Bb@1†˜C|@=‡¨™C}€=ˆ¸Dk€š5‰È™D~À>ŠØE~À>‹è™EnÀ6Œ F Ÿ>‚F€@? G@ƒ0‚G‚€Ÿ?@HƒÀ@‘P‚H„  @’`I…@ A“‚I† A”J"•"‚J‡Ğ B–2Kˆ¡B—B‚KaP!C˜RLB¡C™b‚L‰Ğ!DšMŠ ¢D›‚MT@"Eœ$N‹À B4‚NŒ€¢EDO 
+ŸT‚OÀ"F dP £F¡‚P@#G¢Q7@"E£&‚Q*€£G¤6R‘@ˆ¥F‚R’À#H¦VS“ ¤H§f‚S”@$I¨T Ÿ>©‚T7@"Eª(U•€¤I«8‚U–@†¬HV—À$J­X‚V˜ ¥J®hW=@%K¯€ŠW™€¥K°
+XšÂ%L± ŠX›¦L²°
+Yœ@&M³ÀŠY‚¦M´Ğ
+ZÀ&NµàŠZŸ §N¶‚
+[ B'O·’Š[¡‚'K¸¢
+\¢À§O¹²Š\£ (PºÂ
+]¤B¨P»ÒŠ]¥€(Q¼â
+^¦Â¨Q½„Š^§ )R¾”
+_¨@©R¿¤Š_©€)SÀ´
+`ªÀ©SÁÄŠ`« *TÂÔ
+a¬@ªTÃäŠa­‚*UÄ†
+b®ÀªUÅ–Šb¯ +VÆ¦
+c°@«VÇ¶Šc±€+WÈÆ
+d²À«WÉÖŠd³ ,XÊæ
+e´B¬XËˆŠeµ€,YÌ˜
+f¶«YÍ¨Šf·À,ZÎ¸
+g¸­ZÏÈŠg¹@-[ĞØ
+hº€­[ÑèŠh»À-\Ò i¼ ®\Ó“i½ :Ô jK€=Õ0“j¾@.]Ö@k¿€®]×P“kÀ Ø`lÁÀ.^Ù“lÂ ¯^Úm@/_Û"“mE€¯_Ü2nÃÀ/`İB“nÄ °`ŞRoÅ@„ßb“oÆ <àpÇ@0aá“pÈ@7â$qÉ€°aã4“qÊÀ0bäDrË ±båT“rY@3ædsÌ@1cç“sÍ€±cètÀ1dé&“t@€ ê6uÎ€ ëF“u¿€®]ìVvÏ ²díf“v8@2eîwÍ˜±cï“wĞ˜ğ(xR˜›7ñ8“xX€ òHyÑ˜²eóX“yÒX#GôhzÓ˜¤Iõ€›zÔ ö{ÕÀ2f÷ ›{Ö ³fø°|×@3gùÀ›|Ø€³gúĞ}ÙÀ3hûà›}Ú ´hü‚~Û@4iı’›~ÜÀ2ş¢İÀ€ÿ²›Ş€ Ã€ß@1cÓ›€à€´iãáÀ4j…›â@.]•‚ã€¥›‚äÀ6µƒå µjÅ›ƒK@5kÕ„æÀ‰	å›„çÀ„	
+‡…â@.]—›…Â@„§†èÀ…·›†éÀ.^Ç‡ê@"E×›‡ÙÀ3hçˆæÀ‰‰›ˆ€˜1™‰ë€µk©›‰ìÀ5l¹Ší ¶lÉ›Š@6mÙ‹î€¶mé›‹ï $ŒğDn¤ŒñÂ¶n!$ò„o1¤ó·oA$ôD7pQ¤õ„·pa$öÄ7q¤9¸q $÷D8r!#¤ø„¸r"3$‘ùÄ8s#C¤‘ú¹s$S$’ûB9t%c¤’ü„¹t&$“+Du'¤“ıÄ¹u(%$”ş:v)5¤”ÿBºv*E$•ó7w+U¤• ƒºw,e$–Å:x-¤–%»x.$—ñâ6y/'¤—c»y07$˜£;z1G¤˜å»z2W$™#<{3g¤™e¼{4	$š98|5¤šƒ¼|6)$›&Ä<}79¤›	½}8I$œ
+C=~9Y¤œƒ½~:i$Ã=;¬¾<‘,¥J=¡¬>±,ŸA>€?Á¬Ÿ;ÀŒ@Ñ, C€¾€Aá¬ Á>Bƒ,¡Ú(¿C“¬¡i?‚D£,¢©¿‚E³¬¢é?LFÃ,£„¨GÓ¬£)@ƒHã,¤iÀƒI…¬¤@„J•,¥ÁK¥¬¥ÁÀ„Lµ,¦A…MÅ¬¦	AÁ…NÕ,§A†Oå¬§QÀÁ†P‡,¨Ñ B‡Q—¬¨A?‚R§,©OÀÀ„S·¬©+@Â‡TÇ,ªBˆU×¬ªÁÂˆVç,«C‰W‰¬«ÏÀ$JX™,¬H@Ã‰Y©¬¬CŠZ¹,­ ÁÃŠ[É¬­ D‹\Ù,®!AÄ‹]é¬®"DŒ^5¯#ÁÄŒ_µ¯$E`!5°%AÅa1µ°&EbA5±'ÁÅcQµ±(Fda5²)AÆeµ²*Ff5³+ÁÆg#µ³,G‘h35´-AÇ‘iCµ´.G’jS5µ/ÁÇ’kcµµ0H“l5¶1QÈ“mµ¶2‘H”n%5·,G‘o5µ·3ÑÈ”pE5¸4I•qUµ¸5QÉ•re5¹6H“sµ¹7ÁÄŒt5º8I–u'µº9ÁÉ–v75»:J—wGµ»;AÊ—xW5¼<J˜ygµ¼=ÁÊ˜z	5½*F{µ½2H”|)5¾>K™}9µ¾?AË™~I5¿?AË™Yµ¿.G’€i5À@Kš½ÀAA1‚‘=Áz 
+ƒ¡½ÁBA€ „±=ÂCÁËš…Á½Â L›†Ñ=ÃDAÌ›‡á½ÃELœˆƒ=Ä~ÀÌœ‰“½ÄF:Š£=Å@5‹³½ÅG±bŒÃ=ÆHÓ½ÆIA9ã=Ç†À5l…½ÇJ±c•=ÈKÁ1d‘¥½ÈLM’µ=ÉR€ “Å½ÉMÁ†”Õ=Ê†À5l•å½ÊNA3–‡=ËOA0a——½Ëz 
+˜§=ÌPAÍ™·½Ì€MšÇ=ÍLÀÍ›×½ÍŠ€œç=ÎS@3g‰½ÎQ®\™=ÏRNŸŸ©½ÏSA.] ¹=Ğê@ÎŸ¡É½ĞTN ¢Ù=ÑU£é½ÑS@3g¤FÒVÁÎ ¥ÆÒWA;¦!FÓXO¡§1ÆÓYAÏ¡¨AFÔZO¢©QÆÔ[ÁÏ¢ªaFÕ\P£«ÆÕP@Ğ£¬FÖ‘@;­#ÆÖ˜1®3F×] ¯CÆ×‰€P¤°SFØ^±cÆØ_ÁĞ¤²FÙ– Q¥³ÆÙ÷@Ñ¥´%FÚXO¡µ5ÆÚ`ÁËš¶EFÛaA3·UÆÛbµj¸eFÜc¹ÆÜdQ¦ºFİ3@Ñ¥»'ÆİJÀÑ¦¼7FŞR§½GÆŞYAÏ¡¾WFßeAÒ§¿gÆßfR¨À	FàgÁÒ¨ÁÆàhS©Â)FáAÓ©Ã9ÆáiÁ2ÄIFâj AÅYÆâ§@2eÆiFãk³gÇÎã µjÈ‘Nä€SªÉ¡ÎänÀÓªÊ±Nål
+ËÁÎåW T«ÌÑNæm¿‚ÍáÎænAÔ«ÎƒNçoÁ<Ï“ÎçpA1cĞ£NèÖ€T¬Ñ³ÎèqÁÔ¬ÒÃNérU­ÓÓÎé B‡ÔãNêAÕ­Õ…ÎêsA?Ö•NëÜ€U®×¥ÎëtÁÕ®ØµNì ¡BÙÅÎì¿ÀˆÚÕNíuV¯ÛåÎívAÖ¯Ü‡NîoÁ<İ—ÎîwV°Ş§NïxÁ‰ß·Îï ¡BàÇNğ  á×ÎğyÁÖ°âçNñ W±ã‰Îñ @×±ä™NòzW²å©Îò½À×²æ¹Nó{X³çÉÎóå€èÙNô@Ø³ééÎô|Á

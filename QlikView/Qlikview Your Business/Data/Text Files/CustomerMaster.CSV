@@ -1,0 +1,201 @@
+﻿Customer ID,Name,Address 1,Address 2,Address 3,City,State,Country,ZIP Code,Channel,Customer Start Date,Customer End Date
+101001,Shannon Kemp,3833 Larry Street,,,Southern Pines,NC,US,28387,Boutique,9/28/2011,1/1/9999
+101002,SaqS,2245 Cantebury Drive,,,Pittsburgh,PA,US,15212,Department Stores,3/27/2012,1/1/9999
+101003,Joan Somers,4506 Virginia Street,,,Espanola,NM,US,87532,Boutique,10/1/2013,1/1/9999
+101004,Q-Storm,3834 Poe Lane,,,New York,NY,US,10016,Department Stores,10/17/2012,9/1/2014
+101005,Kacey Hernandez,2613 Wildwood Street,,,Adelphi,MD,US,20783,Boutique,3/22/2012,1/1/9999
+101006,Hannah Garcia,962 Oakmound Drive,,,Howell,UT,US,84316,Boutique,5/24/2012,1/1/9999
+101007,Teresa Medley,4721 Virgil Street,,,Houston,TX,US,77032,Boutique,5/23/2011,1/1/9999
+101008,Helen Brady,17 Sarah Drive,,,Lincoln,NE,US,68501,Boutique,12/1/2013,1/1/9999
+101009,John Sumner,2525 Johnson Street,,,Los Angeles,CA,US,90046,Boutique,8/31/2011,1/1/9999
+101010,Marjorie Barker,697 Hart Street,,,Los Angeles,CA,US,90017,Boutique,9/22/2011,12/1/2014
+101011,Frank Witherington,2067 Willis Avenue,,,Elizabeth,CO,US,80107,Boutique,11/16/2011,1/1/9999
+101012,Cleo King,1480 Coal Street,,,Fresno,CA,US,93721,Boutique,7/6/2012,1/1/9999
+101013,Zachary Warner,1742 Blue Spruce Lane,,,Pine Bluff,AR,US,71601,Boutique,7/1/2013,1/1/9999
+101014,John Pollard,948 Maple Avenue,,,Mountain Home,TX,US,78058,Boutique,5/31/2011,1/1/9999
+101015,Gregory Reed,1438 Maloy Court,,,Union City,IN,US,47390,Boutique,8/1/2013,1/1/9999
+101016,Jose Gregg,3433 Bell Street,,,Jacksonville,FL,US,32202,Boutique,9/16/2012,1/1/9999
+101017,John Dawkins,2112 Green Gate Lane,,,Birmingham,AL,US,35203,Boutique,9/1/2013,1/1/9999
+101018,Anna Morris,2692 Victoria Street,,,Philadelphia,PA,US,19108,Boutique,4/28/2012,1/1/9999
+101019,John Foster,4568 Melrose Street,,,Russellville,AR,US,72801,Boutique,10/1/2013,1/1/9999
+101020,Allison Whitley,238 Lindale Avenue,,,South Burlington,VT,US,5403,Boutique,12/3/2012,1/1/9999
+101021,Norman Atkinson,575 Beeghley Street,,,Nashville,TN,US,37207,Boutique,11/1/2013,1/1/9999
+101022,Clyde Vazquez,2953 School Street,,,Mount Carroll,IL,US,61053,Boutique,2/4/2012,1/1/9999
+101023,Richard Paramore,1641 Henery Street,,,Nashville,TN,US,37216,Boutique,12/1/2013,1/1/9999
+101024,Betty Scott,2037 Grove Street,,,Portland,OR,US,97230,Boutique,1/12/2012,1/1/9999
+101025,GreenDales,459 Ersel Street,,,Anchorage,AK,US,99503,Department Stores,1/1/2014,1/1/9999
+101026,Stephanie Lindsey,100 Kembery Drive,,,Roselle,IL,US,60172,Boutique,11/21/2012,1/1/9999
+101027,Jill Aguirre,1246 Hudson Street,,,Newark,NJ,US,7102,Boutique,2/1/2014,1/1/9999
+101028,Gwendolyn Rowell,762 Cody Ridge Road,,,Altus,OK,US,73521,Boutique,10/2/2011,8/1/2014
+101029,Eulalia Romano,3358 Nutter Street,,,Kansas City,MO,US,64127,Boutique,4/10/2011,1/1/9999
+101030,"Quinsy's",4602 Rinehart Road,,,Sunrise,FL,US,33323,Department Stores,5/2/2012,1/1/9999
+101031,Q-Mart,2154 Lost Creek Road,,,Bensalem,PA,US,19020,Mass Retailers,1/1/2012,10/1/2014
+101032,Jerry Cook,1130 Blane Street,,,Saint Louis,MO,US,63146,Boutique,11/21/2012,1/1/9999
+101033,Apples&Oranges,40 Pleasant Hill Road,,,West Palm Beach,FL,US,33409,Department Stores,10/28/2011,1/1/9999
+101034,Super-Q,4832 Rose Avenue,,,Harahan,LA,US,70123,Mass Retailers,1/13/2012,1/1/9999
+101035,QAP,4856 Lakeland Terrace,,,Southfield,MI,US,48034,Department Stores,1/21/2012,1/1/9999
+101036,Heidi Winn,851 Hall Street,,,Las Vegas,NV,US,89101,Boutique,3/1/2014,1/1/9999
+101037,Laura Dupree,2484 Waterview Lane,,,Santa Fe,NM,US,87501,Boutique,6/9/2011,1/1/9999
+101038,Q&M Stores,918 Emily Drive,,,Richmond,VA,US,23227,Department Stores,4/1/2014,1/1/9999
+101039,Elizabeth Marshall,3479 Clearview Drive,,,Louisville,CO,US,80027,Boutique,12/15/2012,1/1/9999
+101040,Ashley Pagan,3626 Pleasant Hill Road,,,Jupiter,FL,US,33478,Boutique,5/1/2014,1/1/9999
+101041,Wilfredo Hayes,317 Cimmaron Road,,,Irvine,CA,US,92614,Boutique,3/15/2012,1/1/9999
+101042,Delia Lewis,2931 Scheuvront Drive,,,Golden,CO,US,80401,Boutique,6/1/2014,1/1/9999
+101043,Doreen Coney,496 Bombardier Way,,,Taylor,MI,US,48180,Boutique,1/19/2012,1/1/9999
+101044,Q-House,2743 Mulberry Avenue,,,Little Rock,AR,US,72201,Department Stores,7/1/2014,1/1/9999
+101045,Brenda Shoemaker,4078 Bel Meadow Drive,,,Los Angeles,CA,US,90017,Boutique,1/21/2012,1/1/9999
+101046,Jeffrey Lehner,829 Highland View Drive,,,Sacramento,CA,US,95814,Boutique,2/25/2012,1/1/9999
+101047,Christie Cannady,525 Canis Heights Drive,,,Los Angeles,CA,US,90089,Boutique,11/1/2014,1/1/9999
+101048,Jennifer Bailey,3820 Philadelphia Avenue,,,Salt Lake City,UT,US,84116,Boutique,6/9/2011,1/1/9999
+101049,Bruce Gonzalez,1789 Lee Avenue,,,Camden,NJ,US,8102,Boutique,12/25/2011,1/1/9999
+101050,Deborah Walls,1187 Clark Street,,,Shoreham,NY,US,11786,Boutique,11/3/2012,1/1/9999
+101051,Melanie Scott,717 Andy Street,,,Sturgis,SD,US,57785,Boutique,9/14/2012,1/1/9999
+101052,David Santos,667 Coleman Avenue,,,Julian,CA,US,92036,Boutique,8/1/2014,1/1/9999
+101053,Jonathan Hinkle,1043 School House Road,,,Columbia,MS,US,39429,Boutique,9/18/2011,1/1/9999
+101054,Frances Dodson,224 Raver Croft Drive,,,Chattanooga,TN,US,37421,Boutique,9/1/2014,1/1/9999
+101055,Tim Holley,4446 Lang Avenue,,,Mountain View,UT,US,82939,Boutique,12/24/2012,1/1/9999
+101056,Gracie Bulluck,2200 Briarwood Drive,,,Bridgeport,NJ,US,8014,Boutique,10/1/2014,1/1/9999
+101057,Ronald Ortega,87 Sharon Lane,,,South Bend,IN,US,46601,Boutique,9/3/2012,1/1/9999
+101058,James Avery,774 Philli Lane,,,Tulsa,OK,US,74103,Boutique,11/1/2014,1/1/9999
+101059,James Tanner,4189 Sycamore Fork Road,,,Bloomington,MN,US,55437,Boutique,1/26/2012,1/1/9999
+101060,James Moorer,792 Boundary Street,,,Jacksonville,FL,US,32256,Boutique,12/1/2014,1/1/9999
+101061,Sidney Board,3917 Eden Drive,,,Glen Allen,VA,US,23060,Boutique,8/4/2012,1/1/9999
+101062,Bonita Sanchez,2470 Elk Creek Road,,,Dallas,GA,US,30132,Boutique,2/16/2012,1/1/9999
+101063,George Gish,1180 Clover Drive,,,Colorado Springs,CO,US,80907,Boutique,12/9/2011,8/1/2013
+101064,Jennifer Hoyle,238 Steele Street,,,Naperville,IL,US,60540,Boutique,10/28/2011,1/1/9999
+101065,Q-4-Men,3091 Alpha Avenue,,,Bells Savoy,TX,US,75414,Department Stores,3/26/2011,1/1/9999
+101066,Ruby Winchell,1681 Emma Street,,,Levelland,TX,US,79336,Boutique,12/22/2012,1/1/9999
+101067,Kim Parks,4890 Prospect Street,,,Camden,NJ,US,8102,Boutique,11/30/2011,1/1/9999
+101068,Amelia Wyatt,2298 Patterson Road,,,Brooklyn,NY,US,11238,Boutique,1/1/2013,1/1/9999
+101069,Q&V,2969 Huntz Lane,,,Framingham,MA,US,1702,Mass Retailers,1/15/2011,1/1/9999
+101070,QalvinQlein,2454 Lewis Street,,,Naperville,IL,US,60540,Department Stores,2/1/2013,1/1/9999
+101071,Velva Emerson,227 Oliver Street,,,Wedgwood,TX,US,76133,Boutique,2/11/2011,12/1/2013
+101072,Cristina Gonzales,2331 Chenoweth Drive,,,Cookeville,TN,US,38501,Boutique,3/1/2013,1/1/9999
+101073,QVS,674 Chardonnay Drive,,,Ocala,FL,US,34474,Mass Retailers,12/11/2011,1/1/9999
+101074,Paul Whitley,3095 Sardis Station,,,Minneapolis,MN,US,55415,Boutique,4/1/2013,1/1/9999
+101075,Terri Stone,3584 Brooklyn Street,,,Louisa,VA,US,22960,Boutique,11/26/2011,1/1/9999
+101076,Margaret Clay,2210 Ridge Road,,,Ulysses,KS,US,67880,Boutique,5/1/2013,1/1/9999
+101077,Dawn Clancy,3928 Science Center Drive,,,Wallace,ID,US,83873,Boutique,9/20/2011,1/1/9999
+101078,Dennis Marshall,2732 Ferrell Street,,,Tintah,MN,US,56583,Boutique,6/1/2013,1/1/9999
+101079,Constance Dunlap,2268 Koontz Lane,,,Los Angeles,CA,US,90017,Boutique,11/27/2012,9/1/2013
+101080,Pedro Garcia,2536 Davis Lane,,,Denver,CO,US,80216,Boutique,2/25/2012,1/1/9999
+101081,John Parra,770 Prudence Street,,,Detroit,MI,US,48205,Boutique,5/22/2011,1/1/9999
+101082,QVPR,1136 Ben Street,,,Cobleskill,NY,US,12043,Department Stores,9/22/2011,1/1/9999
+101083,Andrew Esposito,1504 Heliport Loop,,,Terre Haute,IN,US,47807,Boutique,3/8/2011,11/1/2014
+101084,Ashley Champion,4781 Tree Frog Lane,,,Kansas City,MO,US,64106,Boutique,3/23/2011,1/1/9999
+101085,"Qohl's",1420 Watson Lane,,,Asheville,NC,US,28803,Mass Retailers,3/1/2013,1/1/9999
+101086,DMS Authority,3472 Turnpike Drive,,,Huntsville,AL,US,35802,Department Stores,7/7/2011,1/1/9999
+101087,Maria Campbell,1687 Levy Court,,,Acton,MA,US,1720,Boutique,1/27/2012,10/1/2013
+101088,Alice Little,2608 Bird Spring Lane,,,League City,TX,US,77573,Boutique,12/27/2011,1/1/9999
+101089,Rose Luebke,1760 Progress Way,,,Saint Cloud,MN,US,56303,Boutique,8/1/2011,1/1/9999
+101090,QV-Max,4375 Andy Street,,,Ferney,SD,US,57439,Mass Retailers,4/10/2012,1/1/9999
+101091,Allen Lossett,4164 Maple Court,,,Saint Louis,MO,US,63102,Boutique,5/9/2011,1/1/9999
+101092,Michael James,1493 Thrash Trail,,,Dallas,TX,US,75212,Boutique,3/1/2013,1/1/9999
+101093,SectionAccess,953 Armory Road,,,Wilmington,NC,US,28401,Department Stores,4/1/2011,1/1/9999
+101094,James Coe,1624 Smithfield Avenue,,,Amarillo,TX,US,79101,Boutique,11/9/2011,11/1/2013
+101095,Billie Coffin,3650 Gateway Avenue,,,Bakersfield,CA,US,93301,Boutique,12/15/2011,1/1/9999
+101096,Con-Cat,4064 Hickory Lane,,,Washington,DC,US,20036,Department Stores,9/30/2012,1/1/9999
+101097,Roberta Blocker,41 Bartlett Avenue,,,Troy,MI,US,48083,Boutique,11/7/2011,1/1/9999
+101098,Drop-Fields,1497 Davis Court,,,Metropolis,IL,US,62960,Department Stores,9/1/2014,1/1/9999
+101099,Laura Daniels,756 Kimberly Way,,,Allendale,MI,US,49401,Boutique,7/18/2012,1/1/9999
+101100,Linda Nichols,3381 Michigan Avenue,,,Indiana,PA,US,15701,Boutique,2/11/2012,1/1/9999
+101101,Jill Carroll,3071 Renwick Drive,,,Philadelphia,PA,US,19108,Boutique,6/22/2011,1/1/9999
+101102,Ethel Slowik,3030 Fieldcrest Road,,,Bay Shore,NY,US,11706,Boutique,10/23/2012,8/1/2014
+101103,Carole Beardsley,3116 Meadow Lane,,,Santa Rosa,CA,US,95401,Boutique,8/29/2011,1/1/9999
+101104,Cathy Cardenas,2471 Kinney Street,,,Granby,MA,US,1033,Boutique,8/12/2011,1/1/9999
+101105,William Jordan,4117 Briarhill Lane,,,Akron,OH,US,44308,Boutique,9/29/2011,1/1/9999
+101106,Jimmie Banks,735 Robinson Court,,,Saginaw,MI,US,48607,Boutique,9/26/2011,1/1/9999
+101107,Kenneth Butler,3108 Benson Park Drive,,,Oklahoma City,OK,US,73102,Boutique,1/1/2013,1/1/9999
+101108,Irene Houde,1126 Courtright Street,,,Fairmount,ND,US,58030,Boutique,7/13/2011,1/1/9999
+101109,Michael Hutchins,4426 Myra Street,,,Providence,RI,US,2905,Boutique,2/1/2013,1/1/9999
+101110,Woodrow Smith,3390 Grasselli Street,,,Candia,NH,US,3034,Boutique,12/14/2012,12/1/2014
+101111,Lisa Harper,3784 Kuhl Avenue,,,Marietta,GA,US,30064,Boutique,3/1/2013,1/1/9999
+101112,Debbie Jackson,504 Daffodil Lane,,,Arlington,VA,US,22201,Boutique,3/13/2012,1/1/9999
+101113,Kevin Neely,1540 Lords Way,,,Kenton,TN,US,38233,Boutique,4/1/2013,1/1/9999
+101114,William Hopkins,323 Victoria Street,,,Chicago,IL,US,60631,Boutique,11/27/2012,1/1/9999
+101115,Miguel Petrick,1457 Franklin Avenue,,,Corpus Christi,TX,US,78415,Boutique,5/1/2013,1/1/9999
+101116,Blake Gibson,3244 Prospect Street,,,Camden,NJ,US,8102,Boutique,2/3/2011,1/1/9999
+101117,Amy Dalton,1833 Sand Fork Road,,,Logansport,IN,US,46947,Boutique,6/1/2013,1/1/9999
+101118,Walter Griffith,2486 Chatham Way,,,Washington,MD,US,20005,Boutique,5/7/2012,9/1/2014
+101119,Kevin Gant,4527 Lynch Street,,,Fond Du Lac,WI,US,54935,Boutique,9/4/2011,1/1/9999
+101120,Sharon Wells,2467 Levy Court,,,Burlington,MA,US,1803,Boutique,12/31/2012,1/1/9999
+101121,Carl Robinson,3878 Wescam Court,,,Reno,NV,US,89502,Boutique,6/6/2011,1/1/9999
+101122,Larry Ojeda,4191 Ritter Avenue,,,Southfield,MI,US,48075,Boutique,9/3/2012,11/1/2014
+101123,Lana Valdez,3768 Bruce Street,,,Saint Louis,MO,US,63104,Boutique,3/9/2011,1/1/9999
+101124,Warren Johnsen,2292 Marion Drive,,,Clearwater,FL,US,34621,Boutique,3/1/2013,1/1/9999
+101125,Azalee Lewis,4901 Haul Road,,,Saint Paul,MN,US,55102,Boutique,3/18/2012,1/1/9999
+101126,Joseph Macha,3019 Koontz Lane,,,Los Angeles,CA,US,90017,Boutique,12/19/2012,10/1/2014
+101127,Roy Brown,4162 Marcus Street,,,Scottsboro,AL,US,35768,Boutique,3/1/2012,1/1/9999
+101128,Robert Trower,1203 Benson Street,,,Wittenberg,WI,US,54499,Boutique,6/13/2011,1/1/9999
+101129,Carl Leach,240 Stanley Avenue,,,Great Neck,NY,US,11021,Boutique,3/19/2012,1/1/9999
+101130,Jessie Carter,2602 Green Hill Road,,,Fayetteville,AR,US,72701,Boutique,6/12/2011,6/1/2014
+101131,Paul Purcell,4122 Granville Lane,,,Haledon,NJ,US,7508,Boutique,3/1/2013,1/1/9999
+101132,David Smith,3871 Oakmound Road,,,Chicago,IL,US,60628,Boutique,11/20/2011,1/1/9999
+101133,Alisha Huffman,1744 Gnatty Creek Road,,,Westbury,NY,US,11590,Boutique,11/30/2011,11/1/2014
+101134,Donald Rogers,2623 Marshville Road,,,Poughkeepsie,NY,US,12601,Boutique,10/21/2011,1/1/9999
+101135,Jerry Morales,4992 Lake Forest Drive,,,Purdys,NY,US,10578,Boutique,7/17/2012,1/1/9999
+101136,Benjamin Tesch,175 Cherry Tree Drive,,,Jacksonville,FL,US,32205,Boutique,1/12/2012,4/1/2014
+101137,Danielle Morgan,614 Modoc Alley,,,North Fork,ID,US,83466,Boutique,9/1/2014,1/1/9999
+101138,David Williams,283 Emily Renzelli Boulevard,,,Aptos,CA,US,95003,Boutique,6/27/2012,1/1/9999
+101139,Henry Perez,3293 Pinewood Avenue,,,Stephenson,MI,US,49887,Boutique,8/17/2011,1/1/9999
+101140,Kent Patel,1094 Holt Street,,,Lake Worth,FL,US,33463,Boutique,1/23/2012,1/1/9999
+101141,Teresa Pannell,1348 Wilmar Farm Road,,,Damascus,MD,US,20872,Boutique,7/20/2012,1/1/9999
+101142,Avelina Pollard,176 Woodside Circle,,,Pensacola,FL,US,32507,Boutique,2/23/2011,1/1/9999
+101143,Kathleen Sirois,1214 Frank Avenue,,,Springfield,MA,US,1109,Boutique,1/1/2013,1/1/9999
+101144,Etta Howard,3896 Riverwood Drive,,,Cottonwood,CA,US,96022,Boutique,2/21/2011,1/1/9999
+101145,Jim Hague,701 Poplar Lane,,,Miami Springs,FL,US,33166,Boutique,2/1/2013,1/1/9999
+101146,Heather Coronado,4378 Tennessee Avenue,,,Southfield,MI,US,48034,Boutique,10/4/2012,12/1/2014
+101147,Priscilla Pedro,4729 Emma Street,,,Southland,TX,US,79368,Boutique,3/1/2013,1/1/9999
+101148,Donald Moore,119 Stoneybrook Road,,,Orlando,FL,US,32810,Boutique,4/25/2012,10/1/2014
+101149,Kevin Tookes,3729 Terra Street,,,Seattle,WA,US,98109,Boutique,4/1/2013,1/1/9999
+101150,Carl Taylor,3079 Cambridge Drive,,,Phoenix,AZ,US,85043,Boutique,9/3/2011,1/1/9999
+101151,Gladys Fisher,534 Lady Bug Drive,,,Staten Island,NY,US,10312,Boutique,5/1/2013,1/1/9999
+101152,Jennie Davidson,66 Simpson Avenue,,,York,PA,US,17403,Boutique,7/26/2012,6/1/2014
+101153,Elvira Montoya,2659 Bernardo Street,,,Batesville,IN,US,47006,Boutique,6/1/2013,1/1/9999
+101154,Calvin Hulse,3971 Hillcrest Lane,,,Irvine,CA,US,92714,Boutique,11/16/2011,9/1/2014
+101155,Peggie Pelton,1283 Bird Spring Lane,,,Houston,TX,US,77027,Boutique,5/30/2011,1/1/9999
+101156,Alex Land,1460 Poling Farm Road,,,Lincoln,NE,US,68522,Boutique,4/9/2011,1/1/9999
+101157,Thomas Moor,514 Ferguson Street,,,Cambridge,MA,US,2141,Boutique,8/10/2011,1/1/9999
+101158,Alan Logan,3290 Charter Street,,,Osawatomie,KS,US,66064,Boutique,9/10/2012,11/1/2014
+101159,Deanna Starkey,4162 Stonecoal Road,,,Maumee,OH,US,43537,Boutique,10/8/2011,1/1/9999
+101160,Lillian Douglas,3086 Hilltop Street,,,Springfield,MA,US,1103,Boutique,3/1/2013,1/1/9999
+101161,Kelvin Robbins,270 Clark Street,,,Oak Brook,IL,US,60523,Boutique,10/19/2011,1/1/9999
+101162,Dwayne Lupo,4595 Ventura Drive,,,San Francisco,CA,US,94108,Boutique,8/2/2011,10/1/2014
+101163,Joann Castiglia,4861 Andy Street,,,Forbes,SD,US,58439,Boutique,7/15/2012,1/1/9999
+101164,Efrain Bowen,2411 Frum Street,,,Nashville,TN,US,37209,Boutique,2/8/2011,1/1/9999
+101165,Joanne Love,4473 Roane Avenue,,,Gaithersburg,MD,US,20877,Boutique,7/2/2011,1/1/9999
+101166,Mona Edmond,4970 Everette Alley,,,Coral Springs,FL,US,33065,Boutique,8/15/2011,6/1/2014
+101167,Karen Cesar,96 Arron Smith Drive,,,Honolulu,HI,US,96813,Boutique,3/1/2013,1/1/9999
+101168,Jason Reinhardt,1325 Duffy Street,,,Wanatah,IN,US,46382,Boutique,9/29/2012,1/1/9999
+101169,Wilford Lund,1783 Hope Street,,,Salem,OR,US,97302,Boutique,12/13/2011,11/1/2014
+101170,Stephanie Webb,2145 Margaret Street,,,Houston,TX,US,77063,Boutique,7/22/2012,1/1/9999
+101171,Sherry Fairchild,2514 Cinnamon Lane,,,San Antonio,TX,US,78209,Boutique,2/18/2012,1/1/9999
+101172,Gloria Hall,3409 Columbia Mine Road,,,Cheat Lake,WV,US,26505,Boutique,8/2/2012,4/1/2014
+101173,Dora Lay,1505 Hillside Street,,,Chandler,AZ,US,85226,Boutique,9/1/2014,1/1/9999
+101174,Eloise Hopper,3164 Charla Lane,,,Dallas,TX,US,75207,Boutique,4/21/2012,1/1/9999
+101175,Danny McGee,4892 Alpaca Way,,,Los Angeles,CA,US,90017,Boutique,11/14/2011,1/1/9999
+101176,Mary Santiago,2889 Post Farm Road,,,Norcross,GA,US,30092,Boutique,3/26/2011,12/1/2014
+101177,Kelly Collier,3936 Norma Lane,,,Monroe,LA,US,71201,Boutique,1/1/2013,1/1/9999
+101178,Flora Williams,1143 Hill Haven Drive,,,Tacoma,WA,US,98499,Boutique,9/5/2011,10/1/2014
+101179,Elizabeth Vaughan,4035 Woodhill Avenue,,,Baltimore,MD,US,21229,Boutique,2/1/2013,1/1/9999
+101180,James Turner,2259 Columbia Mine Road,,,Huntington,WV,US,25701,Boutique,4/22/2011,1/1/9999
+101181,Arturo Irwin,1361 Arthur Avenue,,,Peoria,IL,US,61602,Boutique,3/1/2013,1/1/9999
+101182,Edward Young,3033 Ridenour Street,,,Boca Raton,FL,US,33487,Boutique,7/16/2011,6/1/2014
+101183,Randall Stutts,1311 Berkley Street,,,Bethlehem,PA,US,18018,Boutique,4/1/2013,1/1/9999
+101184,Pamela Barco,2144 Perine Street,,,Arlington,VA,US,22206,Boutique,1/22/2011,9/1/2014
+101185,Mario McTaggart,4197 Kelly Street,,,Charlotte,NC,US,28204,Boutique,5/1/2013,1/1/9999
+101186,Kenny Duncan,4660 Custer Street,,,Ulysses,PA,US,16945,Boutique,3/18/2011,1/1/9999
+101187,Helen Johnson,233 Walkers Ridge Way,,,Chicago,IL,US,60606,Boutique,6/1/2013,1/1/9999
+101188,Willie Hansen,2824 Layman Court,,,Roswell,GA,US,30076,Boutique,3/9/2011,11/1/2014
+101189,Adam Adams,1120 Brannon Avenue,,,Jacksonville,FL,US,32211,Boutique,4/28/2011,1/1/9999
+101190,Jennifer Lemke,236 Little Acres Lane,,,Mendon,IL,US,62351,Boutique,8/4/2012,1/1/9999
+101191,Tim Reyes,850 Biddie Lane,,,Richmond,VA,US,23224,Boutique,1/4/2012,1/1/9999
+101192,Rosemary Davis,4173 Coventry Court,,,Baton Rouge,LA,US,70814,Boutique,7/15/2011,10/1/2014
+101193,Daniel Williams,3330 White Avenue,,,Corpus Christi,TX,US,78415,Boutique,9/7/2011,1/1/9999
+101194,Cecil Ballard,1070 Pratt Avenue,,,Seattle,WA,US,98161,Boutique,3/1/2013,1/1/9999
+101195,Davina Paterson,3097 Haven Lane,,,Lansing,MI,US,48933,Boutique,4/23/2012,1/1/9999
+101196,Jose Morrow,1258 Stanton Hollow Road,,,Woburn,MA,US,1801,Boutique,6/15/2011,6/1/2014
+101197,Thomas Hendren,3943 Cedar Lane,,,Boston,MA,US,2110,Boutique,10/31/2012,1/1/9999
+101198,Shaun Schram,3769 Sweetwood Drive,,,Denver,CO,US,80202,Boutique,1/1/2013,1/1/9999
+101199,Harrison Cerny,2351 Clair Street,,,Waco,TX,US,76710,Boutique,9/24/2011,11/1/2014
+101200,Rena Powell,2169 Shingleton Road,,,Climax,MI,US,49034,Boutique,2/1/2013,1/1/9999

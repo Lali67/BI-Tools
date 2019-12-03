@@ -1,0 +1,93 @@
+﻿color_Black,"rgb(54,54,54)"
+color_Blue,"rgb(0,100, 200)"
+color_Gray,"rgb(200,200,200)"
+color_Green,"rgb(77,167,65)"
+color_Purple,"RGB(143,68,173)"
+color_Red,"rgb(255,107,107)"
+color_White,"rgb(255,255,255)"
+color_Yellow,"rgb(249,156,50)"
+color_LightGray, "rgb(242,242,242)"
+filter_CMTD,_CMTD_Flag = {1}
+filter_CYTD,_CYTD_Flag = {1}
+filter_PMTD,_PMTD_Flag = {1}
+filter_PM,_PM_Flag = {1}
+filter_PR12,_PR12_Flag = {1}
+filter_PR3,_PR3_Flag = {1}
+filter_PR6,_PR6_Flag = {1}
+filter_PYR3,_PYR3_Flag = {1}
+filter_PYR6,_PYR6_Flag = {1}
+filter_PYTD,_PYTD_Flag={1}
+filter_R12,_R12_Flag = {1}
+filter_R3,_R3_Flag = {1}
+filter_R6,_R6_Flag = {1}
+
+exp_ExcessRaw,"RangeMax(0,
+	$(exp_OnHand($1)) - 
+	$(exp_Demand($2))
+)"
+exp_Excess,"sum(
+	AGGR(
+		$(exp_ExcessRaw($1, $2))
+	, Product, Warehouse)
+)
+"
+exp_SalesDaysCount,"(Max({<$1>} Date) - Min({<$1, FactType={Sales}>} Date) + 1)"
+exp_DaysOnHandRaw,"$(exp_OnHand($1))
+/  		
+($(exp_Demand($2))/$(exp_SalesDaysCount($2)))
+"
+exp_DaysOnHand,"Sum(
+      AGGR(
+          $(exp_OnHand($1))*
+          $(exp_DaysOnHandRaw($1, $2)) 
+     , Product, Warehouse)
+ )/   $(exp_OnHand($1))   
+
+
+"
+exp_InventorySnapshotsCount,"count({<$1, FactType={OnHand}>} distinct Date)"
+exp_Turns,"sum(
+	AGGR(
+		$(exp_OnHand($1))*
+		$(exp_TurnsRaw($1, $2))
+	, Product, Warehouse)
+	)
+/ $(exp_OnHand($1))
+
+"
+exp_TurnsRaw,"(
+	$(exp_Demand($2)) /
+	($(exp_SalesDaysCount($2))/365)
+)
+/
+(
+	$(exp_OnHand($2))/
+	$(exp_InventorySnapshotsCount($2))
+)
+
+
+
+"
+vUp,"=CHR(9650)"
+vDown,"=CHR(9660)"
+format_Change1Decimal,"=vUp & '#,##0.0;' & vDown & '#,##0.0'"
+format_ChangeInteger,"=vUp & '#,##0;' & vDown & '#,##0'"
+format_ChangePercent,"=vUp & '#,##0.0%;' & vDown & '#,##0.0%'"
+v_TargetDaysOnHand,60
+v_TargetExcessInventory,500000
+v_TargetTotalInventory,8000000
+v_TargetTurns,5
+color_InventoryChange,"IF($(exp_OnHand($(filter_CMTD)))< $(exp_OnHand($(filter_PMTD))), $(color_Green), $(color_Red))
+"
+color_Inventory2Target,"IF($(exp_OnHand($(filter_CMTD))) < $(v_TargetTotalInventory), $(color_Green), $(color_Red))
+"
+color_ExcessChange,"IF($(exp_OnHand($(filter_CMTD), $(filter_R6)))< $(exp_OnHand($(filter_PMTD), , $(filter_PYR6))), $(color_Green), $(color_Red))
+"
+color_Excess2Target,"IF($(exp_Excess($(filter_CMTD), $(filter_R6))) < $(v_TargetExcessInventory), $(color_Green), $(color_Red))  
+"
+color_DaysOnHandChange,"if( $(exp_DaysOnHand($(filter_CMTD), $(filter_R12))) < $(exp_DaysOnHand($(filter_PMTD), $(filter_PR12))), $(color_Green), $(color_Red))
+"
+color_DaysOnHand2Target,"if( $(exp_DaysOnHand($(filter_CMTD), $(filter_R12))) < $(v_TargetDaysOnHand), $(color_Green), $(color_Red))  "
+color_TurnsChange,"IF( $(exp_Turns($(filter_CMTD), $(filter_R12))) >=   $(exp_Turns($(filter_PMTD), $(filter_PR12))) , $(color_Green), $(color_Red))
+ "
+color_Turns2Target,"IF( $(exp_Turns($(filter_CMTD), $(filter_R12))) >=   $(v_TargetTurns) , $(color_Green), $(color_Red))   "

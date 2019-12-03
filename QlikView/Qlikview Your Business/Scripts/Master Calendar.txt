@@ -1,0 +1,36 @@
+
+//=============================================================
+// A Simple Calendar script, using Preceding Load.
+//=============================================================
+
+//=== Generate the final calendar table from the temp table.
+MasterCalendar:
+LOAD	
+	TempDate AS Date,
+	Week(TempDate) AS Week,
+	Year(TempDate) AS Year,
+	Month(TempDate) AS Month,
+	Day(TempDate) AS Day,
+	Weekday(TempDate) AS WeekDay,
+	'Q' & ceil(month(TempDate) / 3) AS Quarter,
+	Year(TempDate) &'-'& 'Q' & ceil(month(TempDate) / 3) AS QuarterYear,
+
+	Date(monthstart(TempDate), 'MMM-YYYY') AS MonthYear,
+	Year(TempDate) &'-'& Week(TempDate) AS WeekYear,
+	InMonthToDate(TempDate, maxdate, 0) * -1 AS _CMTD_Flag,
+	InMonthToDate(TempDate, maxdate, -12) * -1 AS _PMTD_Flag,
+	inyeartodate(TempDate, maxdate, 0) * -1 AS _CYTD_Flag,
+	inyeartodate(TempDate, maxdate, -1) * -1 AS _PYTD_Flag 
+;
+//=== Generate a temp table of dates ===	
+LOAD 
+	date(mindate + IterNo()) AS TempDate
+	,maxdate		// Used in InYearToDate() above, but not kept 
+WHILE mindate + IterNo() <= maxdate
+;
+//=== Get min/max dates from fact table ===/
+LOAD
+	min(Date)-1 as mindate,
+	max(Date) as maxdate
+RESIDENT Fact
+;

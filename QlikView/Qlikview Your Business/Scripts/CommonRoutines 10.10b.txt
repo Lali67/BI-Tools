@@ -1,0 +1,86 @@
+//============================================================================
+//
+//	GenerateQVD
+//
+//
+// This subroutine reads a single table from the currently connected database.
+// The table is stored in a QVD File with the same name as the Table Name
+// Then the table is dropped from the memory 
+//============================================================================
+sub GenerateQVD(TableName, FilePath)
+
+
+	[$(TableName)]:
+	SQL SELECT *
+	FROM `$(TableName)`;
+	
+	IF NoOfRows('$(TableName)')> 0 THEN
+		store [$(TableName)] into [$(FilePath)$(TableName).QVD];
+	END IF
+	
+	drop table [$(TableName)];
+
+end sub
+
+//============================================================================
+//
+//	StoreAllDatabaseTablesIntoQVD
+//
+//
+// This subroutine loads the list of the database tables using SQLTABLES
+// For each table in the list, the subroutine GenerateQVD is being called
+//============================================================================
+
+SUB StoreAllDatabaseTablesIntoQVD(QVDPath)
+
+	Tables:
+	sqltables;
+	
+	FOR vRow = 0 TO NoOfRows('Tables') - 1
+	
+		IF peek('TABLE_TYPE', vRow, 'Tables') = 'TABLE' THEN
+		
+			let vTable = peek('TABLE_NAME', vRow, 'Tables');
+			call GenerateQVD(vTable, QVDPath);
+			
+		END IF
+	
+	NEXT
+	
+	drop table Tables;
+	let vTable = ;
+        let vRow = ;
+
+END SUB
+
+//============================================================================
+//
+//	StoreAllTablesIntoQVDs
+//
+//
+// This subroutine calls the subroutine GenerateQVD for all tables in the QlikView document
+// The name of the QVD file can be padded with the prefix vPrefix
+// Dropping Tables after storing can be enabled or disabled with the flag vDropTables
+//============================================================================
+
+
+SUB StoreAllTablesIntoQVDs(QVDPath, Prefix, DropTables)
+
+     let vNoOfTables = NoOfTables();
+     
+     FOR vTableNum = vNoOfTables - 1 to 0 step -1
+     
+          let vTable = TableName('$(vTableNum)');
+          TRACE Generating the Table $(vTable)...;
+          store [$(vTable)] into [$(QVDPath)$(Prefix)$(vTable).QVD];
+          
+           IF DropTables THEN
+               drop table [$(vTable)];
+          END IF
+     NEXT
+
+	 let vNoOfTables =;
+	 let vTable = ;
+	 let vTableNum = ;
+	 
+END SUB

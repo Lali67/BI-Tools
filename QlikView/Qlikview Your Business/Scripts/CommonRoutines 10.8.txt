@@ -1,0 +1,55 @@
+//============================================================================
+//
+//	GenerateQVD
+//
+//
+// This subroutine reads a single table from the currently connected database.
+// The table is stored in a QVD File with the same name as the Table Name
+// Then the table is dropped from the memory 
+//============================================================================
+sub GenerateQVD(TableName, FilePath)
+
+
+	[$(TableName)]:
+	SQL SELECT *
+	FROM `$(TableName)`;
+	
+	IF NoOfRows('$(TableName)')> 0 THEN
+		store [$(TableName)] into [$(FilePath)$(TableName).QVD];
+	END IF
+	
+	drop table [$(TableName)];
+
+end sub
+
+//============================================================================
+//
+//	StoreAllDatabaseTablesIntoQVD
+//
+//
+// This subroutine loads the list of the database tables using SQLTABLES
+// For each table in the list, the subroutine GenerateQVD is being called
+//============================================================================
+
+SUB StoreAllDatabaseTablesIntoQVD(QVDPath)
+
+	Tables:
+	sqltables;
+	
+	FOR vRow = 0 TO NoOfRows('Tables') - 1
+	
+		IF peek('TABLE_TYPE', vRow, 'Tables') = 'TABLE' THEN
+		
+			let vTable = peek('TABLE_NAME', vRow, 'Tables');
+			call GenerateQVD(vTable, QVDPath);
+			
+		END IF
+	
+	NEXT
+	
+	drop table Tables;
+	let vTable = ;
+        let vRow = ;
+
+END SUB
+

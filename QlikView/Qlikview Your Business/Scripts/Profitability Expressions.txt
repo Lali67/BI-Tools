@@ -1,0 +1,69 @@
+﻿color_Black,"rgb(54,54,54)"
+color_Blue,"rgb(0,100, 200)"
+color_CustomerAllowances,"if( $(exp_CustomerAllowances) / $(exp_GrossSales) <= v_TargetCustomerAllowances, $(color_Green),  
+if(  $(exp_CustomerAllowances) / $(exp_GrossSales) <= v_TargetCustomerAllowances * 1.1, $(color_Yellow), $(color_Red)  ))"
+color_CustomerContribution,"if( $(exp_DirectCustomerContributionMargin) / $(exp_GrossSales) >= v_TargetCustomerContribution, $(color_Green),  
+if(  $(exp_DirectCustomerContributionMargin) / $(exp_GrossSales) >= v_TargetCustomerContribution * 0.9, $(color_Yellow), $(color_Red)  ))"
+color_Discounts,"if( $(exp_Discounts) / $(exp_SalesAtList) <= v_TargetDiscounts, $(color_Green),  
+if(  $(exp_Discounts) / $(exp_SalesAtList) <= v_TargetDiscounts * 1.1, $(color_Yellow), $(color_Red)  ))"
+color_Gray,"rgb(200,200,200)"
+color_Green,"rgb(77,167,65)"
+color_ProductContribution,"if( $(exp_DirectProductContributionMargin) / $(exp_GrossSales) >= v_TargetProductContribution, $(color_Green),  
+if(  $(exp_DirectProductContributionMargin) / $(exp_GrossSales) >= v_TargetProductContribution * 0.9, $(color_Yellow), $(color_Red)  ))"
+color_Purple,"RGB(143,68,173)"
+color_Red,"rgb(255,107,107)"
+color_Returns,"if( $(exp_Returns) / $(exp_GrossSales) <= v_TargetReturns, $(color_Green),  
+if(  $(exp_Returns) / $(exp_GrossSales) <= v_TargetReturns * 1.1, $(color_Yellow), $(color_Red)  ))"
+color_White,"rgb(0,0,0)"
+color_Yellow,"rgb(249,156,50)"
+exp_ChannelContributionMargin,"num(
+	(sum([# Amount] * (1-[# Commission Percent] ))  - sum([# CM Amount])  - sum([# COGS - Material])  - sum([# COGS - Labor])  ) / vUnit 
+, '$(fmt_PL)')"
+exp_ChannelRelatedCosts,"num(
+	(sum([# Amount]* [# Commission Percent] ) ) / vUnit  
+, '$(fmt_PL)')"
+exp_CustomerAllowances,"num(
+	(sum({<[Reason Description]={*} - {'Return to stock'}>} [# CM Amount]) ) / vUnit   
+, '$(fmt_PL)')"
+exp_DimList,"'Returns', 'Labor', 'Material', 'Direct Product Contribution'"
+exp_DirectCustomerContributionMargin,"num(
+	(sum([# Amount])   - sum([# CM Amount])  - sum([# COGS - Material])  - sum([# COGS - Labor])  )/ vUnit 
+, '$(fmt_PL)')"
+exp_DirectProductContributionMargin,"num(
+	(sum([# Amount])   - sum({<[Reason Description]={'Return to stock'}>} [# CM Amount])  - sum([# COGS - Material])  - sum([# COGS - Labor])  ) / vUnit 
+, '$(fmt_PL)')"
+exp_Discounts,"num(
+	(sum([# Amount - Discounts]))  / vUnit
+, '$(fmt_PL)')"
+exp_GrossSales,"num(
+	(sum([# Amount]) ) / vUnit  
+, '$(fmt_PL)')"
+exp_Labor,"num(
+	sum([# COGS - Labor]) / vUnit
+, '$(fmt_PL)')"
+exp_ManufacturingOverhead,"num(
+	(sum([# COGS - Overhead])) / vUnit  
+, '$(fmt_PL)')"
+exp_Material,"num(
+	(sum([# COGS - Material]))/ vUnit  
+, '$(fmt_PL)')"
+exp_NetDirectProductSales,"num(
+	(sum([# Amount])   - sum({<[Reason Description]={'Return to stock'}>} [# CM Amount])  ) / vUnit  
+, '$(fmt_PL)')"
+exp_OperatingProfit,"num(
+	(sum([# Amount] * (1-[# Commission Percent] ))  - sum([# CM Amount])  - sum([# COGS - Material])  - sum([# COGS - Labor])  - sum([# COGS - Overhead])  ) / vUnit
+, '$(fmt_PL)')
+"
+exp_Returns,"num(
+	(sum({<[Reason Description]={'Return to stock'}>} [# CM Amount])) / vUnit
+, '$(fmt_PL)')"
+exp_SalesAtList,"num(
+	(sum([# Amount at List Price])) / vUnit
+, '$(fmt_PL)')"
+exp_UnitSymbol,K
+filter_LastYear,Year={$(=max(Year)-1)}
+filter_PriorYear,Year={$(=max(Year)-1)}
+filter_ProfitableProduct,"Product = {""=	$(exp_DirectProductContributionMargin) - $(exp_GrossSales) * 0.25>0""}"
+filter_ThisYear,Year={$(=max(Year))}
+filter_TopNCustomers,"Customer = {""=rank(sum([# Amount]), 4)<$(vShowTopN)""}"
+fmt_PL,"#,##0"

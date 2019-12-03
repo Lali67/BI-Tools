@@ -1,0 +1,415 @@
+﻿///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+OLEDB CONNECT32 TO [Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Oleg\Dropbox\QlikView Book\Electronic Materials\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties="";Jet OLEDB:System database="";Jet OLEDB:Registry Path="";Jet OLEDB:Database Password="";Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password="";Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False];
+
+//OLEDB CONNECT32 TO [Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Andrei\Dropbox\QlikView Book\Electronic Materials\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties="";Jet OLEDB:System database="";Jet OLEDB:Registry Path="";Jet OLEDB:Database Password="";Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password="";Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False];
+///$tab Sales
+//=================================================================
+// Load INVOICE DETAIL
+//=================================================================
+Fact:
+LOAD 
+	`Invoice Number`,
+    `Invoiced Quantity`,
+    `Invoiced Quantity STD UM`,
+    `Line Discount %`,
+    `Line Number`,
+    `Line Type`,
+    `List Price`,
+    `List Price STD UM`,
+    `Order Price`,
+    `Order Price STD UM`,
+    `Ordered Quantity`,
+    `Ordered Quantity STD UM`,
+    `Product ID`,
+    `Shipped Quantity`,
+    `Shipped Quantity STD UM`,
+    `U/M`,
+    `Unit Cost`,
+    `Unit Cost STD UM`,
+    `Warehouse ID`
+;
+SQL SELECT 
+	*
+FROM 
+	`Invoice Detail`
+;
+
+//=================================================================
+// Load INVOICE HEADER
+//=================================================================
+LEFT JOIN (Fact)
+LOAD 
+	`Actual Ship Date`,
+    `Customer ID`,
+    `Customer PO Number`,
+    `Invoice Date`,
+    `Invoice Date` as Date,
+    `Invoice Discount %`,
+    `Invoice Number`,
+    `Order Date`,
+    `Order Number`,
+    `Promised Ship Date`,
+    `Requested Ship Date`,
+    `Salesperson ID`,
+    `Ship To ID`
+;
+SQL SELECT 
+	*
+FROM 
+	`Invoice Header`
+;
+
+Temp1:
+load 
+     *,
+     [# Amount] - [# COGS] as [# Margin Amount]
+;
+load 
+     *,
+     [Invoiced Quantity]*[Order Price]* (1-[Line Discount %]) * 
+     (1-[Invoice Discount %]) AS [# Amount],
+     [Invoiced Quantity]*[Unit Cost] AS [# COGS]
+Resident
+     Fact
+;
+
+drop table Fact;
+rename table Temp1 to Fact;
+
+
+///$tab Dimensions
+//=================================================================
+// Load PRODUCTS
+//=================================================================
+
+Products:
+LOAD 
+	`Closeout Date`,
+    `Color ID`,
+    `First Introduction Date`,
+//    `List Price`,
+    `Product Description`,
+    `Product ID`,
+    `Size ID`,
+    `Standard Cost`,
+    `Style ID`
+;
+SQL SELECT 
+	*
+FROM 
+	ProductMaster
+;
+
+//=================================================================
+// Load STYLES
+//=================================================================
+left join (Products)
+LOAD 
+	Brand,
+    `Order UOM`,
+    `Product Group`,
+    Season,
+    `Style Description`,
+    `Style ID`,
+    `Style Short Name`
+;
+SQL SELECT 
+	*
+FROM 
+	Styles
+;
+
+//=================================================================
+// Load SIZES
+//=================================================================
+left join (Products)
+LOAD 
+	`Size Description`,
+    `Size ID`,
+    `Size Short Name`,
+    `Size Sort Order`
+;
+SQL SELECT 
+	*
+FROM 
+	Sizes
+;
+
+//=================================================================
+// Load COLORS
+//=================================================================
+left join (Products)
+LOAD 
+	`Color Description`,
+    `Color ID`,
+    `Color Short Name`
+;
+SQL SELECT 
+	*
+FROM 
+	Colors
+;
+
+//=================================================================
+// Load CUSTOMERS
+//=================================================================
+Customers:
+LOAD 
+    `Customer ID`,
+    Name		as Customer,
+    Channel,
+	`Address 1` as [Customer Address 1],
+    `Address 2` as [Customer Address 2],
+    `Address 3` as [Customer Address 3],
+    City		as [Customer City],
+    Country 	as [Customer Country],
+    State		as [Customer State],
+    `ZIP Code`	as [Customer ZIP Code],
+	`Customer Start Date`,
+    `Customer End Date`
+;
+SQL SELECT 
+	*
+FROM 
+	CustomerMaster
+;
+
+//=================================================================
+// Load SALES HIERARCHY
+//=================================================================
+SalesHierarchy:
+LOAD 
+//	`Regional Director`,
+    `Salesperson ID`,
+    `Salesperson Name`
+//    ,
+//    `VP Sales`
+;
+SQL SELECT 
+	*
+FROM 
+	SalesHierarchy
+;
+
+//=================================================================
+// Load WAREHOUSES
+//=================================================================
+Warehouses:
+LOAD 
+    `Warehouse ID`,
+    Description as Warehouse,
+    City 	as [Warehouse City],
+    Country as [Warehouse Country],
+    State 	as [Warehouse State]
+;
+SQL SELECT 
+	*
+FROM 
+	Warehouses
+;
+
+//=================================================================
+// Load ShipTo Addresses
+//=================================================================
+
+ShipTo:
+LOAD 
+    `Ship To ID`,
+	`Address 1` as [ShipTo Address 1],
+    `Address 2` as [ShipTo Address 2],
+    `Address 3` as [ShipTo Address 3],
+    City		as [ShipTo City],
+    Country		as [ShipTo Country],
+//    `Customer ID`,
+    Name		as [ShipTo Name],
+    State		as [ShipTo State],
+    `ZIP Code`	as [ShipTo ZIP Code],
+	`ShipTo Start Date`,
+    `ShipTo End Date`
+;
+SQL SELECT 
+	*
+FROM 
+	ShipToMaster
+;
+///$tab Sales Hierarchy
+LEFT JOIN(SalesHierarchy)
+LOAD 
+	 Salesperson as [Salesperson Name], 
+     RD as [Regional Director]
+FROM
+[..\Data\Text Files\Sales Hierarchy Override.xlsx]
+(ooxml, embedded labels, table is Director)
+;
+
+LEFT JOIN(SalesHierarchy)
+LOAD 
+	 Director as [Regional Director], 
+     [VP Sales]
+FROM
+[..\Data\Text Files\Sales Hierarchy Override.xlsx]
+(ooxml, embedded labels, table is VP)
+;
+
+///$tab New Products
+//===================================================
+// Calculating NewProduct_Flag:
+// Products are considered New for 12 months 
+// after introduction
+//===================================================
+
+// 1. Join the Introduction Date into the Fact:
+
+LEFT JOIN (Fact) 
+LOAD
+    [Product ID],
+    [First Introduction Date]
+resident
+	Products
+;
+
+// 2. Reload Fact Data into Temp. table and calculate the new flag:
+
+Temp:
+LOAD
+	*,
+	-1 * ([Invoice Date] < [First Introduction Date] + 365) as _NewProduct_Flag
+resident
+	Fact
+;
+
+// 3. Drop table Fact and rename Temp to Fact:
+
+DROP TABLE Fact;
+RENAME TABLE Temp to Fact;
+
+// 4. Drop Field [First Introduction Date] from Fact:
+
+DROP FIELD [First Introduction Date] from Fact;
+
+///$tab New and Lost Doors
+//===================================================
+// Calculating NewDoor_Flag and LostDoor_Flag:
+// Marking any Sales in the month of Opening and Closing the location
+// 
+//===================================================
+
+// 1. Join the ShipTo Start and End Date into the Fact:
+
+LEFT JOIN (Fact) 
+LOAD
+    [Customer ID],
+    [Customer Start Date],
+    [Customer End Date]
+resident
+	Customers
+;
+
+// 2. Reload Fact Data into Temp. table and calculate the new flags:
+
+Temp:
+LOAD
+	*,
+	-1 * (MonthStart([Invoice Date]) = MonthStart([Customer Start Date])) as _NewDoor_Flag,
+	-1 * (MonthStart([Invoice Date]) = MonthStart([Customer End Date])) as _LostDoor_Flag
+resident
+	Fact
+;
+
+// 3. Drop table Fact and rename Temp to Fact:
+
+DROP TABLE Fact;
+RENAME TABLE Temp to Fact;
+
+// 4. Drop Field [First Introduction Date] from Fact:
+
+DROP FIELD [Customer Start Date] from Fact;
+DROP FIELD [Customer End Date] from Fact;
+
+
+///$tab On Time and Complete
+//===================================================
+// Calculating On Time and Complete Flag
+// Marking Order Lines shipped on or before the Promised Ship Date
+// and with the Shipped Quantity >= Ordered Quantity
+//===================================================
+
+
+// 1. Reload Fact Data into Temp. table and calculate the new flag:
+
+Temp:
+LOAD
+	*,
+	([Actual Ship Date] <= [Promised Ship Date]) *
+	([Shipped Quantity] >= [Ordered Quantity])
+	 															as _OnTimeAndComplete_Flag
+resident
+	Fact
+;
+
+// 2. Drop table Fact and rename Temp to Fact:
+
+DROP TABLE Fact;
+RENAME TABLE Temp to Fact;
+
+
+
+///$tab Calendar
+$(Include=..\scripts\master calendar.txt);
+///$tab Cleanup
+DROP FIELDS
+	[Style ID],
+	[Color ID],
+	[Style ID]
+;
+
+//=================================================================
+// Renaming Dimensions
+//=================================================================
+
+RENAME FIELD [Salesperson Name] to Salesperson;
+RENAME FIELD [Product Description] to Product;
+RENAME FIELD [Style Description] to Style;
+RENAME FIELD [Color Short Name] to Color;
+RENAME FIELD [Size Short Name] to Size;
+
+//=================================================================
+// Renaming Key Fields
+//=================================================================
+
+RENAME FIELD [Salesperson ID] TO [%Salesperson ID];
+RENAME FIELD [Ship To ID] TO [%Ship To ID];
+RENAME FIELD [Customer ID] TO [%Customer ID];
+RENAME FIELD [Warehouse ID] TO [%Warehouse ID];
+RENAME FIELD [Product ID] TO [%Product ID];
+
+//=================================================================
+// Renaming Measures
+//=================================================================
+
+RENAME FIELD [Shipped Quantity] TO [# Shipped Quantity];
+RENAME FIELD [Line Discount %] TO [# Line Discount %];
+RENAME FIELD [List Price] TO [# List Price];
+RENAME FIELD [List Price STD UM] TO [# List Price STD UM];
+RENAME FIELD [Order Price STD UM] TO [# Order Price STD UM];
+RENAME FIELD [Order Price] TO [# Order Price];
+RENAME FIELD [Invoiced Quantity STD UM] TO [# Invoiced Quantity STD UM];
+RENAME FIELD [Ordered Quantity STD UM] TO [# Ordered Quantity STD UM];
+RENAME FIELD [Invoice Discount %] TO [# Invoice Discount %];
+RENAME FIELD [Ordered Quantity] TO [# Ordered Quantity];
+RENAME FIELD [Unit Cost] TO [# Unit Cost];
+RENAME FIELD [Unit Cost STD UM] TO [# Unit Cost STD UM];
+RENAME FIELD [Invoiced Quantity] TO [# Invoiced Quantity];
+RENAME FIELD [Shipped Quantity STD UM] TO [# Shipped Quantity STD UM];
+

@@ -1,0 +1,24 @@
+//============================================================================	
+// Load Variables from the text file
+//============================================================================	
+Variables:
+LOAD 
+	 @1 as Var, 
+   	 @2 as Expression
+FROM
+[..\Metadata\Inventory Variables.txt]
+(txt, utf8, no labels, delimiter is ',', msq);
+
+// Loop through all rows and assign variables:
+
+for i = 0 to NoOfRows('Variables') - 1
+
+	let vVar = peek('Var', i, 'Variables');
+	let $(vVar) = peek('Expression', i, 'Variables');
+	
+next
+
+drop table Variables;
+
+LET i=;
+LET vVar =;

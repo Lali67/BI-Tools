@@ -1,0 +1,12 @@
+﻿Reason Code,Reason Description,Reason Category
+701001,Late shipments,Penalties
+701002,Shortages,Penalties
+701003,Wrong warehouse,Penalties
+701004,Advertising,Allowances
+701005,Merchandising,Allowances
+701006,Specific seasonal promo code,Allowances
+701007,Defective allowance,Quality
+701008,Annual volume allowances,Allowances
+701009,Payment terms allowances,Allowances
+701010,Return to stock,Return to stock
+701011,Freight allowances,Allowances

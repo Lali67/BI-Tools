@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>C:\Qlikview Your Business\Solutions Qlikview\QVD Generator 10.8.qvw</CreatorDoc>
+   <CreateUtcTime>2015-03-18 17:52:45</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>StandardCosting</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Product ID</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>490</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>2450</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Year</FieldName>
+       <BitOffset>46</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>2450</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Standard Cost</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>584</NoOfSymbols>
+       <Offset>2460</Offset>
+       <Length>8310</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unit Cost - Material</FieldName>
+       <BitOffset>19</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>383</NoOfSymbols>
+       <Offset>10770</Offset>
+       <Length>5346</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unit Cost - Labor</FieldName>
+       <BitOffset>28</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>360</NoOfSymbols>
+       <Offset>16116</Offset>
+       <Length>5012</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unit Cost - Overhead</FieldName>
+       <BitOffset>37</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>320</NoOfSymbols>
+       <Offset>21128</Offset>
+       <Length>4427</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>6</RecordByteSize>
+   <NoOfRecords>980</NoOfRecords>
+   <Offset>25555</Offset>
+   <Length>5880</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Colors]:
+	SQL SELECT *
+	FROM `Colors`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Credit Memo Detail]:
+	SQL SELECT *
+	FROM `Credit Memo Detail`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Credit Memo Header]:
+	SQL SELECT *
+	FROM `Credit Memo Header`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[CustomerMaster]:
+	SQL SELECT *
+	FROM `CustomerMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Invoice Detail]:
+	SQL SELECT *
+	FROM `Invoice Detail`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Invoice Header]:
+	SQL SELECT *
+	FROM `Invoice Header`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[ProductMaster]:
+	SQL SELECT *
+	FROM `ProductMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Reasons]:
+	SQL SELECT *
+	FROM `Reasons`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[SalesHierarchy]:
+	SQL SELECT *
+	FROM `SalesHierarchy`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[ShipToMaster]:
+	SQL SELECT *
+	FROM `ShipToMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Sizes]:
+	SQL SELECT *
+	FROM `Sizes`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[StandardCosting]:
+	SQL SELECT *
+	FROM `StandardCosting`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Colors.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Credit Memo Detail.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Credit Memo Header.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\CustomerMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Invoice Detail.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Invoice Header.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\ProductMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Reasons.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\SalesHierarchy.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\ShipToMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Sizes.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\StandardCosting.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ ® ® ® ® ® ® ® y® z® {® |® }® ~® ® İ® Ş® ß® à® á® â® ã® A¯ B¯ C¯ D¯ E¯ F¯ G¯ ¥¯ ¦¯ §¯ ¨¯ ©¯ ª¯ «¯ %Õ &Õ 'Õ (Õ )Õ *Õ +Õ ‰Õ ŠÕ ‹Õ ŒÕ Õ Õ Õ íÕ îÕ ïÕ ğÕ ñÕ òÕ óÕ QÖ RÖ SÖ TÖ UÖ VÖ WÖ µÖ ¶Ö ·Ö ¸Ö ¹Ö ºÖ »Ö 5ü 6ü 7ü 8ü 9ü :ü ;ü ™ü šü ›ü œü ü ü Ÿü ıü şü ÿü  ı ı ı ı aı bı cı dı eı fı gı Åı Æı Çı Èı Éı Êı Ëı E# F# G# H# I# J# K# ©# ª# «# ¬# ­# ®# ¯# $ $ $ $ $ $ $ q$ r$ s$ t$ u$ v$ w$ Õ$ Ö$ ×$ Ø$ Ù$ Ú$ Û$ UJ VJ WJ XJ YJ ZJ [J ¹J ºJ »J ¼J ½J ¾J ¿J K K K  K !K "K #K K ‚K ƒK „K …K †K ‡K åK æK çK èK éK êK ëK eq fq gq hq iq jq kq Éq Êq Ëq Ìq Íq Îq Ïq -r .r /r 0r 1r 2r 3r ‘r ’r “r ”r •r –r —r õr ör ÷r ør ùr úr ûr u˜ v˜ w˜ x˜ y˜ z˜ {˜ Ù˜ Ú˜ Û˜ Ü˜ İ˜ Ş˜ ß˜ =™ >™ ?™ @™ A™ B™ C™ ¡™ ¢™ £™ ¤™ ¥™ ¦™ §™ š š š š 	š 
+š š …¿ †¿ ‡¿ ˆ¿ ‰¿ Š¿ ‹¿ é¿ ê¿ ë¿ ì¿ í¿ î¿ ï¿ MÀ NÀ OÀ PÀ QÀ RÀ SÀ ±À ²À ³À ´À µÀ ¶À ·À Á Á Á Á Á Á Á •æ –æ —æ ˜æ ™æ šæ ›æ ùæ úæ ûæ üæ ıæ şæ ÿæ ]ç ^ç _ç `ç aç bç cç Áç Âç Ãç Äç Åç Æç Çç %è &è 'è (è )è *è +è ¥ ¦ § ¨ © ª « 	 
+      m n o p q r s Ñ Ò Ó Ô Õ Ö × 5 6 7 8 9 : ; µ4 ¶4 ·4 ¸4 ¹4 º4 »4 5 5 5 5 5 5 5 }5 ~5 5 €5 5 ‚5 ƒ5 á5 â5 ã5 ä5 å5 æ5 ç5 E6 F6 G6 H6 I6 J6 K6 Å[ Æ[ Ç[ È[ É[ Ê[ Ë[ )\ *\ +\ ,\ -\ .\ /\ \ \ \ \ ‘\ ’\ “\ ñ\ ò\ ó\ ô\ õ\ ö\ ÷\ U] V] W] X] Y] Z] [] Õ‚ Ö‚ ×‚ Ø‚ Ù‚ Ú‚ Û‚ 9ƒ :ƒ ;ƒ <ƒ =ƒ >ƒ ?ƒ ƒ ƒ Ÿƒ  ƒ ¡ƒ ¢ƒ £ƒ „ „ „ „ „ „ „ e„ f„ g„ h„ i„ j„ k„ å© æ© ç© è© é© ê© ë© Iª Jª Kª Lª Mª Nª Oª ­ª ®ª ¯ª °ª ±ª ²ª ³ª « « « « « « « u« v« w« x« y« z« {« İ  Ş  ö(\Âõ@4.74 333333@5.30 áz®Gá@4.97 ö(\Âõ@5.49 š™™™™™@5.15 R¸…ëQ@5.58 …ëQ¸…@5.38    6.00 {®Gáz@6.12 333333@6.05 áz®Gá@6.72 \Âõ(\@5.84 ×£p=
+×@6.46 …ëQ¸@4.78 \Âõ(\@5.34 =
+×£p=@5.06 >
+×£p=@5.56 ffffff@5.35 ffffff@5.85 ®Gáz@5.52 …ëQ¸@6.03 Âõ(\Â@5.69 Ház®G@6.32 ¤p=
+×£@5.91 333333@6.55 š™™™™™@6.15 ×£p=
+×@6.71 ìQ¸…ë@4.73 )\Âõ(@5.29 ÍÌÌÌÌÌ@4.95 
+×£p=
+@5.51 
+×£p=
+@5.26 q=
+×£p@5.86 q=
+×£p@5.36 ¸…ëQ¸@5.93       @5.50 áz®Gá@5.97 ×£p=
+×@6.21 ®Gáz®@6.17 áz®Gá@4.72 ®Gáz@5.02 áz®Gá@5.47 ¸…ëQ¸@5.18 
+×£p=
+@5.76 {®Gáz@5.37 ö(\Âõ@5.99 ®Gáz@5.77 ö(\Âõ@6.24 ö(\Âõ@6.49 ®Gáz@6.27 ¤p=
+×£@6.91 Ãõ(\Â@5.19 R¸…ëQ@5.08 …ëQ¸@5.53 …ëQ¸@5.28 áz®Gá@5.72 R¸…ëQ@5.33 Âõ(\Â@5.94 Âõ(\@6.14 333333@5.80 q=
+×£p@6.36 …ëQ¸…@6.38 ÍÌÌÌÌÌ@6.95 ffffff@6.35    7 ffffff@6.60 ®Gáz®@7.17 R¸…ëQ@6.83 ffffff@7.6 R¸…ëQ@7.08 333333@7.8 Ãõ(\Â@7.44 ®Gáz. @8.09 ÍÌÌÌÌÌ@7.70 )\Âõ¨ @8.33 \Âõ(Ü @8.43 áz®Ga"@9.19 333333@6.30 …ëQ¸@7.53 ö(\Âõ@7.49 ®Gáz®@7.42 Âõ(\ @8.03 
+×£p=
+@7.51 Ház®G @8.14 333333@7.55      € @8.25 Ãõ(\Â!@8.88 )\Âõ(@7.04 …ëQ¸…@6.63 \Âõ(\@7.34 ¸…ëQ¸@6.93 Âõ(\Â@7.69 š™™™™™@7.15 q=
+×£p@7.86 ÍÌÌÌÌÌ@7.45 \Âõ(Ü!@8.93 ìQ¸…ë@7.98 q=
+×£p!@8.72 {®Gáz@6.37 ×£p=
+×@6.96 ®Gáz®@6.67 ìQ¸…ë@7.23 ®Gáz®@6.92 …ëQ¸…@7.63 ®Gáz@7.27 Ãõ(\B @8.13       @7.25 Âõ(\@7.89 q=
+×£ğ!@8.97 ¸…ëQ8 @8.11 ¤p=
+×£!@8.82 \Âõ(\@6.34 ö(\Âõ@6.74 ìQ¸…ë@6.98 áz®Gá@7.72 ×£p=
+×@7.96       @7.75 =
+×£p=!@8.62 ¤p=
+×£"@9.32 …ëQ¸"@9.31 Âõ(\$@10.28 áz®Ga#@9.69 R¸…ëQ%@10.66 ö(\Âõ#@9.98 …ëQ¸&@11.06 ffffff%@10.70 ö(\Âõ'@11.98 ®Gáz®%@10.84      €'@11.75    12.00 Ãõ(\B*@13.13 Ãõ(\B(@12.13 …ëQ¸+@13.56 Âõ(\"@9.28 ìQ¸…k$@10.21 Ãõ(\B#@9.63 ®Gáz%@10.54 fffffæ$@10.45 š™™™™™&@11.3 Ház®Ç$@10.39 ö(\Âõ&@11.48 )\Âõ(&@11.08 
+×£p=Š(@12.27 ×£p=
+W&@11.17 ¸…ëQ8(@12.11 Âõ(\)@12.53 fffffæ+@13.95 )\Âõ¨"@9.33 ®Gáz”$@10.29 ö(\Âu#@9.73 
+×£p=Š%@10.77 333333$@10.10 \Âõ(Ü%@10.93 …ëQ¸%@10.51 ®Gáz.'@11.59 Âõ(\&@11.28 ö(\Âu(@12.23 )\Âõ((@12.08 ®Gáz.*@13.09 
+×£p=
+)@12.52 ffffff+@13.7 )\Âõ¨$@10.33 R¸…ëQ#@9.66 ö(\Âu%@10.73 ìQ¸…ë$@10.46 …ëQ¸'@11.56 …ëQ¸%@10.81 {®Gáú'@11.99 ×£p=
+W%@10.67 Ãõ(\Â'@11.88 Âõ(\(@12.03 Ház®Ç*@13.39 )\Âõ¨'@11.83 =
+×£p½)@12.87 R¸…ëQ$@10.16 Ház®Ç#@9.89 )\Âõ¨%@10.83 ö(\Âu$@10.23 ffffff&@11.2 q=
+×£ğ$@10.47 )\Âõ¨&@11.33 áz®Gá&@11.44 Ãõ(\Â(@12.38 
+×£p=Š'@11.77 ¸…ëQ8*@13.11 Ãõ(\B'@11.63 
+×£p=
+*@13.02 ×£p=
+×@4.46 …ëQ¸…@4.88 áz®Gá@5.22 ö(\Âõ@4.99 ÍÌÌÌÌÌ@5.20 ö(\Âõ@5.74 ®Gáz@5.27 Ház®G@5.82 Ãõ(\Â@6.19 ìQ¸…ë@6.23 ¸…ëQ¸@4.43 \Âõ(\@4.84 ¸…ëQ¸@4.68 ¤p=
+×£@4.91 ×£p=
+×@5.46 {®Gáz@5.87 …ëQ¸…@5.63 ®Gáz®@4.42 ¸…ëQ¸@4.93 ×£p=
+×@4.71 ×£p=
+×@4.96 ö(\Âõ@5.24 ¸…ëQ¸@5.68 =
+×£p=@5.31 ®Gáz®@5.67 ìQ¸…ë@5.98 Âõ(\Â@6.69 š™™™™™@4.40 R¸…ëQ@4.83 ¤p=
+×£@4.66 q=
+×£p@5.11 >
+×£p=@4.81 …ëQ¸…@5.13 ìQ¸…ë@5.73 )\Âõ(@6.29 >
+×£p=@5.81 ¤p=
+×£@6.41 q=
+×£p@4.86 ®Gáz®@4.67 ¤p=
+×£@5.16 Ãõ(\Â@5.44 \Âõ(\@6.09 …ëQ¸@6.28 ¤p=
+×£@5.66       @6.25 …ëQ¸@5.78 ÍÌÌÌÌÌ@6.7 š™™™™™@6.40 q=
+×£p@7.11 ¤p=
+×£@6.66 
+×£p=
+@7.26 
+×£p=
+ @8.02 ffffff@5.60 …ëQ¸@6.53 ffffff@6.85 q=
+×£p@6.61 ìQ¸…ë@6.48 ffffff@7.1 …ëQ¸…@7.13 …ëQ¸@7.78 š™™™™™@7.40 ×£p=
+W @8.17 Ház®G@5.57 ¸…ëQ¸@6.43 R¸…ëQ@6.33 Âõ(\@7.39 
+×£p=
+@6.76       @7.5 …ëQ¸@7.03 ¤p=
+×£@7.66 q=
+×£p@5.61 …ëQ¸…@6.13       @6.5 Ãõ(\Â@7.19 >
+×£p=@6.81 q=
+×£p@7.36 q=
+×£p@6.86 ®Gáz@7.52 ö(\Âu @8.23 ¸…ëQ¸@6.18 {®Gáz@6.62 …ëQ¸…@6.88 Âõ(\@7.64 ×£p=
+×@7.46 š™™™™-@14.55 ¤p=
+×£/@15.82 Ãõ(\Â.@15.38 fffffæ0@16.9 ìQ¸…ë/@15.96 áz®G¡1@17.63 ¤p=
+×c0@16.39 š™™™™Y2@18.35 =
+×£p½1@17.74 ¸…ëQ¸3@19.72 \Âõ(œ2@18.61 {®Gáº4@20.73 ÍÌÌÌÌ2@18.05 fffffæ3@19.9 =
+×£p=-@14.62 ÍÌÌÌÌL0@16.3 ×£p=
+×-@14.92 …ëQ¸0@16.12 áz®G!0@16.13 ìQ¸…«1@17.67 Ãõ(\‚0@16.51 33333s2@18.45 
+×£p=Ê1@17.79 
+×£p=Š3@19.54 ÍÌÌÌÌL2@18.30 {®Gá:4@20.23 ®GázÔ1@17.83 áz®Ga3@19.38 Ãõ(\B-@14.63 Ház®Ç/@15.89 ìQ¸…ë.@15.46 ö(\Âµ0@16.71 áz®Gá/@15.94 š™™™™Y1@17.35      À0@16.75 ®Gáz®2@18.68 q=
+×£°0@16.69 áz®Gá1@17.88 ö(\Âµ3@19.71 {®Gáú1@17.98 …ëQ¸4@20.02 
+×£p=
+-@14.52 q=
+×£00@16.19 ®Gáz®.@15.34 …ëQ¸Å0@16.77 q=
+×£p/@15.72 q=
+×£01@17.19 =
+×£p}0@16.49 \Âõ(2@18.11 {®Gáz1@17.48 ìQ¸…+3@19.17 ÍÌÌÌÌŒ1@17.55 Ház®‡3@19.53 ö(\Âõ1@17.96 {®Gáú,@14.49 33333³/@15.85 ¸…ëQ¸0@16.72 ÍÌÌÌÌÌ/@15.90 …ëQ¸^1@17.37 š™™™™0@16.10 ìQ¸…k1@17.42 ®Gáz1@17.08 )\Âõè2@18.91 Ãõ(\2@18.01 R¸…ë‘3@19.57 \Âõ(\4@20.36 Ãõ(\Â@4.44 š™™™™™@4.90 ®Gáz®@5.17 …ëQ¸@5.03 Âõ(\@5.14 ×£p=
+×@5.96 ö(\Âõ@4.49 
+×£p=
+@5.01 q=
+×£p@4.61 Âõ(\Â@4.94 \Âõ(\@5.09 ìQ¸…ë@5.23 áz®Gá@4.47 ×£p=
+×@5.71 )\Âõ(@6.04 ÍÌÌÌÌÌ@4.45 ÍÌÌÌÌÌ@4.70 {®Gáz@5.12 ¤p=
+×£@5.41 ìQ¸…ë@5.48 ÍÌÌÌÌÌ@5.45 ®Gáz®@5.42 ÍÌÌÌÌÌ@5.95 R¸…ëQ@6.58 ®Gáz@6.02 Ház®G@6.57 )\Âõ(@7.29    5.00 )\Âõ(@5.54 ÍÌÌÌÌÌ@6.45 
+×£p=
+@6.51       @6.75 ¤p=
+×£@6.16       @5.75 …ëQ¸…@5.88 \Âõ(\@6.84 Âõ(\@5.89 Âõ(\Â@6.94 R¸…ëQ@5.83 333333@5.55 ÍÌÌÌÌÌ@6.2 
+×£p=
+'@11.52 =
+×£p=&@11.12 Ház®G(@12.14 ¸…ëQ¸(@12.36 …ëQ¸(@12.06    13.00 q=
+×£p,@14.22 Ház®G,@14.14 Âõ(\%@10.53 =
+×£p½%@10.87 ¸…ëQ¸'@11.86 …ëQ¸…'@11.76 áz®Gá'@11.94 ìQ¸…ë)@12.96 R¸…ëÑ(@12.41 …ëQ¸…+@13.76 Âõ(\+@13.53 =
+×£p½-@14.87 ¤p=
+×#,@14.07 ÍÌÌÌÌÌ.@15.4 Ház®G'@11.64 ¸…ëQ¸%@10.86 ®Gáz.(@12.09 ¸…ëQ8'@11.61 ìQ¸…k)@12.71 {®Gáú*@13.49 …ëQ¸*@13.31 š™™™™™)@12.80 ×£p=
+×+@13.92 {®Gáú+@13.99 333333/@15.6 …ëQ¸%@10.56 q=
+×£ğ&@11.47 Âõ(\(@12.28 =
+×£p=*@13.12 ÍÌÌÌÌÌ'@11.90 ®Gáz)@12.54 Ház®Ç+@13.89 =
+×£p=)@12.62 ®Gáz®+@13.84 ö(\Âõ*@13.48 R¸…ëÑ-@14.91 =
+×£p½&@11.37 ¸…ëQ8&@11.11 ¤p=
+×£&@11.32 R¸…ëQ'@11.66 áz®Ga)@12.69 q=
+×£ğ(@12.47 
+×£p=
++@13.52 Ház®Ç)@12.89 {®Gáú-@14.99 …ëQ¸@6.78 ÍÌÌÌÌÌ@7.95 Âõ(\ @8.28 Ház®G@7.82 ìQ¸…ë @8.46 …ëQ¸…!@8.76 {®Gáz @8.24 ×£p=
+W"@9.17 R¸…ëÑ @8.41 ®Gáz®"@9.34 {®Gáz@6.87 ö(\Âõ@7.24 R¸…ëQ@7.33 
+×£p=
+!@8.52 ®Gáz”!@8.79 ffffff @8.20 …ëQ¸"@9.06 =
+×£p½#@9.87 š™™™™™@6.90 =
+×£p= @8.12 …ëQ¸ @8.06 ffffff@7.85 )\Âõ(!@8.58 áz®Gá @8.44 \Âõ(\ @8.18 ¸…ëQ¸ @8.36 š™™™™ @8.05 ®Gáz @8.04 q=
+×£p@7.61 =
+×£p½ @8.37 \Âõ(\@7.84 ×£p=
+W!@8.67 š™™™™!@8.55 áz®Gá"@9.44 š™™™™"@9.05 Âõ(\#@9.78 >
+×£p=@7.56 Âõ(\@7.14 )\Âõ(@7.79 {®Gáz@7.62 …ëQ¸!@8.51 ö(\Âõ @8.48 ìQ¸…ë!@8.96 )\Âõ¨!@8.83 q=
+×£p"@9.22 ×£p=
+×@2.23 ®Gáz®@2.46 ffffff@2.30 )\Âõ(@2.52 Ház®G@2.41 …ëQ¸…@2.69 ¤p=
+×£@2.58 áz®Gá@2.86 ¸…ëQ¸@2.59 ö(\Âõ@2.87 ¸…ëQ¸@2.84 ÍÌÌÌÌÌ@3.1 {®Gáz@2.81 ¤p=
+×£@3.08 Ãõ(\Â@2.22 …ëQ¸…@2.44 ¸…ëQ¸@2.34 Âõ(\@2.57 š™™™™™@2.45 Ház®G@2.66 ö(\Âõ@2.62 q=
+×£p@2.93 …ëQ¸@2.64 ×£p=
+×@2.73 ×£p=
+×@2.98       @2.75 {®Gáz@3.06 ®Gáz®@2.21 ¤p=
+×£@2.33 {®Gáz@2.56 
+×£p=
+@2.63 ÍÌÌÌÌÌ@2.85 š™™™™™@2.70 …ëQ¸…@2.94 Âõ(\Â@2.97 R¸…ëQ@3.04 {®Gáz@2.31       @2.5 333333@2.40 >
+×£p=@2.53 ®Gáz@2.76 áz®Gá@2.61 …ëQ¸@2.89 q=
+×£p@2.68 ®Gáz®@2.96 ìQ¸…ë	@3.24 R¸…ëQ@2.54 …ëQ¸@2.39 ffffff@2.55 >
+×£p=@2.78 š™™™™™@2.95 {®Gáz
+@3.31 ffffff@4.85 333333@5.05 š™™™™™@5.40 Ãõ(\Â@6.44       @4.50 q=
+×£p@6.11       @5.25 Ház®G@4.82 ×£p=
+×@5.21 ÍÌÌÌÌÌ@5.70 ffffff@6.1 
+×£p=
+@6.01 Ház®G@5.32 =
+×£p=@6.06 {®Gáz@4.87       @4.75 ffffff@5.10 
+×£p=
+@4.51 )\Âõ(@5.04 \Âõ(\@5.59 )\Âõ(@5.79 ¸…ëQ¸@6.68 )\Âõ(@4.54 Âõ(\@5.39 >
+×£p=@4.56 )\Âõ(@4.79 Âõ(\@5.64 áz®Gá@6.22 \Âõ(\@4.59 ®Gáz®@4.92 š™™™™™@5.90 Ház®G@4.57 333333@4.80 Âõ(\@6.39 Âõ(\@6.64 ®Gáz®@6.42 R¸…ëQ@6.08 ¸…ëQ¸@7.43 Ház®G@6.82 ¸…ëQ¸@7.68 š™™™™™ @8.3 >
+×£p=@6.56 ®Gáz@6.77 \Âõ(\@7.59 Ház®G@7.57 q=
+×£p @8.22 áz®Gá@6.47 
+×£p=
+@6.26 ¤p=
+×£@7.16 {®Gáz@7.87 
+×£p=
+@7.76 ìQ¸…ë@7.48 š™™™™™@6.65 ×£p=
+×@7.21 \Âõ(\@7.09 {®Gáz@7.37 …ëQ¸@7.28 Ãõ(\Â @8.38 ÍÌÌÌÌÌü?1.80 333333@2.15 Âõ(\ş?1.91 Ház®G@2.16 ®Gáz®@2.21 ¤p=
+×£ @2.08 š™™™™™@2.20 Âõ(\@2.57 =
+×£p= @2.03 áz®Gá@2.36 )\Âõ(@2.27 R¸…ëQ@2.54 ö(\Âõ@2.37 ®Gáz@2.51 R¸…ëQ @2.04 333333ÿ?1.95 …ëQ¸@2.14 ×£p=
+×ÿ?1.99 R¸…ëQ@2.29 Âõ(\Â@2.47 ìQ¸…ë@2.24 333333@2.40 ÍÌÌÌÌÌ@2.35 š™™™™™@2.45 Ház®G@2.41 ®Gáz@2.76 š™™™™™ı?1.85 \Âõ(\ÿ?1.96 ìQ¸…ëı?1.87       @2.25 …ëQ¸…@2.19 >
+×£p=@2.28 ìQ¸…ë@2.49 …ëQ¸@2.64 Âõ(\@2.82 Âõ(\Âı?1.86 ÍÌÌÌÌÌ @2.10 {®Gáz@2.31 Âõ(\@2.32 áz®Gá@2.61 ®Gáz®@2.71 ÍÌÌÌÌÌ@2.60 …ëQ¸…@2.69 ®Gáz @2.01 \Âõ(\@2.17 
+×£p=
+@2.38 ¸…ëQ¸@2.34 ®Gáz@2.26 \Âõ(\@2.42 Âõ(\Â@2.97 ×£p=
+×@2.73 {®Gáz@2.81 ÍÌÌÌÌÌ@2.85 …ëQ¸	@3.14 Âõ(\Â@2.72 …ëQ¸…@2.94    3.00 Âõ(\@3.07 ìQ¸…ë@2.99 R¸…ëQ
+@3.29 Âõ(\Â@3.72 333333@2.65 áz®Gá@2.86 >
+×£p=@2.78 {®Gáz
+@3.31       @3.50 ×£p=
+×@3.48 ¸…ëQ¸@3.09       @3.75 ffffff@2.55 )\Âõ(@3.02 áz®Gá@3.11 q=
+×£p@2.93 ö(\Âõ@3.12       
+@3.25 áz®Gá
+@3.36 =
+×£p=@3.03 q=
+×£p@3.43 \Âõ(\	@3.17 ìQ¸…ë@3.74 ìQ¸…ë@2.74 ö(\Âõ@2.62       @2.75 š™™™™™@2.70 \Âõ(\@2.67 ×£p=
+×@2.98 {®Gáz@3.06 ®Gáz@3.51 {®Gáz@2.56 š™™™™™	@3.20 >
+×£p=
+@3.28 ffffff
+@3.30 …ëQ¸@3.64 Ház®G@3.41 ffffff@3.55 {®Gáz@3.56 ×£p=
+×@3.73 q=
+×£p@3.93 
+×£p=
+@3.63 ffffff@4.10 Ãõ(\Â@4.19 ®Gáz®@4.67 q=
+×£p@4.11 …ëQ¸…@4.63 ×£p=
+×@4.21 R¸…ëQ@4.83 
+×£p=
+@4.76 
+×£p=
+@5.51 333333@5.05 \Âõ(\@3.92 ¸…ëQ¸@4.18 ffffff@4.35 ®Gáz®@3.96 >
+×£p=@4.56 {®Gáz@4.12 ìQ¸…ë@4.48 áz®Gá@4.22 Âõ(\@4.64 333333@4.80 ®Gáz@4.77 \Âõ(\@5.34 R¸…ëQ@5.33 Ház®G@3.91 333333@4.05 ®Gáz@4.02 333333@4.30 {®Gáz@4.62 ìQ¸…ë@4.23 ®Gáz@4.52 ¸…ëQ¸@4.68 )\Âõ(@4.79 …ëQ¸@5.03 ¸…ëQ¸@5.43 …ëQ¸@5.28 q=
+×£p@5.61 Ház®G@4.07 Âõ(\@4.14 ×£p=
+×@4.96 R¸…ëQ@4.58 áz®Gá@4.97 R¸…ëQ@4.08 R¸…ëQ@5.08       @4.50 ö(\Âõ@5.74 ö(\Âõ@4.99 š™™™™™@5.15 ®Gáz®@3.46 …ëQ¸@4.28 …ëQ¸@3.89 =
+×£p=@4.31 ö(\Âõ@4.24 ®Gáz@4.27 
+×£p=
+@4.51 ìQ¸…ë@4.73 ¸…ëQ¸@4.93 …ëQ¸@4.78 
+×£p=
+@5.01 ¸…ëQ¸ú?1.67 ¸…ëQ¸ş?1.92 R¸…ëQü?1.77 …ëQ¸…ÿ?1.97 {®Gáz @2.06 Ház®G@2.66 q=
+×£p@2.43 333333û?1.70    2.00 ®Gázş?1.88 áz®Gá @2.11 âz®Gáş?1.93 Ãõ(\Â@2.22 ffffff @2.05 …ëQ¸@2.39 ö(\Âõü?1.81 …ëQ¸ı?1.82 
+×£p=
+@2.13 q=
+×£p@2.18 ×£p=
+×@2.48 ¤p=
+×£@2.33 ®Gáz®@2.46 ¸…ëQ¸@2.59 ®Gáz®û?1.73 ö(\Âõ @2.12 ffffffş?1.90 ¤p=
+×£@2.58 âz®Gáú?1.68 Ház®Gı?1.83 )\Âõ( @2.02 >
+×£p=@2.53 R¸…ëQ@3.04 
+×£p=
+@2.88 ¤p=
+×£@2.83 ¸…ëQ¸@2.84 
+×£p=
+@2.63 š™™™™™@2.95 R¸…ëQ@2.79 Ház®G@2.91 333333@2.90 \Âõ(\@2.92 Ház®G	@3.16 …ëQ¸@3.39 ffffff@2.80 ®Gáz®	@3.21 ®Gáz®@2.96 ìQ¸…ë	@3.24 
+×£p=
+@6.01 )\Âõ(@6.29 …ëQ¸@5.78 333333@7.05 ×£p=
+×@6.21 )\Âõ(@7.54 {®Gáz@6.87 )\Âõ(@6.79 š™™™™™@6.65 Ház®G@7.82 33333³!@8.85 …ëQ¸…@7.13 ®Gáz®@7.92 ®Gáz®@5.92 >
+×£p=@6.81 ÍÌÌÌÌÌ@5.95       @6.50 Ház®G@6.82 ffffff@6.85    7.00 
+×£p=
+@7.01       @6.75 …ëQ¸…@7.38 =
+×£p=@7.31 áz®Gá@7.97 …ëQ¸…@6.88 š™™™™™@7.90 ¤p=
+×£@5.66 ö(\Âõ@6.74 q=
+×£p@6.61 š™™™™™@7.15 ¤p=
+×£@6.41 ìQ¸…ë@6.73 ìQ¸…ë@7.23 ìQ¸…ë@6.98 Ãõ(\Â@7.44 ¤p=
+×£@6.66 Âõ(\@7.89 ¤p=
+×£@7.91 ÍÌÌÌÌÌ@5.45 ffffff@6.60 áz®Gá@6.22 ¸…ëQ¸@6.68 ®Gáz®@7.17 =
+×£p=@7.06 ¸…ëQ¸@7.43       @7.75 ÍÌÌÌÌÌ@6.70 >
+×£p=@7.56 ®Gáz®@7.42 …ëQ¸…@7.63       @5.75 ÍÌÌÌÌÌ@6.45 ìQ¸…ë@5.73       @6.25 ffffff@6.35 
+×£p=
+@7.26 ¤p=
+×£@6.91 ¸…ëQ¸@6.93 \Âõ(\@6.59 ffffff@7.85 ¸…ëQ¸@7.68 ìQ¸…ë@7.73 {®Gáz@7.12 ×£p=
+W @8.17 
+×£p=
+û?1.69 >
+×£p=ş?1.89       @2.50 )\Âõ(ü?1.76 Âõ(\ú?1.66 
+×£p=
+ÿ?1.94 ¤p=
+×£ü?1.79 ®Gáz®ÿ?1.98 Âõ(\ @2.07 )\Âõ(@2.52 q=
+×£p@2.68 q=
+×£p@4.36 ö(\Âõ@4.49 š™™™™™@4.65 Âõ(\Â@4.69 ×£p=
+×@4.71       @5.25 Ház®G@5.07 \Âõ(\@5.59 ×£p=
+×@5.96 
+×£p=
+@5.26 )\Âõ(@4.29 ffffff@4.85 )\Âõ(@4.04 ®Gáz®@4.42 )\Âõ(@5.04 ®Gáz@5.02 )\Âõ(@5.29 ¤p=
+×£@4.91 333333@5.55 ×£p=
+×@5.71 >
+×£p=@5.81 ®Gáz@6.02 …ëQ¸@4.53 ×£p=
+×@4.46 {®Gáz@4.87 ffffff@5.35 ®Gáz®@5.17 ö(\Âõ@5.24 Ãõ(\Â@5.19 )\Âõ(@5.79 =
+×£p=@6.31 ¤p=
+×£@4.66 Ãõ(\Â@4.44 Âõ(\@4.89 …ëQ¸…@5.38 ×£p=
+×@5.46 ö(\Âõ@5.49 ffffff@5.10 {®Gáz@5.87 \Âõ(\@4.59 ffffff@5.60 ¤p=
+×£@5.16 ¤p=
+×£@3.08 {®Gáz@3.81 ¸…ëQ¸
+@3.34 …ëQ¸…	@3.19 \Âõ(\@3.67 ®Gáz@3.01 ÍÌÌÌÌÌ
+@3.35 ¤p=
+×£@3.83 333333@3.40 ×£p=
+×	@3.23 ¸…ëQ¸@3.59 ¤p=
+×£
+@3.33 Ãõ(\Â	@3.22 ®Gáz
+@3.26 )\Âõ(@3.52 Âõ(\
+@3.32 \Âõ(\@3.42 …ëQ¸…ë?0.86 Ãõ(\Âí?0.93 ÍÌÌÌÌÌğ?1.05 ¸…ëQ¸î?0.96 Ház®Gñ?1.08 q=
+×£pñ?1.09 áz®Gáò?1.18 333333ó?1.20 ®Gáz®ó?1.23 …ëQ¸…ó?1.22 ®Gázî?0.94 ¤p=
+×£ğ?1.04 {®Gázì?0.89 ®Gázò?1.13 ìQ¸…ëñ?1.12 ¸…ëQ¸ò?1.17 Âõ(\ò?1.16 Âõ(\ê?0.83 ö(\Âõğ?1.06 >
+×£p=ò?1.14 \Âõ(\ó?1.21    1.00 …ëQ¸ñ?1.07 
+×£p=
+ó?1.19       ô?1.25 áz®Gáê?0.84 ®Gáz®ï?0.99 
+×£p=
+ï?0.97 …ëQ¸í?0.91 {®Gázğ?1.03 q=
+×£põ?1.34       ü?1.75 ×£p=
+×@2.23 \Âõ(\û?1.71 ¸…ëQ¸ @2.09 {®Gázü?1.78 p=
+×£pı?1.84 ffffff@2.30 )\Âõ(@2.77 )\Âõ(
+@3.27 …ëQ¸…@3.44 
+×£p=
+	@3.13 ffffff@3.05 333333	@3.15 \Âõ(\û?1.71 333333ÿ?1.95 Âõ(\Âı?1.86 ö(\Âõü?1.81 =
+×£p= @2.03 ÍÌÌÌÌÌü?1.80 ®Gáz®@2.21 …ëQ¸…ÿ?1.97 
+×£p=
+@2.13 ffffff @2.05 {®Gáz@2.31 333333@2.15 q=
+×£p@2.18 ®Gázú?1.63 \Âõ(\ÿ?1.96       ü?1.75 >
+×£p=ş?1.89 ö(\Âõ @2.12    2.00 ¤p=
+×£ @2.08 >
+×£p=@2.28 ¸…ëQ¸ @2.09 {®Gázü?1.78 ffffffú?1.65 ffffffş?1.90 ®Gáz @2.01 …ëQ¸ı?1.82 \Âõ(\@2.17 R¸…ëQ@2.29 ®Gáz®@2.46 …ëQ¸ù?1.57 ×£p=
+×û?1.74 ®Gáz®ÿ?1.98 ¸…ëQ¸ş?1.92 Âõ(\ @2.07 )\Âõ(@2.27 ®Gáz@2.51 Ház®Gù?1.58 ìQ¸…ëı?1.87 áz®Gá @2.11 ®Gázş?1.88 ×£p=
+×ÿ?1.99 …ëQ¸@2.14       @2.25 š™™™™™@2.45 Ãõ(\Â@2.22 ÍÌÌÌÌÌ@2.60 ¤p=
+×£@2.33 ö(\Âõ@2.62 q=
+×£p@2.43 {®Gáz@2.81 ö(\Âõ@2.87 ffffff@2.55 ®Gáz@3.01 …ëQ¸@2.89 š™™™™™	@3.20 333333@2.40 ®Gáz@2.26 >
+×£p=@2.78 
+×£p=
+@2.38 q=
+×£p@2.68 Âõ(\Â@2.47 333333@2.65 \Âõ(\@2.67 ®Gáz®@2.96 {®Gáz@2.56 )\Âõ(@3.02 Ház®G	@3.16 ¸…ëQ¸@2.34 áz®Gá@2.36 Âõ(\@2.32 ¤p=
+×£@2.58 ®Gáz@2.76       @2.75 Âõ(\Â@2.72 ®Gáz®@2.71 R¸…ëQ
+@3.29 
+×£p=
+@2.88 ¤p=
+×£@3.08 …ëQ¸…@2.44 )\Âõ(@2.77 >
+×£p=@2.53 Âõ(\@2.82 ¸…ëQ¸@3.09 Âõ(\@3.07 …ëQ¸@2.39 Ház®G@2.41 …ëQ¸@2.64 ö(\Âõ@2.37 ìQ¸…ë@2.74 
+×£p=
+	@3.13 ìQ¸…ë@2.99 áz®Gá@3.11 ìQ¸…ë	@3.24 {®Gáz@3.56 ffffff
+@3.30 ¤p=
+×£@3.58 ®Gáz®@3.46 ¸…ëQ¸@3.84 Âõ(\@3.57 ®Gáz@4.02 ffffff@3.80 Ãõ(\Â@4.19 q=
+×£p@4.11 ö(\Âõ@4.49 Ház®G@4.07 Âõ(\Â@4.69 
+×£p=
+@3.38 …ëQ¸…@3.69       
+@3.25 R¸…ëQ@3.54 …ëQ¸@3.64       @3.75 ÍÌÌÌÌÌ@3.60 áz®Gá@4.22 \Âõ(\@3.67 …ëQ¸…@4.38 =
+×£p=@4.06 ö(\Âõ@4.24 …ëQ¸@5.03 ö(\Âõ@3.12 ¸…ëQ¸
+@3.34 ö(\Âõ@3.87 q=
+×£p@3.43 …ëQ¸@4.03 
+×£p=
+@3.88 R¸…ëQ@4.33 \Âõ(\@4.34 
+×£p=
+@4.26 {®Gáz@4.87 )\Âõ(
+@3.27 ®Gáz®@3.71 ffffff@3.55 ×£p=
+×@3.73 \Âõ(\@4.09 ®Gáz®@4.42 \Âõ(\@3.92 ÍÌÌÌÌÌ@4.45 áz®Gá@4.72    4.00 q=
+×£p@4.36 ¤p=
+×£
+@3.33 Ház®G@3.66 
+×£p=
+@4.01 Ház®G@3.91 …ëQ¸…@4.13 R¸…ëQ@4.08 Ãõ(\Â@4.44 …ëQ¸@3.89 333333@4.55 Âõ(\Âù?1.61 Âõ(\ş?1.91 R¸…ëQ @2.04 âz®Gáú?1.68 >
+×£p=ú?1.64 ¤p=
+×£ü?1.79 ìQ¸…ëù?1.62 )\Âõ(ü?1.76 {®Gáz @2.06 {®Gázø?1.53 ®Gáz®û?1.73 âz®Gáş?1.93 š™™™™™@2.20 p=
+×£pù?1.59 p=
+×£pı?1.84 ×£p=
+×@2.23 R¸…ëQø?1.52 
+×£p=
+@2.63 \Âõ(\@2.42 áz®Gá@2.86 ×£p=
+×@2.48 Ház®G@2.66       @2.50 ìQ¸…ë@2.49 š™™™™™@2.70 
+×£p=
+ÿ?1.94 Ház®G@2.16 …ëQ¸…@2.19 …ëQ¸…@2.69 ìQ¸…ë@2.24 ÍÌÌÌÌÌ@2.35 áz®Gá@2.61 ffffff@2.80    5.00 ®Gáz@5.77 
+×£p=
+@5.26 ¸…ëQ¸@5.93 \Âõ(\@5.59 ffffff@6.35    6.00 Âõ(\@6.14 ¤p=
+×£@5.91 ¤p=
+×£@6.91 ¤p=
+×£@6.41 {®Gáz@7.12 Ház®G@6.32 ö(\Âõ@6.99 Âõ(\@5.14 ¤p=
+×£@5.66 ®Gáz@5.27 ®Gáz@5.52 {®Gáz@5.37 ×£p=
+×@6.46 …ëQ¸…@5.88 ®Gáz®@6.17 
+×£p=
+@6.01 ×£p=
+×@7.21 ¤p=
+×£@6.66 q=
+×£p@7.36 =
+×£p=@6.31 ¸…ëQ¸@6.68 ¸…ëQ¸@5.18 ìQ¸…ë@5.73 333333@5.80 R¸…ëQ@5.33 R¸…ëQ@6.08 ¸…ëQ¸@6.18 š™™™™™@6.40 \Âõ(\@5.84 Ãõ(\Â@6.19 ®Gáz@6.27 …ëQ¸…@6.63 ö(\Âõ@6.49 áz®Gá@6.97 )\Âõ(@5.04 ÍÌÌÌÌÌ@5.95 Âõ(\@5.64 ¸…ëQ¸@5.43 )\Âõ(@5.79 …ëQ¸@6.53 )\Âõ(@6.04 333333@6.80 R¸…ëQ@6.83 ÍÌÌÌÌÌ@6.45 áz®Gá@5.22 áz®Gá@5.72 ÍÌÌÌÌÌ@5.20 ®Gáz®@5.67 >
+×£p=@5.56 Âõ(\@6.39 …ëQ¸@5.53 )\Âõ(@6.29 š™™™™™@6.90 áz®Gá@6.47 ®Gáz@6.52    7.00 Âõ(\ú?1.66 R¸…ëQü?1.77 š™™™™™ı?1.85 Ház®Gı?1.83 ¸…ëQ¸ú?1.67 )\Âõ( @2.02 ®Gáz®÷?1.48 333333û?1.70 …ëQ¸…û?1.72 )\Âõ(ø?1.51 ÍÌÌÌÌÌ @2.10 ö(\Âõ@3.62 {®Gáz@3.81 ÍÌÌÌÌÌ@3.85 333333@4.05 ®Gáz@4.27 ®Gáz@4.52       @4.50 ®Gáz®@4.92 
+×£p=
+@5.01 >
+×£p=@5.81 ®Gáz@3.76 ×£p=
+×@4.21 ÍÌÌÌÌÌ@4.20 š™™™™™@4.40 ¸…ëQ¸@4.68 R¸…ëQ@4.58 š™™™™™@5.40 ö(\Âõ@4.99 q=
+×£p@5.36       @4.25 >
+×£p=@3.78 ffffff@4.35 Âõ(\@4.14 Âõ(\@4.64 áz®Gá@4.47 ¤p=
+×£@4.16 ö(\Âõ@4.74 ffffff@4.60 Âõ(\@4.89 ffffff@5.35 R¸…ëQ@3.79 ®Gáz®@3.96       @4.75 
+×£p=
+@4.51 ìQ¸…ë@4.98 …ëQ¸…@4.88 \Âõ(\@4.59 
+×£p=
+@5.51 …ëQ¸…@3.94 ffffff@4.10 …ëQ¸…@4.63 ìQ¸…ë@4.48 333333@4.80 ×£p=
+×@4.96 \Âõ(\@2.92 ×£p=
+×@2.98 333333@2.90 q=
+×£p@2.93 333333	@3.15 R¸…ëQ@2.54 ¸…ëQ¸@2.84 …ëQ¸…@2.94 R¸…ëQ@3.04 ×£p=
+×@2.73 =
+×£p=@3.03 )\Âõ(@2.52 Âõ(\Â@2.97 ffffff@3.05 ÍÌÌÌÌÌ@3.10 áz®Gá
+@3.36    3.00 \Âõ(\@3.42 Ház®G@3.41 Ház®G@2.91 ®Gáz
+@3.26 ÍÌÌÌÌÌ
+@3.35 Ház®Gé?0.79 )\Âõ(ì?0.88 333333ë?0.85 …ëQ¸í?0.91 Âõ(\ê?0.83 \Âõ(\ï?0.98 ×£p=
+×ë?0.87 ¤p=
+×£ğ?1.04 ®Gázî?0.94 R¸…ëQğ?1.02 ìQ¸…ëñ?1.12 Ãõ(\Âí?0.93 …ëQ¸…ë?0.86 
+×£p=
+ï?0.97 ®Gáz®ï?0.99 q=
+×£pí?0.92 ö(\Âõğ?1.06 q=
+×£pñ?1.09 ìQ¸…ëé?0.81 ¸…ëQ¸î?0.96 Ház®Gñ?1.08 Ãõ(\Âñ?1.11 =
+×£p=ê?0.82 ÍÌÌÌÌÌì?0.90 {®Gázì?0.89 R¸…ëQè?0.76 áz®Gáê?0.84    1.00 {®Gázğ?1.03 ffffffî?0.95 )\Âõ(ğ?1.01 ®Gázò?1.13 š™™™™™ù?1.60 
+×£p=
+û?1.69 š™™™™™@2.95 ffffff@2.30 R¸…ëQ@2.79 ®Gáz®ó?1.23 333333ó?1.2 š™™™™™õ?1.35 …ëQ¸…÷?1.47 ®Gázò?1.13 ®Gázö?1.38 …ëQ¸…ó?1.22 ×£p=
+×÷?1.49 ®Gázú?1.63 ®Gáz®û?1.73 ìQ¸…ëı?1.87 …ëQ¸õ?1.32 R¸…ëQü?1.77 ×£p=
+×ó?1.24 q=
+×£põ?1.34 Âõ(\Âõ?1.36 {®Gázø?1.53 Âõ(\ö?1.41 \Âõ(\÷?1.46 ö(\Âõø?1.56 ¸…ëQ¸ö?1.42 ×£p=
+×û?1.74 ®Gáz®÷?1.48 …ëQ¸ı?1.82 ffffffú?1.65 >
+×£p=ú?1.64       ô?1.25 ÍÌÌÌÌÌø?1.55 áz®Gáö?1.43 333333÷?1.45 \Âõ(\ó?1.21 Âõ(\ú?1.66 )\Âõ(ô?1.26 R¸…ëQô?1.27 {®Gázô?1.28       ø?1.5 ffffffö?1.4 
+×£p=
+÷?1.44 ¤p=
+×£ô?1.29 áz®Gáò?1.18 Ház®Gõ?1.33 p=
+×£pù?1.59 )\Âõ(ø?1.51 R¸…ëQø?1.52 \Âõ(\û?1.71 >
+×£p=ò?1.14 ìQ¸…ëñ?1.12 Ãõ(\Âñ?1.11 Ház®Gù?1.58 âz®Gáú?1.68 š™™™™™ù?1.6 …ëQ¸…û?1.72 )\Âõ(ü?1.76 p=
+×£pı?1.84 âz®Gáş?1.93 ffffff @2.05 333333@2.15 Ház®G@2.16 =
+×£p= @2.03 333333@2.4 )\Âõ(@2.27 Âõ(\Âù?1.61 >
+×£p=ş?1.89 ¸…ëQ¸ @2.09 Âõ(\ @2.07 ¸…ëQ¸ş?1.92       ü?1.75 R¸…ëQ @2.04 …ëQ¸…ÿ?1.97 ¸…ëQ¸ú?1.67 ×£p=
+×ÿ?1.99 š™™™™™ı?1.85 {®Gáz @2.06 R¸…ëQ@2.29 ®Gáz®@2.21 ffffffş?1.9 Âõ(\ş?1.91 ®Gázş?1.88 {®Gázü?1.78 ÍÌÌÌÌÌ @2.1 
+×£p=
+û?1.69 ®Gáz@2.26 ö(\Âõ@2.37 ffffff@2.3 ®Gáz @2.01 ®Gáz®ÿ?1.98 333333@2.65 ¸…ëQ¸@2.34 R¸…ëQ@2.79 ®Gáz@2.76 ×£p=
+×@2.98 ¤p=
+×£@2.33 ffffff@2.55 )\Âõ(@3.02 ¤p=
+×£
+@3.33 ¤p=
+×£@2.83 ×£p=
+×@2.73 
+×£p=
+	@3.13 ffffff
+@3.3 Âõ(\@3.82 š™™™™™@2.45 ÍÌÌÌÌÌ@2.85 ìQ¸…ë@2.99 \Âõ(\@2.67 >
+×£p=@2.78 …ëQ¸…	@3.19       
+@3.25 ö(\Âõ@2.62 >
+×£p=
+@3.28 š™™™™™@2.95 ¸…ëQ¸@3.59 ×£p=
+×@2.48 {®Gáz@2.81 
+×£p=
+@2.88 >
+×£p=@2.28 ìQ¸…ë@2.49 š™™™™™	@3.2 Âõ(\Â@2.72 Âõ(\
+@3.32 Ãõ(\Â	@3.22 
+×£p=
+@2.13 Ház®G@2.41       @2.25 Âõ(\Â@2.97 ¸…ëQ¸@2.59 ®Gáz@2.51       @2.5 ÍÌÌÌÌÌ@2.6 )\Âõ(@2.77 ¤p=
+×£@3.08 q=
+×£p@2.93 ¸…ëQ¸@2.84 áz®Gá
+@3.36 Ãõ(\Â@2.22 q=
+×£p@2.68 ffffff@3.05 Âõ(\@2.82 R¸…ëQ@3.54 …ëQ¸@2.64 ìQ¸…ë@3.74 ®Gáz®@2.96 ®Gáz®@3.46 >
+×£p=ö?1.39 …ëQ¸ù?1.57 ffffffò?1.15 š™™™™™ñ?1.1 Âõ(\ò?1.16 ¸…ëQ¸ò?1.17 Ház®Gñ?1.08 ÍÌÌÌÌÌô?1.3 ìQ¸…ëõ?1.37 ö(\Âõô?1.31 333333û?1.7 ìQ¸…ëù?1.62 333333ÿ?1.95 ö(\Âõü?1.81 ×£p=
+×@2.23 Âõ(\Âı?1.86 Ház®Gı?1.83 ¤p=
+×£ü?1.79 ®Gáz@3.76 \Âõ(\@4.34 \Âõ(\@3.92 ¤p=
+×£@4.16 )\Âõ(@3.52 ®Gáz®@5.42 ¸…ëQ¸@5.18 ö(\Âõ@4.99 …ëQ¸…@4.38 
+×£p=
+@4.76 ffffff@4.6 {®Gáz@3.56 ¤p=
+×£@3.83 š™™™™™@3.7 ffffff@4.1 …ëQ¸…@3.94 q=
+×£p@4.36 
+×£p=
+@3.63 ®Gáz@5.27 …ëQ¸@5.03 ÍÌÌÌÌÌ@4.95 R¸…ëQ@4.33 š™™™™™@4.9 Âõ(\@4.64 333333@4.8 R¸…ëQ@3.79 \Âõ(\@3.42 ®Gáz®@3.71 ÍÌÌÌÌÌ@4.2 )\Âõ(@4.54 333333@5.05 ö(\Âõ@3.87 ®Gáz®@4.42 Ãõ(\Â@5.19 ö(\Âõ@4.74 Âõ(\@5.14 …ëQ¸@4.03 …ëQ¸@3.64 ÍÌÌÌÌÌ@3.85 ÍÌÌÌÌÌ@4.45 …ëQ¸…@3.69 ìQ¸…ë@4.23 š™™™™™@4.15 ×£p=
+×@4.46 {®Gáz@4.62 \Âõ(\@4.84 \Âõ(\@4.09 \Âõ(\@5.59 q=
+×£p@3.68 ¤p=
+×£@4.41 ìQ¸…ë@3.99 Âõ(\Â@3.72 Ház®G@3.66 ®Gáz®@4.17 ffffff@3.8 {®Gáz@5.37 >
+×£p=@4.81    1 q=
+×£pñ?1.09 {®Gázğ?1.03 ®Gáz®ï?0.99 ÍÌÌÌÌÌğ?1.05 
+×£p=
+ó?1.19 ÍÌÌÌÌÌü?1.8 ö(\Âõğ?1.06 ¤p=
+×£ø?1.54 >
+×£p=@2.53 ®Gáz@3.01 R¸…ëQ@2.54 
+×£p=
+@3.38 {®Gáz
+@3.31 ö(\Âõ@3.62 ÍÌÌÌÌÌ@3.6 Ház®G@2.91 ¸…ëQ¸
+@3.34    4 Âõ(\@2.57 Âõ(\@3.07 ×£p=
+×	@3.23 )\Âõ(@2.52 333333@2.9 \Âõ(\	@3.17 ÍÌÌÌÌÌ@3.1 >
+×£p=@3.53 ìQ¸…ë	@3.24 {®Gáz@3.06 {®Gáz@4.12 {®Gáz@2.56 ö(\Âõ@2.87 ®Gáz®	@3.21 ffffff@2.8 Ház®G	@3.16 ìQ¸…ë@2.24 …ëQ¸@2.89 ìQ¸…ë@2.74 ÍÌÌÌÌÌ
+@3.35 …ëQ¸…@3.44 š™™™™™@3.45 Âõ(\Â@3.47 áz®Gá@2.86       @2.75 =
+×£p=@3.03 \Âõ(\@3.67 Ãõ(\Â@4.19 …ëQ¸…@2.19 q=
+×£p@2.43 …ëQ¸@2.14 …ëQ¸…@2.69 )\Âõ( @2.02    2 
+×£p=
+ÿ?1.94 áz®Gá@2.36 ¤p=
+×£ @2.08 š™™™™™@2.2 
+×£p=
+@2.38 Âõ(\@2.32 ÍÌÌÌÌÌ@2.35 \Âõ(\@2.17 \Âõ(\ÿ?1.96 …ëQ¸…@2.44 Âõ(\â?0.58 ÍÌÌÌÌÌä?0.65 áz®Gáâ?0.59 ìQ¸…ëá?0.56 ×£p=
+×ã?0.62 )\Âõ(ä?0.63 \Âõ(\ç?0.73 q=
+×£på?0.67 ffffffæ?0.7       è?0.75 Ãõ(\Âå?0.68 =
+×£p=ê?0.82 \Âõ(\ß?0.49 ¤p=
+×£à?0.52 ¤p=
+×£è?0.77 
+×£p=
+ç?0.72 ®Gázæ?0.69 ®Gáz®ç?0.74 Ház®Gé?0.79 š™™™™™é?0.8 =
+×£p=â?0.57       à?0.5 {®Gázä?0.64 Âõ(\ê?0.83 ®GázŞ?0.47 ö(\Âõà?0.53 …ëQ¸å?0.66 333333ã?0.6 R¸…ëQè?0.76 …ëQ¸…ë?0.86 )\Âõ(ì?0.88 …ëQ¸…ã?0.61 ö(\Âõè?0.78 áz®Gáê?0.84 R¸…ëQğ?1.02 …ëQ¸ñ?1.07 \Âõ(\ï?0.98 ¤p=
+×£ğ?1.04 áz®Gá @2.11 ö(\Âõ @2.12         @ @  `@ 0€ (@`@0P  8`À@@pà H€ A	P 
+X @A`°`hÀ€AĞ pàÀA xğà € B$ˆ $PAB( Á(˜ aB, @€,¨À B0°0Á0¸@áB4ÀP4È  C8ĞĞ@8Ø`aC<àp<€¡C@èPÀ @ğáC!Dø "D ±!D#H A$H°aDL¨p`%L8ÀA@&P€
+PÑ¡D'TáÁT !D(X ñá)X(âD*\@ +\`@àA,`Pâ-`01!E.d b/d8AEhh€ 0h@1BE1lH±`2lPA‚EpXQ¢3p`ÁE4t á5t(`F6x@0 7xhq@8|€Â9|p±C€x‘:€h!C;„0 B<„`  F=ˆ€±‚>ˆÁ"F?ŒX`@@Œˆ¡`FAÑB˜á‚FC” ñD”¨£FE˜°ÃF˜¸!ãFGœÀAÂHœÈ1GI ĞA#J ØQCGK¤¨acL¤àqƒGM¨èÑ‚@¨Ğ£G
+¬‘ãN¬ğ¡ÃG2° ±#O°øÁCGP´ğÑãQ´ âHR¸ÈñƒS¸$FT¼È$U¼"DHSÀRcVÀ 2„H=Ä(Bä WÄ0ÒaBXÈHQ¤YÈ8¤HZÌ@b$[ÌHrÄH\Ğ AC]ĞP‚äH^Ôˆ‘$SÔX¢IQØ`²$	_ØhÂDI`ÜpÒÄaÜxâdIbà€ÂÁcàˆƒIdäÂb eä˜òäGfè ò"gè¨¥Ihì°Ã	iìP¢ãIjğ`
+kğ0"ISô°"%
+lô¸2EJmø°’d
+nøxB…JoüÀ²¡EüQEAp 9`…G q¥JqÁ¥rÉÂ£FBñq$sÑ…ItÙ’…uá¢åHOò#Ué²åHKñ²ÅvùÂÅJwÓå
+x	ãKyó%zFK{ !f| )#†K}$13¦~$9CÆK(ASæ€(IcL,Qs&‚,Yƒ&Lƒ0Q“F„0a£fL…4i³¦
+†4qÃæJ‡8	Ó†ˆ8yãÆJ‰<ó¦Š<‰ÇL‹@‘çŒ@™#MD¡3'D©CGMH±gH¹S‡M‘LÁc§’LÉsÇM“Pƒç”PÑ3N•TÙ“ç
+–Tá£'N—Xé³G
+˜XñÃGN™\ùÓgš\d&N›`	tfœ`d‡Ndä§d!ôÇNŸh)H h1èN“l	#¡lA3(O¢p9”G£pAChO¤tATˆ¥tId¨O¦xQTÈ§xYtèO¨|a„è©|iÄPª€q”(«€y¤HP¬„´h­„‰ÄˆP…ˆ‘Ôh®ˆ™ä¨P¯Œ¡$°ŒAôÈP±©ä(
+²±éP³”™äÆ
+´”¹IPµ˜Át¶˜Ét&Q·œa#I¸œÑ4iQ¹ ÙD‰º áT©Q»¤éTÂ¼¤ñôÀC'¨ùdÉ½¨)`"D¾¬5À¬!qiD¿°	õÀÀ°Q€áQÁ´)"Â´aB¸a€	Ã¸!B+¼uàÄ¼¹°BÅÀ!Õ ÆÀ)•IRÇÄ1¥I¿Ä95@DÆÈAµÉÈIå`RÈÌQÅ©ÉÌ	0`D8ĞùĞÉÊĞq‘aEÔ`B Ô1 FËØY…Á%Ø)á©FÌÜaõ‰ÍÜA jRÎàiåaàq¡AÏä‰É#äù@ĞèñÊÑèyu)EÒìq   ì€CÓğ!qé&ğ‰ÅàCÔô‘%jÕô™eJÖø¡5Š×øYñRØüAÕ Ùü©eÁCÚ ²ê RuàA**ĞÉËê`BEÛŠ@ªÓruàQÜ‚€
+İºUÊBŞjáÉß’aB»Âe
+àz  @áú4êâz`CÍÊ¥Iã"@ÊQÈ ÒÅ) 
+ !BÉ$
+…bä$j BEÉ(bq`$(š°@@Ë,úŠå,JÀ Bæ0¢ ç0JpÂIè4bM4Ú5bD8ÚUé8ÂÂáHê<Â’ë<âuªDì@ê£e@êåBDòõ¤hD¢Á£BíH2‚êîHÚ‘JAïL²pÉÃLr± SPbP¡ ğPU*CåT
+±a ñT’¢*SòXQÊhXúµŠAó\š°ô\êÁJSõ`BReö`BƒS÷dÒÑ*ød²â*OùhŠb%hÂ JF lZõ
+úlBA¡Dåpë Zp: àFût¢k ft
+ö"C
+x:`¥üxÆGı|Š²Âş|ú!KGÿ€Æ¢ ²¢ãB…òàé…š kD ˆb‘!‰‚2kEÃŒrQ*ŒBãQA
+ae‘"VeI•JÑA•*ÆƒF™Š… ™¢¡äG2%	:¦Iæ Š•Â
+¡²°F ¤ò€	?¤‚edC¨r‘ ©:«S1¬
+1a­BFëC±òõ¤±JæÂSe´RVës´ZæH¹JBãm¸âe‹G½bv+½j†TÁr–+Áz¦KTÅ‚¶kÅŠÆkQÉ’Ö‹Éšæ«TÍ¢öËÍªìTÑªÑ²&,UÕº6LÕÂFìTÙÊVlÙÒfŒUİÚv¬ İâ†ÌU!áê–ì"áò¦V#åú¶,$åÇLV%é
+×l&éçŒV'í÷¬(í"ÍV)ñ*í*ñ2'W+õ:7-,õBGMW-ùJWl.ùRWT/ıZg0ıbw­W1“†­2k—ÍW3s§í{·X4	ƒÇ5	‹×-X6çM7“÷mX8›9£®X:«wÌ;³'îX<£7=»G.Y>ÃW-?ËWNY@!sgnA!ÓwYB%Û×¬C%ã‡nXD)ë—Î)ó'íYE-û§F-¸Z:1È.G1ØWH5èNI5#ønZJ9+K938¬ZL=;M=C(oTNAKXÎOAS8ïZ$E[HPEcX/XQIkÈ‰ RICeïRØLs8êSMpOCÍPs¸IP‹…ETUC áT{aâAUY³JÑXsBB\•OV]“p SÊ`S «o`»¥"SWeÑ XesxO@Yisè¾hÛ ïAZmu #l«•ÂQ[qÊp{AE\u;õÀ7t³¢C!x;µIVy{ÂBŞ|[µ0|+BáC]³ÅOÏ€sU`[Î„‹ Š„#ğ RX‰Ñ¯ïˆKBB3ŒÓµ© ^Ã@ D½#àÏÀ+!âA”«åÀ_•“¥¢D9˜3¡Âò˜ûU$B`sø¯Æœs`¯Ea¡ƒØàb¡à¯A¤3u¡c¥s€oE¨#qOæ¨€i@U­ƒ€ï¬3!ÂCd±û ! -°K°H´£á =´k±ÁS`¹‹øO¸“h@¼›xÁb½;UÀCÏÀ#ñà5ÀsñJCÄ£@ãÄ“@eÉ#oäÈ[5KBÍ3á	 %Ì‹BĞÃ²`ğĞ¥HÔÓ•ÏdÕû€¡RØcq  VÙƒ±ÁRfİS0Àgİ+IFà[…Ïà+’â@ää»0ahåQ$Aié«àijé±cCğìÆ`kíCBcSlñ+ Êmñ#pàA¿ô«¸ÉËô‹E DøS ‚ ø«BBü3 !nıƒAAH9 L°oj!ªIoÄ²àj¼±
+Cp	´¡j^D¶ÊHTÔåÏe4p@D*t`"æôbCËŒ%¡q´Ø‚Brd!ßœ‚ÅAsì ó„b„BM LKt!”B«B&$”àéì$„’ãCT) d)LÁR!,ì ÁŞ,\u C,0,•/u1üp CÊ4¼àé<4¼ ŠE 8´p ?8f@Ei=l«o=E+AM@„kvAÆ¡B¾D¬ØÏ D|! DH$
+wIl‘¡DxMdá€yM¼0KE^Q,ñJMP¼¸ÂRqU´xdTLAáSY„±`ñX¼HâCb\¼H!v]V…F™`ÄPzaÌ(ğN{eÔ8p|e´ãg\›hÜH}iäX°\~mÄdÇ«lìhğ\p¼ÃH«pô¨]uüx0€u‰P]y™ğyd¦p]‚}9‡š|iÈJƒ$¹°„,ÉĞ]……4Ùğ„<Y‰T†‰Ôt‡‰Dy0^ˆLéP‰Tùp^Š‘\	‘‹‘d‘ZŒ•l)±•Ì6Ñ^™˜3ğ™DñODSti1_‘¡|yq’¡„„1P|¥„™Q“¥Œ‰ğN~©”©”©œ¹ÑK•­¤™h–­œÇñW—±¬ÙÑ˜±´éñU™µtù‘šµ¼‰¨_{¹¼”›¹<iĞ_€¼Ä	òœ½Ô`ÁtYPÁÌ)]ÅÔiŸÅÜ92` É¤i'¡ÉäIR`¢ÍìY2£Íôir^‚Ñä#æ¤ÑüYFK¥Õ¬tr ÔÄ$§\¦ÙŒóˆ Ø¤é‡`§İt‰² ¨İD™P©á¬QªáÔy°X«ål¤ÒŒåºÒ`„èÊ ¬éÊî`­íDF^ìÆ£Jeğ¼qê®ñäÕÒHTôúã¯õlâRA°ù¦!±ùRCS`üdòò²ı"$a³=¦´º¦Jµ%
+S!¶sa·	ÅÂg-*sI¸ƒ!kÕñ²a¹¶j`]fËa[å5sº½BHQí"å»íRóJ¼Íb“½}ÂEI½!5zó!¾!ÚL¿%=€Š	%MVëBh(E†SÀ)%J³Fü,…Ò!Á-=šbÂ1EŠ¤Ã1½BOÄ5=¦³!w4MŠçaÅ9u"#"V8UºSbÆ=]šŠ…<eÊsKtAF„O@*SA¸EE"“ÇEmš„HüHõÁ"ÈI=f3HÉMÅ±d	ÊMõÒóBËQ%êãÌQõ’GÍUuZc"ÎU5ê“bÏY]‚‡ĞY…ó3O]2ÂÑ]-f“IÒaQD!ÓaurdHÔe¥á¢"ÕeÕtbrh5’Å"Öi}
+3IÈmµ¢$
+×m…ÚóbÀqºeØqU´bÖu•š*"Ùuå"”SÚy:#Ûy¥J4cÜ}ZT#İ}­jtcŞµz”#ß½Š´cà…½š´#á…ÅªÔcâ‰Åºt#ã‰ÍÊôcäÕº$åİÚ4dæ‘ÕêT$ç‘åªtdè•í:”$é•õJ´dê™ız”#ë™õúôcì¥Zô#íucî¡»t#ï¡Õdğ¥­jT$á¥‹ôdñ©+%ò©Í:5eó­õ*U%ô­Kueõ±%[•%Û±­j´eöµ¥ZU#÷µÅjtcì¹¥z%í¹½ºÔeø½õº4#ù½-kõeúÁ½
+5#ûÁ{5eßÅ5‹”%üÅ{ÕdóÉ‹Ô%ıÉ=‹õdÚÍíš&ìÍ­š4fşÑ:T&ÿÑõútf ÖµJt#íÕE«•fÚµ*5#Ú-»”fŞ­º”#ŞMkµfâ­º5%ïáU5dæİ:õ#æ]‹ÕfèéeË•#Ûém[Uföíuû´%îõÚUf	ò}Kt&øñ…›Ôc
+ömë´#ö­êÕc
+úÅZô&æùû5cğı–%şİŠ4eüÎ'+6g»ğI'¶eaR'–›Éâö  Dæ ÀeV%D0€)Vu CS^a¡ Ñ~å \Nu)u~€F"v‹®  A"Î5v'Ï ®h@Ø$.U‚½$FPÀQÆ(Ö•©Ò(î€AR½,!Ü,†°ïQ80fá  w1Æ¡RÓ4>u &4n0Fx9›:Æ²¡@`=¦;
+<F•ÏCaAnõ¡BNâEFöDÖF~à/\Hö„J@`E6LvbèLféQxQ®›b RUªDT®JV¶˜bD]YæÀ‰'¼XuaR'\ÖĞ 6\®ÀC×`–há8`pDâdNuoïdfpiAj¦ Ási6±/\lvJn®PŠCp@€/p¦¢‚CQu¶;j'v.ÕoRz.åá\yv…OCT}v•o'm}®KªG‚®»É 5€>`@c…Ö „& Sˆ®¥Šv‘"FŒ  çŒ–¡H’¾;Š ’Ö5ÀCÚ”Vå¯'–NeÁC š¶µI !šöğJBœÖ%€"¾p@ã N…Â$ NµFÀ¤®@àû¤VÑ‚B_©–p"#ªR%E$®ö4V'Ï¬¦ø¡AÚ°FÕÉ!°®µ©C¾´uÁdµveÂB¸Ö¥á¸–à	@%¾6pI¼†…€BÀN ° óÀN¡àQgÅN…	
+ìÄ` J&Ê–kÊÊ~å/@'Î5– Î¦8@B Ò. ÏÑfBBÖ®ØO(Ö>%BBØÆ+€Ø®€)Erİf ¡ )Ş¥â@à.!oàFaäR*æFÅ©'Tåp/R'ê~àÏSé•ÏR+înÀ)ì®eÂBbñ  ùğ@
+Fôf! +ôNpÂDwùv ûø¶`äC,ş® Ë=ü.b S-À)_abR.çĞ 7pODR	çI ¯`A¿¯B(ï€á@ï§ `o±/Aï B/ÇòbDäQÊ0Ï«`Br"1—Âà@2"±ïı ÷cD:$Op¢·%ÿU%C
+(ŸÑ
+3*a3A4.Ÿ¡
+g,_*F¹1·Â#Ç1jI56×k366ß›ÄgÜ8gày9•CE9<W°a7>·!*Cç@¯ĞtA¿ØªH/FŸ`€@D¿H‹H8JŸ‚^H/æ£ItMÇ‚£	9N·‚“J:R·¢#;RwRöIèTgq <VÇ2"CXÿ khYßµ£H=^_`–]%Sò`—²Ã>bÆ"HEd/¦*?fWvögôhWÓ@j¿‘bAnÿ‘DUlçÛ2bÜp_Eà%pğ@$tOPaBvÿEKBMx/²Cxß…ÅFò|_0Ë÷|ÿ¤aq€·£@‚w
+…AC†/ÖÁQ„ï«$J3Šg¤	‰—ÔÄG¿€ÂÄŒ¿XjA’O ­‘oÀŠA1–WA« D–×%Ah™Ï‹¥Cš·B"CXœ§‹E÷Ë‚AF¢÷Á‚Q obSAO¤c	G¦÷›JJ

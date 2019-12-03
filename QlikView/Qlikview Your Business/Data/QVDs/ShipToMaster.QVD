@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>C:\Qlikview Your Business\Solutions Qlikview\QVD Generator 10.8.qvw</CreatorDoc>
+   <CreateUtcTime>2015-03-18 17:52:44</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>ShipToMaster</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Ship To ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>876</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>4380</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer ID</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>200</NoOfSymbols>
+       <Offset>4380</Offset>
+       <Length>1000</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Name</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>200</NoOfSymbols>
+       <Offset>5380</Offset>
+       <Length>2855</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Address 1</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>876</NoOfSymbols>
+       <Offset>8235</Offset>
+       <Length>17766</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Address 2</FieldName>
+       <BitOffset>42</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>26001</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Address 3</FieldName>
+       <BitOffset>43</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>26001</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>City</FieldName>
+       <BitOffset>44</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>538</NoOfSymbols>
+       <Offset>26001</Offset>
+       <Length>5880</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>State</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>51</NoOfSymbols>
+       <Offset>31881</Offset>
+       <Length>204</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Country</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>32085</Offset>
+       <Length>4</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ZIP Code</FieldName>
+       <BitOffset>54</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>697</NoOfSymbols>
+       <Offset>32089</Offset>
+       <Length>3485</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ShipTo Start Date</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>271</NoOfSymbols>
+       <Offset>35574</Offset>
+       <Length>1355</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ShipTo End Date</FieldName>
+       <BitOffset>73</BitOffset>
+       <BitWidth>15</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>260</NoOfSymbols>
+       <Offset>36929</Offset>
+       <Length>1300</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>11</RecordByteSize>
+   <NoOfRecords>876</NoOfRecords>
+   <Offset>38229</Offset>
+   <Length>9636</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Colors]:
+	SQL SELECT *
+	FROM `Colors`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Credit Memo Detail]:
+	SQL SELECT *
+	FROM `Credit Memo Detail`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Credit Memo Header]:
+	SQL SELECT *
+	FROM `Credit Memo Header`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[CustomerMaster]:
+	SQL SELECT *
+	FROM `CustomerMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Invoice Detail]:
+	SQL SELECT *
+	FROM `Invoice Detail`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Invoice Header]:
+	SQL SELECT *
+	FROM `Invoice Header`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[ProductMaster]:
+	SQL SELECT *
+	FROM `ProductMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[Reasons]:
+	SQL SELECT *
+	FROM `Reasons`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[SalesHierarchy]:
+	SQL SELECT *
+	FROM `SalesHierarchy`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Qlikview Your Business\Data\Database\Sales.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>[ShipToMaster]:
+	SQL SELECT *
+	FROM `ShipToMaster`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Colors.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Credit Memo Detail.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Credit Memo Header.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\CustomerMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Invoice Detail.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Invoice Header.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\ProductMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\Reasons.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\SalesHierarchy.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\QVDs\ShipToMaster.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ Q4 R4 S4 T4 U4 V4 W4 X4 Y4 Z4 [4 \4 ]4 ^4 _4 `4 a4 b4 c4 d4 e4 f4 g4 h4 i4 j4 k4 l4 m4 n4 o4 p4 q4 r4 s4 t4 u4 v4 w4 x4 y4 z4 {4 |4 }4 ~4 4 Ä4 Å4 Ç4 É4 Ñ4 Ö4 Ü4 á4 à4 â4 ä4 ã4 å4 ç4 é4 è4 ê4 ë4 í4 ì4 î4 ï4 ñ4 ó4 ò4 ô4 ö4 õ4 ú4 ù4 û4 ü4 †4 °4 ¢4 £4 §4 •4 ¶4 ß4 ®4 ©4 ™4 ´4 ¨4 ≠4 Æ4 Ø4 ∞4 ±4 ≤4 ≥4 ¥4 µ4 ∂4 ∑4 ∏4 π4 ∫4 ª4 º4 Ω4 æ4 ø4 ¿4 ¡4 ¬4 √4 ƒ4 ≈4 ∆4 «4 »4 …4  4 À4 Ã4 Õ4 Œ4 œ4 –4 —4 “4 ”4 ‘4 ’4 ÷4 ◊4 ÿ4 Ÿ4 ⁄4 €4 ‹4 ›4 ﬁ4 ﬂ4 ‡4 ·4 ‚4 „4 ‰4 Â4 Ê4 Á4 Ë4 È4 Í4 Î4 Ï4 Ì4 Ó4 Ô4 4 Ò4 Ú4 Û4 Ù4 ı4 ˆ4 ˜4 ¯4 ˘4 ˙4 ˚4 ¸4 ˝4 ˛4 ˇ4  5 5 5 5 5 5 5 5 5 	5 
+5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5  5 !5 "5 #5 $5 %5 &5 '5 (5 )5 *5 +5 ,5 -5 .5 /5 05 15 25 35 45 55 65 75 85 95 :5 ;5 <5 =5 >5 ?5 @5 A5 B5 C5 D5 E5 F5 G5 H5 I5 J5 K5 L5 M5 N5 O5 P5 Q5 R5 S5 T5 U5 V5 W5 X5 i\ j\ k\ l\ m\ n\ o\ p\ q\ r\ s\ t\ u\ v\ w\ x\ y\ z\ {\ |\ }\ ~\ \ Ä\ Å\ Ç\ É\ Ñ\ Ö\ Ü\ á\ à\ â\ ä\ ã\ å\ ç\ é\ è\ ê\ ë\ í\ ì\ î\ ï\ ñ\ ó\ ò\ ô\ ö\ õ\ ú\ ù\ û\ ü\ †\ °\ ¢\ £\ §\ •\ ¶\ ß\ ®\ ©\ ™\ ´\ ¨\ ≠\ Æ\ Ø\ ∞\ ±\ ≤\ ≥\ ¥\ µ\ ∂\ ∑\ ∏\ π\ ∫\ ª\ º\ Ω\ æ\ ø\ ¿\ ¡\ ¬\ √\ ƒ\ ≈\ ∆\ «\ »\ …\  \ À\ Ã\ Õ\ Œ\ œ\ –\ —\ “\ ”\ ‘\ ’\ ÷\ ◊\ ÿ\ Ÿ\ ⁄\ €\ ‹\ ›\ ﬁ\ ﬂ\ ‡\ ·\ ‚\ „\ ‰\ Â\ Ê\ Á\ Ë\ È\ Í\ Î\ Ï\ Ì\ Ó\ Ô\ \ Ò\ Ú\ Û\ Ù\ ı\ ˆ\ ˜\ ¯\ ˘\ ˙\ ˚\ ¸\ ˝\ ˛\ ˇ\  ] ] ] ] ] ] ] ] ] 	] 
+] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ]  ] !] "] #] $] %] &] '] (] )] *] +] ,] -] .] /] 0] 1] 2] 3] 4] 5] 6] 7] 8] 9] :] ;] <] =] >] ?] @] A] B] C] D] E] F] G] H] I] J] K] L] M] N] O] P] Q] R] S] T] U] V] W] X] Y] Z] [] \] ]] ^] _] `] a] b] c] d] e] f] g] h] i] j] k] l] m] n] o] p] q] r] s] t] u] v] w] x] y] z] {] åÑ çÑ éÑ èÑ êÑ ëÑ íÑ ìÑ îÑ ïÑ ñÑ óÑ òÑ ôÑ öÑ õÑ úÑ ùÑ ûÑ üÑ †Ñ °Ñ ¢Ñ £Ñ §Ñ •Ñ ¶Ñ ßÑ ®Ñ ©Ñ ™Ñ ´Ñ ¨Ñ ≠Ñ ÆÑ ØÑ ∞Ñ ±Ñ ≤Ñ ≥Ñ ¥Ñ µÑ ∂Ñ ∑Ñ ∏Ñ πÑ ∫Ñ ªÑ ºÑ ΩÑ æÑ øÑ ¿Ñ ¡Ñ ¬Ñ √Ñ ƒÑ ≈Ñ ∆Ñ «Ñ »Ñ …Ñ  Ñ ÀÑ ÃÑ ÕÑ ŒÑ œÑ –Ñ —Ñ “Ñ ”Ñ ‘Ñ ’Ñ ÷Ñ ◊Ñ ÿÑ ŸÑ ⁄Ñ €Ñ ‹Ñ ›Ñ ﬁÑ ﬂÑ ‡Ñ ·Ñ ‚Ñ „Ñ ‰Ñ ÂÑ ÊÑ ÁÑ ËÑ ÈÑ ÍÑ ÎÑ ÏÑ ÌÑ ÓÑ ÔÑ Ñ ÒÑ ÚÑ ÛÑ ÙÑ ıÑ ˆÑ ˜Ñ ¯Ñ ˘Ñ ˙Ñ ˚Ñ ¸Ñ ˝Ñ ˛Ñ ˇÑ  Ö Ö Ö Ö Ö Ö Ö Ö Ö 	Ö 
+Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö Ö  Ö !Ö "Ö #Ö $Ö %Ö &Ö 'Ö (Ö )Ö *Ö +Ö ,Ö -Ö .Ö /Ö 0Ö 1Ö 2Ö 3Ö 4Ö 5Ö 6Ö 7Ö 8Ö 9Ö :Ö ;Ö <Ö =Ö >Ö ?Ö @Ö AÖ BÖ CÖ DÖ EÖ FÖ GÖ HÖ IÖ JÖ KÖ LÖ MÖ NÖ OÖ PÖ QÖ RÖ SÖ TÖ UÖ VÖ WÖ XÖ YÖ ZÖ [Ö \Ö ]Ö ^Ö _Ö `Ö aÖ bÖ cÖ dÖ eÖ fÖ gÖ hÖ iÖ jÖ kÖ lÖ mÖ nÖ oÖ pÖ qÖ rÖ sÖ tÖ uÖ vÖ wÖ xÖ yÖ zÖ {Ö |Ö }Ö ~Ö Ö ÄÖ ÅÖ ÇÖ ÉÖ ÑÖ ÖÖ ÜÖ áÖ àÖ âÖ äÖ ãÖ åÖ çÖ éÖ èÖ êÖ ëÖ íÖ ìÖ îÖ ïÖ ñÖ óÖ òÖ ôÖ öÖ õÖ úÖ ùÖ ûÖ üÖ †Ö °Ö ¢Ö £Ö §Ö •Ö ¶Ö ßÖ ®Ö ©Ö ™Ö ´Ö ¨Ö ≠Ö ÆÖ ØÖ ∞Ö ±Ö ≤Ö ≥Ö ¥Ö µÖ ∂Ö ∑Ö ∏Ö πÖ ∫Ö ªÖ ºÖ ΩÖ æÖ øÖ ¿Ö ¡Ö ¬Ö √Ö ƒÖ ≈Ö ∆Ö «Ö »Ö …Ö  Ö ÀÖ ÃÖ ÕÖ ŒÖ œÖ –Ö —Ö “Ö ”Ö ‘Ö ’Ö ÷Ö ◊Ö ÿÖ ŸÖ ⁄Ö €Ö ‹Ö âä ãä çä éä èä êä ëä íä ìä îä ïä ñä óä òä ôä öä õä úä ùä ûä üä †ä ¢ä £ä §ä •ä ®ä ¨ä ≠ä Øä ∞ä ±ä ≤ä ≥ä µä ∂ä ∑ä ∏ä πä ∫ä ªä ºä Ωä æä øä ¿ä ¡ä ¬ä √ä ƒä ≈ä ∆ä «ä »ä  ä Àä Ãä œä –ä “ä ”ä ‘ä ’ä ÷ä ◊ä ÿä Ÿä €ä ‹ä ﬂä ‡ä ·ä „ä ‰ä Êä Áä Èä Îä Ïä Ìä Óä Ôä ä Òä Úä Ûä Ùä ıä ˆä ˜ä ¯ä ˘ä ˙ä ˚ä ¸ä ˝ä ˛ä ˇä  ã ã ã ã ã ã ã ã ã 	ã 
+ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã  ã !ã "ã #ã $ã %ã &ã 'ã (ã )ã *ã +ã ,ã -ã .ã /ã 0ã 1ã 2ã 3ã 4ã 5ã 6ã 7ã 8ã 9ã :ã ;ã <ã =ã >ã ?ã @ã Aã Bã Cã Dã Eã Fã Gã Hã Iã Jã Kã Lã Mã Nã Oã Pã ää åä °ä ¶ä ©ä ´ä Æä ¥ä …ä Œä ⁄ä ﬁä Âä Ëä Íä ßä ™ä Õä —ä ›ä ‚ä Shannon Kemp Joan Somers Kacey Hernandez Hannah Garcia Teresa Medley Helen Brady John Sumner Marjorie Barker Frank Witherington Cleo King Zachary Warner John Pollard Gregory Reed Jose Gregg John Dawkins Anna Morris John Foster Allison Whitley Norman Atkinson Clyde Vazquez Richard Paramore Betty Scott Stephanie Lindsey Jill Aguirre Gwendolyn Rowell Eulalia Romano Jerry Cook Heidi Winn Laura Dupree Elizabeth Marshall Ashley Pagan Wilfredo Hayes Delia Lewis Doreen Coney Brenda Shoemaker Jeffrey Lehner Christie Cannady Jennifer Bailey Bruce Gonzalez Deborah Walls Melanie Scott David Santos Jonathan Hinkle Frances Dodson Tim Holley Gracie Bulluck Ronald Ortega James Avery James Tanner James Moorer Sidney Board Bonita Sanchez George Gish Jennifer Hoyle Ruby Winchell Kim Parks Amelia Wyatt Velva Emerson Cristina Gonzales Paul Whitley Terri Stone Margaret Clay Dawn Clancy Dennis Marshall Constance Dunlap Pedro Garcia John Parra Andrew Esposito Ashley Champion Maria Campbell Alice Little Rose Luebke Allen Lossett Michael James James Coe Billie Coffin Roberta Blocker Laura Daniels Linda Nichols Jill Carroll Ethel Slowik Carole Beardsley Cathy Cardenas William Jordan Jimmie Banks Kenneth Butler Irene Houde Michael Hutchins Woodrow Smith Lisa Harper Debbie Jackson Kevin Neely William Hopkins Miguel Petrick Blake Gibson Amy Dalton Walter Griffith Kevin Gant Sharon Wells Carl Robinson Larry Ojeda Lana Valdez Warren Johnsen Azalee Lewis Joseph Macha Roy Brown Robert Trower Carl Leach Jessie Carter Paul Purcell David Smith Alisha Huffman Donald Rogers Jerry Morales Benjamin Tesch Danielle Morgan David Williams Henry Perez Kent Patel Teresa Pannell Avelina Pollard Kathleen Sirois Etta Howard Jim Hague Heather Coronado Priscilla Pedro Donald Moore Kevin Tookes Carl Taylor Gladys Fisher Jennie Davidson Elvira Montoya Calvin Hulse Peggie Pelton Alex Land Thomas Moor Alan Logan Deanna Starkey Lillian Douglas Kelvin Robbins Dwayne Lupo Joann Castiglia Efrain Bowen Joanne Love Mona Edmond Karen Cesar Jason Reinhardt Wilford Lund Stephanie Webb Sherry Fairchild Gloria Hall Dora Lay Eloise Hopper Danny McGee Mary Santiago Kelly Collier Flora Williams Elizabeth Vaughan James Turner Arturo Irwin Edward Young Randall Stutts Pamela Barco Mario McTaggart Kenny Duncan Helen Johnson Willie Hansen Adam Adams Jennifer Lemke Tim Reyes Rosemary Davis Daniel Williams Cecil Ballard Davina Paterson Jose Morrow Thomas Hendren Shaun Schram Harrison Cerny Rena Powell SaqS Q-Storm GreenDales "Quinsy's" Apples&Oranges QAP Q&M Stores Q-House Q-4-Men QalvinQlein QVPR DMS Authority SectionAccess Con-Cat Drop-Fields Q-Mart Super-Q Q&V QVS "Qohl's" QV-Max 257 Marigold Lane 4740 Walton Street 554 Roosevelt Road 1889 Whispering Pines Circle 30 Patton Lane 2458 Brookview Drive 2101 Trouser Leg Road 4634 Ingram Road 4214 Yorkie Lane 1925 Parrish Avenue 3532 Hickory Heights Drive 3309 Little Acres Lane 1277 Middleville Road 2059 Queens Lane 3156 Joanne Lane 4921 Jennifer Lane 195 Locust Street 3592 Clark Street 2639 Grove Avenue 4457 Franklin Avenue 3852 Stratford Drive 4133 Robinson Court 706 Tuna Street 979 Wexford Way 2938 Hartland Avenue 4616 Harter Street 227 Mulberry Street 1188 Ward Road 2511 Nickel Road 2251 Burke Street 73 Ingram Road 1028 Lyon Avenue 1719 Jenna Lane 1654 Crummit Lane 2955 Carson Street 1618 Smith Road 3746 Chapmans Lane 1599 Red Bud Lane 256 Chatham Way 2393 Steele Street 481 Baker Avenue 4603 Gateway Avenue 1115 Maxwell Farm Road 1157 Stewart Street 625 Joanne Lane 3082 Allison Avenue 378 Providence Lane 2434 Chestnut Street 2395 Marietta Street 4176 Hickory Lane 895 Ashton Lane 1978 Abner Road 4385 Edgewood Road 3636 Lake Forest Drive 1034 Raccoon Run 410 Lost Creek Road 3194 Ingram Road 4940 Joy Lane 1347 Elliott Street 61 Science Center Drive 4779 Stanley Avenue 1724 Franklin Avenue 1987 Clarksburg Park Road 4514 Jett Lane 2675 Brown Street 259 Taylor Street 4193 Feathers Hooves Drive 3716 Joes Road 2411 Elmwood Avenue 4998 Railroad Street 1581 Atha Drive 3554 Elk Creek Road 3488 Beeghley Street 2308 Creekside Lane 3350 Duffy Street 3134 Newton Street 4254 Jefferson Street 4248 Hardman Road 4078 Abner Road 2588 Wilkinson Court 2127 Rocket Drive 2181 Richland Avenue 2096 Bluff Street 2726 Horner Street 1534 Jennifer Lane 1309 Brown Avenue 4472 Hannah Street 3585 Vernon Street 3036 Wilson Avenue 2823 Traction Street 3733 Skinner Hollow Road 2636 Wexford Way 1964 Lakewood Drive 542 Oak Way 4566 Brookside Drive 1422 Langtown Road 3431 Buena Vista Avenue 2485 Harron Drive 2154 Mapleview Drive 597 Maud Street 3127 Bernardo Street 821 Tenmile Road 4055 Oakway Lane 2698 Lake Road 2134 Powder House Road 4633 Layman Avenue 3854 Rhapsody Street 579 Mesa Drive 4180 Willow Oaks Lane 4262 Linda Street 864 Pinnickinick Street 4749 Grasselli Street 2344 Sycamore Street 2014 Ashcraft Court 833 Lady Bug Drive 1706 Wilson Street 2916 Hill Street 3601 Morningview Lane 4063 James Avenue 2478 Keyser Ridge Road 1149 McDowell Street 3259 Bridge Street 1878 Tavern Place 1759 Catherine Drive 800 Mill Street 719 Hamill Avenue 344 Westfall Avenue 4147 Benedum Drive 236 Butternut Lane 4587 Midway Road 1939 Libby Street 3670 Murry Street 2152 Stratford Park 1697 Heliport Loop 1393 Stadium Drive 2846 Summit Street 2722 McDowell Street 1095 Fowler Avenue 3714 Rhapsody Street 2610 Roane Avenue 746 Nash Street 4243 Edwards Street 4811 Edgewood Road 2348 Ocello Street 4769 Thompson Drive 3350 Taylor Street 2025 Nicholas Street 797 Wakefield Street 20 Ethels Lane 2735 Rockford Mountain Lane 1077 Bingamon Road 4641 Stanley Avenue 58 Sheila Lane 1864 Viking Drive 390 Tail Ends Road 4297 Parrish Avenue 4646 Wiseman Street 1242 White Lane 4396 Lunetta Street 4688 Forest Avenue 3997 University Drive 4723 Wood Street 1584 Layman Avenue 2640 Andy Street 493 Rainbow Road 3310 Granville Lane 767 Formula Lane 743 Thorn Street 4150 Patterson Fork Road 2945 Cecil Street 3493 Baker Avenue 1503 Buck Drive 3318 Stone Lane 2140 Hart Ridge Road 1110 Findley Avenue 884 Robinson Lane 3618 Haymond Rocks Road 212 Howard Street 4389 Quiet Valley Lane 2810 Spruce Drive 4887 Bell Street 191 Tanglewood Road 1198 Five Points 1402 Fidler Drive 3126 Holt Street 1179 Garrett Street 4119 Ocala Street 4239 Emma Street 995 Wilkinson Street 4256 Kimberly Way 4152 Ashwood Drive 2685 Blackwell Street 3024 Main Street 1698 Oak Drive 4718 Parkway Drive 4096 Fowler Avenue 751 Settlers Lane 2319 Feathers Hooves Drive 2283 Karen Lane 2281 Hemlock Lane 4173 Timber Oak Drive 2107 Deans Lane 1611 Hawks Nest Lane 1304 Emeral Dreams Drive 68 Green Street 3966 Highland View Drive 4951 Valley Street 4977 Wayback Lane 766 Chandler Hollow Road 755 Hemlock Lane 98 Cherry Camp Road 3563 Timberbrook Lane 2548 Boone Street 3287 Flanigan Oaks Drive 4166 Park Avenue 2297 Traders Alley 823 North Street 4252 Point Street 1906 Catherine Drive 4130 Armory Road 4918 Duke Lane 4734 Grasselli Street 4688 Whiteman Street 2160 Elk Creek Road 4770 Hiney Road 465 Hickory Heights Drive 4346 Emerson Road 4729 Hannah Street 2545 Austin Secret Lane 4320 Williams Lane 4644 Barrington Court 3515 Hampton Meadows 3220 Briarwood Drive 3244 Freed Drive 4945 Lyndon Street 975 Orphan Road 198 Clover Drive 4458 Fincham Road 3277 Briarwood Road 3243 Tetrick Road 4334 Robinson Lane 3571 Wood Duck Drive 836 Charter Street 3625 Brentwood Drive 928 Hampton Meadows 30 Old House Drive 3320 James Avenue 1117 Upland Avenue 3815 George Street 23 Maple Street 1887 Tyler Avenue 4829 Hillside Drive 2624 Oakwood Avenue 4825 Beeghley Street 2201 Jerry Toth Drive 4506 Broadway Street 4107 Lamberts Branch Road 706 Conaway Street 2913 Hanover Street 1529 Whitetail Lane 911 Forest Drive 342 Cook Hill Road 3517 Candlelight Drive 3697 Waterview Lane 2181 Boone Street 1373 Bingamon Road 236 Freshour Circle 3426 Hill Haven Drive 1786 Bloomfield Way 1158 Del Dew Drive 1925 Sherwood Circle 3218 Ryan Road 4472 Atha Drive 2058 Lee Avenue 4832 Lee Avenue 2694 Raintree Boulevard 1746 Pride Avenue 2287 Lawman Avenue 1194 Harley Vincent Drive 1468 Froe Street 1979 Mahlon Street 2810 Rockford Road 1082 Hurry Street 1361 Oak Street 4768 Finwood Road 3385 Sarah Drive 532 Victoria Court 45 Baker Avenue 554 Jett Lane 195 Charack Road 580 Smith Road 4629 Hurry Street 441 Whispering Pines Circle 1841 Edsel Road 619 Wetzel Lane 1611 Park Boulevard 4336 Star Trek Drive 1343 Jenna Lane 2390 Havanna Street 1184 Hudson Street 1864 Hudson Street 515 Amethyst Drive 3411 Carolyns Circle 1917 Pennsylvania Avenue 593 Driftwood Road 4183 School House Road 2951 Prudence Street 4338 James Avenue 2225 Andell Road 3136 Stonepot Road 2880 Riverwood Drive 2225 Poe Road 94 Prospect Street 1377 Broadway Avenue 538 Sigley Road 2626 Stratford Drive 1493 Jerry Toth Drive 386 West Street 2759 Sherman Street 246 Columbia Boulevard 105 Loving Acres Road 4097 Cambridge Drive 144 Wilmar Farm Road 3021 Frum Street 1910 Fancher Drive 2851 Ford Street 100 Arlington Avenue 210 Hillside Drive 998 Collins Avenue 922 Desert Broom Court 1301 Stratford Court 3511 Stewart Street 3890 Goldcliff Circle 1476 Camel Back Road 2009 Buena Vista Avenue 265 Collins Street 795 Tenmile Road 204 Poplar Chase Lane 2795 Stutler Lane 2127 Holly Street 4048 Conference Center Way 2112 Columbia Boulevard 3396 Steve Hunt Road 2060 Del Dew Drive 4968 Duke Lane 825 Lang Avenue 1733 Cecil Street 481 Walnut Drive 3530 Tanglewood Road 3519 Rafe Lane 4203 Fannie Street 3903 Camden Place 2686 Bottom Lane 3312 Parrill Court 2348 Cambridge Place 3417 Camel Back Road 3956 Spruce Drive 3396 Marshville Road 2649 Alexander Drive 3149 Flint Street 1148 Post Farm Road 3455 Pallet Street 2858 Emma Street 2059 Cherry Ridge Drive 2589 Maloy Court 264 Flinderation Road 4101 Cedar Lane 3267 Overlook Drive 2094 Simpson Square 1343 Kemper Lane 4204 Oak Ridge Drive 139 Grim Avenue 4040 Bombardier Way 2749 Tavern Place 1203 Dogwood Road 1153 Hoffman Avenue 2095 Despard Street 3021 Tecumsah Lane 3535 Lakeland Terrace 4124 Old House Drive 115 Tuna Street 2177 Deercove Drive 3651 Rivendell Drive 1550 Mount Tabor 2724 Nutter Street 371 Meadow Lane 4219 Holt Street 4860 Norma Lane 4263 Paul Wayne Haggerty Road 465 Science Center Drive 569 Stonepot Road 2232 Hill Croft Farm Road 1797 Leverton Cove Road 3511 Werninger Street 3349 Summit Park Avenue 2691 College Street 1126 Kelley Road 604 Hamill Avenue 152 Raver Croft Drive 4181 Stuart Street 1887 Eastland Avenue 4289 Davis Court 1292 Chatham Way 4928 Findley Avenue 2610 Harron Drive 4991 Sherman Street 4368 Rocket Drive 843 Vesta Drive 3390 Glenwood Avenue 4413 Stutler Lane 2638 Spring Haven Trail 1501 Smithfield Avenue 386 Elk Avenue 749 Weekley Street 2492 Lilac Lane 586 Parkway Street 485 Mercer Street 201 Renwick Drive 2468 Sunny Glen Lane 2098 Parkview Drive 698 Centennial Farm Road 1705 Richland Avenue 3612 Spring Haven Trail 1894 Poplar Chase Lane 3469 Giraffe Hill Drive 1630 Lake Road 4485 Millbrook Road 1310 Carriage Lane 3227 Illinois Avenue 511 Turnpike Drive 547 Broadcast Drive 2317 White Pine Lane 3598 Glendale Avenue 1851 Pringle Drive 2451 Desert Broom Court 1312 Willow Oaks Lane 3127 Oak Street 4619 Caldwell Road 2743 Ashcraft Court 4366 Tuna Street 1984 Happy Hollow Road 408 Birch  Street 2140 Eagle Drive 1003 Harrison Street 1255 Tetrick Road 67 Willis Avenue 4228 Confederate Drive 1357 Laurel Lane 4740 Clair Street 3883 Augusta Park 3777 Rafe Lane 1200 McVaney Road 2792 Golden Street 4172 Rainy Day Drive 927 Traction Street 901 C Street 4973 North Street 3711 Snowbird Lane 2951 May Street 1769 Hickory Ridge Drive 2646 Court Street 965 Freedom Lane 761 Boring Lane 2565 Front Street 1161 Farland Avenue 2194 Wilmar Farm Road 1715 School House Road 365 Walton Street 3904 Commerce Boulevard 3688 Buckhannan Avenue 2981 Victoria Street 2567 Masonic Drive 1393 Little Street 1826 Baker Avenue 3697 Wilson Street 2697 Main Street 1930 Tori Lane 4898 Frank Avenue 585 Perine Street 3826 Mcwhorter Road 1151 Marion Drive 898 Orchard Street 4654 Elm Drive 2415 Franklin Street 3442 Radford Street 3092 Better Street 2372 Twin Willow Lane 4732 Viking Drive 3927 Mandan Road 4166 Carriage Court 4065 Carriage Court 1714 Concord Street 4129 Richison Drive 48 Hickory Ridge Drive 3054 McKinley Avenue 3486 Viking Drive 4230 Monroe Street 33 Grove Street 2405 Vine Street 4861 Meadowview Drive 4643 Ross Street 1636 Plainfield Avenue 2578 Five Points 2765 Turnpike Drive 2007 Saint James Drive 2243 Ashford Drive 4212 Larry Street 4274 Caldwell Road 4763 Leverton Cove Road 3290 Asylum Avenue 535 Rockford Mountain Lane 2323 Irving Road 3641 Hill Haven Drive 218 Woodland Terrace 2316 Tipple Road 4323 Chardonnay Drive 1778 Fieldcrest Road 4268 Tyler Avenue 1007 Fairway Drive 3081 Locust Street 132 Whitman Court 2737 Mount Olive Road 2212 Hidden Meadow Drive 4885 Angie Drive 2905 Kelly Street 4188 Ella Street 2282 Snider Street 1612 Willison Street 514 County Line Road 4167 Catherine Drive 2429 Locust Street 2392 Carson Street 3851 Everette Alley 2594 Mulberry Lane 4694 Peck Street 276 Tuna Street 3930 Riverside Drive 2563 Modoc Alley 4334 Jerry Dove Drive 796 Leo Street 2584 Cecil Street 3286 Paradise Lane 2801 Boggess Street 816 Walton Street 3046 Ella Street 520 Wildwood Street 4888 Overlook Drive 1056 Pritchard Court 2161 Sweetwood Drive 3187 Redbud Drive 4449 Briarwood Road 383 McVaney Road 2917 Boundary Street 4999 Stone Lane 510 Village View Drive 1791 Westwood Avenue 1155 Kyle Street 3837 Jennifer Lane 1017 Webster Street 2355 Cook Hill Road 4902 Rosewood Lane 3317 Henry Ford Avenue 4306 Palmer Road 2419 Green Street 2933 Capitol Avenue 557 Marion Drive 4675 Angus Road 3513 Jenna Lane 1211 Boone Crockett Lane 4762 Bruce Street 4215 Echo Lane 4659 Linda Street 2942 Nuzum Court 3635 Edgewood Avenue 3622 Westfall Avenue 3207 Langtown Road 3725 Martha Ellen Drive 4063 Rhapsody Street 4313 Marcus Street 1651 Holden Street 4276 Charla Lane 3183 Michael Street 541 Bingamon Branch Road 2894 Ingram Street 2197 Mayo Street 4047 Tennessee Avenue 4404 Quiet Valley Lane 1769 Patterson Fork Road 4362 Hewes Avenue 4418 Green Gate Lane 2991 Broaddus Avenue 3704 Nickel Road 4502 Emily Renzelli Boulevard 2137 Hog Camp Road 1910 John Avenue 4813 Meadowview Drive 3695 Haven Lane 3965 Queens Lane 41 Nickel Road 3746 Skips Lane 4523 Williams Avenue 2342 Strother Street 4989 Clarksburg Park Road 290 Hamilton Drive 2918 Tree Frog Lane 1128 Elk City Road 4151 Davis Lane 2727 Tori Lane 36 Tator Patch Road 4054 West Virginia Avenue 4866 Weekley Street 1744 Terra Street 872 Reel Avenue 1374 Mahlon Street 2701 Frum Street 3750 Clement Street 4376 Valley Lane 2908 Post Avenue 830 Joes Road 3018 Tyler Avenue 1199 Harron Drive 2751 Cherry Ridge Drive 4588 Liberty Street 2220 Austin Avenue 1331 Stiles Street 3403 Clifford Street 2660 Counts Lane 2668 Retreat Avenue 4137 Summit Street 160 Fantages Way 1279 Ferry Street 794 Berry Street 1817 Stone Lane 369 Better Street 191 Johnson Street 4574 Yorkie Lane 3493 Clarence Court 4660 Woodstock Drive 966 Hope Street 3417 John Avenue 1049 Tail Ends Road 2928 Winding Way 2916 Oliverio Drive 58 Hamill Avenue 270 Post Avenue 1582 Whitman Court 4078 Benson Street 4811 Goldcliff Circle 3649 Sardis Station 3669 Virgil Street 1574 Robinson Court 1823 Angus Road 4635 Randolph Street 545 Richards Avenue 4897 Harper Street 4390 Better Street 3793 Roosevelt Street 3571 Hood Avenue 616 Angus Road 4677 Mulberry Lane 4910 Lucy Lane 4109 Oakwood Avenue 4580 Raintree Boulevard 4429 Norman Street 2960 Lucky Duck Drive 1908 May Street 203 Raccoon Run 2960 Cambridge Drive 782 Irving Road 1806 Austin Secret Lane 4847 Perine Street 3598 Lilac Lane 94 Five Points 936 Ford Street 3656 Ralph Drive 210 Oliver Street 3312 Adonais Way 4904 Red Dog Road 3530 Elk City Road 4457 Randolph Street 3739 Wood Duck Drive 3556 Lindale Avenue 1583 Owagner Lane 466 Broad Street 2693 Payne Street 4971 Pearl Street 1537 Lynch Street 3921 Flinderation Road 2460 Buckhannan Avenue 1890 Feathers Hooves Drive 4632 Sussex Court 1915 Carson Street 4488 Roguski Road 3300 Limer Street 603 Rosebud Avenue 1997 Bird Spring Lane 3982 Turkey Pen Road 2787 Godfrey Road 3209 Shobe Lane 1120 Providence Lane 4138 Roosevelt Street 2934 Abia Martin Drive 4410 Radford Street 4317 Broadcast Drive 4717 Tipple Road 1866 Sycamore Fork Road 3103 Clement Street 4887 Finwood Road 3827 Chipmunk Lane 2474 Rose Street 4558 Single Street 1528 Jett Lane 3245 Pyramid Valley Road 3439 Sigley Road 4618 Davisson Street 2101 Chandler Drive 4516 Mudlick Road 4648 Armory Road 1972 Hurry Street 1642 Garrett Street 1886 Gateway Avenue 4070 Sheila Lane 381 Geneva Street 3781 Tail Ends Road 4659 Confederate Drive 3848 Grand Avenue 67 My Drive 4136 Smith Street 1491 Spruce Drive 569 Petunia Way 3743 Golden Ridge Road 3282 West Fork Street 3106 Poplar Lane 2419 Fowler Avenue 1945 Grove Street 2272 Devils Hill Road 597 Travis Street 3648 Hall Place 2055 Stonecoal Road 462 Braxton Street 3673 Melrose Street 4697 Hampton Meadows 4799 Carter Street 1153 Oakmound Road 4377 Stanley Avenue 212 Desert Broom Court 3586 Dancing Dove Lane 415 Briarwood Road 138 Dogwood Road 4320 Summit Park Avenue 84 Geneva Street 4429 Ferrell Street 3085 Hurry Street 855 Burton Avenue 4766 Koontz Lane 4411 Coulter Lane 4079 Parker Drive 1179 Boggess Street 1762 Crestview Terrace 493 Marigold Lane 4448 Lake Floyd Circle 4112 Boone Street 711 Watson Lane 2214 Sycamore Lake Road 2891 Tori Lane 1574 Webster Street 622 Michigan Avenue 39 Dane Street 2221 Martha Street 2145 Oliverio Drive 2329 Boring Lane 3575 Brannon Street 3826 Pinchelone Street 3517 Pineview Drive 4979 Parrish Avenue 605 Benson Street 3879 Sunny Glen Lane 1117 Tipple Road 1338 Beeghley Street 4052 Romano Street 1880 Denver Avenue 1065 Tori Lane 4361 Pringle Drive 3590 Roosevelt Street 4176 Cliffside Drive 2608 Heavens Way 1180 Whispering Pines Circle 3385 Anthony Avenue 2343 Neuport Lane 1071 Wildrose Lane 2294 Hamill Avenue 4767 Woodland Terrace 309 Huntz Lane 4241 Poplar Avenue 1729 Lang Avenue 314 Lynn Ogden Lane 3964 University Street 4001 Spadafore Drive 4650 Rollins Road 1981 Grey Fox Farm Road 878 Traction Street 2470 Lang Avenue 1067 Pineview Drive 638 Marshall Street 82 Pallet Street 1334 Emily Renzelli Boulevard 1861 Hart Street 2078 County Line Road 3259 Boone Street 1859 Rogers Street 2006 Locust Court 1959 Spruce Drive 405 Progress Way 3136 Victoria Court 3356 Anthony Avenue 2960 Rosemont Avenue 4085 Science Center Drive 3392 Ross Street 4564 Patterson Street 3941 Coffman Alley 3718 Dovetail Estates 2917 Deer Haven Drive 3360 Stockert Hollow Road 2679 Randall Drive 3421 Garfield Road 3551 Elliott Street 873 Elliott Street 920 New Creek Road 2242 Karen Lane 1850 Mandan Road 732 Hillcrest Avenue 835 Myra Street 986 Clinton Street 3548 Stanton Hollow Road 4041 Mapleview Drive 3356 Little Street 2242 College Street 4112 Bubby Drive 4980 Hiney Road 3824 Adonais Way 747 Valley Drive 649 Tuna Street 1263 Maple Court 2967 Woodside Circle 205 Parkway Drive 3094 Wood Duck Drive 783 Sycamore Street 1944 Daffodil Lane 2102 Marcus Street 1785 Valley Lane 6 Spinnaker Lane 2004 Gateway Road 4602 Robinson Lane 4877 Jail Drive 838 Mount Street 3856 Ward Road 2466 Tully Street 3036 Broadway Avenue 341 Norma Avenue 3301 Bombardier Way 442 Harper Street 979 Cedar Street 3846 Ridge Road 4641 Oakridge Lane 702 Kuhl Avenue 1016 Deans Lane 4535 Wescam Court 1157 Kinney Street 4391 Broadway Street 1112 Renwick Drive 2014 Morgan Street 4694 Calvin Street 4715 Breezewood Court 1469 Pride Avenue 4632 Nancy Street 2977 Old House Drive Doral Salt Lake City Moundridge Dallas Raleigh Santa Clara Waukesha Burlington Richmond Hill Fredericksburg Hanover Peoria Monrovia Virgilina Worcester Morrisville Albany Chicago Frederick Corpus Christi Waipahu Saginaw Sharonville Columbia Dayton Center New York Pasadena Boston Elon College Cambridge Cincinnati Platte Center San Diego Douglasville Los Lunas Hartford Washington Lombard Palmdale Westfield Andover Newport News Anaheim Tampa Vallejo Austin Stevens Point Memphis White Plains Seattle Bensalem Greensboro City Of Commerce Wolfeboro Eagle Garden City Lake Helen Scottsdale Los Angeles San Francisco Mamaroneck Brentwood Luzerne Marquette Riverside Stockbridge Killeen Mira Loma Merrillville St Cloud Norfolk Orleans Barron Cape Coral Minneapolis Houston Bethesda Warren Cary Easley Asheville Vista Mc Kinney Charlotte Canyonville North Augusta Parsippany Hastings Birmingham Mansfield Roseburg Linthicum Heights Wilmington Norwood Hopewell (Mercer) West Palm Beach Clinton Ocala Las Vegas New Iberia Portland Long Beach Dover San Jose Queens Mcclure Britt Syracuse Clarksville Tulsa Beckley Jamestown Plant City Silver City Carterville Springdale Lomita Chesapeake Bloomington Laconia Brockton Calmar Nashville Atlanta Gainesville Suitland Southfield South Mills Arlington Oakland Topeka Philadelphia Lakeland Oshkosh Independence Levittown Reno Dublin West Allis San Antonio Knoxville Irwinton Port Charlotte Elizabethtown Creighton Santa Fe Springs Lyndhurst Lewisville Mountain View Fort Worth Stowe Plymouth Meeting Nome New Lexington Sprague River Grand Rapids Agoura Oxford Delray Beach Orlando Lubbock Castana St Marys Bellevue North Greenbush Marietta Brooklyn Harlingen San Luis Obispo Elmsford Stlouis Rockford Sacramento Camden Riverhead Pittsburgh Hickory Hills Grand Junction Reston Kansas City Lapoint Fargo South River Keene Manahawkin (Stafford) Alpharetta Rayville Sylva Fountain Green Wichita Little Rock Haddonfield Turlock Northampton Buffalo Colorado Springs El Centro Joplin Cypress Gardens Circleville Iron Mountain Salina Georgetown Worthington Butler Brooksville Hialeah Carencro De Leon Cooper Landing Florence Miami Seymour Chantilly Bridgeport Yoakum Garfield Heights Stockton Clifton Cornish Lanham High Point Watertown Bakersfield Laurel Springs Richmond Charleston Detroit Salem Newark Lake Charles Sherman Mills Terre Haute Mcdonough Frisco Irvine Floris Quincy Winston Salem Sayreville East Lansing Monmouth Junction Collins Columbus Foresthill Beaufort Chattanooga Glen Elder Ekwok Corning Armiger Euless Beardsley Herndon Dickson Maryville Canal Winchester Rochelle Park Indianapolis Hermiston Altoona Coeur D Alene Rome Pottsville Bel Air Hyattsville Red Bank Kanosh Halstad Jackson Corinth Hearne Cockeysville Boley Poughkeepsie Denton Norcross La Grange (Dutchess) Linn La Grange East Boston Wakita Vandalia Plymouth Boulder Phoenix Roswell Collinston Wyandotte Evansville Plano Youngstown Shreveport Baton Rouge Springfield White Lake (Oakland) Gulfport Metropolis Grand Forks Palco Cleveland Tidioute East Orange Amarillo Michigan Center Omega Lac Du Flambeau Santa Ana Coin Secaucus Kendrick West Chicago Toledo Tigard Gadsden Culpeper Burr Ridge Belleville Lafayette Brighton Lakeside Fayetteville El Paso Ann Arbor Avon Park Live Oak Pecos Waco Cresaptown Greenwood Waltham Abbeville Wellfleet Lynchburg Pickrell Somerset Saint Louis Firebaugh Nixon West Valley City Omaha Ontario Billings Spencer Everett Midvale Saint Paul Montgomery Frankfort Peculiar Adamsville Delta Palm Springs La Mesa Denver Kalispell Aurora Powhatan Point Farmingdale Leamington Windsor Mill Decatur Mount Joy (Lancaster) Milwaukee Fairport Bedford Norwalk Rushville Fort Hood Fair Oaks Curtis East Hampton Traverse City New Haven Gastonia Golden Valley Countryside Baconton Lexington Fort Lauderdale Jupiter Charlestown Toccoa Myrtle Beach Walnut Ogden San Mateo Akron Morristown Owatonna Whitestone Jacksonville Pottstown Damascus Mineola Chadron Durham Wallingford Broken Arrow Clarks Hill Long Island City Lebanon Eagleville Cheektowaga Fresno Albuquerque Highland Falls Sherman Oaks Baltimore Mayfield San Bernardino Castroville Cicero Lansing Lawrenceville Show Low Draper Lytton Springs Brainerd Mechanicville Laurel Batavia Palmer Savannah Oakmont New Milford Lisbon Falls Dubuque Twin Falls Huntsville Hugo Bethlehem Garner Fort Atkinson Providence Arma Kabetogama Elcho Wayne Dighton Clarkson San Rafael Cutler Ashland Parowan Centerville Saint Marys Mentor Oakdale Hayward Tuscaloosa Schaumburg East Syracuse Bohemia Bernice West Memphis Berthoud La Puente Louisville Bristol Ft Lauderdale Freehold Brunswick Hillside Ladora Perry Rosalia Shawsville Lacota Appleton Baldwinsville Maitland Vestavia Hills Moore Utica Port St Lucie Gary Oakwood Chewelah Franklin Greenville Huntington Piscataway Kerrville Sheboygan Saltsburg Yakima Claflin Okabena Loyal Glen Rose Binghamton Fort Myers Irving Abilene Conyers Folsom Snowville Beaumont Vashon Overton Colorado City Mankato West Nyack Monterey Gibsonia Cedar Rapids Sumner San Angelo Eau Gallie Taylors Redmond Kohala Barnet Manchester Moulton Lawrenceburg Louisiana West Warwick Walpole Duluth Kennett Tallahassee Tucson Clanton Streator Jeffersonville Kewanee Weidman Johnson City Hamilton Owensboro Haviland Augusta Fairview Park Pensacola Sylvia FL UT KS TX NC CA WI GA MD IL VA MA OK HI MI IN SC OH NY NE NM CT DC TN WA PA NH ID AZ MN VT OR NJ AL DE NV LA IA WV ND AR SD WY MS AK MO CO ME KY MT RI US öÅ  àH # Ô% ”k  Js ¬œ  lj  \z   3 TR  ¢  àc `  J  ®k  €{  ◊Ï  F A2 z ŸΩ  π∞  r  Z±  ü( '  ›c ¢  ]  - «g ∂u  ˜S ◊  ËN  ÙÍ  ¡% nm àW  ˙≥    1\  Åj NÉ  ~q )N  ò3 —‘  Êî  i)  = LJ  k  ∏_ 6  ∫F 
+-  Ë  M Ω_ õo /)  ≈-  .2  M ø¬  [i Iv  ˝* hf Jµ  Ì€  Œ[  ‰  ÷  pÑ  rÿ  ÷, .N  ¡≠  yk  »s  Åp  ≥g =% *n  â| ët  é  % Éâ  fØ  æ| bR  BÉ  YM  JÉ    °_ M!  ÇÇ  ®n  ßÜ  \ † µ{ GÅ Ï  âs ≈g ≠-  ™  ˜ƒ  í3  Oj  ∞ê  à! …d  !‰  É  ˝W ∆ı  < ]b [  ,π  ∏  b	  §À  vë  ív  Y  
+Q  Àª  Hm  rî  œg ëq '  , µJ  Ñ  u÷  c¨  Ï-  ù] 	®  Îœ  â1 )î  By  ¢Ñ  '  ΩÏ  ﬂΩ  ±n  Å·  .b ü  ;% ˚C øÏ  ¬Ï  F) (  L  Œ‚  Ù™  g} _¡  •d ≤:   '  ˇñ  ô1 ÀÇ  !Ä  26 Wë  B«  JÖ ‘~ p/  su  ∆+  ¥{ ÷2 Ÿl )  }ˆ  ≠Ó  Yë  Fv ¶  }.  c;  )Ï  ]> O2 JV  i˙  GH ˆ‚  Ûn  ≤"  g  r  ˘u  \ e kp  òJ é  a  ît ìF  z7  < Sh !˝  \Ñ  i®  â¬  I "3 ^  M®  Ç Ø  )á  ÙÄ  x 6'  ú* ÙÑ =s  lÅ  ™∏  '  ‚% V  Ã  Ë, ïV ´0 ]¨  ‰s Z+ ¥  ‚P  |j  qﬂ  ul U  ®  π  6V  ’b  [º  Y^  d5  æ  … ®  ∫∫  -v  % ∆i PÕ  _~  í∞  ›i  ®"  ∑æ  H) î"  îq ö  kº  œ®  èu Œt  -í  v ¸Ñ q ÇR  ) aM øê  Ns ©ì  f®  Ó  ‘k  Æ¥  .~ Ÿ@  fG —u  ÌE  R  ëÅ  -Q    ùJ æÏ  ‰‹  +ô  ≤ó  #0 r  Ü7  πÏ  &R  M$ £J  91  ©) ãu  _v  ¸0  â mÏ  P  ë¥  +  ñ˜  *º  Æ9 L |u  = @º  _∫  B% ◊≠  '  ˙  úo ÉÇ  Ω í U  ˇº  Mö  Ÿg í  ı  (N  [„  I lÿ  R¨  ﬂ?  i  ˝4 f¿  }1 |  
+’  §J  !j ¥…  - ∂  QF & Î  Y™  «{ =å  ≠X  IÔ  ≈  e 9  àg bº  ën  8 Ëª  ûs !Ñ  @}  
+3  ú7 c+ ˛S  ò  j  ¥s  k
+  ∏_  F ¶  \ ∂m <1 ∑N  !ô  óH $
+ ∑8  ñ ›Ê  Û¨  õ OH O  πV  @◊  "'  ç  ôû  N˙  ên  µ™   ˘  fh %g Öm  ˝È  ã8 ¶´  ˇ, ◊-  ÷ı  ¸R  ã  êD  ⁄œ  r8  ¬  ∆  Ÿk  é®  åu —J  ÍÄ °.  ¬  o  Nu  ¯i îm  øo Éÿ  ;á  ‰{  ;û  Ç  ≤Ç    qw  Ñs  J9 çf ±I √p ≠  Q¥  ◊  \9 ],   ”}  L  àQ  Ì,  Ÿ 9l  \  ! :ª  bÉ  ]+  ÏØ  π{ ™ˆ  ÀK  ì7  n >T kØ  ∞*  u±  Ûº  e 5R  —R  R§  Òh $s ÍÏ  1¿  %ø  <]  çO {l ââ  0L ñT  j˙  o9 4H ¨/  q CT ë  yv  3 Q‹  V/  hÅ  „P  ƒ6  ê% ©z  #;  hq x  ú  !À  eE ⁄ã  µ; bF  ˚ âk  
+ø  "—  W  ò ]›  ú‘  %N  5  õ
+  Ê¶  ü Ωr \∫  &'  H∑  j;  ö†  U L K V  F{  õs ¨  %w  ' I  Mq Lä   ^  Ov Íœ  Î  3  ƒ-  ù+ 6 ù|  m - #'  %'  Å: `f 
+ù  ?J  Ç  Üv  0  ´  Î  Ã    bÉ Òn  –]  †ø  É÷  „2  Ô  >  s;  êâ  Ø/  HË  vÅ  ô  ¨Ç  {' 1≥  %É ˆ  &Û  ‰Ï  ﬂ-  ñ"  î  ∏Z  S¨  Ã0 ¨Å  Ép  Yœ  îH Ø"  A=  VÇ ≈ a€  Æ‘  J¨  ±J  ) Z  qf ÓÏ  M6  mÑ  % Ú6 ˇu  éu ’g pI Ö/  Ò=  ˇ 9n  P ¡⁄  “R  Ú*  ƒv å2 ∏∞  ƒ:  ¥Ã  ƒ  g, áÄ  ”ı  Õ¶  Å ˜s   Ûy Ω    Bã  ñù  y˜  a	  M   !  ëu  §3 wu  q˘  -~  ≈N ôs ëV  Âà  ¶3 ¥Ô  º{ x®    ˝æ  Oº  ·í  ”Ø  =•  ¨ Û µx  av  k)  =  ı~  ˝ —k  Î°  ∏°  L¢  ¢  U°  .°  B°  Ω°  â¢  n°  ,°  s°  X°   °  '°  }°  °  g°  ∑°  ò°  j°  .¢  f°  ˘†  z°  k¢  O°  %°  A°  «¢  ≥°  °  1°  T°  4°  „¢  
+°  ñ°  *°   £  °  ?£  F°  ~°  1¢  8°  ÿ£  e°  K°  |°  °  |£  Ò†  k°  õ£  Ä°  π£  6°  l°  ˆ£  °  W°  ^°  [°  =°  «°  u°  9°  v°  ï°  S°  ¢  “°  "°  (°  á°  °  ;°  Q°  ˝†  ∂°  ®°  Ø°  ™°  Y°  M°  ÿ°  £°  ˚†  ≠°  ¿¢  ƒ°  P°  ‚°  å°  °  b°  !°  h°  π°  :°  o°  {°  É°  <°  ë°  \°  $°  °  Z°  °  L°  ‰°  `°  5°  Ö°  m°  /°  ä°  ˙°  E°  û°  °  w°  Ç°  G°  •°  À°  ç°  î°  °  °  ö°  C°  J°  °  r°  Û†  ∞°  #°  ∆°  ó°  p¢  °  °  ◊°  œ°  °  ô°  ˛†  7°  ¢  3°  a°  ]°  ß°  Ô†  °  ù°  ø°  %¢  ®¢  ∞¢  q°  I°  R°  °  ú°  °  Â°  	°  2°  ¨°  D°  &°  ?°  £  ]£  ¥°  Õ°  ¡°  Ò°  +°  ⁄°  Ã°  t°  ﬂ°  ª°  ¢  ¯†  c°  †  K¢  x°  ¢  ¬°  H°  Œ°  @°  ‘°  ¶°  °  °  ˙†  ”°  N°  °°  Ï°  ¸†  µ°  ’°  0°  ≈°  ·°  H¢  Ê†  è°  V°  â°  °  >°  à°  Å°  y°  J¢  °  A¢  ˇ†  °  Í†  ,¢  §¢  )°  ¢°  û¢  °  -°  _¢  õ°  í°  ¿°  Ú†  ¢  °  ±°  p°  °  ã°  Æ°  ì°  Í°  d°  
+¢  _°  ¢  »°  4¢  §°  ü°  ¯°  r¢  ó¢  ©°  –°  Ï†  ÷°  Ü°  -¢  Ÿ°  3¢  ¢  ¡£  §  x£  ˝£  ≈£  ¨£  D§  §  £  B§  €£  ˆ£  V§  3§  Ë£  #§  6§  §   §  _§  Ò£  -§  ù£  M§  §  ﬂ£  §  „£  Ì£  §  —£  2§  |£  k§  §  u£  P§  ∂£  á£  ‡£  ˙£  &§  √£  ı£  §  À£  N§  V£  7£   §  ]£  §  \§  Î£  ë£  ¥£  §  g§  =§  (§  È£  ¢  Ç£  Õ£  	§  "§  â¢  §  @£  §  ?§  G§  .¢  ◊£  §  c§  A§  ÿ£  L¢  8§  .§  [£  §  F§  k¢  ˇ£  ˘£  Â£  !§  º£  %§  )§  œ£  Œ£  I§  /§  +§  õ£  3£  '§  §  §  ﬁ£  ~£  π£  U§  §  @§  p£  ó£  ?£  Z§  Û£  Ó£  *§  £  
+§  X£  ,§  J§  e§  §  ^§  ü£  ñ£  4§  ¶£   £  v£  E§  á¢  5§  ÷£  Ü£  ˛£  Ÿ£  “£  ¯£   £  0§  K§  ›£  Á£  ‚£  º¢  1§  §  q£  §£  §  Ï£  R§  ä£  H§  X§  ;§  m§  9§  ]§  §  ◊¢  Ã£  n£  Z£  –£  P£  ·£  ≈¢  ‘£  L§  D£  {£  §  S§  §  ⁄£  æ£  b§  §  ≤£  Ù£  Ø£  ˜£  …£  ™£  <§  ∞£  §  i§  Ô£  :§  O§  §  h§  ®£  Ê£  ª£  ±£  ´£  ©£  ˚£  r£  ’£  ú£  »£  µ£  Ú£  ‹£  ï£  «£  7§  §  C§  Y£  ¸£  ¢£  Í£  ≠£  •£  ¸¢  E£  d§  ∑£  Å£  *£  !£  ˆ¢  £  H£  T§  ∫£  í£  $§  §  é£  ƒ£  £  c£  Q§  ‰£  $£  ££  ¬£  ˜¢  û£  «¢  £  w£  a§  J£  l§  d£  ø£  å£  Ö£  [§  t£  Æ£  y£  +£               @   Ä  0¿  @  P@
+ `Ä p¿ Ä  		ê@	 
+ 
+†Ä
+ $∞¿ ¿  (–@ ,‡Ä 		¿ 
+
+  $
+
+A 0 Å  0¡" 4@$ 8PA& <`Å( @p¡* `Ä, DÄ. êA0 H†Å2 ∞¡4 ,¿6 –¡8 ,‡A:  D Å< !L! Ç< ""¬> ## > $P$0B: %T%@Ç@ & &P¬@ '$'`	 B ((0@	!D ))pÇ	"F *(*ê¿	#H +<+Ä
+$J ,,,êB
+%L -(-†Ç
+&N ..∞¬
+'P / /¿R 00–B(T 1X  1PÇ)" 2  2‡¬)V 3!!3*" 4\""4 C+X 5H""5É,Z 6`##6 √-\ 7d$$70.H 8$$8@C. 9%%9PÉ/^ :h&&:`√0" ;l'';p1` <H''<ÄC2J = ((=êÉb >p))>†√3J ?**?∞4d @**@¿C5" AH++A–É6f BH,,B‡√7h CH--C8 Dp..D†Cj E8..E Ñ9 F//Fƒ.l G//G .n H00H0D:p I11I@Ñ;r J<11JPƒ;t Kt22K`<v L(22LpDx Mx33MÄÑ=v N33Nêƒt O 44O†>z Pt55P∞D?| Q66Q¿Ñ & R 66R–ƒ@~ SD77S‡AÄ T77TDBÇ U@88U Ö?. V99V≈CÑ W::W DV X;;X0EE Y@;;Y@ÖEÜ Z|<<ZP≈Fà [@<<[`Gä \Ä==\pEå ]L==]ÄÖ0 ^Ñ>>^ê≈Fé _D??_†HZ `|@@`∞Eê a AAa¿ÖIí b AAb¿¬Jî càBBc–Kñ d BBd¿B	ò e,CCe‡ÖLö fDDf∞√=" gÄEEgMú h FFh FNû iGGiÜO† j GGj ∆*¢ kåHHk0P§ lêIIl@FQ† mdIImPÜR¶ n`JJn`∆S® ohJJopM® pKKpÄFJ qKKqÇT™ rHLLrê∆ ¨ sMMs¬U tDMMt†" uîNNu∞FN vHNNv¿ÜVå wOOwp¿1Æ x\OOx–B∞ y0PPy‡F5@ zòPPzÜ(@ {úQQ{ «W≤ | QQ|X¥ }RR}¬∂ ~PSS~ GY6 HTT†ÅZé Ä$UUÄ0á[∏ Å†VVÅ@«1" ÇVVÇP\~ É(WWÉ`G]∫ Ñ<XXÑpá^ Ö<YYÖÄ«Dº Ü,YYÜê DÇ áîZZá†G :æ à\ZZà∞á _¥ â[[â¿« E™ ä \\ä–!`ä ã ]]ã‡G!p å8]]åá!¿ ç^^ç »!a4 é\__é"H6 è``èB"b¬ êaaê à"Mƒ ëHbbë†¡"c∆ íbbí0#d. ìdccì@H#e» î ccîPà#† ïddï`»#fö ñDddñp$gö óHeeóÄH$hÄ òåffòêà$D  ôDffô†»$î öggö∞%0Ã õhhõ¿H%UŒ ú\hhú–à%– ùiiù‡»%i“ û iiû&j‘ üHjjü†A&k÷ †$kk†Å&lÿ °8kk°P¡&⁄ ¢ll¢ 	'@‹ £§mm£I'Dﬁ §nn§ â'm •Änn•0…'nä ¶oo¶@	(gö ß®ooßPI(oö ®$pp®Å(
+‡ ©$pp©¡(d‚ ™qq™`	)0¢ ´xqq´pI)p‰ ¨drr¨Äâ)qÊ ≠8ss≠P¡&6æ ÆúttÆê…)Dx ØDttØ†	*rË ∞|uu∞∞I*!‘ ±8vv±¿â*sÍ ≤vv≤–…*tû ≥dww≥+uÏ ¥Hww¥†A+>Ç µ¨xxµ‡â+%‡ ∂ yy∂†ÄvÓ ∑zz∑¿»+\ ∏ zz∏	,wÚ π8{{π¿â*Ë ∫ ||∫ J, ª}}ªä,DÙ º\~~º∞«,x– Ω8Ω¿â*y" æîæ 
+-Eˆ ø∞ÄÄø0J-z¯ ¿`ÅÅ¿@ä-˙ ¡HÇÇ¡P -{‹ ¬pÇÇ¬†√B‹ √ÉÉ√`
+.H¸ ƒHÑÑƒpJ.|˛ ≈HÑÑ≈†Å@¬ ∆|ÖÖ∆PÜ.h «ÖÖ«Ä .}" »ÜÜ»ê
+/~– …Háá…†J/" ¥àà ∞ä/\ö À$ââÀ¿ /$ Ã\ääÃ∞0ÕääÕ–J0DŒÄããŒ‡ä0QÏ œHããœ 0@é –dåå– 1o– —çç—Ä .bn “$çç“K1*\ ”∏éé” ã1ÄÚ ‘éé‘0¡1Å’ èè’02n
+÷êê÷–J0q‹ ◊¥ëë◊@K2ÿííÿPã2:> Ÿ$ííŸÅ&Ç⁄úìì⁄`À2ö €ìì€–3ö ‹Äîî‹pK3} ›hïï›Äã3=ﬁÄññﬁêÀ31Ê ﬂóóﬂ†46Ü ‡åóó‡0F46b · òò·†Ä‚êòò‚∞ã4É* „ôô„¿À4Ñ< ‰öö‰–5/ ÂõõÂ‡K5fÊ†úúÊã5Ö– Á,ùùÁ‡AmËÄûûË Ã5NÈüüÈ6DÍdüüÍ L6DÎH††Î0å6Ä‹ Ï∏°°Ï@Ã6EÌ¢¢ÌP7Ü¬ Ó¥¢¢Ó`L7Å Ô ££Ôpå7"D££ÄÃ7Ó Ò8§§Òê8á™ Ú§§Ú†L8$Û••Û∞å8H&Ù,¶¶Ù‡¡8àö ıDßßı¿9âP ˆßßˆ‡K9ä(˜D®®˜–å9/*¯ ®®¯‡Ã95,˘©©˘∞¬
+ã ˙ ™™˙:å– ˚ê´´˚ M:ç¸H´´¸†Å:é¥ ˝¨¨˝Õ:D¨ ˛∞≠≠˛ ;r‰ ˇ@ÆÆˇ0M;o‹  ØØ Aç;.=ØØQÕ;èå I∞∞°<R ∞∞1@<M0)±±aç<
+ö U±±qÕ<êö ≤≤¡=m\ Q≤≤1F=ë ≥≥Åç=í2	E≥≥	ëÕ=ì. 
+≥≥
+°>ã≥≥±M>m4Ω≥≥¡ç>î !≥≥—Õ>R6≥≥·?•≥≥ÒM?ï≥≥é?ñ8Å≥≥Œ?Ñ:Å≥≥·
+@ót =≥≥!N@òË I≥≥°Åm<)≥≥1ã@	∞ E≥≥q$ñ8 ô≥≥1Œ@ô>9≥≥AA  ç≥≥ëà$ö)¥¥QNAõ¬ I¥¥·ÖAú¬ Å¥¥aŒA¬ ë¥¥qBS¬ Ω¥¥ÅNB¬ ¥¥a	)e@ ¥¥ QÉù¬ !=¥¥!ëéB¬ "¥¥"°ŒB-¬ #)¥¥#ë¿	fŒ $¥¥$±Cû¬ %¥¥%¡NC
+¬ &9¥¥&¡â*`¬ 'ï¥¥'—éC¬ (¥¥(·ŒCü¬ )E¥¥)ÒD¬ *¥¥*ÒNDú¬ +Å¥¥+1…'î¬ ,Å¥¥,èD†¬ -9µµ-œD°B.µµ.a	E°D/Åµµ/!OE¢P 0µµ0!àE°ä 1≠µµ11œE° 29µµ2ÒF°< 3Iµµ3¡Ü°î 4Eµµ4AOF°t 5Åµµ5aŒA°D 6µµ6QèF°" 7Aµµ7aœF° 8Åµµ8·ä0°j 9]µµ9qG°º :	µµ:ÅOG°X ;5µµ;A°$ <±µµ<ëèG°º =9∂∂=¡â*kF>	∂∂>°œGñ≤ ?!∂∂?±H H@∂∂@¡OH£: Aq∂∂A—èH B!∂∂B·è@ C]∂∂CÒœH$Z D∂∂D±CTJE∂∂EQ IMLF]∂∂FPIò G-∂∂G·AM HE∂∂HêI§>IÅ∂∂I!–Ig» J∂∂JA JFNK=∂∂K1PJ• LY∂∂LQ¬/" M1∂∂M·Fw  N}∑∑NAêJ¶4 Oe∑∑OQ–Jß*P-∑∑P·AñQm∑∑QaK®PRe∑∑RQ–J=‡ S∑∑SqPK©¨ Te∑∑TÅêKöRU!∑∑Uë–K< V∑∑VALC<W!∑∑W°PL™Ä XÅ∑∑X±êLL: Y∑∑Y¡–L´&Z%∑∑ZM<[ù∑∑[—PMtT\≠∑∑\·êM5V]≠∑∑]Ò–MK ^∑∑^NtX_A∏∏_1NN<Í `I∏∏`1åNh∂ a=∏∏a¡N¨.b!∏∏bO Zc1∏∏c!QO5å de∏∏dAàOÇ\eI∏∏e1—O≠2 f∏∏fAPÆ≤ g∏∏gQQPU h∏∏h¡áP^iI∏∏ia—PT4 j∏∏jä,o`k9∏∏kÒá!íbl	∏∏lqQØ*m%∏∏mÅQQ/Ç n-∏∏nëëQ0÷ o=∏∏o1–Qdp1ππp°R∞2qππq@ ∞frµππr±QR∞hsππsB"∞ t9ππt¡ëR∞juπππu——R∞÷ vqππv·S∞lwIππwqJ.∞nxππxÒQS∞pyëππyíS∞Ï z9ππz“S∞r{Eππ{¡9∞R |=ππ|!T∞f }ππ}1RT∞‡ ~Eππ~AíT∞> Iππ°¡T∞B ÄµππÄAU∞tÅππÅ¡CU∞6 ÇππÇÜU∞vÉëππÉQ“U∞" ÑëππÑaV∞ ÖmππÖq∞™ ÜÅ∫∫ÜaŒA±xá∫∫á—J0±ñ à-∫∫àqRV±" â∫∫â¡=±zä9∫∫äÅíV±|ã∫∫ã¡áP±» å≠∫∫åë“V±~ç∫∫çW±Äé]∫∫éqOW±8 èe∫∫èQÜ±» ê≠∫∫ê·êM±H ë%∫∫ë°íW±é í!∫∫íQ¬W±>ìù∫∫ì±X±Çî!∫∫î°Ä±∫ ï	∫∫ï¡RX±6ñu∫∫ñ±ÑX±æ ó%∫∫óÅ&±X òE∫∫ò—“X±Ñôe∫∫ô·Y±B öÅ∫∫öÒRY±é õ∫∫õìY±Xú9ªªú”Y≤Lùªªù¡ZtÜûªªû!SZ≥üªªü±√h†ªª†1ìZ¥°eªª°A»Z?‰ ¢Eªª¢q$µ" £ªª£A[ à§ïªª§QS[:"•ªª•¡Ñ[*Ï ¶Åªª¶a”[∂äßmªªßq\∑8 ®ªª®1@\9å©Åªª©·ä0\™%ªª™Åì\2à´Eªª´ë”\+P¨}ºº¨°]mû ≠Öºº≠±S]∏(Æ)ººÆ·2méØ)ººØ¡ì]mD ∞ºº∞±√mÄ ±%ºº±—”]πê≤Åºº≤·^m ≥ëºº≥ÒS^m‚ ¥Iºº¥¡Ü∫êµIººµî^mN ∂ºº∂‘^m† ∑9ºº∑A_ª ∏ºº∏!T_[, πººπ1î_mn ∫9ºº∫A‘_1jªººªÅ`m ººººQT`míΩΩΩΩaî`}¯ æIΩΩæ!‘`ôîøΩΩøqar¯ ¿ΩΩ¿ÅTaò*¡ôΩΩ¡ëîañ¬≠ΩΩ¬°‘a≠ä √ΩΩ√≈ºàƒΩΩƒALL ≈-ΩΩ≈±bΩò∆AΩΩ∆¡Tb%8 «-ΩΩ«—îbæx»)ΩΩ»·‘bø …MΩΩ…ÒcÆ:  ¡ΩΩ Uc¿öÀçΩΩÀ1Üc§ ÃµΩΩÃï/è† ÕΩΩÕ!’cî* ŒææŒ¡C¡ä œ9ææœAA¬–ææ–1de —!ææ—aMdU “≠ææ“·êdeú”ææ”A’du ‘Mææ‘Qe_l’Iææ’aUeÖ~÷ëææ÷aíeÑj ◊≈ææ◊q’e√ÄÿEææÿÅfô> ŸææŸa	),⁄ææ⁄¬9|€aææ€ëUf¶Ù ‹ææ‹°ïfƒ† ›-ææ›q“fﬁ)ææﬁgD ﬂ≠ææﬂ·êMKû‡ææ‡¡¬"j ·uææ·±UgKb ‚Iææ‚°ÅgÜ„Öøø„¡’g≈D ‰¡øø‰—hY Â	øøÂ·Uh∆ZÊøøÊ!îh!ÁEøøÁÒ’hå¨ ËµøøËiU6 ÈøøÈVi« ÍøøÍ!ñi:J ÎøøÎ1÷iç" Ï≈øøÏAjFÌçøøÌ1»4ÓπøøÓQVj…Ï ÔEøøÔañjN†øø¡ƒjñ¢ÒIøøÒqkôT Ú%øøÚÅ& Û)øøÛë¿	0ÜÙ%øøÙÅVkÑıI¿¿ı¡Ü §ˆ!¿¿ˆëñku†˜Ö¿¿˜°÷k*¯e¿¿¯±l	∂ ˘)¿¿˘Q¬Wƒ¶˙¿¿˙¡Vl®» ˚I¿¿˚—ñlD ¸-¿¿¸·÷lÀ: ˝U¿¿˝ÒmÃR˛¿¿˛A@mÕp ˇE¿¿ˇómŒj ¿¿ WF®¿¿"◊mœ*f¿¿Bn–Rb¿¿2Wn?î J¿¿Bón™¿¿B:≠p ¿¿ÇF—:¡¡R◊n6r V¡¡bo6¨	¡¡	¢Vo6ò 
+û¡¡
+≤X6¡¡¬éo6 ¡¡r◊o6Æ¡¡¬p6∞∫¡¡BÃ66≤v¡¡ÇWp6Ç ¡¡íóp6V û¡¡bÀ268¡¡¢◊p6f ¬¡¡≤q6¥¡¡¬Wq6÷ ¡¡“óq6öj¡¡‚◊q6§ :¡¡Úá!6∂¡¡Úr6∏n¡¡r6∫B¡¡Xr6p ∫¬¬2ñruº&¬¬“”]Ø– ¬¬ÿr“– F¬¬Ç”– ¬¬"sJ–  ¬¬ 2Xs@– !F¬¬!BòsW– ">¬¬"RÿsT#v¬¬#bt…– $∫¬¬$2Vt‘– %J¬¬%ròt=– &∂¬¬&r“tx– '¬¬'≈’æ(¬¬(Çu7– )f¬¬)íXu÷– *"¬¬*¢òuI¿+J¬¬+≤ÿuj– ,N¬¬,¬váº-¬¬-“Xv– .Ç¬¬.2…'◊– /V¬¬/‚òvf– 0J¬¬0¢¡T»– 12¬¬1Úÿvÿ– 2F¬¬2¬9– 3^¬¬3≤«,J– 4>¬¬4wo– 5¬¬5¬BwŸ– 6J¬¬6ôw⁄– 7F¬¬7"Ÿw€– 8b¬¬8Rx	– 9∂¬¬9Ux•– ::¬¬:¬â*Ç¬;f¬¬;2ôx‹– <J¬¬<BŸxq– =¬¬=RyT– >R¬¬>bYy√– ?F¬¬?¢Öy>– @é¬¬@íà$ô– A¬¬A“!ƒ– BÜ¬¬B≤S]›– C¬¬C≤√– D¬¬D2@\î– E¬¬E¬Ñ[ﬁ– FJ¬¬FrŸy-– GF¬¬GÇz5– H¬¬¬H≤q]– I:¬¬I‚IzﬂƒJ¬¬JÇôz‡– K&¬¬K¡(
+– L"¬¬Lr¡z@– M"¬¬Mí{Öˆ N¬¬¬N¢Y{F– O¬¬O≤ô{s– P¬¬P¬Ÿ{ª– Q&¬¬Q“|·– R:√√R‚P|‚‰ S*√√Sí¿	$T:√√T‚ô|ßË U*√√UÚŸ|¿V√√V≤√• Wr√√W}„» X√√XN}ívYÜ√√YíÖ}B¬ Zr√√Z‚—}Qr["√√[‚	~ \∂√√\BK~" ]í√√]R“UMf ^∫√√^2ñ~$ _√√_⁄~oé `&√√`¡(æ“ aJ√√aL& b√√b¬Zﬁp cb√√c"C‰∆ dR√√dbôxde:√√eBA∆f^√√fR∆h" g√√g¬Ä!h√√h"ZÄC iv√√i2öÄ»jJ√√jB⁄Ä+lk√√kBÅfÄ l"√√lRZÅé mJ√√mböÅØÃn√√nr⁄ÅÂŒo√√oÇÇ›∂ pf√√píZÇL–q√√q¢àÇÊD rV√√r¢⁄Çï8 sæ√√s≤ÉÁ tñ√√t¬ZÉË“un√√u“öÉπ† vÜ√√v‚⁄Éd  w∫√√wÚÑi$xf√√x[Ñazy
+√√y‚ôÑ›z√√z€ÑÖH {√√{ÇÇ9b |√√|≤√c‘}√√}≤¡$~~√√~RÜŸ$:√√‚Ö-R Ä√√Ä"[Ö|¶Å √√Å2õÖÈúÇ
+√√ÇB€ÖÍ> É√√ÉB"Î÷Ñv√√ÑRÜF ÖV√√Ö‚òvö¶ ÜƒƒÜb[Üx" áZƒƒáRÇÜ≠" àvƒƒàÇWpÏ  âÇƒƒâr€Ü"êä:ƒƒäR¡&‹®ãJƒƒã¢¡"ÿå.ƒƒåÇá∆l çƒƒç¢>û¢é¬ƒƒéí[áÉ^ è
+ƒƒèBãá6 êƒƒê¢€á Ë ëƒƒëW$íJƒƒí¢A&"D ìƒƒìÜUŸ¨ î>ƒƒî"à¥0 ïJƒƒï¢Aà‹å ñ>ƒƒñ≤õà9" óƒƒó"â'Ì\òfƒƒòÀàÓî ô¬ƒƒô¬âÔÜ öbƒƒö"Câgîõrƒƒõ‚ëâ úFƒƒúBOF{Üùƒƒù“€âñ⁄û*ƒƒû‚äzüƒƒüÚ[ä|∞†"ƒƒ†í{Õ  °ƒƒ°ÇÜäÖ" ¢Fƒƒ¢‹äÒ‹£ƒƒ£¬OHΩî §ƒƒ§“ãÖ& •ƒƒ•BÖm¨ ¶íƒƒ¶\ãÚ  ß.ƒƒß‚Äãbz®:ƒƒ®í8Ä  ©ƒƒ©"‹ãØ¥ ™bƒƒ™"√j*´Üƒƒ´2åÛ.¨*ƒƒ¨"Yå´≠ƒƒ≠“äåÉÄ ÆƒƒÆ¬÷å•>Ø&ƒƒØBç@î ∞Jƒƒ∞R\çÙå ±Jƒƒ±búç_ò ≤ƒƒ≤Ç‘çı¨≥ƒƒ≥¬{î ¥íƒƒ¥ré´®µƒƒµBOéˆﬁ∂¢ƒƒ∂Çúéî¸ ∑ƒƒ∑¬ƒé˜‹∏Jƒƒ∏¢è·‡πJƒƒπ¢Aè¯d∫∫ƒƒ∫íúèz“ªƒƒª¢‹èSvºƒƒº¬Cb  ΩJƒƒΩ¢Ånæ¬ƒƒæ≤ê:H ø*≈≈ø‚è@ñ“¿f≈≈¿¬\êB<¡≈≈¡“úê@ò¬≈≈¬¬«ê,√Ç≈≈√‚ë§" ƒæ≈≈ƒÚ\ë!Z ≈&≈≈≈ùëKN ∆.≈≈∆≤b˘d«≈≈«B[á  »ñ≈≈»›ë/Ü …
+≈≈…"íπ* >≈≈ 2–Q0À∂≈≈ÀrRíu‚Ãb≈≈Ã2ùíUh Õ≈≈Õ“≈í@– Œ*≈≈ŒBìÜ‰œ:≈≈œR]ìØ\ –≈≈–N}êl—é≈≈—íà$o. “J≈≈“¢A+˙Ã ”≈≈”bùì´‘ ‘J≈≈‘r›ì!*’≈≈’ÇîT$÷J≈≈÷¢<áŒ ◊.≈≈◊¬AîÄ`ÿf≈≈ÿãîö‹ ŸÜ≈≈Ÿí›î˜n ⁄J≈≈⁄ï˚8 €∆≈≈€¢]ï¸*‹≈≈‹Bçï{" ›≈≈›¬áPd ﬁJ≈≈ﬁ¢Å˜ÊﬂÆ≈≈ﬂ≤›ïÈË‡≈≈‡¬ñj ·≈≈·“]ñD ‚F≈≈‚‚ùñvÍ„&≈≈„Å(„Ï‰b≈≈‰Ú›ñ-™ Â.≈≈ÂóØ§Ê&≈≈Ê^óÁ&≈≈ÁÅó˝»ËJ≈≈Ë"ﬁó\R ÈÇ≈≈È2ònÜÍJ≈≈Íôw≠j Î∂≈≈ÎrRí¨ Ïr≈≈Ï‚ëâ«ÃÌ:≈≈ÌB_9é ÓJ≈≈Ó¢<j‚ Ôv≈≈Ô2öÄC**≈≈í¿	¶òÒ^≈≈ÒCò}∂ Ú≈≈Ú≤√NÓÛ*≈≈Û"éòÓ ÙF≈≈Ù““ò*∏ ıF∆∆ıÇ˛,ˆ∆∆ˆBôˇ ˜∆∆˜BMô 7 ¯ä∆∆¯2˘∆∆˘2¡DÄ ˙∆∆˙ÖôD ˚∆∆˚RﬁôDò ¸∆∆¸ öD: ˝Ç∆∆˝OöDÚ˛f∆∆˛bûöD  ˇb∆∆ˇrﬁöDz s∆∆ }˛Ú ∆∆Éõµ ∆∆√CD  ∆∆CÑD +∆∆sD3 w∆∆ì^õD|∆∆É`DÙ ∆∆£ûõÈ,G∆∆”“õDñ 	g∆∆	Cú2 
+∆∆
+≥^úDÙ/∆∆„ÅúDR ∆∆c’úDˆ∆∆£ïfDh'∆∆ùD§ ∆∆√CUD∞ K∆∆√^ùD¶ ∆∆”ûùD∆∆„ﬁùD¢∆∆ÛûD¥ ∆∆_ûD0 ;∆∆CAD∞ ∆∆B"DH ∆∆üû¡ /∆∆„AŒ" ∆∆¬ûDæ ∆∆#üD ∆∆3_ü] c∆∆CüüD∂ g∆∆Û€üDŒ O∆∆S†D ∆∆√=iX  C∆∆ CE†≤¢!∆∆!cü†´ "w∆∆"sﬂ†D ##∆∆#ì°D‰ $K∆∆$É_°Ù≤%∆∆%ìü°D:&W∆∆&CÇD`'∆∆'√BwD*(∆∆(3¡°D†)G∆∆)Û¢DÇ *∆∆*≥¬
+D" +g∆∆+£_¢Y ,ó∆∆,≥ü¢<-ø∆∆-√ﬂ¢" .««.”£¯/««/„_£}L 0o««0cKÛ¥ 1'««1â£Õ¥ 2««2√Ñ[bË 3√««3…£+Ä 43««4§X˙5C««5Û_§T¶6c««6†§Ω¸77««7‡§!" 8'««8≥¿à¥ 9k««9# •0n :k««:3`•tò ;á««;C†•!∆ <√««<S‡•ôÄ=∑««=c ¶ïT >/««>ìG¶∂,?À««?s†¶ @£««@ÛÀ¶`úA/««AÉ ßô B_««BCòΩ CG««CCòsÛ∆ D««Dì`ß	∑E««E„Çß•Ù Fè««F3m6G««GS—ß‹– Hg««HC»ZôË I;««IÛá!JÓ J∑««J£ ®
+' K««K≥`®®4 Ls««L√†®µ6M;««MÑs N««NÉ∆®˛O+««Os©Pá««P”`©r‘ Q««Q„Ç©4Z R'««R„‡©x∞S««SS™ﬂ TG««TÛ`™\‰ U'««U°™eBV;««V·™/∂ W««W3î_˘X;««XC´≠.Y_««Y#a´$ ZG««Z3°´u[;««[Ûá!Ÿ \√««\C·´|Ç ]£««]≥¨Ë^««^Sa¨_««_c°¨ñî `««`√«¨>§ aK««as!≠æ< bè««bìà$n|c/««cÉB≠:dC««d3NNÂ eg««eC»Z¡‹f««fÉ°≠ûÑg#««g£ÄÜË h««hì·≠§òiK««isòtÇÄj««jC Æ=:kG««kCOF+¿ 

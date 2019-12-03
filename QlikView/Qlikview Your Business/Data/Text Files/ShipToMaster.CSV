@@ -1,0 +1,877 @@
+﻿Ship To ID,Customer ID,Name,Address 1,Address 2,Address 3,City,State,Country,ZIP Code,ShipTo Start Date,ShipTo End Date
+210001,101001,Shannon Kemp,257 Marigold Lane,,,Doral,FL,US,33178,6/26/2013,10/9/2014
+210002,101001,Shannon Kemp,4740 Walton Street,,,Salt Lake City,UT,US,84104,5/6/2013,1/8/2015
+210003,101003,Joan Somers,554 Roosevelt Road,,,Moundridge,KS,US,67107,10/1/2013,7/28/2014
+210004,101005,Kacey Hernandez,1889 Whispering Pines Circle,,,Dallas,TX,US,75247,8/1/2013,12/8/2014
+210005,101005,Kacey Hernandez,30 Patton Lane,,,Raleigh,NC,US,27603,1/27/2013,10/13/2014
+210006,101006,Hannah Garcia,2458 Brookview Drive,,,Santa Clara,CA,US,95050,12/19/2012,9/18/2014
+210007,101006,Hannah Garcia,2101 Trouser Leg Road,,,Waukesha,WI,US,53186,1/8/2013,2/17/2015
+210008,101007,Teresa Medley,4634 Ingram Road,,,Burlington,NC,US,27244,5/11/2013,1/4/2015
+210009,101008,Helen Brady,4214 Yorkie Lane,,,Richmond Hill,GA,US,31324,12/1/2013,11/25/2014
+210010,101009,John Sumner,1925 Parrish Avenue,,,Fredericksburg,TX,US,78624,2/21/2013,2/15/2015
+210011,101009,John Sumner,3532 Hickory Heights Drive,,,Hanover,MD,US,21076,12/17/2012,11/4/2014
+210012,101010,Marjorie Barker,3309 Little Acres Lane,,,Peoria,IL,US,61602,2/26/2013,12/1/2014
+210013,101010,Marjorie Barker,1277 Middleville Road,,,Monrovia,CA,US,91016,1/30/2013,12/1/2014
+210014,101011,Frank Witherington,2059 Queens Lane,,,Virgilina,VA,US,24598,12/5/2012,1/8/2015
+210015,101011,Frank Witherington,3156 Joanne Lane,,,Worcester,MA,US,1610,12/12/2012,3/7/2015
+210016,101012,Cleo King,4921 Jennifer Lane,,,Morrisville,NC,US,27560,3/8/2013,1/31/2015
+210017,101013,Zachary Warner,195 Locust Street,,,Albany,GA,US,31707,7/1/2013,11/17/2014
+210018,101013,Zachary Warner,3592 Clark Street,,,Chicago,IL,US,60631,7/1/2013,1/15/2015
+210019,101014,John Pollard,2639 Grove Avenue,,,Frederick,OK,US,73542,2/14/2013,2/3/2015
+210020,101014,John Pollard,4457 Franklin Avenue,,,Corpus Christi,TX,US,78401,5/5/2013,12/31/2014
+210021,101015,Gregory Reed,3852 Stratford Drive,,,Waipahu,HI,US,96797,8/1/2013,1/12/2015
+210022,101016,Jose Gregg,4133 Robinson Court,,,Saginaw,MI,US,48601,4/4/2013,3/16/2015
+210023,101016,Jose Gregg,706 Tuna Street,,,Sharonville,IN,US,45241,2/17/2013,11/26/2014
+210024,101017,John Dawkins,979 Wexford Way,,,Columbia,SC,US,29201,9/1/2013,1/25/2015
+210025,101017,John Dawkins,2938 Hartland Avenue,,,Waukesha,WI,US,53186,9/1/2013,9/3/2014
+210026,101018,Anna Morris,4616 Harter Street,,,Dayton,OH,US,45402,2/13/2013,2/26/2015
+210027,101018,Anna Morris,227 Mulberry Street,,,Center,TX,US,75935,10/27/2012,1/11/2015
+210028,101019,John Foster,1188 Ward Road,,,New York,NY,US,10011,10/1/2013,11/8/2014
+210029,101020,Allison Whitley,2511 Nickel Road,,,Pasadena,CA,US,91101,3/5/2013,12/17/2014
+210030,101021,Norman Atkinson,2251 Burke Street,,,Boston,MA,US,2210,11/1/2013,11/12/2014
+210031,101021,Norman Atkinson,73 Ingram Road,,,Elon College,NC,US,27244,11/1/2013,11/22/2014
+210032,101022,Clyde Vazquez,1028 Lyon Avenue,,,Cambridge,MA,US,2141,1/21/2013,1/1/2015
+210033,101023,Richard Paramore,1719 Jenna Lane,,,Cincinnati,OH,US,45241,12/1/2013,10/25/2014
+210034,101024,Betty Scott,1654 Crummit Lane,,,Platte Center,NE,US,68653,12/10/2012,10/25/2014
+210035,101026,Stephanie Lindsey,2955 Carson Street,,,San Diego,CA,US,92103,1/7/2013,1/30/2015
+210036,101027,Jill Aguirre,1618 Smith Road,,,Douglasville,GA,US,30134,2/1/2014,1/30/2015
+210037,101027,Jill Aguirre,3746 Chapmans Lane,,,Los Lunas,NM,US,87031,2/1/2014,1/1/2015
+210038,101028,Gwendolyn Rowell,1599 Red Bud Lane,,,Hartford,CT,US,6103,5/1/2013,8/1/2014
+210039,101028,Gwendolyn Rowell,256 Chatham Way,,,Washington,MD,US,20200,11/25/2012,8/1/2014
+210040,101029,Eulalia Romano,2393 Steele Street,,,Lombard,IL,US,60148,12/22/2012,3/28/2015
+210041,101032,Jerry Cook,481 Baker Avenue,,,Dallas,TX,US,75201,1/26/2013,1/2/2015
+210042,101032,Jerry Cook,4603 Gateway Avenue,,,Palmdale,CA,US,93550,12/25/2012,7/25/2014
+210043,101036,Heidi Winn,1115 Maxwell Farm Road,,,Fredericksburg,VA,US,22408,3/1/2014,3/1/2015
+210044,101037,Laura Dupree,1157 Stewart Street,,,Westfield,IN,US,46074,11/13/2012,9/28/2014
+210045,101039,Elizabeth Marshall,625 Joanne Lane,,,Andover,MA,US,1810,4/2/2013,8/12/2014
+210046,101039,Elizabeth Marshall,3082 Allison Avenue,,,Newport News,VA,US,23601,12/15/2012,11/9/2014
+210047,101040,Ashley Pagan,378 Providence Lane,,,Anaheim,CA,US,92801,5/1/2014,12/5/2014
+210048,101041,Wilfredo Hayes,2434 Chestnut Street,,,Tampa,FL,US,33614,1/21/2013,1/18/2015
+210049,101041,Wilfredo Hayes,2395 Marietta Street,,,Vallejo,CA,US,94590,11/9/2012,10/11/2014
+210050,101042,Delia Lewis,4176 Hickory Lane,,,Washington,DC,US,20009,6/1/2014,12/31/2014
+210051,101042,Delia Lewis,895 Ashton Lane,,,Austin,TX,US,78744,6/1/2014,11/30/2014
+210052,101043,Doreen Coney,1978 Abner Road,,,Stevens Point,WI,US,54481,1/12/2013,12/31/2014
+210053,101045,Brenda Shoemaker,4385 Edgewood Road,,,Memphis,TN,US,38118,3/9/2013,12/29/2014
+210054,101045,Brenda Shoemaker,3636 Lake Forest Drive,,,White Plains,NY,US,10601,9/4/2013,10/19/2014
+210055,101046,Jeffrey Lehner,1034 Raccoon Run,,,Seattle,WA,US,98109,12/29/2012,2/27/2015
+210056,101047,Christie Cannady,410 Lost Creek Road,,,Bensalem,PA,US,19020,11/1/2014,3/1/2015
+210057,101047,Christie Cannady,3194 Ingram Road,,,Greensboro,NC,US,27406,11/1/2014,1/4/2015
+210058,101048,Jennifer Bailey,4940 Joy Lane,,,City Of Commerce,CA,US,90040,2/12/2013,6/24/2014
+210059,101049,Bruce Gonzalez,1347 Elliott Street,,,Wolfeboro,NH,US,3894,1/17/2013,12/31/2014
+210060,101050,Deborah Walls,61 Science Center Drive,,,Eagle,ID,US,83642,3/7/2013,5/24/2014
+210061,101050,Deborah Walls,4779 Stanley Avenue,,,Garden City,NY,US,11530,12/4/2012,9/28/2014
+210062,101051,Melanie Scott,1724 Franklin Avenue,,,Lake Helen,FL,US,32744,1/8/2013,12/11/2014
+210063,101052,David Santos,1987 Clarksburg Park Road,,,Scottsdale,AZ,US,85256,8/1/2014,9/28/2014
+210064,101053,Jonathan Hinkle,4514 Jett Lane,,,Los Angeles,CA,US,90045,10/19/2012,7/1/2014
+210065,101053,Jonathan Hinkle,2675 Brown Street,,,San Francisco,CA,US,94107,2/18/2013,12/31/2014
+210066,101054,Frances Dodson,259 Taylor Street,,,Mamaroneck,NY,US,10543,9/1/2014,12/27/2014
+210067,101055,Tim Holley,4193 Feathers Hooves Drive,,,Brentwood,NY,US,11717,3/11/2013,3/13/2015
+210068,101056,Gracie Bulluck,3716 Joes Road,,,Luzerne,NY,US,12846,10/1/2014,12/1/2014
+210069,101057,Ronald Ortega,2411 Elmwood Avenue,,,Scottsdale,AZ,US,85251,2/14/2013,11/20/2014
+210070,101057,Ronald Ortega,4998 Railroad Street,,,Marquette,MI,US,49855,12/27/2012,1/31/2015
+210071,101058,James Avery,1581 Atha Drive,,,Riverside,CA,US,92507,11/1/2014,8/22/2014
+210072,101058,James Avery,3554 Elk Creek Road,,,Stockbridge,GA,US,30281,11/1/2014,9/26/2014
+210073,101059,James Tanner,3488 Beeghley Street,,,Killeen,TX,US,76541,2/19/2013,12/13/2014
+210074,101060,James Moorer,2308 Creekside Lane,,,Mira Loma,CA,US,91752,12/1/2014,3/24/2015
+210075,101060,James Moorer,3350 Duffy Street,,,Merrillville,IN,US,46410,12/1/2014,2/10/2015
+210076,101061,Sidney Board,3134 Newton Street,,,St Cloud,MN,US,56301,3/10/2013,1/20/2015
+210077,101061,Sidney Board,4254 Jefferson Street,,,Norfolk,VA,US,23502,12/10/2012,11/18/2014
+210078,101062,Bonita Sanchez,4248 Hardman Road,,,Orleans,VT,US,5860,1/29/2013,1/20/2015
+210079,101062,Bonita Sanchez,4078 Abner Road,,,Barron,WI,US,54812,11/25/2012,2/10/2015
+210080,101063,George Gish,2588 Wilkinson Court,,,Cape Coral,FL,US,33904,2/5/2013,8/1/2013
+210081,101064,Jennifer Hoyle,2127 Rocket Drive,,,Minneapolis,MN,US,55410,2/2/2013,8/7/2014
+210082,101066,Ruby Winchell,2181 Richland Avenue,,,Houston,TX,US,77014,12/22/2012,3/16/2015
+210083,101066,Ruby Winchell,2096 Bluff Street,,,Bethesda,MD,US,20014,1/3/2013,10/21/2014
+210084,101067,Kim Parks,2726 Horner Street,,,Warren,OH,US,44481,5/21/2013,12/20/2014
+210085,101067,Kim Parks,1534 Jennifer Lane,,,Cary,NC,US,27513,2/28/2013,1/14/2015
+210086,101068,Amelia Wyatt,1309 Brown Avenue,,,Easley,SC,US,29640,2/2/2013,2/26/2015
+210087,101071,Velva Emerson,4472 Hannah Street,,,Asheville,NC,US,28801,12/30/2012,12/1/2013
+210088,101072,Cristina Gonzales,3585 Vernon Street,,,Vista,CA,US,92083,3/1/2013,11/30/2014
+210089,101074,Paul Whitley,3036 Wilson Avenue,,,Mc Kinney,TX,US,75069,4/1/2013,1/4/2015
+210090,101074,Paul Whitley,2823 Traction Street,,,Charlotte,SC,US,28202,4/1/2013,1/10/2015
+210091,101075,Terri Stone,3733 Skinner Hollow Road,,,Canyonville,OR,US,97417,1/25/2013,6/2/2014
+210092,101075,Terri Stone,2636 Wexford Way,,,North Augusta,SC,US,29841,7/20/2013,1/5/2015
+210093,101076,Margaret Clay,1964 Lakewood Drive,,,Parsippany,NJ,US,7054,5/1/2013,2/12/2015
+210094,101076,Margaret Clay,542 Oak Way,,,Hastings,NE,US,68901,5/1/2013,1/11/2015
+210095,101077,Dawn Clancy,4566 Brookside Drive,,,Birmingham,AL,US,35203,1/25/2013,2/20/2015
+210096,101078,Dennis Marshall,1422 Langtown Road,,,Mansfield,OH,US,44902,6/1/2013,10/19/2014
+210097,101079,Constance Dunlap,3431 Buena Vista Avenue,,,Roseburg,OR,US,97470,1/27/2013,9/1/2013
+210098,101080,Pedro Garcia,2485 Harron Drive,,,Linthicum Heights,MD,US,21090,12/7/2012,10/31/2014
+210099,101080,Pedro Garcia,2154 Mapleview Drive,,,Tampa,FL,US,33602,12/13/2012,12/28/2014
+210100,101081,John Parra,597 Maud Street,,,Wilmington,DE,US,19801,3/18/2013,3/20/2015
+210101,101081,John Parra,3127 Bernardo Street,,,Tampa,FL,US,33610,2/21/2013,2/14/2015
+210102,101083,Andrew Esposito,821 Tenmile Road,,,Norwood,MA,US,2062,12/1/2012,11/1/2014
+210103,101084,Ashley Champion,4055 Oakway Lane,,,Los Angeles,CA,US,90017,1/29/2013,12/31/2014
+210104,101087,Maria Campbell,2698 Lake Road,,,Hopewell (Mercer),NJ,US,8525,1/1/2013,10/1/2013
+210105,101088,Alice Little,2134 Powder House Road,,,West Palm Beach,FL,US,33410,1/23/2013,2/5/2015
+210106,101089,Rose Luebke,4633 Layman Avenue,,,Clinton,NC,US,28328,10/31/2012,1/26/2015
+210107,101089,Rose Luebke,3854 Rhapsody Street,,,Ocala,FL,US,34471,1/12/2013,6/29/2014
+210108,101091,Allen Lossett,579 Mesa Drive,,,Las Vegas,NV,US,89101,5/4/2013,1/6/2015
+210109,101092,Michael James,4180 Willow Oaks Lane,,,New Iberia,LA,US,70560,4/20/2013,1/26/2015
+210110,101092,Michael James,4262 Linda Street,,,Portland,PA,US,97205,4/27/2013,2/19/2015
+210111,101094,James Coe,864 Pinnickinick Street,,,Long Beach,WA,US,98631,4/22/2013,11/1/2013
+210112,101094,James Coe,4749 Grasselli Street,,,Dover,NH,US,3820,1/1/2013,11/1/2013
+210113,101095,Billie Coffin,2344 Sycamore Street,,,San Jose,CA,US,95113,12/13/2012,3/7/2015
+210114,101095,Billie Coffin,2014 Ashcraft Court,,,San Diego,CA,US,92101,1/31/2013,12/10/2014
+210115,101097,Roberta Blocker,833 Lady Bug Drive,,,Queens,NY,US,11693,12/22/2012,12/4/2014
+210116,101099,Laura Daniels,1706 Wilson Street,,,San Diego,CA,US,92103,1/19/2013,1/31/2015
+210117,101099,Laura Daniels,2916 Hill Street,,,Mcclure,OH,US,43534,12/5/2012,12/31/2014
+210118,101100,Linda Nichols,3601 Morningview Lane,,,Britt,IA,US,50423,1/23/2013,11/25/2014
+210119,101100,Linda Nichols,4063 James Avenue,,,Syracuse,NY,US,13202,6/7/2013,2/12/2015
+210120,101101,Jill Carroll,2478 Keyser Ridge Road,,,Burlington,NC,US,27215,3/7/2013,11/14/2014
+210121,101101,Jill Carroll,1149 McDowell Street,,,Clarksville,TN,US,37040,2/28/2013,1/13/2015
+210122,101102,Ethel Slowik,3259 Bridge Street,,,Tulsa,OK,US,74120,2/18/2013,8/1/2014
+210123,101102,Ethel Slowik,1878 Tavern Place,,,Beckley,WV,US,25801,11/9/2012,8/1/2014
+210124,101103,Carole Beardsley,1759 Catherine Drive,,,Jamestown,ND,US,58401,4/15/2013,10/4/2014
+210125,101103,Carole Beardsley,800 Mill Street,,,Plant City,FL,US,33566,10/29/2012,1/17/2015
+210126,101104,Cathy Cardenas,719 Hamill Avenue,,,San Diego,CA,US,92103,1/7/2013,1/21/2015
+210127,101105,William Jordan,344 Westfall Avenue,,,Silver City,NM,US,88061,4/25/2013,11/12/2014
+210128,101106,Jimmie Banks,4147 Benedum Drive,,,New York,NY,US,10011,1/25/2014,2/20/2015
+210129,101107,Kenneth Butler,236 Butternut Lane,,,Carterville,IL,US,62918,5/18/2013,10/23/2014
+210130,101108,Irene Houde,4587 Midway Road,,,Springdale,AR,US,72764,3/7/2013,12/31/2014
+210131,101108,Irene Houde,1939 Libby Street,,,Lomita,CA,US,90717,1/22/2013,10/21/2014
+210132,101109,Michael Hutchins,3670 Murry Street,,,Chesapeake,VA,US,23321,6/17/2013,10/22/2014
+210133,101110,Woodrow Smith,2152 Stratford Park,,,Bloomington,IN,US,47404,3/23/2013,12/1/2014
+210134,101111,Lisa Harper,1697 Heliport Loop,,,Laconia,IN,US,47135,3/1/2013,2/22/2015
+210135,101111,Lisa Harper,1393 Stadium Drive,,,Brockton,MA,US,2402,3/1/2013,1/14/2015
+210136,101112,Debbie Jackson,2846 Summit Street,,,Calmar,IA,US,52132,2/19/2013,1/27/2015
+210137,101112,Debbie Jackson,2722 McDowell Street,,,Nashville,TN,US,37238,11/30/2012,1/17/2015
+210138,101113,Kevin Neely,1095 Fowler Avenue,,,Atlanta,GA,US,30354,4/1/2013,12/10/2014
+210139,101114,William Hopkins,3714 Rhapsody Street,,,Gainesville,FL,US,32601,2/9/2013,1/5/2015
+210140,101115,Miguel Petrick,2610 Roane Avenue,,,Suitland,MD,US,20746,5/1/2013,12/13/2014
+210141,101115,Miguel Petrick,746 Nash Street,,,Southfield,MI,US,48075,5/1/2013,1/23/2015
+210142,101116,Blake Gibson,4243 Edwards Street,,,South Mills,NC,US,27976,12/6/2012,12/17/2014
+210143,101117,Amy Dalton,4811 Edgewood Road,,,Arlington,TN,US,38002,6/1/2013,11/12/2014
+210144,101118,Walter Griffith,2348 Ocello Street,,,San Diego,CA,US,92111,2/15/2013,9/1/2014
+210145,101119,Kevin Gant,4769 Thompson Drive,,,Oakland,CA,US,94609,1/1/2013,5/20/2014
+210146,101120,Sharon Wells,3350 Taylor Street,,,New York,NY,US,10010,5/7/2013,1/19/2015
+210147,101120,Sharon Wells,2025 Nicholas Street,,,Topeka,KS,US,66604,12/31/2012,2/26/2015
+210148,101121,Carl Robinson,797 Wakefield Street,,,Philadelphia,PA,US,19125,2/22/2013,12/18/2014
+210149,101121,Carl Robinson,20 Ethels Lane,,,Lakeland,FL,US,33813,2/13/2013,1/26/2015
+210150,101122,Larry Ojeda,2735 Rockford Mountain Lane,,,Oshkosh,WI,US,54901,3/6/2013,11/1/2014
+210151,101122,Larry Ojeda,1077 Bingamon Road,,,Independence,OH,US,44131,3/14/2013,11/1/2014
+210152,101123,Lana Valdez,4641 Stanley Avenue,,,Levittown,NY,US,11756,1/2/2013,12/20/2014
+210153,101124,Warren Johnsen,58 Sheila Lane,,,Reno,NV,US,89501,3/1/2013,12/25/2014
+210154,101124,Warren Johnsen,1864 Viking Drive,,,Dublin,OH,US,43017,4/4/2013,12/28/2014
+210155,101125,Azalee Lewis,390 Tail Ends Road,,,West Allis,WI,US,53227,1/17/2013,11/7/2014
+210156,101126,Joseph Macha,4297 Parrish Avenue,,,San Antonio,TX,US,78217,1/19/2013,8/3/2014
+210157,101126,Joseph Macha,4646 Wiseman Street,,,Knoxville,TN,US,37929,2/13/2013,10/1/2014
+210158,101127,Roy Brown,1242 White Lane,,,Irwinton,GA,US,31042,3/28/2013,3/6/2015
+210159,101127,Roy Brown,4396 Lunetta Street,,,Port Charlotte,FL,US,33954,2/3/2013,12/16/2014
+210160,101128,Robert Trower,4688 Forest Avenue,,,New York,NY,US,10004,12/9/2012,2/13/2015
+210161,101129,Carl Leach,3997 University Drive,,,Chicago,IL,US,60605,11/27/2012,7/20/2014
+210162,101129,Carl Leach,4723 Wood Street,,,Saginaw,MI,US,48607,1/7/2013,8/28/2014
+210163,101130,Jessie Carter,1584 Layman Avenue,,,Elizabethtown,NC,US,28337,1/3/2013,6/1/2014
+210164,101131,Paul Purcell,2640 Andy Street,,,Creighton,SD,US,57729,3/1/2013,3/11/2015
+210165,101132,David Smith,493 Rainbow Road,,,Santa Fe Springs,CA,US,90670,2/1/2013,2/17/2015
+210166,101132,David Smith,3310 Granville Lane,,,Lyndhurst,NJ,US,7071,11/8/2012,1/5/2015
+210167,101133,Alisha Huffman,767 Formula Lane,,,Lewisville,TX,US,75067,3/14/2013,11/1/2014
+210168,101133,Alisha Huffman,743 Thorn Street,,,Mountain View,WY,US,82939,1/18/2013,11/1/2014
+210169,101134,Donald Rogers,4150 Patterson Fork Road,,,Chicago,IL,US,60607,12/17/2012,11/28/2014
+210170,101134,Donald Rogers,2945 Cecil Street,,,Chicago,IL,US,60610,12/31/2012,11/23/2014
+210171,101135,Jerry Morales,3493 Baker Avenue,,,Fort Worth,TX,US,76102,1/17/2013,6/29/2014
+210172,101135,Jerry Morales,1503 Buck Drive,,,Stowe,VT,US,5672,6/19/2013,1/22/2015
+210173,101136,Benjamin Tesch,3318 Stone Lane,,,Plymouth Meeting,PA,US,19462,2/7/2013,4/1/2014
+210174,101137,Danielle Morgan,2140 Hart Ridge Road,,,Saginaw,MI,US,48607,9/1/2014,1/27/2015
+210175,101138,David Williams,1110 Findley Avenue,,,Nome,ND,US,58062,3/1/2013,11/18/2014
+210176,101138,David Williams,884 Robinson Lane,,,New Lexington,OH,US,43764,12/26/2012,12/21/2014
+210177,101139,Henry Perez,3618 Haymond Rocks Road,,,Sprague River,OR,US,97639,1/26/2013,12/16/2014
+210178,101140,Kent Patel,212 Howard Street,,,Grand Rapids,MI,US,49503,3/16/2013,6/26/2014
+210179,101140,Kent Patel,4389 Quiet Valley Lane,,,Agoura,CA,US,91301,2/20/2013,2/5/2015
+210180,101141,Teresa Pannell,2810 Spruce Drive,,,Clinton,PA,US,15026,12/20/2012,1/24/2015
+210181,101141,Teresa Pannell,4887 Bell Street,,,New York,NY,US,10016,2/5/2013,1/14/2015
+210182,101142,Avelina Pollard,191 Tanglewood Road,,,Oxford,MS,US,38655,4/2/2013,11/28/2014
+210183,101143,Kathleen Sirois,1198 Five Points,,,Hanover,MD,US,21076,3/21/2013,2/23/2015
+210184,101144,Etta Howard,1402 Fidler Drive,,,San Antonio,TX,US,78233,1/22/2013,3/22/2015
+210185,101144,Etta Howard,3126 Holt Street,,,Delray Beach,FL,US,33483,7/11/2013,12/23/2014
+210186,101145,Jim Hague,1179 Garrett Street,,,Grand Rapids,MI,US,49503,5/11/2013,12/21/2014
+210187,101146,Heather Coronado,4119 Ocala Street,,,Orlando,FL,US,32801,1/8/2013,12/1/2014
+210188,101147,Priscilla Pedro,4239 Emma Street,,,Lubbock,TX,US,79410,3/1/2013,3/15/2015
+210189,101148,Donald Moore,995 Wilkinson Street,,,Nashville,TN,US,37207,1/11/2013,10/1/2014
+210190,101149,Kevin Tookes,4256 Kimberly Way,,,Grand Rapids,MI,US,49503,4/10/2013,12/31/2014
+210191,101149,Kevin Tookes,4152 Ashwood Drive,,,Castana,IA,US,51010,4/1/2013,9/5/2014
+210192,101150,Carl Taylor,2685 Blackwell Street,,,St Marys,AK,US,99658,11/16/2012,8/27/2014
+210193,101151,Gladys Fisher,3024 Main Street,,,Bellevue,WA,US,98004,5/1/2013,2/1/2015
+210194,101152,Jennie Davidson,1698 Oak Drive,,,North Greenbush,NY,US,12144,3/2/2013,6/1/2014
+210195,101152,Jennie Davidson,4718 Parkway Drive,,,Scottsdale,AZ,US,85256,2/28/2013,6/1/2014
+210196,101153,Elvira Montoya,4096 Fowler Avenue,,,Marietta,GA,US,30067,6/1/2013,9/12/2014
+210197,101154,Calvin Hulse,751 Settlers Lane,,,Brooklyn,NY,US,11206,3/13/2013,3/30/2014
+210198,101154,Calvin Hulse,2319 Feathers Hooves Drive,,,New York,NY,US,10011,1/3/2013,9/1/2014
+210199,101155,Peggie Pelton,2283 Karen Lane,,,Portland,OR,US,97204,1/2/2013,7/26/2014
+210200,101155,Peggie Pelton,2281 Hemlock Lane,,,Harlingen,TX,US,78550,1/13/2013,12/31/2014
+210201,101156,Alex Land,4173 Timber Oak Drive,,,San Luis Obispo,CA,US,93401,4/17/2013,10/1/2014
+210202,101157,Thomas Moor,2107 Deans Lane,,,Elmsford,NY,US,10523,12/25/2012,2/18/2015
+210203,101158,Alan Logan,1611 Hawks Nest Lane,,,Stlouis,MO,US,63101,1/22/2013,11/1/2014
+210204,101159,Deanna Starkey,1304 Emeral Dreams Drive,,,Rockford,IL,US,61101,2/17/2013,1/12/2015
+210205,101160,Lillian Douglas,68 Green Street,,,Nashville,TN,US,37209,5/25/2013,11/29/2013
+210206,101160,Lillian Douglas,3966 Highland View Drive,,,Sacramento,CA,US,95814,3/1/2013,2/2/2015
+210207,101161,Kelvin Robbins,4951 Valley Street,,,Camden,NJ,US,8102,4/20/2013,1/24/2015
+210208,101161,Kelvin Robbins,4977 Wayback Lane,,,Riverhead,NY,US,11901,1/3/2013,2/20/2015
+210209,101162,Dwayne Lupo,766 Chandler Hollow Road,,,Pittsburgh,PA,US,15203,1/18/2013,10/1/2014
+210210,101163,Joann Castiglia,755 Hemlock Lane,,,Harlingen,TX,US,78550,2/15/2013,9/26/2014
+210211,101163,Joann Castiglia,98 Cherry Camp Road,,,Hickory Hills,IL,US,60457,1/12/2013,2/27/2015
+210212,101164,Efrain Bowen,3563 Timberbrook Lane,,,Grand Junction,CO,US,81501,3/24/2013,12/23/2014
+210213,101164,Efrain Bowen,2548 Boone Street,,,Corpus Christi,TX,US,78415,3/31/2013,10/30/2014
+210214,101165,Joanne Love,3287 Flanigan Oaks Drive,,,Reston,MD,US,22090,11/8/2012,8/11/2014
+210215,101166,Mona Edmond,4166 Park Avenue,,,Sacramento,CA,US,95814,2/7/2013,6/1/2014
+210216,101167,Karen Cesar,2297 Traders Alley,,,Kansas City,MO,US,64105,4/4/2013,12/9/2014
+210217,101168,Jason Reinhardt,823 North Street,,,Lapoint,UT,US,84039,2/19/2013,1/30/2015
+210218,101168,Jason Reinhardt,4252 Point Street,,,Chicago,IL,US,60605,11/22/2012,11/2/2014
+210219,101169,Wilford Lund,1906 Catherine Drive,,,Fargo,ND,US,58102,2/14/2013,11/1/2014
+210220,101169,Wilford Lund,4130 Armory Road,,,Wilmington,NC,US,28403,3/8/2013,11/1/2014
+210221,101170,Stephanie Webb,4918 Duke Lane,,,South River,NJ,US,8882,1/13/2013,3/7/2015
+210222,101171,Sherry Fairchild,4734 Grasselli Street,,,Keene,NH,US,3431,1/29/2013,10/26/2014
+210223,101172,Gloria Hall,4688 Whiteman Street,,,Manahawkin (Stafford),NJ,US,8050,3/7/2013,4/1/2014
+210224,101173,Dora Lay,2160 Elk Creek Road,,,Alpharetta,GA,US,30201,9/1/2014,1/10/2015
+210225,101173,Dora Lay,4770 Hiney Road,,,Las Vegas,NV,US,89119,9/1/2014,12/11/2014
+210226,101174,Eloise Hopper,465 Hickory Heights Drive,,,Hanover,MD,US,21076,12/12/2012,12/3/2014
+210227,101174,Eloise Hopper,4346 Emerson Road,,,Rayville,LA,US,71269,11/29/2012,1/25/2015
+210228,101175,Danny McGee,4729 Hannah Street,,,Sylva,NC,US,28779,4/6/2013,10/25/2014
+210229,101176,Mary Santiago,2545 Austin Secret Lane,,,Fountain Green,UT,US,84632,2/12/2013,12/1/2014
+210230,101177,Kelly Collier,4320 Williams Lane,,,Wichita,KS,US,67214,3/6/2013,10/18/2014
+210231,101178,Flora Williams,4644 Barrington Court,,,Little Rock,AR,US,72212,1/9/2013,10/1/2014
+210232,101179,Elizabeth Vaughan,3515 Hampton Meadows,,,Cambridge,MA,US,2141,2/1/2013,1/28/2015
+210233,101180,James Turner,3220 Briarwood Drive,,,Haddonfield,NJ,US,8033,1/23/2013,2/24/2015
+210234,101181,Arturo Irwin,3244 Freed Drive,,,Turlock,CA,US,95380,3/1/2013,11/6/2014
+210235,101181,Arturo Irwin,4945 Lyndon Street,,,Northampton,PA,US,18067,3/1/2013,11/16/2014
+210236,101182,Edward Young,975 Orphan Road,,,Buffalo,NY,US,14202,3/24/2013,6/1/2014
+210237,101183,Randall Stutts,198 Clover Drive,,,Colorado Springs,CO,US,80903,4/1/2013,11/11/2014
+210238,101184,Pamela Barco,4458 Fincham Road,,,El Centro,CA,US,92243,1/16/2013,9/1/2014
+210239,101184,Pamela Barco,3277 Briarwood Road,,,Joplin,MO,US,64801,3/31/2013,1/21/2014
+210240,101185,Mario McTaggart,3243 Tetrick Road,,,Cypress Gardens,FL,US,33884,5/1/2013,1/29/2015
+210241,101185,Mario McTaggart,4334 Robinson Lane,,,Circleville,OH,US,43113,5/1/2013,2/23/2015
+210242,101186,Kenny Duncan,3571 Wood Duck Drive,,,Iron Mountain,MI,US,49801,11/21/2012,12/10/2014
+210243,101186,Kenny Duncan,836 Charter Street,,,Salina,KS,US,67401,12/19/2012,12/14/2014
+210244,101187,Helen Johnson,3625 Brentwood Drive,,,Georgetown,TX,US,78626,6/1/2013,7/21/2014
+210245,101188,Willie Hansen,928 Hampton Meadows,,,Cambridge,MA,US,2142,2/25/2013,11/1/2014
+210246,101189,Adam Adams,30 Old House Drive,,,Worthington,OH,US,43085,10/21/2012,12/5/2014
+210247,101189,Adam Adams,3320 James Avenue,,,Wichita,KS,US,67202,4/28/2013,9/10/2014
+210248,101190,Jennifer Lemke,1117 Upland Avenue,,,Butler,OH,US,44822,2/12/2013,12/15/2014
+210249,101190,Jennifer Lemke,3815 George Street,,,Brooksville,FL,US,34601,2/18/2013,11/21/2014
+210250,101191,Tim Reyes,23 Maple Street,,,Anaheim,CA,US,92801,12/8/2012,12/8/2014
+210251,101192,Rosemary Davis,1887 Tyler Avenue,,,Hialeah,FL,US,33012,5/20/2013,10/1/2014
+210252,101193,Daniel Williams,4829 Hillside Drive,,,Carencro,LA,US,70520,4/3/2013,10/30/2014
+210253,101193,Daniel Williams,2624 Oakwood Avenue,,,New York,NY,US,10038,11/6/2013,1/17/2015
+210254,101194,Cecil Ballard,4825 Beeghley Street,,,De Leon,TX,US,76444,3/1/2013,12/4/2014
+210255,101195,Davina Paterson,2201 Jerry Toth Drive,,,Cooper Landing,AK,US,99572,12/26/2012,1/22/2015
+210256,101196,Jose Morrow,4506 Broadway Street,,,Florence,SC,US,29501,1/18/2013,6/1/2014
+210257,101197,Thomas Hendren,4107 Lamberts Branch Road,,,Miami,FL,US,33132,12/19/2012,3/3/2015
+210258,101197,Thomas Hendren,706 Conaway Street,,,Seymour,IN,US,47274,11/11/2012,2/12/2015
+210259,101198,Shaun Schram,2913 Hanover Street,,,New York,NY,US,10013,4/27/2013,1/8/2015
+210260,101198,Shaun Schram,1529 Whitetail Lane,,,Dallas,TX,US,75234,1/1/2013,8/15/2014
+210261,101199,Harrison Cerny,911 Forest Drive,,,Chantilly,VA,US,22021,12/17/2012,11/1/2014
+210262,101199,Harrison Cerny,342 Cook Hill Road,,,Bridgeport,CT,US,6604,12/2/2012,11/1/2014
+210263,101200,Rena Powell,3517 Candlelight Drive,,,Houston,TX,US,77032,2/1/2013,2/27/2015
+210264,101200,Rena Powell,3697 Waterview Lane,,,Las Vegas,NM,US,87701,6/6/2013,11/25/2014
+220265,101002,SaqS,2181 Boone Street,,,Yoakum,TX,US,77995,5/29/2013,2/21/2015
+220266,101002,SaqS,1373 Bingamon Road,,,Garfield Heights,OH,US,44125,11/6/2012,2/26/2015
+220267,101002,SaqS,236 Freshour Circle,,,Stockton,CA,US,95204,12/8/2012,11/6/2014
+220268,101002,SaqS,3426 Hill Haven Drive,,,Clifton,TX,US,76634,2/1/2013,3/9/2015
+220269,101002,SaqS,1786 Bloomfield Way,,,Cornish,ME,US,4020,4/5/2013,12/1/2014
+220270,101002,SaqS,1158 Del Dew Drive,,,Lanham,MD,US,20706,4/27/2013,2/8/2015
+220271,101002,SaqS,1925 Sherwood Circle,,,High Point,NC,US,27260,2/13/2013,12/3/2014
+220272,101002,SaqS,3218 Ryan Road,,,Watertown,SD,US,57201,11/1/2012,11/16/2014
+220273,101002,SaqS,4472 Atha Drive,,,Bakersfield,CA,US,93301,12/28/2012,3/30/2015
+220274,101002,SaqS,2058 Lee Avenue,,,Laurel Springs,NJ,US,8021,4/6/2013,2/6/2015
+220275,101002,SaqS,4832 Lee Avenue,,,Camden,NJ,US,8104,8/11/2013,2/10/2015
+220276,101002,SaqS,2694 Raintree Boulevard,,,Richmond,IN,US,47374,12/24/2012,12/21/2014
+220277,101002,SaqS,1746 Pride Avenue,,,New York,NY,US,10011,2/1/2013,3/14/2015
+220278,101002,SaqS,2287 Lawman Avenue,,,Reston,VA,US,22070,2/21/2013,1/13/2015
+220279,101002,SaqS,1194 Harley Vincent Drive,,,Independence,OH,US,44131,12/28/2012,11/22/2014
+220280,101002,SaqS,1468 Froe Street,,,Charleston,WV,US,25301,2/8/2013,12/26/2014
+220281,101002,SaqS,1979 Mahlon Street,,,Detroit,MI,US,48219,1/27/2013,12/25/2014
+220282,101002,SaqS,2810 Rockford Road,,,Reno,NV,US,89501,2/4/2013,11/11/2014
+220283,101004,Q-Storm,1082 Hurry Street,,,Salem,VA,US,24153,4/19/2013,9/1/2014
+220284,101004,Q-Storm,1361 Oak Street,,,Norwood,NY,US,13668,10/17/2012,9/1/2014
+220285,101004,Q-Storm,4768 Finwood Road,,,Newark,NJ,US,7102,12/5/2012,9/1/2014
+220286,101004,Q-Storm,3385 Sarah Drive,,,Lake Charles,LA,US,70601,4/22/2013,9/1/2014
+220287,101004,Q-Storm,532 Victoria Court,,,Sherman Mills,ME,US,4776,3/8/2013,9/1/2014
+220288,101004,Q-Storm,45 Baker Avenue,,,Fort Worth,TX,US,76102,2/22/2013,2/17/2014
+220289,101004,Q-Storm,554 Jett Lane,,,City Of Commerce,CA,US,90040,11/15/2012,9/1/2014
+220290,101004,Q-Storm,195 Charack Road,,,Terre Haute,IN,US,47802,2/14/2013,9/1/2014
+220291,101004,Q-Storm,580 Smith Road,,,Mcdonough,GA,US,30253,12/29/2012,9/1/2014
+220292,101004,Q-Storm,4629 Hurry Street,,,Fredericksburg,VA,US,22408,3/6/2013,8/3/2014
+220293,101004,Q-Storm,441 Whispering Pines Circle,,,Frisco,TX,US,75034,4/9/2013,9/1/2014
+220294,101004,Q-Storm,1841 Edsel Road,,,Irvine,CA,US,92614,12/17/2012,9/1/2014
+220295,101004,Q-Storm,619 Wetzel Lane,,,Grand Rapids,MI,US,49503,2/9/2013,9/1/2014
+220296,101004,Q-Storm,1611 Park Boulevard,,,Floris,IA,US,52560,1/7/2013,9/1/2014
+220297,101004,Q-Storm,4336 Star Trek Drive,,,Quincy,FL,US,32351,5/13/2013,9/1/2014
+220298,101004,Q-Storm,1343 Jenna Lane,,,Cincinnati,OH,US,45202,1/27/2013,9/1/2014
+220299,101004,Q-Storm,2390 Havanna Street,,,Winston Salem,NC,US,27101,10/17/2012,9/1/2014
+220300,101004,Q-Storm,1184 Hudson Street,,,Lyndhurst,NJ,US,7071,4/5/2013,9/1/2014
+220301,101004,Q-Storm,1864 Hudson Street,,,Sayreville,NJ,US,8872,8/23/2013,9/1/2014
+220302,101025,GreenDales,515 Amethyst Drive,,,East Lansing,MI,US,48823,1/1/2014,10/20/2014
+220303,101025,GreenDales,3411 Carolyns Circle,,,Fort Worth,TX,US,76104,1/1/2014,7/18/2014
+220304,101025,GreenDales,1917 Pennsylvania Avenue,,,Monmouth Junction,NJ,US,8852,1/9/2014,12/5/2014
+220305,101025,GreenDales,593 Driftwood Road,,,Oakland,CA,US,94612,1/1/2014,1/5/2015
+220306,101025,GreenDales,4183 School House Road,,,Collins,MS,US,39428,1/1/2014,2/15/2015
+220307,101025,GreenDales,2951 Prudence Street,,,Southfield,MI,US,48235,1/1/2014,10/25/2014
+220308,101025,GreenDales,4338 James Avenue,,,Syracuse,NY,US,13202,1/1/2014,12/28/2014
+220309,101025,GreenDales,2225 Andell Road,,,Columbus,OH,US,43215,1/1/2014,2/10/2015
+220310,101025,GreenDales,3136 Stonepot Road,,,Newark,NJ,US,7102,1/1/2014,1/2/2015
+220311,101025,GreenDales,2880 Riverwood Drive,,,Foresthill,CA,US,95631,1/1/2014,12/31/2014
+220312,101025,GreenDales,2225 Poe Road,,,Beaufort,SC,US,29902,1/1/2014,12/1/2014
+220313,101025,GreenDales,94 Prospect Street,,,Camden,NJ,US,8102,1/1/2014,11/20/2014
+220314,101025,GreenDales,1377 Broadway Avenue,,,Chattanooga,TN,US,37421,1/1/2014,2/22/2015
+220315,101025,GreenDales,538 Sigley Road,,,Glen Elder,KS,US,67446,1/1/2014,12/29/2014
+220316,101025,GreenDales,2626 Stratford Drive,,,Waipahu,HI,US,96797,1/1/2014,1/12/2015
+220317,101025,GreenDales,1493 Jerry Toth Drive,,,Ekwok,AK,US,99580,1/1/2014,2/22/2015
+220318,101030,"Quinsy's",386 West Street,,,Grand Rapids,MI,US,49503,12/9/2012,6/28/2014
+220319,101030,"Quinsy's",2759 Sherman Street,,,Corning,KS,US,66417,12/28/2012,10/4/2014
+220320,101030,"Quinsy's",246 Columbia Boulevard,,,Armiger,MD,US,21122,12/22/2012,10/24/2014
+220321,101030,"Quinsy's",105 Loving Acres Road,,,Euless,TX,US,76039,2/24/2013,1/1/2015
+220322,101030,"Quinsy's",4097 Cambridge Drive,,,Beardsley,AZ,US,85345,2/14/2013,2/15/2015
+220323,101030,"Quinsy's",144 Wilmar Farm Road,,,Herndon,MD,US,22070,12/19/2012,1/31/2015
+220324,101030,"Quinsy's",3021 Frum Street,,,Dickson,TN,US,37055,11/13/2012,10/19/2014
+220325,101030,"Quinsy's",1910 Fancher Drive,,,Frisco,TX,US,75034,1/31/2013,6/18/2014
+220326,101030,"Quinsy's",2851 Ford Street,,,Santa Clara,CA,US,95054,1/1/2013,11/10/2014
+220327,101030,"Quinsy's",100 Arlington Avenue,,,Maryville,TN,US,37801,11/25/2012,2/14/2015
+220328,101030,"Quinsy's",210 Hillside Drive,,,Cambridge,MA,US,2141,1/1/2013,1/8/2015
+220329,101030,"Quinsy's",998 Collins Avenue,,,Canal Winchester,OH,US,43110,1/15/2013,12/26/2014
+220330,101030,"Quinsy's",922 Desert Broom Court,,,Rochelle Park,NJ,US,7662,3/14/2013,12/18/2014
+220331,101030,"Quinsy's",1301 Stratford Court,,,Raleigh,NC,US,27604,1/25/2013,1/30/2014
+220332,101030,"Quinsy's",3511 Stewart Street,,,Indianapolis,IN,US,46254,1/24/2013,1/8/2015
+220333,101030,"Quinsy's",3890 Goldcliff Circle,,,Washington,DC,US,20200,2/12/2013,12/31/2014
+220334,101030,"Quinsy's",1476 Camel Back Road,,,Tulsa,OK,US,74120,7/11/2013,2/3/2015
+220335,101033,Apples&Oranges,2009 Buena Vista Avenue,,,Hermiston,OR,US,97838,11/5/2012,12/17/2014
+220336,101033,Apples&Oranges,265 Collins Street,,,Altoona,PA,US,16601,4/8/2013,12/15/2014
+220337,101033,Apples&Oranges,795 Tenmile Road,,,Cambridge,MA,US,2141,12/28/2012,12/9/2014
+220338,101033,Apples&Oranges,204 Poplar Chase Lane,,,Coeur D Alene,ID,US,83814,11/19/2012,10/28/2014
+220339,101033,Apples&Oranges,2795 Stutler Lane,,,Altoona,PA,US,16601,1/29/2013,11/28/2014
+220340,101033,Apples&Oranges,2127 Holly Street,,,Rome,GA,US,30161,6/20/2013,12/4/2014
+220341,101033,Apples&Oranges,4048 Conference Center Way,,,Pottsville,PA,US,17901,2/4/2013,2/25/2015
+220342,101033,Apples&Oranges,2112 Columbia Boulevard,,,Bel Air,MD,US,21014,3/10/2013,2/15/2015
+220343,101033,Apples&Oranges,3396 Steve Hunt Road,,,Miami,FL,US,33169,12/30/2012,3/14/2015
+220344,101033,Apples&Oranges,2060 Del Dew Drive,,,Hyattsville,MD,US,20781,11/12/2012,12/20/2014
+220345,101033,Apples&Oranges,4968 Duke Lane,,,Red Bank,NJ,US,7701,12/1/2012,1/1/2015
+220346,101033,Apples&Oranges,825 Lang Avenue,,,Kanosh,UT,US,84637,12/23/2012,7/21/2014
+220347,101033,Apples&Oranges,1733 Cecil Street,,,Chicago,IL,US,60606,3/10/2013,11/16/2014
+220348,101033,Apples&Oranges,481 Walnut Drive,,,Halstad,ND,US,56548,2/20/2013,6/6/2014
+220349,101033,Apples&Oranges,3530 Tanglewood Road,,,Jackson,MS,US,39211,2/18/2013,7/31/2014
+220350,101033,Apples&Oranges,3519 Rafe Lane,,,Corinth,MS,US,38834,3/18/2013,3/22/2015
+220351,101033,Apples&Oranges,4203 Fannie Street,,,Hearne,TX,US,77859,2/20/2013,12/12/2014
+220352,101035,QAP,3903 Camden Place,,,Charleston,SC,US,29424,3/10/2013,6/26/2014
+220353,101035,QAP,2686 Bottom Lane,,,Buffalo,NY,US,14214,1/2/2013,1/21/2015
+220354,101035,QAP,3312 Parrill Court,,,Chicago,IN,US,60601,4/24/2013,3/3/2015
+220355,101035,QAP,2348 Cambridge Place,,,Cockeysville,MD,US,21030,12/22/2012,3/4/2015
+220356,101035,QAP,3417 Camel Back Road,,,Boley,OK,US,74829,2/18/2013,2/12/2015
+220357,101035,QAP,3956 Spruce Drive,,,Philadelphia,PA,US,19107,11/22/2012,12/24/2014
+220358,101035,QAP,3396 Marshville Road,,,Poughkeepsie,NY,US,12601,1/10/2013,11/8/2014
+220359,101035,QAP,2649 Alexander Drive,,,Denton,TX,US,76201,12/11/2012,10/4/2014
+220360,101035,QAP,3149 Flint Street,,,Norcross,GA,US,30091,1/19/2013,1/8/2015
+220361,101035,QAP,1148 Post Farm Road,,,Atlanta,GA,US,30303,2/26/2013,11/3/2014
+220362,101035,QAP,3455 Pallet Street,,,La Grange (Dutchess),NY,US,12540,1/31/2013,12/17/2014
+220363,101035,QAP,2858 Emma Street,,,Lubbock,TX,US,79410,1/18/2013,10/6/2014
+220364,101035,QAP,2059 Cherry Ridge Drive,,,Southfield,MI,US,48075,5/29/2013,3/19/2015
+220365,101035,QAP,2589 Maloy Court,,,Linn,KS,US,66953,1/5/2013,12/15/2014
+220366,101035,QAP,264 Flinderation Road,,,La Grange,IL,US,60525,2/12/2013,1/14/2015
+220367,101035,QAP,4101 Cedar Lane,,,East Boston,MA,US,2128,1/17/2013,2/13/2015
+220368,101035,QAP,3267 Overlook Drive,,,Indianapolis,IN,US,46225,12/12/2012,12/30/2014
+220369,101038,Q&M Stores,2094 Simpson Square,,,Wakita,OK,US,73771,4/1/2014,2/21/2015
+220370,101038,Q&M Stores,1343 Kemper Lane,,,Salt Lake City,UT,US,84104,4/1/2014,9/24/2014
+220371,101038,Q&M Stores,4204 Oak Ridge Drive,,,Vandalia,MO,US,63382,4/1/2014,11/29/2014
+220372,101038,Q&M Stores,139 Grim Avenue,,,San Diego,CA,US,92111,4/1/2014,12/1/2014
+220373,101038,Q&M Stores,4040 Bombardier Way,,,Plymouth,MI,US,48170,4/1/2014,9/21/2014
+220374,101038,Q&M Stores,2749 Tavern Place,,,Boulder,CO,US,80302,4/1/2014,2/13/2015
+220375,101038,Q&M Stores,1203 Dogwood Road,,,Phoenix,AZ,US,85012,4/1/2014,12/2/2014
+220376,101038,Q&M Stores,1153 Hoffman Avenue,,,Brooklyn,NY,US,11206,4/1/2014,10/17/2014
+220377,101038,Q&M Stores,2095 Despard Street,,,Roswell,GA,US,30076,4/1/2014,9/16/2014
+220378,101038,Q&M Stores,3021 Tecumsah Lane,,,Collinston,LA,US,71229,4/1/2014,1/24/2015
+220379,101038,Q&M Stores,3535 Lakeland Terrace,,,Wyandotte,MI,US,48192,4/1/2014,2/9/2015
+220380,101038,Q&M Stores,4124 Old House Drive,,,Worthington,OH,US,43085,4/1/2014,1/18/2015
+220381,101038,Q&M Stores,115 Tuna Street,,,Evansville,IN,US,47711,4/1/2014,12/27/2014
+220382,101038,Q&M Stores,2177 Deercove Drive,,,Plano,TX,US,75074,4/1/2014,11/28/2014
+220383,101038,Q&M Stores,3651 Rivendell Drive,,,Youngstown,OH,US,44503,4/1/2014,1/30/2015
+220384,101038,Q&M Stores,1550 Mount Tabor,,,New York,NY,US,10007,4/1/2014,3/28/2015
+220385,101038,Q&M Stores,2724 Nutter Street,,,Kansas City,MO,US,64127,4/1/2014,9/22/2014
+220386,101038,Q&M Stores,371 Meadow Lane,,,San Francisco,CA,US,94108,4/1/2014,11/12/2014
+220387,101038,Q&M Stores,4219 Holt Street,,,West Palm Beach,FL,US,33411,4/1/2014,1/9/2015
+220388,101038,Q&M Stores,4860 Norma Lane,,,Shreveport,LA,US,71101,4/1/2014,12/31/2014
+220389,101038,Q&M Stores,4263 Paul Wayne Haggerty Road,,,Baton Rouge,LA,US,70802,4/1/2014,11/25/2014
+220390,101038,Q&M Stores,465 Science Center Drive,,,Eagle,ID,US,83642,4/1/2014,12/10/2014
+220391,101044,Q-House,569 Stonepot Road,,,Newark,NJ,US,7102,7/1/2014,3/26/2015
+220392,101044,Q-House,2232 Hill Croft Farm Road,,,Sacramento,CA,US,95814,7/1/2014,3/20/2015
+220393,101044,Q-House,1797 Leverton Cove Road,,,Springfield,MA,US,1109,7/1/2014,12/31/2014
+220394,101044,Q-House,3511 Werninger Street,,,Houston,TX,US,77032,7/1/2014,11/24/2014
+220395,101044,Q-House,3349 Summit Park Avenue,,,White Lake (Oakland),MI,US,48383,7/1/2014,2/7/2015
+220396,101044,Q-House,2691 College Street,,,Atlanta,GA,US,30303,7/1/2014,12/18/2014
+220397,101044,Q-House,1126 Kelley Road,,,Gulfport,MS,US,39501,7/1/2014,2/28/2015
+220398,101044,Q-House,604 Hamill Avenue,,,San Diego,CA,US,92121,7/1/2014,12/19/2014
+220399,101044,Q-House,152 Raver Croft Drive,,,Chattanooga,TN,US,37403,7/1/2014,11/22/2014
+220400,101044,Q-House,4181 Stuart Street,,,Portland,PA,US,97205,7/1/2014,12/18/2014
+220401,101044,Q-House,1887 Eastland Avenue,,,Jackson,MS,US,39211,7/1/2014,3/1/2015
+220402,101044,Q-House,4289 Davis Court,,,Metropolis,IL,US,62960,7/1/2014,2/20/2015
+220403,101044,Q-House,1292 Chatham Way,,,Washington,MD,US,20008,7/1/2014,12/26/2014
+220404,101044,Q-House,4928 Findley Avenue,,,Grand Forks,ND,US,58203,7/1/2014,3/25/2015
+220405,101044,Q-House,2610 Harron Drive,,,Hanover,MD,US,21076,7/1/2014,10/22/2014
+220406,101044,Q-House,4991 Sherman Street,,,Palco,KS,US,67657,7/1/2014,2/8/2015
+220407,101044,Q-House,4368 Rocket Drive,,,Minneapolis,MN,US,55404,7/1/2014,1/27/2015
+220408,101044,Q-House,843 Vesta Drive,,,Chicago,IL,US,60605,7/1/2014,12/29/2014
+220409,101044,Q-House,3390 Glenwood Avenue,,,Cleveland,OH,US,44114,7/1/2014,9/14/2014
+220410,101044,Q-House,4413 Stutler Lane,,,Tidioute,PA,US,16351,7/1/2014,3/28/2015
+220411,101044,Q-House,2638 Spring Haven Trail,,,East Orange,NJ,US,7017,7/1/2014,2/20/2015
+220412,101044,Q-House,1501 Smithfield Avenue,,,Amarillo,TX,US,79101,7/1/2014,12/12/2014
+220413,101065,Q-4-Men,386 Elk Avenue,,,Michigan Center,MI,US,49254,5/2/2013,11/10/2014
+220414,101065,Q-4-Men,749 Weekley Street,,,San Antonio,TX,US,78205,2/20/2013,11/15/2014
+220415,101065,Q-4-Men,2492 Lilac Lane,,,Omega,GA,US,31775,5/27/2013,11/11/2014
+220416,101065,Q-4-Men,586 Parkway Street,,,Los Angeles,CA,US,90017,1/2/2013,11/16/2014
+220417,101065,Q-4-Men,485 Mercer Street,,,Lac Du Flambeau,WI,US,54538,5/15/2013,1/28/2015
+220418,101065,Q-4-Men,201 Renwick Drive,,,Philadelphia,PA,US,19108,2/2/2013,1/22/2015
+220419,101065,Q-4-Men,2468 Sunny Glen Lane,,,Independence,OH,US,44131,7/2/2013,12/31/2014
+220420,101065,Q-4-Men,2098 Parkview Drive,,,Santa Ana,CA,US,92705,12/22/2012,10/3/2014
+220421,101065,Q-4-Men,698 Centennial Farm Road,,,Coin,IA,US,51636,2/19/2013,1/29/2015
+220422,101065,Q-4-Men,1705 Richland Avenue,,,Houston,TX,US,77063,1/12/2013,1/24/2015
+220423,101065,Q-4-Men,3612 Spring Haven Trail,,,Secaucus,NJ,US,7094,12/16/2012,9/23/2014
+220424,101065,Q-4-Men,1894 Poplar Chase Lane,,,Kendrick,ID,US,83537,6/9/2013,11/22/2014
+220425,101065,Q-4-Men,3469 Giraffe Hill Drive,,,Dallas,TX,US,75287,12/27/2012,9/17/2014
+220426,101065,Q-4-Men,1630 Lake Road,,,Camden,NJ,US,8102,2/13/2013,12/24/2014
+220427,101065,Q-4-Men,4485 Millbrook Road,,,West Chicago,IL,US,60185,12/4/2012,10/3/2014
+220428,101065,Q-4-Men,1310 Carriage Lane,,,Toledo,OH,US,43609,3/9/2013,10/28/2014
+220429,101070,QalvinQlein,3227 Illinois Avenue,,,Tigard,OR,US,97223,2/1/2013,2/5/2015
+220430,101070,QalvinQlein,511 Turnpike Drive,,,Gadsden,AL,US,35901,5/26/2013,9/10/2014
+220431,101070,QalvinQlein,547 Broadcast Drive,,,Herndon,VA,US,22090,2/1/2013,9/15/2014
+220432,101070,QalvinQlein,2317 White Pine Lane,,,Culpeper,VA,US,22701,2/1/2013,1/2/2015
+220433,101070,QalvinQlein,3598 Glendale Avenue,,,Los Angeles,CA,US,90017,2/1/2013,12/20/2014
+220434,101070,QalvinQlein,1851 Pringle Drive,,,Burr Ridge,IL,US,61257,2/27/2013,12/6/2014
+220435,101070,QalvinQlein,2451 Desert Broom Court,,,Belleville,NJ,US,7109,2/1/2013,1/31/2015
+220436,101070,QalvinQlein,1312 Willow Oaks Lane,,,Lafayette,LA,US,70501,2/1/2013,11/23/2014
+220437,101070,QalvinQlein,3127 Oak Street,,,Syracuse,NY,US,13202,6/14/2013,12/6/2014
+220438,101070,QalvinQlein,4619 Caldwell Road,,,Brighton,NY,US,14623,2/1/2013,11/9/2014
+220439,101070,QalvinQlein,2743 Ashcraft Court,,,Lakeside,CA,US,92040,2/1/2013,1/26/2015
+220440,101070,QalvinQlein,4366 Tuna Street,,,Detroit,MI,US,48226,5/9/2013,12/1/2014
+220441,101070,QalvinQlein,1984 Happy Hollow Road,,,Fayetteville,NC,US,28305,5/18/2013,9/3/2014
+220442,101070,QalvinQlein,408 Birch  Street,,,El Paso,TX,US,79901,2/1/2013,9/26/2014
+220443,101070,QalvinQlein,2140 Eagle Drive,,,Ann Arbor,MI,US,48104,3/7/2013,9/21/2014
+220444,101070,QalvinQlein,1003 Harrison Street,,,San Jose,CA,US,95134,2/1/2013,11/25/2014
+220445,101070,QalvinQlein,1255 Tetrick Road,,,Avon Park,FL,US,33825,2/1/2013,7/22/2014
+220446,101082,QVPR,67 Willis Avenue,,,Live Oak,FL,US,32064,1/13/2013,8/27/2014
+220447,101082,QVPR,4228 Confederate Drive,,,Fayetteville,NY,US,13066,2/8/2013,10/29/2014
+220448,101082,QVPR,1357 Laurel Lane,,,Pecos,TX,US,79772,12/26/2012,8/27/2014
+220449,101082,QVPR,4740 Clair Street,,,Waco,TX,US,76643,12/24/2012,12/15/2014
+220450,101082,QVPR,3883 Augusta Park,,,Cresaptown,WV,US,21502,1/27/2013,9/2/2014
+220451,101082,QVPR,3777 Rafe Lane,,,Greenwood,MS,US,38930,1/10/2013,1/5/2015
+220452,101082,QVPR,1200 McVaney Road,,,Asheville,NC,US,28801,8/10/2013,10/3/2014
+220453,101082,QVPR,2792 Golden Street,,,Miami,FL,US,33169,12/1/2012,1/4/2015
+220454,101082,QVPR,4172 Rainy Day Drive,,,Waltham,MA,US,2154,10/26/2012,10/16/2014
+220455,101082,QVPR,927 Traction Street,,,Abbeville,SC,US,29620,4/2/2013,11/22/2014
+220456,101082,QVPR,901 C Street,,,Wellfleet,MA,US,2667,2/10/2013,3/26/2015
+220457,101082,QVPR,4973 North Street,,,Lynchburg,VA,US,24504,10/18/2012,2/17/2015
+220458,101082,QVPR,3711 Snowbird Lane,,,Pickrell,NE,US,68422,12/11/2012,1/1/2015
+220459,101082,QVPR,2951 May Street,,,Somerset,KY,US,42501,9/30/2013,9/27/2014
+220460,101082,QVPR,1769 Hickory Ridge Drive,,,Las Vegas,NV,US,89109,4/4/2013,1/6/2015
+220461,101082,QVPR,2646 Court Street,,,Saint Louis,MO,US,63101,11/11/2012,1/26/2015
+220462,101082,QVPR,965 Freedom Lane,,,Firebaugh,CA,US,93622,4/5/2013,1/25/2015
+220463,101086,DMS Authority,761 Boring Lane,,,San Francisco,CA,US,94107,3/3/2013,1/5/2015
+220464,101086,DMS Authority,2565 Front Street,,,Detroit,MI,US,48219,7/25/2013,10/30/2014
+220465,101086,DMS Authority,1161 Farland Avenue,,,Nixon,TX,US,78140,2/22/2013,12/1/2014
+220466,101086,DMS Authority,2194 Wilmar Farm Road,,,Chantilly,MD,US,20151,1/19/2013,11/17/2014
+220467,101086,DMS Authority,1715 School House Road,,,Jackson,MS,US,39201,2/22/2013,11/27/2014
+220468,101086,DMS Authority,365 Walton Street,,,West Valley City,UT,US,84119,12/20/2012,2/15/2015
+220469,101086,DMS Authority,3904 Commerce Boulevard,,,Omaha,NE,US,68132,11/30/2012,12/2/2014
+220470,101086,DMS Authority,3688 Buckhannan Avenue,,,Ontario,NY,US,14519,1/9/2013,2/28/2015
+220471,101086,DMS Authority,2981 Victoria Street,,,Baton Rouge,LA,US,70806,4/6/2013,11/20/2014
+220472,101086,DMS Authority,2567 Masonic Drive,,,Billings,MT,US,59101,5/16/2013,12/19/2014
+220473,101086,DMS Authority,1393 Little Street,,,Spencer,OH,US,44275,2/8/2013,1/30/2015
+220474,101086,DMS Authority,1826 Baker Avenue,,,Fort Worth,TX,US,76102,1/21/2013,11/21/2014
+220475,101086,DMS Authority,3697 Wilson Street,,,San Diego,CA,US,92103,12/27/2012,2/7/2015
+220476,101086,DMS Authority,2697 Main Street,,,Everett,WA,US,98203,11/5/2012,3/15/2015
+220477,101086,DMS Authority,1930 Tori Lane,,,Midvale,UT,US,84047,1/14/2013,1/26/2015
+220478,101086,DMS Authority,4898 Frank Avenue,,,Springfield,MA,US,1103,1/7/2013,12/9/2014
+220479,101086,DMS Authority,585 Perine Street,,,Arlington,VA,US,22201,1/30/2013,1/2/2015
+220480,101086,DMS Authority,3826 Mcwhorter Road,,,Jackson,MS,US,39211,3/18/2013,11/5/2014
+220481,101086,DMS Authority,1151 Marion Drive,,,Tampa,FL,US,33602,12/25/2012,11/20/2014
+220482,101086,DMS Authority,898 Orchard Street,,,Saint Paul,MN,US,55104,3/18/2013,12/11/2014
+220483,101086,DMS Authority,4654 Elm Drive,,,New York,NY,US,10018,2/13/2013,11/15/2014
+220484,101093,SectionAccess,2415 Franklin Street,,,Montgomery,AL,US,36117,5/28/2013,1/2/2015
+220485,101093,SectionAccess,3442 Radford Street,,,Frankfort,KY,US,40601,4/25/2013,1/8/2015
+220486,101093,SectionAccess,3092 Better Street,,,Peculiar,KS,US,64078,1/6/2013,3/4/2015
+220487,101093,SectionAccess,2372 Twin Willow Lane,,,Fayetteville,NC,US,28304,1/26/2013,11/6/2014
+220488,101093,SectionAccess,4732 Viking Drive,,,Adamsville,OH,US,43701,5/20/2013,12/4/2014
+220489,101093,SectionAccess,3927 Mandan Road,,,Delta,MO,US,63744,1/19/2013,11/12/2014
+220490,101093,SectionAccess,4166 Carriage Court,,,Palm Springs,CA,US,92262,6/3/2013,11/4/2014
+220491,101093,SectionAccess,4065 Carriage Court,,,La Mesa,CA,US,91941,2/19/2013,9/28/2014
+220492,101093,SectionAccess,1714 Concord Street,,,Denver,NC,US,28037,4/3/2013,12/31/2014
+220493,101093,SectionAccess,4129 Richison Drive,,,Kalispell,MT,US,59901,1/25/2013,2/2/2015
+220494,101093,SectionAccess,48 Hickory Ridge Drive,,,Las Vegas,NV,US,89101,4/18/2013,3/9/2015
+220495,101093,SectionAccess,3054 McKinley Avenue,,,Aurora,CO,US,80011,11/23/2012,1/24/2015
+220496,101093,SectionAccess,3486 Viking Drive,,,Powhatan Point,OH,US,43942,1/23/2013,8/26/2014
+220497,101093,SectionAccess,4230 Monroe Street,,,Houston,TX,US,77055,12/28/2012,10/15/2014
+220498,101093,SectionAccess,33 Grove Street,,,Farmingdale,NY,US,11735,2/8/2013,10/11/2014
+220499,101093,SectionAccess,2405 Vine Street,,,Chicago,IL,US,60605,12/22/2012,11/16/2014
+220500,101093,SectionAccess,4861 Meadowview Drive,,,Fredericksburg,VA,US,22408,1/17/2013,11/15/2014
+220501,101093,SectionAccess,4643 Ross Street,,,Leamington,IL,US,62934,2/14/2013,9/14/2014
+220502,101096,Con-Cat,1636 Plainfield Avenue,,,Syracuse,NY,US,13202,11/28/2012,2/4/2015
+220503,101096,Con-Cat,2578 Five Points,,,Windsor Mill,MD,US,21244,12/20/2012,8/26/2014
+220504,101096,Con-Cat,2765 Turnpike Drive,,,Decatur,AL,US,35601,2/14/2013,12/15/2014
+220505,101096,Con-Cat,2007 Saint James Drive,,,Mount Joy (Lancaster),PA,US,17552,2/21/2013,1/21/2015
+220506,101096,Con-Cat,2243 Ashford Drive,,,Washington,VA,US,20008,1/14/2013,1/7/2015
+220507,101096,Con-Cat,4212 Larry Street,,,Milwaukee,WI,US,53210,11/19/2012,12/18/2014
+220508,101096,Con-Cat,4274 Caldwell Road,,,Fairport,NY,US,14450,1/21/2013,1/2/2015
+220509,101096,Con-Cat,4763 Leverton Cove Road,,,Bedford,MA,US,1730,10/28/2012,1/1/2015
+220510,101096,Con-Cat,3290 Asylum Avenue,,,Norwalk,CT,US,6854,6/2/2013,2/25/2015
+220511,101096,Con-Cat,535 Rockford Mountain Lane,,,Raleigh,NC,US,27609,1/20/2013,12/13/2014
+220512,101096,Con-Cat,2323 Irving Road,,,Rushville,OH,US,43150,4/13/2013,9/21/2014
+220513,101096,Con-Cat,3641 Hill Haven Drive,,,Fort Hood,TX,US,76541,1/25/2013,2/16/2015
+220514,101096,Con-Cat,218 Woodland Terrace,,,Fair Oaks,CA,US,95628,6/27/2013,12/15/2014
+220515,101096,Con-Cat,2316 Tipple Road,,,Philadelphia,PA,US,19153,10/30/2012,2/25/2015
+220516,101096,Con-Cat,4323 Chardonnay Drive,,,Curtis,WA,US,98538,2/2/2013,12/28/2014
+220517,101096,Con-Cat,1778 Fieldcrest Road,,,East Hampton,NY,US,11937,5/25/2013,6/27/2014
+220518,101096,Con-Cat,4268 Tyler Avenue,,,Miami,FL,US,33012,1/10/2013,12/13/2014
+220519,101096,Con-Cat,1007 Fairway Drive,,,San Jose,CA,US,95113,5/3/2013,10/26/2014
+220520,101098,Drop-Fields,3081 Locust Street,,,Traverse City,MI,US,49686,9/1/2014,3/24/2015
+220521,101098,Drop-Fields,132 Whitman Court,,,New Haven,CT,US,6511,9/1/2014,12/7/2014
+220522,101098,Drop-Fields,2737 Mount Olive Road,,,Decatur,GA,US,30030,9/1/2014,2/14/2015
+220523,101098,Drop-Fields,2212 Hidden Meadow Drive,,,Grand Forks,ND,US,58203,9/1/2014,11/6/2014
+220524,101098,Drop-Fields,4885 Angie Drive,,,Irvine,CA,US,92664,9/1/2014,2/17/2015
+220525,101098,Drop-Fields,2905 Kelly Street,,,Gastonia,NC,US,28052,9/1/2014,9/8/2014
+220526,101098,Drop-Fields,4188 Ella Street,,,San Francisco,CA,US,94143,9/1/2014,11/19/2014
+220527,101098,Drop-Fields,2282 Snider Street,,,Colorado Springs,CO,US,80903,9/1/2014,9/19/2014
+220528,101098,Drop-Fields,1612 Willison Street,,,Golden Valley,MN,US,55427,9/1/2014,1/14/2015
+220529,101098,Drop-Fields,514 County Line Road,,,Countryside,FL,US,34619,9/1/2014,11/30/2014
+220530,101098,Drop-Fields,4167 Catherine Drive,,,Fargo,ND,US,58102,9/1/2014,3/30/2015
+220531,101098,Drop-Fields,2429 Locust Street,,,Baconton,GA,US,31716,9/1/2014,12/27/2014
+220532,101098,Drop-Fields,2392 Carson Street,,,Lexington,KY,US,40507,9/1/2014,9/11/2014
+220533,101098,Drop-Fields,3851 Everette Alley,,,Fort Lauderdale,FL,US,33308,9/1/2014,2/13/2015
+220534,101098,Drop-Fields,2594 Mulberry Lane,,,Jupiter,FL,US,33458,9/1/2014,9/27/2014
+220535,101098,Drop-Fields,4694 Peck Street,,,Charlestown,NH,US,3603,9/1/2014,1/6/2015
+220536,101098,Drop-Fields,276 Tuna Street,,,Southfield,MI,US,48075,9/1/2014,3/26/2014
+220537,101098,Drop-Fields,3930 Riverside Drive,,,Toccoa,GA,US,30577,9/1/2014,6/7/2014
+220538,101098,Drop-Fields,2563 Modoc Alley,,,Eagle,ID,US,83642,9/1/2014,3/21/2015
+220539,101098,Drop-Fields,4334 Jerry Dove Drive,,,Myrtle Beach,SC,US,29572,9/1/2014,12/13/2014
+230540,101031,Q-Mart,796 Leo Street,,,Denver,CO,US,80202,12/20/2012,9/29/2014
+230541,101031,Q-Mart,2584 Cecil Street,,,Burr Ridge,IL,US,61257,1/5/2013,10/1/2014
+230542,101031,Q-Mart,3286 Paradise Lane,,,Walnut,CA,US,91789,6/4/2013,10/1/2014
+230543,101031,Q-Mart,2801 Boggess Street,,,Dayton,OH,US,45402,12/21/2012,10/1/2014
+230544,101031,Q-Mart,816 Walton Street,,,Ogden,UT,US,84401,12/13/2012,10/1/2014
+230545,101031,Q-Mart,3046 Ella Street,,,San Mateo,CA,US,94403,1/3/2013,10/1/2014
+230546,101031,Q-Mart,520 Wildwood Street,,,Akron,OH,US,44308,4/15/2013,10/1/2014
+230547,101031,Q-Mart,4888 Overlook Drive,,,Morristown,IN,US,46161,1/7/2013,6/6/2014
+230548,101031,Q-Mart,1056 Pritchard Court,,,Owatonna,MN,US,55060,11/23/2012,10/1/2014
+230549,101031,Q-Mart,2161 Sweetwood Drive,,,Denver,CO,US,80220,5/19/2013,10/1/2014
+230550,101031,Q-Mart,3187 Redbud Drive,,,Whitestone,NY,US,11357,1/29/2013,10/1/2014
+230551,101031,Q-Mart,4449 Briarwood Road,,,Springfield,MO,US,65806,1/11/2013,10/1/2014
+230552,101031,Q-Mart,383 McVaney Road,,,Asheville,NC,US,28801,6/16/2013,8/6/2014
+230553,101031,Q-Mart,2917 Boundary Street,,,Jacksonville,FL,US,32211,3/11/2013,10/1/2014
+230554,101031,Q-Mart,4999 Stone Lane,,,Pottstown,PA,US,19464,9/27/2013,10/1/2014
+230555,101031,Q-Mart,510 Village View Drive,,,Damascus,MD,US,20872,12/7/2012,5/11/2014
+230556,101031,Q-Mart,1791 Westwood Avenue,,,Mineola,NY,US,11501,2/3/2013,10/1/2014
+230557,101031,Q-Mart,1155 Kyle Street,,,Chadron,NE,US,69337,11/21/2012,9/29/2014
+230558,101031,Q-Mart,3837 Jennifer Lane,,,Durham,NC,US,27705,4/4/2013,10/1/2014
+230559,101031,Q-Mart,1017 Webster Street,,,Lyndhurst,NJ,US,7071,10/8/2012,10/1/2014
+230560,101031,Q-Mart,2355 Cook Hill Road,,,Wallingford,CT,US,6492,3/6/2013,10/1/2014
+230561,101031,Q-Mart,4902 Rosewood Lane,,,New York,NY,US,10007,4/18/2013,10/1/2014
+230562,101031,Q-Mart,3317 Henry Ford Avenue,,,Broken Arrow,OK,US,74012,3/26/2013,10/1/2014
+230563,101031,Q-Mart,4306 Palmer Road,,,Worthington,OH,US,43085,2/26/2013,10/1/2014
+230564,101031,Q-Mart,2419 Green Street,,,Nashville,TN,US,37207,12/13/2012,10/1/2014
+230565,101031,Q-Mart,2933 Capitol Avenue,,,Clarks Hill,IN,US,47930,1/18/2013,10/1/2014
+230566,101031,Q-Mart,557 Marion Drive,,,Tampa,FL,US,33634,1/28/2013,10/1/2014
+230567,101031,Q-Mart,4675 Angus Road,,,Long Island City,NY,US,11101,3/20/2013,10/1/2014
+230568,101031,Q-Mart,3513 Jenna Lane,,,Lebanon,OH,US,45036,11/14/2012,10/1/2014
+230569,101031,Q-Mart,1211 Boone Crockett Lane,,,Portland,WA,US,97209,2/21/2013,10/1/2014
+230570,101031,Q-Mart,4762 Bruce Street,,,Saint Louis,MO,US,63146,1/24/2013,10/1/2014
+230571,101031,Q-Mart,4215 Echo Lane,,,Grand Rapids,MI,US,49503,11/22/2012,5/2/2014
+230572,101031,Q-Mart,4659 Linda Street,,,Eagleville,PA,US,19403,1/4/2013,10/1/2014
+230573,101031,Q-Mart,2942 Nuzum Court,,,Cheektowaga,NY,US,14227,2/7/2013,10/1/2014
+230574,101031,Q-Mart,3635 Edgewood Avenue,,,Fresno,CA,US,93721,1/31/2013,10/1/2014
+230575,101031,Q-Mart,3622 Westfall Avenue,,,Albuquerque,NM,US,87102,5/16/2013,10/1/2014
+230576,101031,Q-Mart,3207 Langtown Road,,,Mansfield,OH,US,44907,2/5/2013,10/1/2014
+230577,101031,Q-Mart,3725 Martha Ellen Drive,,,Reno,NV,US,89501,2/8/2013,10/1/2014
+230578,101031,Q-Mart,4063 Rhapsody Street,,,Gainesville,FL,US,32601,1/14/2013,10/1/2014
+230579,101031,Q-Mart,4313 Marcus Street,,,Gadsden,AL,US,35901,3/19/2013,10/1/2014
+230580,101031,Q-Mart,1651 Holden Street,,,Los Angeles,CA,US,90017,5/1/2013,10/1/2014
+230581,101031,Q-Mart,4276 Charla Lane,,,Dallas,TX,US,75287,4/5/2013,10/1/2014
+230582,101031,Q-Mart,3183 Michael Street,,,Houston,TX,US,77063,3/12/2013,10/1/2014
+230583,101031,Q-Mart,541 Bingamon Branch Road,,,Highland Falls,NY,US,10928,12/29/2012,10/1/2014
+230584,101031,Q-Mart,2894 Ingram Street,,,Dayton,OH,US,45429,2/18/2013,10/1/2014
+230585,101031,Q-Mart,2197 Mayo Street,,,Lexington,KY,US,40507,6/17/2013,10/1/2014
+230586,101031,Q-Mart,4047 Tennessee Avenue,,,Oxford,MI,US,48371,3/4/2013,3/20/2014
+230587,101031,Q-Mart,4404 Quiet Valley Lane,,,Sherman Oaks,CA,US,91403,9/29/2013,10/1/2014
+230588,101031,Q-Mart,1769 Patterson Fork Road,,,Chicago,IL,US,60610,12/17/2012,10/1/2014
+230589,101031,Q-Mart,4362 Hewes Avenue,,,Columbia,MD,US,21045,1/3/2013,10/1/2014
+230590,101031,Q-Mart,4418 Green Gate Lane,,,Baltimore,MD,US,21201,1/9/2013,9/5/2014
+230591,101031,Q-Mart,2991 Broaddus Avenue,,,Mayfield,KY,US,42066,1/25/2013,10/1/2014
+230592,101031,Q-Mart,3704 Nickel Road,,,San Bernardino,CA,US,92401,3/16/2013,10/1/2014
+230593,101031,Q-Mart,4502 Emily Renzelli Boulevard,,,Castroville,CA,US,95012,5/9/2013,10/1/2014
+230594,101031,Q-Mart,2137 Hog Camp Road,,,Cicero,IL,US,60650,11/17/2012,10/1/2014
+230595,101034,Super-Q,1910 John Avenue,,,Jackson,MI,US,49201,9/20/2013,1/22/2015
+230596,101034,Super-Q,4813 Meadowview Drive,,,Fredericksburg,VA,US,22408,12/10/2012,12/14/2014
+230597,101034,Super-Q,3695 Haven Lane,,,Lansing,MI,US,48933,4/8/2013,12/21/2014
+230598,101034,Super-Q,3965 Queens Lane,,,Lawrenceville,VA,US,23868,2/13/2013,5/11/2014
+230599,101034,Super-Q,41 Nickel Road,,,Los Angeles,CA,US,90017,1/24/2013,11/25/2014
+230600,101034,Super-Q,3746 Skips Lane,,,Show Low,AZ,US,85901,11/2/2012,12/18/2014
+230601,101034,Super-Q,4523 Williams Avenue,,,Bakersfield,CA,US,93307,5/29/2013,1/9/2015
+230602,101034,Super-Q,2342 Strother Street,,,Birmingham,AL,US,35209,2/28/2013,9/1/2014
+230603,101034,Super-Q,4989 Clarksburg Park Road,,,Phoenix,AZ,US,85040,4/20/2013,2/9/2015
+230604,101034,Super-Q,290 Hamilton Drive,,,Oxford,MD,US,21654,12/12/2012,1/8/2015
+230605,101034,Super-Q,2918 Tree Frog Lane,,,Kansas City,MO,US,64106,2/13/2013,12/31/2014
+230606,101034,Super-Q,1128 Elk City Road,,,Shreveport,LA,US,71101,1/1/2013,12/27/2014
+230607,101034,Super-Q,4151 Davis Lane,,,Denver,CO,US,80239,11/13/2012,3/22/2015
+230608,101034,Super-Q,2727 Tori Lane,,,Draper,UT,US,84020,1/18/2013,2/20/2015
+230609,101034,Super-Q,36 Tator Patch Road,,,Chicago,IL,US,60610,2/10/2013,3/6/2015
+230610,101034,Super-Q,4054 West Virginia Avenue,,,Albany,NY,US,12204,12/1/2012,3/16/2015
+230611,101034,Super-Q,4866 Weekley Street,,,San Antonio,TX,US,78205,3/12/2013,12/13/2014
+230612,101034,Super-Q,1744 Terra Street,,,Seattle,WA,US,98161,11/20/2012,1/19/2015
+230613,101034,Super-Q,872 Reel Avenue,,,Albuquerque,NM,US,87107,1/11/2013,12/30/2014
+230614,101034,Super-Q,1374 Mahlon Street,,,Detroit,MI,US,48219,5/1/2013,4/21/2014
+230615,101034,Super-Q,2701 Frum Street,,,Portland,TN,US,37148,1/2/2013,12/31/2014
+230616,101034,Super-Q,3750 Clement Street,,,Atlanta,GA,US,30329,1/26/2013,12/3/2014
+230617,101034,Super-Q,4376 Valley Lane,,,Lytton Springs,TX,US,78616,12/30/2012,2/15/2015
+230618,101034,Super-Q,2908 Post Avenue,,,Brainerd,MN,US,56401,1/30/2013,6/10/2014
+230619,101034,Super-Q,830 Joes Road,,,Mechanicville,NY,US,12118,3/9/2013,12/2/2014
+230620,101034,Super-Q,3018 Tyler Avenue,,,Miami,FL,US,33128,3/6/2013,12/20/2014
+230621,101034,Super-Q,1199 Harron Drive,,,Laurel,MD,US,20707,11/6/2013,3/5/2015
+230622,101034,Super-Q,2751 Cherry Ridge Drive,,,Batavia,NY,US,14020,1/5/2013,10/2/2014
+230623,101034,Super-Q,4588 Liberty Street,,,Palmer,TX,US,75152,10/12/2012,8/23/2014
+230624,101034,Super-Q,2220 Austin Avenue,,,Savannah,GA,US,31401,3/19/2013,1/21/2015
+230625,101034,Super-Q,1331 Stiles Street,,,Oakmont,PA,US,15139,12/1/2012,1/16/2015
+230626,101034,Super-Q,3403 Clifford Street,,,Dublin,CA,US,94568,8/30/2013,1/2/2015
+230627,101034,Super-Q,2660 Counts Lane,,,New Milford,CT,US,6776,11/1/2012,11/22/2014
+230628,101034,Super-Q,2668 Retreat Avenue,,,Lisbon Falls,ME,US,4252,12/28/2013,11/4/2014
+230629,101034,Super-Q,4137 Summit Street,,,Dubuque,IA,US,52001,12/14/2012,1/3/2015
+230630,101034,Super-Q,160 Fantages Way,,,Twin Falls,ID,US,83301,2/27/2013,1/26/2015
+230631,101034,Super-Q,1279 Ferry Street,,,Huntsville,AL,US,35802,12/31/2012,12/25/2014
+230632,101034,Super-Q,794 Berry Street,,,Hugo,CO,US,80821,3/28/2013,12/14/2014
+230633,101034,Super-Q,1817 Stone Lane,,,Bethlehem,PA,US,18018,12/6/2012,11/24/2014
+230634,101034,Super-Q,369 Better Street,,,Lansing,KS,US,66043,3/19/2013,2/18/2015
+230635,101034,Super-Q,191 Johnson Street,,,Garner,NC,US,27529,1/9/2013,3/1/2015
+230636,101034,Super-Q,4574 Yorkie Lane,,,Savannah,GA,US,31401,12/27/2012,12/11/2014
+230637,101034,Super-Q,3493 Clarence Court,,,Los Angeles,CA,US,90017,5/7/2013,8/19/2014
+230638,101034,Super-Q,4660 Woodstock Drive,,,Pasadena,CA,US,91101,1/30/2013,12/14/2014
+230639,101034,Super-Q,966 Hope Street,,,Portland,OR,US,97205,1/28/2013,12/14/2014
+230640,101034,Super-Q,3417 John Avenue,,,Lansing,MI,US,48906,12/29/2012,1/18/2015
+230641,101034,Super-Q,1049 Tail Ends Road,,,Fort Atkinson,WI,US,53538,3/13/2013,1/7/2015
+230642,101034,Super-Q,2928 Winding Way,,,Providence,RI,US,2903,4/14/2013,11/27/2014
+230643,101034,Super-Q,2916 Oliverio Drive,,,Arma,KS,US,66712,12/22/2013,1/30/2015
+230644,101034,Super-Q,58 Hamill Avenue,,,San Diego,CA,US,92111,11/4/2012,10/12/2014
+230645,101034,Super-Q,270 Post Avenue,,,Kabetogama,MN,US,56669,1/27/2013,7/25/2014
+230646,101034,Super-Q,1582 Whitman Court,,,Wallingford,CT,US,6492,2/4/2013,2/19/2015
+230647,101069,Q&V,4078 Benson Street,,,Elcho,WI,US,54428,1/11/2013,12/31/2014
+230648,101069,Q&V,4811 Goldcliff Circle,,,Washington,DC,US,20005,1/10/2013,12/31/2014
+230649,101069,Q&V,3649 Sardis Station,,,Golden Valley,MN,US,55427,12/18/2012,2/3/2015
+230650,101069,Q&V,3669 Virgil Street,,,Wayne,NJ,US,7477,12/25/2012,12/6/2014
+230651,101069,Q&V,1574 Robinson Court,,,Saginaw,MI,US,48607,1/4/2013,2/16/2015
+230652,101069,Q&V,1823 Angus Road,,,New York,NY,US,10010,1/27/2013,4/14/2014
+230653,101069,Q&V,4635 Randolph Street,,,Dighton,MA,US,2715,1/6/2013,8/22/2014
+230654,101069,Q&V,545 Richards Avenue,,,Stockton,CA,US,95204,4/9/2013,10/15/2014
+230655,101069,Q&V,4897 Harper Street,,,Clarkson,KY,US,42726,11/29/2012,6/24/2014
+230656,101069,Q&V,4390 Better Street,,,Kansas City,KS,US,66207,11/25/2012,11/12/2014
+230657,101069,Q&V,3793 Roosevelt Street,,,San Rafael,CA,US,94909,12/22/2012,12/21/2014
+230658,101069,Q&V,3571 Hood Avenue,,,San Diego,CA,US,92121,1/7/2013,12/14/2014
+230659,101069,Q&V,616 Angus Road,,,New York,NY,US,10004,12/25/2012,1/2/2015
+230660,101069,Q&V,4677 Mulberry Lane,,,West Palm Beach,FL,US,33411,1/28/2013,12/4/2014
+230661,101069,Q&V,4910 Lucy Lane,,,Evansville,IN,US,47708,5/15/2013,1/11/2015
+230662,101069,Q&V,4109 Oakwood Avenue,,,New York,NY,US,10022,1/4/2013,2/12/2015
+230663,101069,Q&V,4580 Raintree Boulevard,,,Cutler,IN,US,46920,12/27/2012,12/31/2014
+230664,101069,Q&V,4429 Norman Street,,,Santa Fe Springs,CA,US,90670,10/20/2013,12/24/2014
+230665,101069,Q&V,2960 Lucky Duck Drive,,,Pittsburgh,PA,US,15210,4/7/2013,12/28/2014
+230666,101069,Q&V,1908 May Street,,,Ashland,KY,US,41114,3/29/2013,1/10/2015
+230667,101069,Q&V,203 Raccoon Run,,,Seattle,WA,US,98133,3/14/2013,10/29/2014
+230668,101069,Q&V,2960 Cambridge Drive,,,Phoenix,AZ,US,85003,1/8/2013,3/22/2015
+230669,101069,Q&V,782 Irving Road,,,Columbus,OH,US,43215,3/2/2013,11/15/2014
+230670,101069,Q&V,1806 Austin Secret Lane,,,Parowan,UT,US,84761,12/28/2012,7/7/2014
+230671,101069,Q&V,4847 Perine Street,,,Centerville,VA,US,22020,5/14/2013,11/24/2014
+230672,101069,Q&V,3598 Lilac Lane,,,Saint Marys,GA,US,31558,3/13/2013,11/19/2014
+230673,101069,Q&V,94 Five Points,,,Baltimore,MD,US,21201,1/20/2013,10/9/2014
+230674,101069,Q&V,936 Ford Street,,,San Jose,CA,US,95131,1/9/2013,12/31/2014
+230675,101069,Q&V,3656 Ralph Drive,,,Mentor,OH,US,44060,10/20/2012,3/2/2015
+230676,101069,Q&V,210 Oliver Street,,,Euless,TX,US,76039,10/26/2012,12/28/2014
+230677,101069,Q&V,3312 Adonais Way,,,Gainesville,GA,US,30501,1/9/2013,3/16/2015
+230678,101069,Q&V,4904 Red Dog Road,,,Charlotte,NC,US,28202,2/1/2013,12/4/2014
+230679,101069,Q&V,3530 Elk City Road,,,Oakdale,LA,US,71463,7/21/2013,12/25/2014
+230680,101069,Q&V,4457 Randolph Street,,,Worcester,MA,US,1609,2/15/2013,11/24/2014
+230681,101069,Q&V,3739 Wood Duck Drive,,,Iron Mountain,MI,US,49801,3/24/2013,12/25/2014
+230682,101069,Q&V,3556 Lindale Avenue,,,Hayward,CA,US,94541,1/5/2013,1/17/2015
+230683,101069,Q&V,1583 Owagner Lane,,,Seattle,WA,US,98109,2/3/2013,12/15/2014
+230684,101069,Q&V,466 Broad Street,,,Tuscaloosa,AL,US,35404,11/10/2012,3/3/2015
+230685,101069,Q&V,2693 Payne Street,,,Lebanon,VA,US,24266,12/23/2012,12/9/2014
+230686,101069,Q&V,4971 Pearl Street,,,Sacramento,CA,US,95823,11/29/2012,12/20/2014
+230687,101069,Q&V,1537 Lynch Street,,,Milwaukee,WI,US,53226,1/24/2013,12/26/2014
+230688,101069,Q&V,3921 Flinderation Road,,,Schaumburg,IL,US,60173,1/3/2013,12/28/2014
+230689,101069,Q&V,2460 Buckhannan Avenue,,,East Syracuse,NY,US,13057,4/29/2013,2/12/2015
+230690,101069,Q&V,1890 Feathers Hooves Drive,,,Bohemia,NY,US,11716,11/30/2012,2/14/2015
+230691,101069,Q&V,4632 Sussex Court,,,Waco,TX,US,76701,2/23/2013,12/7/2014
+230692,101069,Q&V,1915 Carson Street,,,San Diego,CA,US,92103,3/2/2013,12/28/2014
+230693,101069,Q&V,4488 Roguski Road,,,Bernice,LA,US,71222,12/23/2012,2/16/2015
+230694,101069,Q&V,3300 Limer Street,,,Columbus,GA,US,31901,11/26/2012,11/13/2014
+230695,101069,Q&V,603 Rosebud Avenue,,,West Memphis,AR,US,72301,4/5/2013,9/12/2014
+230696,101069,Q&V,1997 Bird Spring Lane,,,Houston,TX,US,77077,3/22/2013,3/2/2015
+230697,101069,Q&V,3982 Turkey Pen Road,,,New York,NY,US,10019,11/17/2012,5/5/2014
+230698,101069,Q&V,2787 Godfrey Road,,,New York,NY,US,10021,4/26/2013,12/30/2014
+230699,101069,Q&V,3209 Shobe Lane,,,Berthoud,CO,US,80513,11/16/2012,1/3/2015
+230700,101069,Q&V,1120 Providence Lane,,,La Puente,CA,US,91744,4/22/2013,1/9/2015
+230701,101069,Q&V,4138 Roosevelt Street,,,San Francisco,CA,US,94107,2/15/2013,12/25/2014
+230702,101069,Q&V,2934 Abia Martin Drive,,,New York,NY,US,10011,12/5/2012,10/17/2014
+230703,101069,Q&V,4410 Radford Street,,,Louisville,KY,US,40202,2/19/2013,3/1/2015
+230704,101073,QVS,4317 Broadcast Drive,,,Herndon,VA,US,22070,12/28/2012,1/3/2015
+230705,101073,QVS,4717 Tipple Road,,,Bristol,PA,US,19007,2/28/2013,3/14/2015
+230706,101073,QVS,1866 Sycamore Fork Road,,,Ft Lauderdale,FL,US,33311,1/3/2013,10/16/2014
+230707,101073,QVS,3103 Clement Street,,,Atlanta,GA,US,30342,1/21/2013,11/21/2014
+230708,101073,QVS,4887 Finwood Road,,,Freehold,NJ,US,7728,1/15/2013,12/31/2014
+230709,101073,QVS,3827 Chipmunk Lane,,,Brunswick,ME,US,4011,1/26/2013,10/19/2014
+230710,101073,QVS,2474 Rose Street,,,Hillside,IL,US,60162,3/18/2013,11/9/2014
+230711,101073,QVS,4558 Single Street,,,Waltham,MA,US,2154,3/30/2013,12/30/2014
+230712,101073,QVS,1528 Jett Lane,,,Santa Ana,CA,US,92705,11/21/2012,10/9/2014
+230713,101073,QVS,3245 Pyramid Valley Road,,,Ladora,IA,US,52251,2/12/2013,1/10/2015
+230714,101073,QVS,3439 Sigley Road,,,Perry,KS,US,66073,2/27/2013,12/15/2014
+230715,101073,QVS,4618 Davisson Street,,,Indianapolis,IN,US,46225,1/17/2013,10/18/2014
+230716,101073,QVS,2101 Chandler Drive,,,Springfield,MO,US,65804,12/20/2012,9/9/2014
+230717,101073,QVS,4516 Mudlick Road,,,Rosalia,WA,US,99170,1/19/2013,3/13/2015
+230718,101073,QVS,4648 Armory Road,,,Wilmington,NC,US,28401,1/3/2013,10/1/2014
+230719,101073,QVS,1972 Hurry Street,,,Shawsville,VA,US,24016,1/16/2013,10/10/2014
+230720,101073,QVS,1642 Garrett Street,,,Lacota,MI,US,49056,1/5/2013,2/27/2015
+230721,101073,QVS,1886 Gateway Avenue,,,Bakersfield,CA,US,93307,12/2/2012,12/2/2014
+230722,101073,QVS,4070 Sheila Lane,,,Reno,NV,US,89501,1/18/2013,2/26/2015
+230723,101073,QVS,381 Geneva Street,,,New York,NY,US,10016,6/25/2013,11/7/2014
+230724,101073,QVS,3781 Tail Ends Road,,,Appleton,WI,US,54915,12/23/2012,12/16/2014
+230725,101073,QVS,4659 Confederate Drive,,,Baldwinsville,NY,US,13027,1/26/2013,12/15/2014
+230726,101073,QVS,3848 Grand Avenue,,,Maitland,FL,US,32751,1/31/2013,12/14/2014
+230727,101073,QVS,67 My Drive,,,New York,NY,US,10013,11/21/2012,8/3/2014
+230728,101073,QVS,4136 Smith Street,,,Boston,MA,US,2110,3/24/2013,10/6/2014
+230729,101073,QVS,1491 Spruce Drive,,,Pittsburgh,PA,US,15219,2/4/2013,6/1/2014
+230730,101073,QVS,569 Petunia Way,,,Vestavia Hills,AL,US,35216,3/22/2013,9/26/2014
+230731,101073,QVS,3743 Golden Ridge Road,,,Albany,NY,US,12207,2/11/2013,11/22/2014
+230732,101073,QVS,3282 West Fork Street,,,Moore,MT,US,59464,7/27/2013,12/15/2014
+230733,101073,QVS,3106 Poplar Lane,,,Miami,FL,US,33142,3/2/2013,12/31/2014
+230734,101073,QVS,2419 Fowler Avenue,,,Atlanta,GA,US,30303,12/31/2012,2/17/2015
+230735,101073,QVS,1945 Grove Street,,,New York,NY,US,10011,3/22/2013,3/21/2014
+230736,101073,QVS,2272 Devils Hill Road,,,Utica,MS,US,39175,4/14/2013,9/4/2014
+230737,101073,QVS,597 Travis Street,,,Port St Lucie,FL,US,33452,2/3/2013,11/17/2014
+230738,101073,QVS,3648 Hall Place,,,Gary,TX,US,75643,11/25/2012,1/2/2015
+230739,101073,QVS,2055 Stonecoal Road,,,Oakwood,OH,US,45873,3/21/2013,2/1/2014
+230740,101073,QVS,462 Braxton Street,,,Chicago,IL,US,60607,11/2/2012,4/26/2014
+230741,101073,QVS,3673 Melrose Street,,,Chewelah,WA,US,99109,12/29/2012,12/10/2014
+230742,101073,QVS,4697 Hampton Meadows,,,Franklin,MA,US,2038,1/5/2013,2/4/2015
+230743,101073,QVS,4799 Carter Street,,,Greenville,IL,US,62246,5/5/2013,10/26/2014
+230744,101073,QVS,1153 Oakmound Road,,,Chicago,IL,US,60644,2/6/2013,6/10/2014
+230745,101073,QVS,4377 Stanley Avenue,,,Huntington,NY,US,11743,1/22/2013,1/18/2015
+230746,101073,QVS,212 Desert Broom Court,,,Piscataway,NJ,US,8854,11/8/2012,11/15/2014
+230747,101073,QVS,3586 Dancing Dove Lane,,,Long Island City,NY,US,11101,1/10/2013,11/20/2014
+230748,101073,QVS,415 Briarwood Road,,,Springfield,MO,US,65804,4/24/2013,1/31/2015
+230749,101073,QVS,138 Dogwood Road,,,Phoenix,AZ,US,85003,6/3/2013,10/2/2014
+230750,101073,QVS,4320 Summit Park Avenue,,,Detroit,MI,US,48226,12/27/2012,2/20/2015
+230751,101073,QVS,84 Geneva Street,,,New York,NY,US,10013,2/3/2013,11/23/2014
+230752,101073,QVS,4429 Ferrell Street,,,Brainerd,MN,US,56401,12/30/2012,12/15/2014
+230753,101073,QVS,3085 Hurry Street,,,Fredericksburg,VA,US,22408,11/5/2012,10/16/2014
+230754,101073,QVS,855 Burton Avenue,,,Memphis,TN,US,38128,1/13/2013,1/21/2015
+230755,101073,QVS,4766 Koontz Lane,,,Los Angeles,CA,US,90017,1/23/2013,7/27/2014
+230756,101073,QVS,4411 Coulter Lane,,,Richmond,VA,US,23224,1/7/2013,2/23/2015
+230757,101073,QVS,4079 Parker Drive,,,Cleveland,OH,US,44115,1/12/2013,10/23/2014
+230758,101085,"Qohl's",1179 Boggess Street,,,Dayton,OH,US,45402,8/15/2013,11/21/2014
+230759,101085,"Qohl's",1762 Crestview Terrace,,,Kerrville,TX,US,78028,5/22/2013,12/1/2014
+230760,101085,"Qohl's",493 Marigold Lane,,,Miami,FL,US,33196,9/7/2013,11/12/2014
+230761,101085,"Qohl's",4448 Lake Floyd Circle,,,Bensalem,DE,US,19020,8/1/2013,3/18/2015
+230762,101085,"Qohl's",4112 Boone Street,,,Corpus Christi,TX,US,78401,3/1/2013,12/20/2014
+230763,101085,"Qohl's",711 Watson Lane,,,Asheville,NC,US,28803,3/1/2013,2/17/2015
+230764,101085,"Qohl's",2214 Sycamore Lake Road,,,Sheboygan,WI,US,53081,3/1/2013,2/14/2015
+230765,101085,"Qohl's",2891 Tori Lane,,,Salt Lake City,UT,US,84116,3/1/2013,1/1/2015
+230766,101085,"Qohl's",1574 Webster Street,,,Sayreville,NJ,US,8879,3/1/2013,6/12/2014
+230767,101085,"Qohl's",622 Michigan Avenue,,,Saltsburg,PA,US,15681,3/1/2013,2/3/2015
+230768,101085,"Qohl's",39 Dane Street,,,Yakima,WA,US,98902,3/1/2013,11/24/2014
+230769,101085,"Qohl's",2221 Martha Street,,,Show Low,AZ,US,85901,8/15/2013,12/23/2014
+230770,101085,"Qohl's",2145 Oliverio Drive,,,Claflin,KS,US,67525,4/16/2013,1/17/2015
+230771,101085,"Qohl's",2329 Boring Lane,,,San Francisco,CA,US,94107,3/1/2013,2/3/2015
+230772,101085,"Qohl's",3575 Brannon Street,,,Mira Loma,CA,US,91752,3/1/2013,1/4/2015
+230773,101085,"Qohl's",3826 Pinchelone Street,,,Norfolk,VA,US,23502,4/11/2013,11/8/2014
+230774,101085,"Qohl's",3517 Pineview Drive,,,Okabena,MN,US,56161,3/1/2013,2/7/2015
+230775,101085,"Qohl's",4979 Parrish Avenue,,,San Jose,CA,US,95134,3/1/2013,3/15/2015
+230776,101085,"Qohl's",605 Benson Street,,,Loyal,WI,US,54446,4/14/2013,11/21/2014
+230777,101085,"Qohl's",3879 Sunny Glen Lane,,,Cleveland,OH,US,44106,3/1/2013,3/20/2015
+230778,101085,"Qohl's",1117 Tipple Road,,,Philadelphia,PA,US,19121,3/8/2013,11/8/2014
+230779,101085,"Qohl's",1338 Beeghley Street,,,Glen Rose,TX,US,76043,3/1/2013,3/29/2015
+230780,101085,"Qohl's",4052 Romano Street,,,Cambridge,MA,US,2138,3/1/2013,1/18/2015
+230781,101085,"Qohl's",1880 Denver Avenue,,,Ontario,CA,US,91761,3/1/2013,7/8/2014
+230782,101085,"Qohl's",1065 Tori Lane,,,Midvale,UT,US,84047,3/1/2013,11/29/2014
+230783,101085,"Qohl's",4361 Pringle Drive,,,Chicago,IL,US,60654,3/1/2013,1/6/2015
+230784,101085,"Qohl's",3590 Roosevelt Street,,,San Francisco,CA,US,94108,3/1/2013,1/13/2015
+230785,101085,"Qohl's",4176 Cliffside Drive,,,Binghamton,NY,US,13901,3/1/2013,2/19/2015
+230786,101085,"Qohl's",2608 Heavens Way,,,Fort Myers,FL,US,33901,3/1/2013,11/16/2014
+230787,101085,"Qohl's",1180 Whispering Pines Circle,,,Irving,TX,US,75039,3/1/2013,10/15/2014
+230788,101085,"Qohl's",3385 Anthony Avenue,,,Abilene,TX,US,79602,3/1/2013,1/17/2015
+230789,101085,"Qohl's",2343 Neuport Lane,,,Conyers,GA,US,30207,3/1/2013,1/11/2015
+230790,101085,"Qohl's",1071 Wildrose Lane,,,Detroit,MI,US,48219,3/1/2013,1/13/2015
+230791,101085,"Qohl's",2294 Hamill Avenue,,,San Diego,CA,US,92111,3/1/2013,3/1/2015
+230792,101085,"Qohl's",4767 Woodland Terrace,,,Folsom,CA,US,95630,7/9/2013,1/23/2015
+230793,101085,"Qohl's",309 Huntz Lane,,,Cambridge,MA,US,2141,4/13/2013,12/31/2014
+230794,101085,"Qohl's",4241 Poplar Avenue,,,San Diego,CA,US,92117,3/1/2013,1/27/2015
+230795,101085,"Qohl's",1729 Lang Avenue,,,Snowville,UT,US,84336,3/1/2013,12/1/2014
+230796,101085,"Qohl's",314 Lynn Ogden Lane,,,Beaumont,TX,US,77701,11/8/2013,2/27/2015
+230797,101085,"Qohl's",3964 University Street,,,Vashon,WA,US,98070,3/1/2013,1/21/2015
+230798,101085,"Qohl's",4001 Spadafore Drive,,,Saint Marys,PA,US,15857,3/1/2013,8/3/2014
+230799,101085,"Qohl's",4650 Rollins Road,,,Overton,NE,US,68863,3/1/2013,2/17/2015
+230800,101085,"Qohl's",1981 Grey Fox Farm Road,,,Houston,TX,US,77032,3/28/2013,12/29/2014
+230801,101085,"Qohl's",878 Traction Street,,,Charlotte,SC,US,28217,5/2/2013,10/15/2014
+230802,101085,"Qohl's",2470 Lang Avenue,,,Colorado City,UT,US,86021,12/15/2013,12/10/2014
+230803,101085,"Qohl's",1067 Pineview Drive,,,Mankato,MN,US,56001,3/1/2013,2/15/2015
+230804,101085,"Qohl's",638 Marshall Street,,,Baltimore,MD,US,21202,3/1/2013,1/22/2015
+230805,101085,"Qohl's",82 Pallet Street,,,West Nyack,NY,US,10994,4/29/2013,9/19/2014
+230806,101085,"Qohl's",1334 Emily Renzelli Boulevard,,,Monterey,CA,US,95940,3/1/2013,2/6/2015
+230807,101085,"Qohl's",1861 Hart Street,,,Hartford,CT,US,6103,3/1/2013,10/6/2014
+230808,101085,"Qohl's",2078 County Line Road,,,Tampa,FL,US,33634,3/1/2013,12/15/2014
+230809,101085,"Qohl's",3259 Boone Street,,,Corpus Christi,TX,US,78476,3/1/2013,8/26/2014
+230810,101085,"Qohl's",1859 Rogers Street,,,Cincinnati,OH,US,45240,3/1/2013,1/14/2015
+230811,101085,"Qohl's",2006 Locust Court,,,Anaheim,CA,US,92801,3/1/2013,12/31/2014
+230812,101085,"Qohl's",1959 Spruce Drive,,,Gibsonia,PA,US,15044,4/21/2013,12/29/2014
+230813,101085,"Qohl's",405 Progress Way,,,Cedar Rapids,IA,US,52404,3/10/2013,12/9/2014
+230814,101085,"Qohl's",3136 Victoria Court,,,Sumner,ME,US,4292,5/25/2013,12/31/2014
+230815,101090,QV-Max,3356 Anthony Avenue,,,San Angelo,TX,US,76903,1/7/2013,10/7/2014
+230816,101090,QV-Max,2960 Rosemont Avenue,,,Eau Gallie,FL,US,32903,1/13/2013,8/12/2014
+230817,101090,QV-Max,4085 Science Center Drive,,,Coeur D Alene,ID,US,83814,11/10/2012,1/17/2015
+230818,101090,QV-Max,3392 Ross Street,,,Elizabethtown,IL,US,62931,1/20/2013,1/17/2015
+230819,101090,QV-Max,4564 Patterson Street,,,Houston,TX,US,77063,2/15/2013,12/21/2014
+230820,101090,QV-Max,3941 Coffman Alley,,,Elizabethtown,KY,US,42701,3/9/2013,12/20/2014
+230821,101090,QV-Max,3718 Dovetail Estates,,,Clinton,OK,US,73601,10/29/2012,8/17/2014
+230822,101090,QV-Max,2917 Deer Haven Drive,,,Taylors,SC,US,29687,1/31/2013,1/7/2015
+230823,101090,QV-Max,3360 Stockert Hollow Road,,,Redmond,WA,US,98052,10/26/2012,8/10/2014
+230824,101090,QV-Max,2679 Randall Drive,,,Kohala,HI,US,96755,1/26/2013,12/31/2014
+230825,101090,QV-Max,3421 Garfield Road,,,Peoria,IL,US,61602,2/25/2013,1/17/2015
+230826,101090,QV-Max,3551 Elliott Street,,,Barnet,NH,US,5821,1/17/2013,9/26/2014
+230827,101090,QV-Max,873 Elliott Street,,,Manchester,NH,US,3101,2/20/2013,2/14/2015
+230828,101090,QV-Max,920 New Creek Road,,,Moulton,AL,US,35650,1/26/2013,1/19/2015
+230829,101090,QV-Max,2242 Karen Lane,,,Lawrenceburg,KY,US,40342,2/8/2013,12/19/2014
+230830,101090,QV-Max,1850 Mandan Road,,,Louisiana,MO,US,63353,11/1/2012,10/11/2014
+230831,101090,QV-Max,732 Hillcrest Avenue,,,Brockton,MA,US,2401,12/16/2012,11/21/2014
+230832,101090,QV-Max,835 Myra Street,,,West Warwick,RI,US,2893,1/21/2013,11/17/2014
+230833,101090,QV-Max,986 Clinton Street,,,Little Rock,AR,US,72210,2/9/2013,11/27/2014
+230834,101090,QV-Max,3548 Stanton Hollow Road,,,Walpole,MA,US,2081,5/30/2013,2/14/2015
+230835,101090,QV-Max,4041 Mapleview Drive,,,Memphis,TN,US,38128,10/14/2012,2/22/2015
+230836,101090,QV-Max,3356 Little Street,,,Akron,OH,US,44308,11/10/2012,1/19/2015
+230837,101090,QV-Max,2242 College Street,,,Duluth,GA,US,30097,6/5/2013,3/26/2014
+230838,101090,QV-Max,4112 Bubby Drive,,,Austin,TX,US,78756,1/24/2013,3/15/2015
+230839,101090,QV-Max,4980 Hiney Road,,,Las Vegas,NV,US,89101,2/1/2013,2/8/2015
+230840,101090,QV-Max,3824 Adonais Way,,,Norcross,GA,US,30071,1/4/2013,10/1/2014
+230841,101090,QV-Max,747 Valley Drive,,,Philadelphia,PA,US,19108,2/8/2013,12/21/2014
+230842,101090,QV-Max,649 Tuna Street,,,Southfield,MI,US,48075,12/13/2012,2/23/2015
+230843,101090,QV-Max,1263 Maple Court,,,Kennett,MO,US,63857,3/17/2013,3/16/2015
+230844,101090,QV-Max,2967 Woodside Circle,,,Tallahassee,FL,US,32301,11/19/2012,12/17/2014
+230845,101090,QV-Max,205 Parkway Drive,,,Tucson,AZ,US,85701,7/2/2013,2/8/2015
+230846,101090,QV-Max,3094 Wood Duck Drive,,,Marquette,MI,US,49855,3/16/2013,12/1/2014
+230847,101090,QV-Max,783 Sycamore Street,,,San Jose,CA,US,95129,12/10/2012,3/12/2015
+230848,101090,QV-Max,1944 Daffodil Lane,,,Springfield,VA,US,22161,8/31/2013,7/24/2014
+230849,101090,QV-Max,2102 Marcus Street,,,Clanton,AL,US,35045,12/26/2012,12/16/2014
+230850,101090,QV-Max,1785 Valley Lane,,,Austin,TX,US,78758,10/19/2012,10/19/2014
+230851,101090,QV-Max,6 Spinnaker Lane,,,Streator,IL,US,61364,1/11/2013,11/19/2014
+230852,101090,QV-Max,2004 Gateway Road,,,Portland,OR,US,97212,6/8/2013,3/11/2015
+230853,101090,QV-Max,4602 Robinson Lane,,,Jeffersonville,OH,US,43128,1/22/2013,1/22/2015
+230854,101090,QV-Max,4877 Jail Drive,,,Kewanee,IL,US,61443,2/22/2013,10/20/2014
+230855,101090,QV-Max,838 Mount Street,,,Weidman,MI,US,48893,2/12/2013,1/21/2015
+230856,101090,QV-Max,3856 Ward Road,,,El Paso,TX,US,79901,3/30/2013,3/18/2015
+230857,101090,QV-Max,2466 Tully Street,,,Detroit,MI,US,48207,1/10/2013,3/3/2015
+230858,101090,QV-Max,3036 Broadway Avenue,,,Johnson City,TN,US,37601,2/14/2013,1/12/2015
+230859,101090,QV-Max,341 Norma Avenue,,,Hamilton,OH,US,45011,12/20/2012,9/20/2014
+230860,101090,QV-Max,3301 Bombardier Way,,,Southfield,MI,US,48075,9/6/2013,7/20/2014
+230861,101090,QV-Max,442 Harper Street,,,Owensboro,KY,US,42301,3/13/2013,1/14/2015
+230862,101090,QV-Max,979 Cedar Street,,,Nashville,AR,US,71852,12/14/2012,7/29/2014
+230863,101090,QV-Max,3846 Ridge Road,,,Haviland,KS,US,67059,5/6/2013,5/12/2014
+230864,101090,QV-Max,4641 Oakridge Lane,,,Augusta,GA,US,30901,12/28/2012,12/28/2014
+230865,101090,QV-Max,702 Kuhl Avenue,,,Atlanta,GA,US,30305,2/5/2013,1/6/2015
+230866,101090,QV-Max,1016 Deans Lane,,,Fairview Park,NY,US,10603,2/10/2013,10/25/2014
+230867,101090,QV-Max,4535 Wescam Court,,,Reno,NV,US,89501,11/8/2012,2/7/2015
+230868,101090,QV-Max,1157 Kinney Street,,,Westfield,MA,US,1085,3/5/2013,2/6/2015
+230869,101090,QV-Max,4391 Broadway Street,,,Charleston,SC,US,29424,8/7/2013,1/22/2015
+230870,101090,QV-Max,1112 Renwick Drive,,,Philadelphia,PA,US,19108,3/3/2013,3/2/2015
+230871,101090,QV-Max,2014 Morgan Street,,,Pensacola,FL,US,32501,4/9/2013,9/14/2014
+230872,101090,QV-Max,4694 Calvin Street,,,Hanover,MD,US,21076,1/16/2013,12/21/2014
+230873,101090,QV-Max,4715 Breezewood Court,,,Sylvia,KS,US,67581,1/15/2013,10/16/2014
+230874,101090,QV-Max,1469 Pride Avenue,,,Whitestone,NY,US,11357,11/22/2012,12/19/2014
+230875,101090,QV-Max,4632 Nancy Street,,,Raleigh,NC,US,27601,1/29/2013,2/6/2015
+230876,101090,QV-Max,2977 Old House Drive,,,Columbus,OH,US,43215,3/9/2013,1/23/2015

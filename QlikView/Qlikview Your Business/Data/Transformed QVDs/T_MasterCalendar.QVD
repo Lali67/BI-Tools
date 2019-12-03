@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>C:\Qlikview Your Business\Solutions Qlikview\Sales Transformation Script 10.9.qvw</CreatorDoc>
+   <CreateUtcTime>2015-03-18 17:56:20</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>MasterCalendar</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Date</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>16</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>730</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>3650</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Week</FieldName>
+       <BitOffset>25</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>###0</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>52</NoOfSymbols>
+       <Offset>3650</Offset>
+       <Length>260</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Year</FieldName>
+       <BitOffset>51</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>###0</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>3910</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Month</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>3920</Offset>
+       <Length>108</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Day</FieldName>
+       <BitOffset>20</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>###0</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>31</NoOfSymbols>
+       <Offset>4028</Offset>
+       <Length>155</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>WeekDay</FieldName>
+       <BitOffset>43</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>4183</Offset>
+       <Length>63</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Quarter</FieldName>
+       <BitOffset>49</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>4246</Offset>
+       <Length>16</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>QuarterYear</FieldName>
+       <BitOffset>46</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>4262</Offset>
+       <Length>72</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>MonthYear</FieldName>
+       <BitOffset>38</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>MMM-YYYY</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>4334</Offset>
+       <Length>336</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>WeekYear</FieldName>
+       <BitOffset>31</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>104</NoOfSymbols>
+       <Offset>4670</Offset>
+       <Length>918</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>_CMTD_Flag</FieldName>
+       <BitOffset>52</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>5588</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>_PMTD_Flag</FieldName>
+       <BitOffset>53</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>5598</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>_CYTD_Flag</FieldName>
+       <BitOffset>54</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>5608</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>_PYTD_Flag</FieldName>
+       <BitOffset>55</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>5618</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>7</RecordByteSize>
+   <NoOfRecords>730</NoOfRecords>
+   <Offset>5628</Offset>
+   <Length>5110</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>RESIDENT Customers</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>RESIDENT Fact</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>RESIDENT Products</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\Transformed QVDs\T_MasterCalendar.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\colors.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\customermaster.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\invoice detail.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\invoice header.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\productmaster.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\saleshierarchy.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\shiptomaster.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\sizes.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\styles.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\warehouses.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\text files\sales hierarchy override.xlsx</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ ;°  <°  =°  >°  ?°  @°  A°  B°  C°  D°  E°  F°  G°  H°  I°  J°  K°  L°  M°  N°  O°  P°  Q°  R°  S°  T°  U°  V°  W°  X°  Y°  Z°  [°  \°  ]°  ^°  _°  `°  a°  b°  c°  d°  e°  f°  g°  h°  i°  j°  k°  l°  m°  n°  o°  p°  q°  r°  s°  t°  u°  v°  w°  x°  y°  z°  {°  |°  }°  ~°  °  Ä°  Å°  Ç°  É°  Ñ°  Ö°  Ü°  á°  à°  â°  ä°  ã°  å°  ç°  é°  è°  ê°  ë°  í°  ì°  î°  ï°  ñ°  ó°  ò°  ô°  ö°  õ°  ú°  ù°  û°  ü°  †°  °°  ¢°  £°  §°  •°  ¶°  ß°  ®°  ©°  ™°  ´°  ¨°  ≠°  Æ°  Ø°  ∞°  ±°  ≤°  ≥°  ¥°  µ°  ∂°  ∑°  ∏°  π°  ∫°  ª°  º°  Ω°  æ°  ø°  ¿°  ¡°  ¬°  √°  ƒ°  ≈°  ∆°  «°  »°  …°   °  À°  Ã°  Õ°  Œ°  œ°  –°  —°  “°  ”°  ‘°  ’°  ÷°  ◊°  ÿ°  Ÿ°  ⁄°  €°  ‹°  ›°  ﬁ°  ﬂ°  ‡°  ·°  ‚°  „°  ‰°  Â°  Ê°  Á°  Ë°  È°  Í°  Î°  Ï°  Ì°  Ó°  Ô°  °  Ò°  Ú°  Û°  Ù°  ı°  ˆ°  ˜°  ¯°  ˘°  ˙°  ˚°  ¸°  ˝°  ˛°  ˇ°   ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  	¢  
+¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢  ¢   ¢  !¢  "¢  #¢  $¢  %¢  &¢  '¢  (¢  )¢  *¢  +¢  ,¢  -¢  .¢  /¢  0¢  1¢  2¢  3¢  4¢  5¢  6¢  7¢  8¢  9¢  :¢  ;¢  <¢  =¢  >¢  ?¢  @¢  A¢  B¢  C¢  D¢  E¢  F¢  G¢  H¢  I¢  J¢  K¢  L¢  M¢  N¢  O¢  P¢  Q¢  R¢  S¢  T¢  U¢  V¢  W¢  X¢  Y¢  Z¢  [¢  \¢  ]¢  ^¢  _¢  `¢  a¢  b¢  c¢  d¢  e¢  f¢  g¢  h¢  i¢  j¢  k¢  l¢  m¢  n¢  o¢  p¢  q¢  r¢  s¢  t¢  u¢  v¢  w¢  x¢  y¢  z¢  {¢  |¢  }¢  ~¢  ¢  Ä¢  Å¢  Ç¢  É¢  Ñ¢  Ö¢  Ü¢  á¢  à¢  â¢  ä¢  ã¢  å¢  ç¢  é¢  è¢  ê¢  ë¢  í¢  ì¢  î¢  ï¢  ñ¢  ó¢  ò¢  ô¢  ö¢  õ¢  ú¢  ù¢  û¢  ü¢  †¢  °¢  ¢¢  £¢  §¢  •¢  ¶¢  ß¢  ®¢  ©¢  ™¢  ´¢  ¨¢  ≠¢  Æ¢  Ø¢  ∞¢  ±¢  ≤¢  ≥¢  ¥¢  µ¢  ∂¢  ∑¢  ∏¢  π¢  ∫¢  ª¢  º¢  Ω¢  æ¢  ø¢  ¿¢  ¡¢  ¬¢  √¢  ƒ¢  ≈¢  ∆¢  «¢  »¢  …¢   ¢  À¢  Ã¢  Õ¢  Œ¢  œ¢  –¢  —¢  “¢  ”¢  ‘¢  ’¢  ÷¢  ◊¢  ÿ¢  Ÿ¢  ⁄¢  €¢  ‹¢  ›¢  ﬁ¢  ﬂ¢  ‡¢  ·¢  ‚¢  „¢  ‰¢  Â¢  Ê¢  Á¢  Ë¢  È¢  Í¢  Î¢  Ï¢  Ì¢  Ó¢  Ô¢  ¢  Ò¢  Ú¢  Û¢  Ù¢  ı¢  ˆ¢  ˜¢  ¯¢  ˘¢  ˙¢  ˚¢  ¸¢  ˝¢  ˛¢  ˇ¢   £  £  £  £  £  £  £  £  £  	£  
+£  £  £  £  £  £  £  £  £  £  £  £  £  £  £  £  £  £  £  £  £  £   £  !£  "£  #£  $£  %£  &£  '£  (£  )£  *£  +£  ,£  -£  .£  /£  0£  1£  2£  3£  4£  5£  6£  7£  8£  9£  :£  ;£  <£  =£  >£  ?£  @£  A£  B£  C£  D£  E£  F£  G£  H£  I£  J£  K£  L£  M£  N£  O£  P£  Q£  R£  S£  T£  U£  V£  W£  X£  Y£  Z£  [£  \£  ]£  ^£  _£  `£  a£  b£  c£  d£  e£  f£  g£  h£  i£  j£  k£  l£  m£  n£  o£  p£  q£  r£  s£  t£  u£  v£  w£  x£  y£  z£  {£  |£  }£  ~£  £  Ä£  Å£  Ç£  É£  Ñ£  Ö£  Ü£  á£  à£  â£  ä£  ã£  å£  ç£  é£  è£  ê£  ë£  í£  ì£  î£  ï£  ñ£  ó£  ò£  ô£  ö£  õ£  ú£  ù£  û£  ü£  †£  °£  ¢£  ££  §£  •£  ¶£  ß£  ®£  ©£  ™£  ´£  ¨£  ≠£  Æ£  Ø£  ∞£  ±£  ≤£  ≥£  ¥£  µ£  ∂£  ∑£  ∏£  π£  ∫£  ª£  º£  Ω£  æ£  ø£  ¿£  ¡£  ¬£  √£  ƒ£  ≈£  ∆£  «£  »£  …£   £  À£  Ã£  Õ£  Œ£  œ£  –£  —£  “£  ”£  ‘£  ’£  ÷£  ◊£  ÿ£  Ÿ£  ⁄£  €£  ‹£  ›£  ﬁ£  ﬂ£  ‡£  ·£  ‚£  „£  ‰£  Â£  Ê£  Á£  Ë£  È£  Í£  Î£  Ï£  Ì£  Ó£  Ô£  £  Ò£  Ú£  Û£  Ù£  ı£  ˆ£  ˜£  ¯£  ˘£  ˙£  ˚£  ¸£  ˝£  ˛£  ˇ£   §  §  §  §  §  §  §  §  §  	§  
+§  §  §  §  §  §  §  §  §  §  §                          	   
+                                                                      !   "   #   $   %   &   '   (   )   *   +   ,   -   .   /   0   1   2   3   4   ›  ﬁ     Jan    Feb    Mar    Apr    May    Jun    Jul    Aug 	   Sep 
+   Oct    Nov    Dec                         	   
+                                                                     Tue    Wed    Thu    Fri    Sat    Sun     Mon Q1 Q2 Q3 Q4 2013-Q1 2013-Q2 2013-Q3 2013-Q4 2014-Q1 2014-Q2 2014-Q3 2014-Q4 ;°  Jan-2013 Z°  Feb-2013 v°  Mar-2013 ï°  Apr-2013 ≥°  May-2013 “°  Jun-2013 °  Jul-2013 ¢  Aug-2013 .¢  Sep-2013 L¢  Oct-2013 k¢  Nov-2013 â¢  Dec-2013 ®¢  Jan-2014 «¢  Feb-2014 „¢  Mar-2014 £  Apr-2014  £  May-2014 ?£  Jun-2014 ]£  Jul-2014 |£  Aug-2014 õ£  Sep-2014 π£  Oct-2014 ÿ£  Nov-2014 ˆ£  Dec-2014 2013-1 2013-2 2013-3 2013-4 2013-5 2013-6 2013-7 2013-8 2013-9 2013-10 2013-11 2013-12 2013-13 2013-14 2013-15 2013-16 2013-17 2013-18 2013-19 2013-20 2013-21 2013-22 2013-23 2013-24 2013-25 2013-26 2013-27 2013-28 2013-29 2013-30 2013-31 2013-32 2013-33 2013-34 2013-35 2013-36 2013-37 2013-38 2013-39 2013-40 2013-41 2013-42 2013-43 2013-44 2013-45 2013-46 2013-47 2013-48 2013-49 2013-50 2013-51 2013-52 2014-1 2014-2 2014-3 2014-4 2014-5 2014-6 2014-7 2014-8 2014-9 2014-10 2014-11 2014-12 2014-13 2014-14 2014-15 2014-16 2014-17 2014-18 2014-19 2014-20 2014-21 2014-22 2014-23 2014-24 2014-25 2014-26 2014-27 2014-28 2014-29 2014-30 2014-31 2014-32 2014-33 2014-34 2014-35 2014-36 2014-37 2014-38 2014-39 2014-40 2014-41 2014-42 2014-43 2014-44 2014-45 2014-46 2014-47 2014-48 2014-49 2014-50 2014-51 2014-52                                              0    @     P  (  `Ç 0  pÇ    ÄÇ  	 êÇ  
+ †Ç   ∞Ç    ¿Ç (  –0  ‡              0(  @á0  Pá   `á  pá  Äá  êá   †á(  ∞	0  ¿	   –	  ‡	  B   B  ! !B( " 1äB0 # AäB  $ QäB % aäB & qäB ' ÅäB  ( ëäB( ) °C0 * ±C  + ¡C , —C - ·C . ÒC  / C( 0 èC0 1 !èC  2 1èC 3 AèC 4 QèC 5 aèC  6 qèC( 7 ÅD0 8 ëD  9 °D : ±D ; Ñ < Ñ  = "Ñ( > 2íÑ0 ? BíÑ  @ RíÑ A bíÑ B ríÑ C ÇíÑ  D ííÑ( E ¢Ö0 F ≤Ö  G ¬Ö H “Ö I ‚Ö J ÚÖ  K Ö( L óÖ0 M "óÖ  N 2óÖ O BóÖ P RóÖ Q bóÖ  R róÖ( S ÇÜ0 T íÜ  U ¢Ü V ≤Ü W ¬Ü X “Ü  Y ‚Ü( Z ö∆p[ ö∆@\ #ö∆H] 3ö∆P^ Cö∆X_ Sö∆`` cö∆ha s«pb É«@c ì«Hd £«Pe ≥«Xf √«`g ”«hh „û«pi Ûû«@j ü«Hk ü«Pl #ü«Xm 3ü«`n Cü«ho S!»pp c!»@q s!»Hr É!»Ps ì!»Xt £!»`u ≥!»hv √£»pw ”£»@x ¢Iy ¢Qz $¢Y{ 4¢a| D¢i} T$	q~ d$	A t$	IÄ Ñ$	QÅ î$	YÇ §$	aÉ ¥$	iÑ ƒ¶	qÖ ‘¶	AÜ ‰¶	Iá Ù¶	Qà ß	Yâ ß	aä $ß	iã 4)
+qå D)
+Aç T)
+Ié d)
+Qè t)
+Yê Ñ)
+aë î)
+ií §´
+qì ¥´
+Aî ƒ´
+Iï ‘´
+Qñ ‰´
+Yó ™Jaò ™Jiô %,Kqö 5,KAõ E,KIú U,KQù e,KYû u,Kaü Ö,Ki† ïÆKq° •ÆKA¢ µÆKI£ ≈ÆKQ§ ’ÆKY• ÂÆKa¶ ıÆKiß 1Lq® 1LA© %1LI™ 51LQ´ E1LY¨ U1La≠ e1LiÆ u≥LqØ Ö≥LA∞ ï≥LI± •≥LQ≤ µ≥LY≥ ≈≥La¥ ’≥Liµ 4ç±∂ 4çÅ∑ &4çâ∏ 64çëπ F4çô∫ V4ç°ª f4ç©º v∂ç±Ω Ü∂çÅæ ñ∂çâø ¶∂çë¿ ∂∂çô¡ ∆∂ç°¬ ÷∂ç©√ Ê8é±ƒ ˆ8éÅ≈ 9éâ∆ 9éë« &9éô» 69é°… F9é©  Vªé±À fªéÅÃ vªéâÕ ÜªéëŒ ñªéôœ ¶ªé°– ∂ªé©— ∆=è±“ ÷=èÅ” Ê=èâ‘ <œë’ <œô÷ '<œ°◊ 7<œ©ÿ Gæœ±Ÿ WæœÅ⁄ gæœâ€ wæœë‹ áæœô› óæœ°ﬁ ßæœ©ﬂ ∑@–±‡ «@–Å· ◊@–â‚ Á@–ë„ ˜@–ô‰ A–°Â A–©Ê '√–±Á 7√–ÅË G√–âÈ W√–ëÍ g√–ôÎ w√–°Ï á√–©Ì óE—±Ó ßE—ÅÔ ∑E—â «E—ëÒ ◊E—ôÚ ÁE—°Û D™Ù ∆≤ı (∆Çˆ 8∆ä˜ H∆í¯ X∆ö˘ h∆¢˙ x∆™˚ àH≤¸ òHÇ˝ ®Hä˛ ∏Híˇ »Hö ÿH¢ËH™¯ ≤ÀÇÀä(Àí8ÀöHÀ¢XÀ™	hM≤
+xMÇàMäòMí®Mö∏M¢»M™ÿœ≤	ŒS¬ŒS )ŒS“9ŒS⁄IŒS‚YŒSÍiPTÚyPT¬âPT ôPT“©PT⁄πPT‚…PTÍŸ“TÚÈ“T¬ ˘“T !	”T“"”T⁄#)”T‚$9”TÍ%IUUÚ&YUU¬'iUU (yUU“)âUU⁄*ôUU‚+©UUÍ,π◊UÚ-…◊U¬.Ÿ◊U /È◊U“0
+÷ï⁄1÷ï‚2*÷ïÍ3:XñÚ4JXñ¬5ZXñ 6jXñ“7zXñ⁄8äXñ‚9öXñÍ:™⁄ñÚ;∫⁄ñ¬< ⁄ñ =⁄⁄ñ“>Í⁄ñ⁄?˙⁄ñ‚@
+€ñÍA]óÚB*]ó¬C:]ó DJ]ó“EZ]ó⁄Fj]ó‚Gz]óÍHäﬂóÚIöﬂó¬J™ﬂó K∫ﬂó“L ﬂó⁄M⁄ﬂó‚Nﬁ◊Í&O`ÿÚ&P+`ÿ¬&Q;`ÿ &RK`ÿ“&S[`ÿ⁄&Tk`ÿ‚&U{`ÿÍ&Vã‚ÿÚ&Wõ‚ÿ¬&X´‚ÿ &Yª‚ÿ“&ZÀ‚ÿ⁄&[€‚ÿ‚&\Î‚ÿÍ&]˚dŸÚ&^eŸ¬&_eŸ &`+eŸ“&a;eŸ⁄&bKeŸ‚&c[eŸÍ&dkÁŸÚ&e{ÁŸ¬&fãÁŸ &gõÁŸ“&h´ÁŸ⁄&iªÁŸ‚&jÀÁŸÍ&k€¿Ú&lÎ¿¬&m  …n …o  …p0 #…q@ +…rPÇ3…s`Ç…tpÇ…uÄÇ…vêÇ…w†Ç#…x∞Ç+…y¿3…z–…{‡…|…} …~#… +…Ä0á3…Å@á…ÇPá…É`á…Ñpá…ÖÄá#…Üêá+…á†	3…à∞	…â¿	…ä–	…ã‡	…å\#…ç\+…é!ä\3…è1ä\…êAä\…ëQä\…íaä\…ìqä\#…îÅä\+…ïë]3…ñ°]…ó±]…ò¡]…ô—]…ö·]#…õÒ]+…úè]3…ùè]…û!è]…ü1è]…†Aè]…°Qè]#…¢aè]+…£q^3…§Å^…•ë^…¶°^…ß±^…®û#…©û+…™"íû3…´2íû…¨Bíû…≠Ríû…Æbíû…Øríû#…∞Çíû+…±íü3…≤¢ü…≥≤ü…¥¬ü…µ“ü…∂‚ü#…∑Úü+…∏óü3…πóü…∫"óü…ª2óü…ºBóü…ΩRóü#…æbóü+…ør†3…¿Ç†…¡í†…¬¢†…√≤†…ƒ¬†#…≈“†+…∆‚õ†3…«ö‡CÀ»ö‡KÀ…#ö‡SÀ 3ö‡[ÀÀCö‡cÀÃSö‡kÀÕc·sÀŒs·CÀœÉ·KÀ–ì·SÀ—£·[À“≥·cÀ”√·kÀ‘”û·sÀ’„û·CÀ÷Ûû·KÀ◊ü·SÀÿü·[ÀŸ#ü·cÀ⁄3ü·kÀ€C!‚sÀ‹S!‚CÀ›c!‚KÀﬁs!‚SÀﬂÉ!‚[À‡ì!‚cÀ·£!‚kÀ‚≥£‚sÀ„√£‚CÀ‰”£‚KÀÂ¢"TÀÊ¢"\ÀÁ$¢"dÀË4¢"lÀÈD$#tÀÍT$#DÀÎd$#LÀÏt$#TÀÌÑ$#\ÀÓî$#dÀÔ§$#lÀ¥¶#tÀÒƒ¶#DÀÚ‘¶#LÀÛ‰¶#TÀÙÙ¶#\Àıß#dÀˆß#lÀ˜$)$tÀ¯4)$DÀ˘D)$LÀ˙T)$TÀ˚d)$\À¸t)$dÀ˝Ñ)$lÀ˛î´$tÀˇ§´$DÀ ¥´$LÀƒ´$TÀ‘´$\À‰´$dÀ™dlÀ,etÀ%,eDÀ5,eLÀE,eTÀ	U,e\À
+e,edÀu,elÀÖÆetÀïÆeDÀ•ÆeLÀµÆeTÀ≈Æe\À’ÆedÀÂÆelÀı0ftÀ1fDÀ1fLÀ%1fTÀ51f\ÀE1fdÀU1flÀe≥ftÀu≥fDÀÖ≥fLÀï≥fTÀ•≥f\Àµ≥fdÀ ≈≥flÀ!’5gtÀ"4ßÑÕ#4ßåÕ$&4ßîÕ%64ßúÕ&F4ß§Õ'V4ß¨Õ(f∂ß¥Õ)v∂ßÑÕ*Ü∂ßåÕ+ñ∂ßîÕ,¶∂ßúÕ-∂∂ß§Õ.∆∂ß¨Õ/÷8®¥Õ0Ê8®ÑÕ1ˆ8®åÕ29®îÕ39®úÕ4&9®§Õ569®¨Õ6Fª®¥Õ7Vª®ÑÕ8fª®åÕ9vª®îÕ:Üª®úÕ;ñª®§Õ<¶ª®¨Õ=∂=©¥Õ>∆=©ÑÕ?÷=©åÕ@Ê=©îÕA<ÈúÕB<È§ÕC'<È¨ÕD7æÈ¥ÕEGæÈÑÕFWæÈåÕGgæÈîÕHwæÈúÕIáæÈ§ÕJóæÈ¨ÕKß@Í¥ÕL∑@ÍÑÕM«@ÍåÕN◊@ÍîÕOÁ@ÍúÕP˜@Í§ÕQAÍ¨ÕR√Í¥ÕS'√ÍÑÕT7√ÍåÕUG√ÍîÕVW√ÍúÕWg√Í§ÕXw√Í¨ÕYáEÎ¥ÕZóEÎÑÕ[ßEÎåÕ\∑EÎîÕ]«EÎúÕ^◊EÎ§Õ_ÁEÎ¨Õ`∆+µÕa∆+ÖÕb(∆+çÕc8∆+ïÕdH∆+ùÕeX∆+•Õfh∆+≠ÕgxH,µÕhàH,ÖÕiòH,çÕj®H,ïÕk∏H,ùÕl»H,•ÕmÿH,≠ÕnË ,µÕo¯ ,ÖÕpÀ,çÕqÀ,ïÕr(À,ùÕs8À,•ÕtHÀ,≠ÕuXM-µÕvhM-ÖÕwxM-çÕxàM-ïÕyòM-ùÕz®M-•Õ{∏M-≠Õ|»œ-µÕ}ÿœ-ÖÕ~	ŒmÕœŒm’œÄ)Œm›œÅ9ŒmÂœÇIŒmÌœÉYPnıœÑiPn≈œÖyPnÕœÜâPn’œáôPn›œà©PnÂœâπPnÌœä…“nıœãŸ“n≈œåÈ“nÕœç˘“n’œé	”n›œè”nÂœê)”nÌœë9UoıœíIUo≈œìYUoÕœîiUo’œïyUo›œñâUoÂœóôUoÌœò©◊oıœôπ◊o≈œö…◊oÕœõŸ◊o’œúÈ◊o›œù
+÷ØÂœû÷ØÌœü*X∞ıœ†:X∞≈œ°JX∞Õœ¢ZX∞’œ£jX∞›œ§zX∞Âœ•äX∞Ìœ¶ö⁄∞ıœß™⁄∞≈œ®∫⁄∞Õœ© ⁄∞’œ™⁄⁄∞›œ´Í⁄∞Âœ¨˙⁄∞Ìœ≠
+]±ıœÆ]±≈œØ*]±Õœ∞:]±’œ±J]±›œ≤Z]±Âœ≥j]±Ìœ¥zﬂ±ıœµäﬂ±≈œ∂öﬂ±Õœ∑™ﬂ±’œ∏∫ﬂ±›œπ ﬂ±Âœ∫⁄ﬂ±Ìœª`Úıﬂº`Ú≈ﬂΩ+`ÚÕﬂæ;`Ú’ﬂøK`Ú›ﬂ¿[`ÚÂﬂ¡k`ÚÌﬂ¬{‚Úıﬂ√ã‚Ú≈ﬂƒõ‚ÚÕﬂ≈´‚Ú’ﬂ∆ª‚Ú›ﬂ«À‚ÚÂﬂ»€‚ÚÌﬂ…ÎdÛıﬂ ˚dÛ≈ﬂÀeÛÕﬂÃeÛ’ﬂÕ+eÛ›ﬂŒ;eÛÂﬂœKeÛÌﬂ–[ÁÛıﬂ—kÁÛ≈ﬂ“{ÁÛÕﬂ”ãÁÛ’ﬂ‘õÁÛ›ﬂ’´ÁÛÂﬂ÷ªÁÛÌﬂ◊À⁄ıﬂÿ€⁄≈ﬂŸÎ⁄Õﬂ

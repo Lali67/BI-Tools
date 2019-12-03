@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>C:\Qlikview Your Business\Solutions Qlikview\Sales Transformation Script 10.9.qvw</CreatorDoc>
+   <CreateUtcTime>2015-03-18 17:56:20</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Customers</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>%Customer ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>200</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>1000</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>200</NoOfSymbols>
+       <Offset>1000</Offset>
+       <Length>2851</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Channel</FieldName>
+       <BitOffset>60</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>3851</Offset>
+       <Length>45</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Address 1</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>200</NoOfSymbols>
+       <Offset>3896</Offset>
+       <Length>4057</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Address 2</FieldName>
+       <BitOffset>62</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>7953</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Address 3</FieldName>
+       <BitOffset>63</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>7953</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer City</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>164</NoOfSymbols>
+       <Offset>7953</Offset>
+       <Length>1772</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Country</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>9725</Offset>
+       <Length>4</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer State</FieldName>
+       <BitOffset>48</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>43</NoOfSymbols>
+       <Offset>9729</Offset>
+       <Length>172</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer ZIP Code</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>190</NoOfSymbols>
+       <Offset>9901</Offset>
+       <Length>950</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Start Date</FieldName>
+       <BitOffset>40</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>153</NoOfSymbols>
+       <Offset>10851</Offset>
+       <Length>765</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer End Date</FieldName>
+       <BitOffset>56</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>13</NoOfSymbols>
+       <Offset>11616</Offset>
+       <Length>65</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>8</RecordByteSize>
+   <NoOfRecords>200</NoOfRecords>
+   <Offset>11681</Offset>
+   <Length>1600</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>RESIDENT Customers</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>RESIDENT Fact</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>RESIDENT Products</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\Transformed QVDs\T_Customers.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\Transformed QVDs\T_Fact.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\Transformed QVDs\T_MasterCalendar.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\Transformed QVDs\T_SalesHierarchy.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\Transformed QVDs\T_ShipTo.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - [..\Data\Transformed QVDs\T_Warehouses.QVD]</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\colors.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\customermaster.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\invoice detail.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\invoice header.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\productmaster.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\saleshierarchy.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\shiptomaster.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\sizes.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\styles.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\qvds\warehouses.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview your business\data\text files\sales hierarchy override.xlsx</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ âä ää ãä åä çä éä èä êä ëä íä ìä îä ïä ñä óä òä ôä öä õä úä ùä ûä üä †ä °ä ¢ä £ä §ä •ä ¶ä ßä ®ä ©ä ™ä ´ä ¨ä ≠ä Æä Øä ∞ä ±ä ≤ä ≥ä ¥ä µä ∂ä ∑ä ∏ä πä ∫ä ªä ºä Ωä æä øä ¿ä ¡ä ¬ä √ä ƒä ≈ä ∆ä «ä »ä …ä  ä Àä Ãä Õä Œä œä –ä —ä “ä ”ä ‘ä ’ä ÷ä ◊ä ÿä Ÿä ⁄ä €ä ‹ä ›ä ﬁä ﬂä ‡ä ·ä ‚ä „ä ‰ä Âä Êä Áä Ëä Èä Íä Îä Ïä Ìä Óä Ôä ä Òä Úä Ûä Ùä ıä ˆä ˜ä ¯ä ˘ä ˙ä ˚ä ¸ä ˝ä ˛ä ˇä  ã ã ã ã ã ã ã ã ã 	ã 
+ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã ã  ã !ã "ã #ã $ã %ã &ã 'ã (ã )ã *ã +ã ,ã -ã .ã /ã 0ã 1ã 2ã 3ã 4ã 5ã 6ã 7ã 8ã 9ã :ã ;ã <ã =ã >ã ?ã @ã Aã Bã Cã Dã Eã Fã Gã Hã Iã Jã Kã Lã Mã Nã Oã Pã Shannon Kemp SaqS Joan Somers Q-Storm Kacey Hernandez Hannah Garcia Teresa Medley Helen Brady John Sumner Marjorie Barker Frank Witherington Cleo King Zachary Warner John Pollard Gregory Reed Jose Gregg John Dawkins Anna Morris John Foster Allison Whitley Norman Atkinson Clyde Vazquez Richard Paramore Betty Scott GreenDales Stephanie Lindsey Jill Aguirre Gwendolyn Rowell Eulalia Romano Quinsy's Q-Mart Jerry Cook Apples&Oranges Super-Q QAP Heidi Winn Laura Dupree Q&M Stores Elizabeth Marshall Ashley Pagan Wilfredo Hayes Delia Lewis Doreen Coney Q-House Brenda Shoemaker Jeffrey Lehner Christie Cannady Jennifer Bailey Bruce Gonzalez Deborah Walls Melanie Scott David Santos Jonathan Hinkle Frances Dodson Tim Holley Gracie Bulluck Ronald Ortega James Avery James Tanner James Moorer Sidney Board Bonita Sanchez George Gish Jennifer Hoyle Q-4-Men Ruby Winchell Kim Parks Amelia Wyatt Q&V QalvinQlein Velva Emerson Cristina Gonzales QVS Paul Whitley Terri Stone Margaret Clay Dawn Clancy Dennis Marshall Constance Dunlap Pedro Garcia John Parra QVPR Andrew Esposito Ashley Champion Qohl's DMS Authority Maria Campbell Alice Little Rose Luebke QV-Max Allen Lossett Michael James SectionAccess James Coe Billie Coffin Con-Cat Roberta Blocker Drop-Fields Laura Daniels Linda Nichols Jill Carroll Ethel Slowik Carole Beardsley Cathy Cardenas William Jordan Jimmie Banks Kenneth Butler Irene Houde Michael Hutchins Woodrow Smith Lisa Harper Debbie Jackson Kevin Neely William Hopkins Miguel Petrick Blake Gibson Amy Dalton Walter Griffith Kevin Gant Sharon Wells Carl Robinson Larry Ojeda Lana Valdez Warren Johnsen Azalee Lewis Joseph Macha Roy Brown Robert Trower Carl Leach Jessie Carter Paul Purcell David Smith Alisha Huffman Donald Rogers Jerry Morales Benjamin Tesch Danielle Morgan David Williams Henry Perez Kent Patel Teresa Pannell Avelina Pollard Kathleen Sirois Etta Howard Jim Hague Heather Coronado Priscilla Pedro Donald Moore Kevin Tookes Carl Taylor Gladys Fisher Jennie Davidson Elvira Montoya Calvin Hulse Peggie Pelton Alex Land Thomas Moor Alan Logan Deanna Starkey Lillian Douglas Kelvin Robbins Dwayne Lupo Joann Castiglia Efrain Bowen Joanne Love Mona Edmond Karen Cesar Jason Reinhardt Wilford Lund Stephanie Webb Sherry Fairchild Gloria Hall Dora Lay Eloise Hopper Danny McGee Mary Santiago Kelly Collier Flora Williams Elizabeth Vaughan James Turner Arturo Irwin Edward Young Randall Stutts Pamela Barco Mario McTaggart Kenny Duncan Helen Johnson Willie Hansen Adam Adams Jennifer Lemke Tim Reyes Rosemary Davis Daniel Williams Cecil Ballard Davina Paterson Jose Morrow Thomas Hendren Shaun Schram Harrison Cerny Rena Powell Boutique Department Stores Mass Retailers 3833 Larry Street 2245 Cantebury Drive 4506 Virginia Street 3834 Poe Lane 2613 Wildwood Street 962 Oakmound Drive 4721 Virgil Street 17 Sarah Drive 2525 Johnson Street 697 Hart Street 2067 Willis Avenue 1480 Coal Street 1742 Blue Spruce Lane 948 Maple Avenue 1438 Maloy Court 3433 Bell Street 2112 Green Gate Lane 2692 Victoria Street 4568 Melrose Street 238 Lindale Avenue 575 Beeghley Street 2953 School Street 1641 Henery Street 2037 Grove Street 459 Ersel Street 100 Kembery Drive 1246 Hudson Street 762 Cody Ridge Road 3358 Nutter Street 4602 Rinehart Road 2154 Lost Creek Road 1130 Blane Street 40 Pleasant Hill Road 4832 Rose Avenue 4856 Lakeland Terrace 851 Hall Street 2484 Waterview Lane 918 Emily Drive 3479 Clearview Drive 3626 Pleasant Hill Road 317 Cimmaron Road 2931 Scheuvront Drive 496 Bombardier Way 2743 Mulberry Avenue 4078 Bel Meadow Drive 829 Highland View Drive 525 Canis Heights Drive 3820 Philadelphia Avenue 1789 Lee Avenue 1187 Clark Street 717 Andy Street 667 Coleman Avenue 1043 School House Road 224 Raver Croft Drive 4446 Lang Avenue 2200 Briarwood Drive 87 Sharon Lane 774 Philli Lane 4189 Sycamore Fork Road 792 Boundary Street 3917 Eden Drive 2470 Elk Creek Road 1180 Clover Drive 238 Steele Street 3091 Alpha Avenue 1681 Emma Street 4890 Prospect Street 2298 Patterson Road 2969 Huntz Lane 2454 Lewis Street 227 Oliver Street 2331 Chenoweth Drive 674 Chardonnay Drive 3095 Sardis Station 3584 Brooklyn Street 2210 Ridge Road 3928 Science Center Drive 2732 Ferrell Street 2268 Koontz Lane 2536 Davis Lane 770 Prudence Street 1136 Ben Street 1504 Heliport Loop 4781 Tree Frog Lane 1420 Watson Lane 3472 Turnpike Drive 1687 Levy Court 2608 Bird Spring Lane 1760 Progress Way 4375 Andy Street 4164 Maple Court 1493 Thrash Trail 953 Armory Road 1624 Smithfield Avenue 3650 Gateway Avenue 4064 Hickory Lane 41 Bartlett Avenue 1497 Davis Court 756 Kimberly Way 3381 Michigan Avenue 3071 Renwick Drive 3030 Fieldcrest Road 3116 Meadow Lane 2471 Kinney Street 4117 Briarhill Lane 735 Robinson Court 3108 Benson Park Drive 1126 Courtright Street 4426 Myra Street 3390 Grasselli Street 3784 Kuhl Avenue 504 Daffodil Lane 1540 Lords Way 323 Victoria Street 1457 Franklin Avenue 3244 Prospect Street 1833 Sand Fork Road 2486 Chatham Way 4527 Lynch Street 2467 Levy Court 3878 Wescam Court 4191 Ritter Avenue 3768 Bruce Street 2292 Marion Drive 4901 Haul Road 3019 Koontz Lane 4162 Marcus Street 1203 Benson Street 240 Stanley Avenue 2602 Green Hill Road 4122 Granville Lane 3871 Oakmound Road 1744 Gnatty Creek Road 2623 Marshville Road 4992 Lake Forest Drive 175 Cherry Tree Drive 614 Modoc Alley 283 Emily Renzelli Boulevard 3293 Pinewood Avenue 1094 Holt Street 1348 Wilmar Farm Road 176 Woodside Circle 1214 Frank Avenue 3896 Riverwood Drive 701 Poplar Lane 4378 Tennessee Avenue 4729 Emma Street 119 Stoneybrook Road 3729 Terra Street 3079 Cambridge Drive 534 Lady Bug Drive 66 Simpson Avenue 2659 Bernardo Street 3971 Hillcrest Lane 1283 Bird Spring Lane 1460 Poling Farm Road 514 Ferguson Street 3290 Charter Street 4162 Stonecoal Road 3086 Hilltop Street 270 Clark Street 4595 Ventura Drive 4861 Andy Street 2411 Frum Street 4473 Roane Avenue 4970 Everette Alley 96 Arron Smith Drive 1325 Duffy Street 1783 Hope Street 2145 Margaret Street 2514 Cinnamon Lane 3409 Columbia Mine Road 1505 Hillside Street 3164 Charla Lane 4892 Alpaca Way 2889 Post Farm Road 3936 Norma Lane 1143 Hill Haven Drive 4035 Woodhill Avenue 2259 Columbia Mine Road 1361 Arthur Avenue 3033 Ridenour Street 1311 Berkley Street 2144 Perine Street 4197 Kelly Street 4660 Custer Street 233 Walkers Ridge Way 2824 Layman Court 1120 Brannon Avenue 236 Little Acres Lane 850 Biddie Lane 4173 Coventry Court 3330 White Avenue 1070 Pratt Avenue 3097 Haven Lane 1258 Stanton Hollow Road 3943 Cedar Lane 3769 Sweetwood Drive 2351 Clair Street 2169 Shingleton Road Southern Pines Pittsburgh Espanola New York Adelphi Howell Houston Lincoln Los Angeles Elizabeth Fresno Pine Bluff Mountain Home Union City Jacksonville Birmingham Philadelphia Russellville South Burlington Nashville Mount Carroll Portland Anchorage Roselle Newark Altus Kansas City Sunrise Bensalem Saint Louis West Palm Beach Harahan Southfield Las Vegas Santa Fe Richmond Louisville Jupiter Irvine Golden Taylor Little Rock Sacramento Salt Lake City Camden Shoreham Sturgis Julian Columbia Chattanooga Mountain View Bridgeport South Bend Tulsa Bloomington Glen Allen Dallas Colorado Springs Naperville Bells Savoy Levelland Brooklyn Framingham Wedgwood Cookeville Ocala Minneapolis Louisa Ulysses Wallace Tintah Denver Detroit Cobleskill Terre Haute Asheville Huntsville Acton League City Saint Cloud Ferney Wilmington Amarillo Bakersfield Washington Troy Metropolis Allendale Indiana Bay Shore Santa Rosa Granby Akron Saginaw Oklahoma City Fairmount Providence Candia Marietta Arlington Kenton Chicago Corpus Christi Logansport Fond Du Lac Burlington Reno Clearwater Saint Paul Scottsboro Wittenberg Great Neck Fayetteville Haledon Westbury Poughkeepsie Purdys North Fork Aptos Stephenson Lake Worth Damascus Pensacola Springfield Cottonwood Miami Springs Southland Orlando Seattle Phoenix Staten Island York Batesville Cambridge Osawatomie Maumee Oak Brook San Francisco Forbes Gaithersburg Coral Springs Honolulu Wanatah Salem San Antonio Cheat Lake Chandler Norcross Monroe Tacoma Baltimore Huntington Peoria Boca Raton Bethlehem Charlotte Roswell Mendon Baton Rouge Lansing Woburn Boston Waco Climax US NC PA NM NY MD UT TX NE CA CO AR IN FL AL VT TN IL OR AK NJ OK MO LA MI NV VA SD MS MN GA MA KS ID DC OH ND RI NH WI WA AZ HI WV „n  l;  ÏU  '  /Q  \I Ë, ï æ_ °_ Î8 n ± Í0 π   }  Éâ  §J  a   Wë  }Ó  `ë  Œ{ ØÑ Î  æ  1 ˙  +Ç  LJ  ™ˆ  ÅÇ  Î ¢ª  \ ÕU ªZ  õ8 ∆Ç  ∆i : 4º  	 Fv È_ îH ¶  
+.  π·  Ñg ö  -í  ˚C N  	∂  w! çÿ   ~  Z  ¥u  < |Ï  ñ& Ë5 Ê+  ¶  e) eñ  ™Ü  wÿ  ∞Y  (	 °G ›  X9 Mº  /  ø∫  j˙  Ép  ⁄ã  ∏  / Ô€  _‡  ~ˆ  Ã% Òn  ˝4 ul DN  ”ª  ı  ˘¿  U=  ∫-  ©t 	  ≠  ﬂΩ  é Æ‚  Y  ⁄  pu  πV  Yï  ◊Ï  O2 c∑  %N  ó÷    û] Àª  Äˆ  =á  >◊  ∏ã  „‘  +  ˝ T  ‘Ï  F-  91  R)  Õ}  
+F s ﬂ¬  ∑Ç  àQ  ˚~  U  w éÅ  6 *Ä  = 3L H(  ˚C  û∑  *j „, ™ ]   ™  O  kÏ  úo G‰  Yë  çQ  )Å  -z .µ  | - Å1 âg  ÍL «% åu  ! √Ä ÌR  ed  ¢  œÇ  bF  æV  ,n  1B  æÏ  |u  ”}  èÛ  ∏Z  û q %ø  	  >  J9 ¶+ äø  nü  #†  L¢  Ô†  †  ]†  Óû  â¢  Rü  hü  üü  à†  °  ˆû  ¢  –†  .¢  C†  °  k¢  Ôü  ÿü  ®¢  °  «¢  rü  √û  G†  Õü  åü  Ÿü  ·ü  „¢  ˇû  £  *°   £  †  ?£  ﬂü  ]£  †  ÿ£  ∆ü   °  Œ†  |£  dü  õ£  3°  π£  √†  Êü  ˆ£  •†  ˚ü  ∂ü  ¥û  1°  ≠ü  ;°  nû  Z°  âû  v°  ∏ü  ï°  ©ü  ≥°  fü  “°  °  Ìû  ¢û  ±û  ü  Áü  »ü  4ü  1†  ‡û  ∫û  òü  ºü  ﬁ†  ñü  î†  ˆü  ü  ı†  Pü  ?ü  oü  lü  !ü  )°  †  Åû  L†  Vü  :°  ¸û  £û  †  .°  	†  ü  †  ü  £ü  Öü  ì†  †  Dü  „ü  ñ†  ïû  ìû  ‚†  @†  Uü  ú†  ıû  ¬û  =ü   †  xü  Éü  5ü  ë†  Üû  ü  Bü  ›†  ∫ü  ò†  ˝ü  £†  <†  ùü  Wü  œû  $ü  uû  ¨û  ’û  –ü  #ü  Yü  >†  ü  ˝†  jü  #- õ£  ˆ£  |£  π£  ¢  â¢  .¢  ÿ£  L¢  k¢  ?£  £                					
+
+
+	
+
+	 
+ 
+      
+         $     !!!! """ "###!#  $$$"$! %%%#%"&&&$&#	 '''%'$ (((&(% )))')&	 ***(*' +++)+(
+,,,	 ---*,) ...-* ///+.! 000,/+ 111-0, 222.1- 333/2. 44403/ 555140 666251 777362 888473 99958* :::694 ;;;:5 <<<7;6 ===8<7 >>>9=8	???:> @@@;?9AAA<@: BBB,/; CCC=A< DDD>B= EEE:>>FFF?C?GGG@D@ HHHAEA IIIBFB JJJCGC KKKDHD LLLEIE  MMMFJF NNN	GOOOGK)	 PPPHLH QQQIM	RRRJNISSSOJ TTTKP@  UUULQKVVVMRL	WWWNSM XXXOTN YYYPUO ZZZVP [[[8W@ \\\QXQ ]]]RYR
+^^^SZS ___T[T!```U\U aaaV]0bbbW^V cccX_W dddX eeeY`YfffZaZ ggg[b[ hhh\c\" iii]d] jjj^e< kkk_f^# lll`g>$ mmmah_%nnnbi@ ooocj` pppdkB qqqelG rrrfmD sss,/a tttgnF uuuTobvvvhpc& wwwiqd xxxjre yyy s3zzztf {{{ku@ |||lvg }}}	h~~~mwi nxj& ÄÄÄoyk ÅÅÅpzl
+ÇÇÇq{@ ÉÉÉe|m ÑÑÑr};ÖÖÖs~n ÜÜÜto áááÄàààuÅ0  âââvÇp äääwÉq ãããxÑr åååyÖs çççzÜt ééé{á< èèè|àu êêê}â> ëëë "vííí~ä@ ìììãwîîîÄåB' ïïïÅçx( ñññÇéD óóóÉèyòòòÑêF ôôô&ë
+öööíz õõõì{ úúúÖî| ùùùÜï}ûûûáñ~" üüü{ó@ †††àò °°°âôÄ¢¢¢äöÅ £££õÇ §§§ãúÉ •••åùÑ¶¶¶çû@) ßßßéüÖ ®®®è†Ü©©©°á ™™™ê¢à ´´´ë£â*¨¨¨í§0( ≠≠≠8•ä ÆÆÆ	ã ØØØì¶9∞∞∞îß< ±±±ï®å'≤≤≤ñ©> ≥≥≥ó™ç* ¥¥¥ò´@ µµµô¨é∂∂∂ö≠B ∑∑∑cÆè∏∏∏õØD  πππD∞ê ∫∫∫e±F ªªªú≤fººº≥ë ΩΩΩù¥6 æææ#µí øøøû∂ì¿¿¿fmî ¡¡¡Ä∑@' ¬¬¬ü∏ï √√√†πñƒƒƒ°∫ó ≈≈≈Gª<	 ∆∆∆¢ºò«««£Ω> 
