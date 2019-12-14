@@ -1,0 +1,513 @@
+﻿///$tab Binary 
+Binary [c:\the complete qlikview boot camp\global data\inventory analytics.qvw];
+
+store * from Inventory into "C:\The Complete QlikView Boot Camp\Global Data\Inventory.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('Inventory') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'Binary.inventory_analytics' ;
+let vSourceFileType = 'QVW' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table Inventory;
+
+// Binary Loaders section
+///$tab Settings
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;-$#,##0.00';
+SET TimeFormat='hh:mm:ss';
+SET DateFormat='DD-MM-YY';
+SET TimestampFormat='DD-MM-YY hh:mm:ss[.fff]';
+SET FirstWeekDay=6;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='en-US';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
+
+OLEDB CONNECT TO [Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=eCommerce;Data Source=TIMTAM;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=TIMTAM;Use Encryption for Data=False;Tag with column collation when possible=False];
+
+///$tab Dimension Data
+// Single Comment line
+
+/*
+
+Comment block
+
+*/
+
+Currency:
+
+LOAD * , RowNo() as RowNum ;
+SQL SELECT CurrencyAlternateKey,
+    CurrencyKey,
+    CurrencyName
+FROM eCommerce.dbo."Currency";
+
+zTemp:
+	LOAD
+		Max(RowNum) as MaxRowNum
+	Resident
+		Currency;
+
+let vDateLoaded = Today() ;
+let vSourceFile = 'eCommerce.Currency' ;
+let vSourceFileType = 'SQL' ;
+let vRowCount = Peek('MaxRowNum',0,'zTemp');
+
+drop table zTemp;
+drop field RowNum from Currency;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+store * from Currency into "C:\The Complete QlikView Boot Camp\Global Data\Currency.qvd" (QVD) ;
+Drop Table Currency;
+
+Product:
+
+LOAD * , RowNo() as RowNum ;
+SQL SELECT Color,
+    DaysToManufacture,
+    DealerPrice,
+    Description,
+    FinishedGoodsFlag,
+    ListPrice,
+    Manufacturer,
+    ProductKey,
+    ProductLine,
+    ProductName,
+    ProductSubcategoryKey,
+    ReorderPoint,
+    SafetyStockLevel,
+    StandardCost,
+    Status,
+    SupplierId
+FROM eCommerce.dbo.Product;
+		  
+zTemp:
+	LOAD
+		Max(RowNum) as MaxRowNum
+	Resident
+		Product;
+
+let vDateLoaded = Today() ;
+let vSourceFile = 'eCommerce.Product' ;
+let vSourceFileType = 'SQL' ;
+let vRowCount = Peek('MaxRowNum',0,'zTemp');
+
+drop table zTemp;
+drop field RowNum from Product;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+store * from Product into "C:\The Complete QlikView Boot Camp\Global Data\Product.qvd" (QVD) ;
+Drop Table Product;
+
+ProductCategory:
+
+LOAD * , RowNo() as RowNum  ;
+SQL SELECT ProductCategoryKey,
+    ProductCategoryName
+FROM eCommerce.dbo.ProductCategory;
+
+zTemp:
+	LOAD
+		Max(RowNum) as MaxRowNum
+	Resident
+		ProductCategory;
+
+let vDateLoaded = Today() ;
+let vSourceFile = 'eCommerce.ProductCategory' ;
+let vSourceFileType = 'SQL' ;
+let vRowCount = Peek('MaxRowNum',0,'zTemp');
+
+drop table zTemp;
+drop field RowNum from ProductCategory;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+store * from ProductCategory into "C:\The Complete QlikView Boot Camp\Global Data\ProductCategory.qvd" (QVD) ;
+Drop Table ProductCategory;
+
+ProductSubCategory:
+
+LOAD * , RowNo() as RowNum ;
+SQL SELECT ProductCategoryKey,
+    ProductSubcategoryKey,
+    ProductSubcategoryName
+FROM eCommerce.dbo.ProductSubcategory;
+
+zTemp:
+	LOAD
+		Max(RowNum) as MaxRowNum
+	Resident
+		ProductSubCategory;
+
+let vDateLoaded = Today() ;
+let vSourceFile = 'eCommerce.ProductSubCategory' ;
+let vSourceFileType = 'SQL' ;
+let vRowCount = Peek('MaxRowNum',0,'zTemp');
+
+drop table zTemp;
+drop field RowNum from ProductSubCategory;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+store * from ProductSubCategory into "C:\The Complete QlikView Boot Camp\Global Data\ProductSubcategory.qvd" (QVD) ;
+Drop Table ProductSubCategory;
+
+Supplier:
+LOAD *, RowNo() as RowNum ;
+
+SQL SELECT AccountNumber,
+    ActiveFlag,
+    CreditRating,
+    Name,
+    PreferredVendorStatus,
+    PurchasingWebServiceURL,
+    SupplierKey
+FROM eCommerce.dbo.Supplier;
+
+zTemp:
+	LOAD
+		Max(RowNum) as MaxRowNum
+	Resident
+		Supplier;
+
+let vDateLoaded = Today() ;
+let vSourceFile = 'eCommerce.Supplier' ;
+let vSourceFileType = 'SQL' ;
+let vRowCount = Peek('MaxRowNum',0,'zTemp');
+
+drop table zTemp;
+drop field RowNum from Supplier;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+store * from Supplier into "C:\The Complete QlikView Boot Camp\Global Data\Supplier.qvd" (QVD) ;
+Drop Table Supplier;
+
+// Disparate Data Dimension load - Implementation of the NoOfRows() function for our logging 
+
+SaleType:
+LOAD SaleTypeKey, SaleTypeName, SaleTypeCategory 
+FROM [C:\The Complete QlikView Boot Camp\Global Data\SaleType.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+store * from SaleType into "C:\The Complete QlikView Boot Camp\Global Data\SaleType.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('SaleType') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'Excel.SaleType' ;
+let vSourceFileType = 'CSV' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table SaleType;
+
+GeoLocation:
+LOAD GeographyKey, City, StateProvinceName, CountryRegionName, SalesTerritoryKey, Latitude, 
+     Longitude, RowNo() as RowNum
+FROM [C:\The Complete QlikView Boot Camp\Global Data\GeoLocation.xlsx]
+(ooxml, embedded labels, table is GeoLocation);
+
+store * from GeoLocation into "C:\The Complete QlikView Boot Camp\Global Data\GeoLocation.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('GeoLocation') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'Excel.GeoLocation' ;
+let vSourceFileType = 'XLSX' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table GeoLocation;
+
+SalesBudgets:
+LOAD DateKey, Year, Month, Targets
+FROM [C:\The Complete QlikView Boot Camp\Global Data\SalesBudgets.xlsx]
+(ooxml, embedded labels, table is SalesBudgets);
+
+store * from SalesBudgets into "C:\The Complete QlikView Boot Camp\Global Data\SalesBudgets.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('SalesBudgets') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'SalesBudgets' ;
+let vSourceFileType = 'XLS' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table SalesBudgets;
+
+Calendar:																									// Note : MonthNum is also code generated here due to source monthnum is a aggregated month 
+LOAD DateKey,DisplayDate,MonthYearName, MonthAbbr, MonthStartDate, MonthEndDate, DayDate, DayDateShort, 
+     YearWeek, DayNumYear, WeekNumYear, DayAbbr, DayAbbrShort, MonthDayNum, 
+     YearMonth,MonthNum,num(Month(DisplayDate)) as MonthNumInYear, YearNum, CalQrtrNum, CalQrtrName, FinQtrNum, 
+     FinQtrStartDate, FinQtrEndDate, FinYearQtrName, FinYearQtrNum, FinYearNum, 
+     FinPrevQtrStartDate, FinPrevQtrEndDate
+FROM [C:\The Complete QlikView Boot Camp\Global Data\MasterDataServices_Calendar.dat] (qvd);
+
+store * from Calendar into "C:\The Complete QlikView Boot Camp\Global Data\Calendar.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('Calendar') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'Calendar' ;
+let vSourceFileType = 'QVD' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table Calendar;
+
+Customer:
+LOAD AddressLine1, AddressLine2, BirthDate, CommuteDistance, CustomerAlternateKey, CustomerKey, 
+     DateFirstPurchase, EducationLevel, EmailAddress, FirstName, Gender, GeographyKey, 
+     HouseOwnerFlag, LastName, MaritalStatus, MiddleName, NameStyle, NumberCarsOwned, 
+     NumberChildrenAtHome, Occupation, Phone, Suffix, Title, TotalChildren, YearlyIncome
+FROM [C:\The Complete QlikView Boot Camp\Global Data\SalesDepartment_Customer.dat] (qvd);
+
+store * from Customer into "C:\The Complete QlikView Boot Camp\Global Data\Customer.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('Customer') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'Customer' ;
+let vSourceFileType = 'QVD' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table Customer;
+	
+NewJerseyMalls:
+LOAD Mall, Location, [Gross leasable area (in sq ft)], Notes
+FROM [https://en.wikipedia.org/wiki/Shopping_malls_in_New_Jersey]
+(html, codepage is 1252, embedded labels, table is @1);
+
+store * from NewJerseyMalls into "C:\The Complete QlikView Boot Camp\Global Data\NewJerseyMalls.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('NewJerseyMalls') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'wiki.NewJerseyMalls' ;
+let vSourceFileType = 'WEB' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table NewJerseyMalls;
+
+///$tab Fact Data
+// Fact Data here
+
+OnlineSales:
+LOAD * , RowNo() as RowNum ;
+SQL SELECT CurrencyKey,
+    CustomerKey,
+    DateKey,
+    DueDate,
+    ExtendedAmount,
+    Freight,
+    OrderDate,
+    OrderQuantity,
+    ProductKey,
+    ProductStandardCost,
+    PromotionKey,
+    RevisionNumber,
+    SalesAmount,
+    SaleTypeKey,							
+    SalesOrderLineNumber,
+    SalesOrderNumber,
+    ShipDate,
+    TaxAmt,
+    TotalProductCost,
+    UnitPrice,
+    UnitPriceDiscountPct
+FROM eCommerce.dbo.OnlineSalesByDate;
+
+zTemp:
+	LOAD
+		Max(RowNum) as MaxRowNum
+	Resident
+		OnlineSales;
+
+let vDateLoaded = Today() ;
+let vSourceFile = 'eCommerce.OnlineSales' ;
+let vSourceFileType = 'SQL' ;
+let vRowCount = Peek('MaxRowNum',0,'zTemp');
+
+drop table zTemp;
+drop field RowNum from OnlineSales;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+store * from OnlineSales into "C:\The Complete QlikView Boot Camp\Global Data\OnlineSales.qvd" (QVD) ;
+drop table OnlineSales;
+
+///$tab Incremental Sales Data Load
+/* 
+	
+	Loading data incrementally (also called a differential load)
+
+	Step 1 : Load the current .QVD sales data into the OnlineSales table in the model
+	
+	Step 2 : Use a temporary table to extract the maximum transaction date in the staging sales data 
+
+	Step 3 : Peek at the maximum transaction date and write it to a variable
+	
+	Step 4 : Write a SQL Select Query to use a predicate to select all the data that is later than the
+			 maximum transaction date (i.e. New Data)
+			 
+	Step 5 : Perform a merged load to the OnlineSales table from Step 1 (Qlik will do this automatically when it 
+																		 senses record layouts to be the same)
+	
+	Step 6 : Store the OnlineSales to the QVD file
+			 
+*/
+
+OnlineSales:									// Step 1
+LOAD CurrencyKey, CustomerKey, DateKey, DueDate, ExtendedAmount, Freight, OrderDate, OrderQuantity, 
+     ProductKey, ProductStandardCost, PromotionKey, RevisionNumber, SalesAmount, SaleTypeKey,
+     SalesOrderLineNumber, SalesOrderNumber, ShipDate, TaxAmt, TotalProductCost, UnitPrice, 
+     UnitPriceDiscountPct
+FROM [C:\The Complete QlikView Boot Camp\Global Data\OnlineSales.qvd] (qvd);
+
+zTemp:											// Step 2
+	LOAD
+		date(Max(OrderDate),'YYYY-MM-DD')as MaxOrderDate
+	Resident
+		OnlineSales;	
+		
+let vMaxOrderDate = peek('MaxOrderDate');		// Step 3
+
+OnlineSales:									// Step 4 and 5
+LOAD * ;
+SQL SELECT CurrencyKey,
+    CustomerKey,
+    DateKey,
+    DueDate,
+    ExtendedAmount,
+    Freight,
+    OrderDate,
+    OrderQuantity,
+    ProductKey,
+    ProductStandardCost,
+    PromotionKey,
+    RevisionNumber,
+    SalesAmount,
+    SaleTypeKey,
+    SalesOrderLineNumber,
+    SalesOrderNumber,
+    ShipDate,
+    TaxAmt,
+    TotalProductCost,
+    UnitPrice,
+    UnitPriceDiscountPct
+FROM eCommerce.dbo.OnlineSales
+WHERE
+	orderdate > '$(vMaxOrderDate)' ;
+
+store * from OnlineSales into "C:\The Complete QlikView Boot Camp\Global Data\OnlineSales.qvd" (QVD) ;	// Step 6
+
+let vRowCount = NoOfRows('OnlineSales') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'Incremental_Load.OnlineSales' ;
+let vSourceFileType = 'SQL' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop tables OnlineSales,zTemp;
+
+
+// Thats all folks for Incrementals
+///$tab MissionToGoogleAnalytics
+SiteVisits:
+LOAD * ;
+SQL SELECT "%NewSessions",
+    AvgSessionDuration,
+    BounceRate,
+    City,
+    Country,
+    LandingPage,
+    NewUsers,
+    PagesSession,
+    Sessions,
+    "sid_TxnId",
+    Users,
+    VisitDate
+FROM GoogleAnalytics.dbo.SiteVisitsLog;
+
+store * from SiteVisits into "C:\The Complete QlikView Boot Camp\Global Data\SiteVisits.qvd" (QVD) ;
+
+let vRowCount = NoOfRows('SiteVisits') ;
+let vDateLoaded = Today() ;
+let vSourceFile = 'GoogleAnalytics.SiteVisits' ;
+let vSourceFileType = 'SQL' ;
+
+QVDLoadLog:
+LOAD * INLINE [
+    SourceFile, SourceFileType, DateLoaded, RowCount
+    '$(vSourceFile)','$(vSourceFileType)','$(vDateLoaded)','$(vRowCount)'   
+];
+
+drop table SiteVisits;
+
+
+exit script;
